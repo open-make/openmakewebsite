@@ -13,30 +13,10 @@ menu:
       name: Home
       url: /
       weight: 1
-    - name: 'Option 1: Default Page'
-      parent: menu.home
-      url: /
-      weight: 1
-    - name: 'Option 2: Application'
-      parent: menu.home
-      url: /
-      weight: 2
-    - name: 'Option 3: Startup'
-      parent: menu.home
-      url: /
-      weight: 3
-    - name: 'Option 4: Agency'
-      parent: menu.home
-      url: /
-      weight: 4
-    - name: 'Option 5: Portfolio'
-      parent: menu.home
-      url: /
-      weight: 5
     - identifier: menu.features
-      name: Features
+      name: Work packages
       url: /img/template-easy-customize.png
-      weight: 3
+      weight: 2
     - identifier: section.shortcodes
       name: Shortcodes
       parent: menu.features
@@ -324,7 +304,7 @@ params:
     subtitle: Researchers from three Berlin universities are collaborating to make this project fly.
     title: Team
   topbar:
-    enable: yes
+    enable: no
     text: "<p class=\"hidden-sm hidden-xs\">Contact us on +420 777 555 333 or hello@universal.com.</p>\n
       \     <p class=\"hidden-md hidden-lg\"><a href=\"tel:+420 777 555 333\" data-animate-hover=\"pulse\"><i
       class=\"fas fa-phone\"></i></a>\n      <a href=\"mailto:hello@universal.com\"
