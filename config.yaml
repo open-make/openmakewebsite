@@ -272,7 +272,7 @@ params:
     pagination_speed: 1000
     slide_speed: 2000
   clients:
-    enable: yes
+    enable: no
     subtitle: ''
     title: Our Clients
   contact_form_ajax: no
