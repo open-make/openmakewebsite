@@ -262,13 +262,13 @@ params:
     pagination_speed: 1000
     slide_speed: 2000
   carouselHomepage:
-    auto_play: yes
+    auto_play: no
     enable: yes
     pagination_speed: 1000
     slide_speed: 2000
   carouselTestimonals:
     auto_play: no
-    items: 4
+    items: 6
     pagination_speed: 1000
     slide_speed: 2000
   clients:
@@ -322,10 +322,8 @@ params:
   style: default
   testimonials:
     enable: yes
-    subtitle: We have worked with many clients and we always like to hear they come
-      out from the cooperation happy and satisfied. Have a look what our clients said
-      about us.
-    title: Testimonials
+    subtitle: Researchers from three Berlin universities are collaborating to make this project fly.
+    title: Team
   topbar:
     enable: yes
     text: "<p class=\"hidden-sm hidden-xs\">Contact us on +420 777 555 333 or hello@universal.com.</p>\n
