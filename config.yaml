@@ -314,10 +314,9 @@ params:
   see_more:
     enable: yes
     icon: far fa-file-alt
-    link_text: Check other homepages
-    link_url: '#'
-    subtitle: We have prepared for you more than 40 different HTML pages, including
-      5 variations of homepage.
+    link_text: Contribute, give us feedback !
+    link_url: 'https:www.github.com/opensciencepromoters/openmake/contribute.md'
+    subtitle: We have a public GitHub home to facilitate collaboration.
     title: Do you want to see more?
   style: default
   testimonials:
