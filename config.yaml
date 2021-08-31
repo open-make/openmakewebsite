@@ -1,9 +1,9 @@
-baseurl: https://devcows.github.io/hugo-universal-theme/
-title: Universal
+baseurl: /
+title: Open-make
 theme: hugo-universal-theme
 languageCode: en-us
 defaultContentLanguage: en
-disqusShortname: devcows
+disqusShortname: 
 googleAnalytics: ''
 summaryLength: 70
 paginate: 10
@@ -242,27 +242,20 @@ menu:
   topbar:
     - name: GitHub
       pre: <i class='fab fa-2x fa-github'></i>
-      url: https://github.com/devcows/hugo-universal-theme
+      url: https://github.com/opensciencepromoters/open-make
       weight: 1
-    - name: Facebook
-      pre: <i class='fab fa-2x fa-facebook'></i>
-      url: http://facebook.com
-      weight: 2
     - name: Twitter
       pre: <i class='fab fa-2x fa-twitter'></i>
       url: http://twitter.com
       weight: 3
     - name: Email
       pre: <i class='fas fa-2x fa-envelope'></i>
-      url: mailto:hello@universal.com
+      url: mailto:julien.colomb@fu-berlin.de
       weight: 4
 params:
-  about_us: <p>Pellentesque habitant morbi tristique senectus et netus et malesuada
-    fames ac turpis egestas.</p>
-  address: "<p class=\"text-uppercase\"><strong>Universal Ltd.</strong>\n        <br>13/25
-    New Avenue\n        <br>Newtown upon River\n        <br>45Y 73J\n        <br>England\n
-    \       <br>\n        <strong>Great Britain</strong>\n      </p>\n      "
-  author: DevCows
+  about_us: "<p>This website presents the open.make project: towards open and FAIR hardware.</p>"
+  address: "Berlin"
+  author: "openmake team"
   carouselCustomers:
     auto_play: no
     items: 6
@@ -307,7 +300,7 @@ params:
   latitude: '-12.043333'
   logo: img/logo.png
   logo_small: img/logo-small.png
-  logo_text: Universal
+  logo_text: "Open.make"
   longitude: '-77.028333'
   mainSections: blog
   recent_posts:
