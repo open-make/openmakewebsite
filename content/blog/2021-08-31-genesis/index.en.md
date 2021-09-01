@@ -3,6 +3,7 @@ title: Genesis of the open.make project.
 author: Open.make team
 date: '2021-08-31'
 slug: genesis
+banner: img/funding.jpg
 categories:
   - progress report
 tags:

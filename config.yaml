@@ -26,10 +26,10 @@ menu:
       name: Blog
       url: /blog/
       weight: 5
-    - identifier: menu.faq
-      name: FAQ
-      url: /faq/
-      weight: 6
+    # - identifier: menu.faq
+    #   name: FAQ
+    #   url: /faq/
+    #   weight: 6
     - identifier: contact
       name: Contact
       url: /contactus/
