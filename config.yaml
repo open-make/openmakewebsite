@@ -32,7 +32,7 @@ menu:
     #   weight: 6
     - identifier: contact
       name: Contact
-      url: /contactus/
+      url: /contact/
       weight: 7
   topbar:
     - name: GitHub
@@ -49,7 +49,7 @@ menu:
       weight: 4
 params:
   about_us: "<p>This website presents the open.make project: towards open and FAIR hardware.</p>"
-  address: "Berlin"
+  address: "Open.make <br> Funded by the Berlin University alliance <br>"
   author: "openmake team"
   carouselCustomers:
     auto_play: no
@@ -67,9 +67,9 @@ params:
     pagination_speed: 1000
     slide_speed: 2000
   clients:
-    enable: no
+    enable: yes
     subtitle: ''
-    title: Our Clients
+    title: Funding and partners
   contact_form_ajax: no
   copyright: Copyright (c) 2021, open.make team.
   date_format: January 2, 2006
