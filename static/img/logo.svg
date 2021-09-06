@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="103.52995mm"
+   height="74.415375mm"
+   viewBox="0 0 103.52995 74.415375"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/Users/colombj/github_repo/03_openmake/openmakewebsite/static/img/logo-small.png"
+   inkscape:export-xdpi="30"
+   inkscape:export-ydpi="30"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.46947952"
+     inkscape:cx="18.105156"
+     inkscape:cy="-7.4550643"
+     inkscape:window-width="1280"
+     inkscape:window-height="739"
+     inkscape:window-x="-33"
+     inkscape:window-y="39"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient10692">
+      <stop
+         style="stop-color:#986dbd;stop-opacity:1;"
+         offset="0"
+         id="stop10698" />
+      <stop
+         style="stop-color:#986dbd;stop-opacity:0;"
+         offset="1"
+         id="stop10700" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient10402"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#986dbd;stop-opacity:1;"
+         offset="0"
+         id="stop10400" />
+    </linearGradient>
+    <rect
+       x="202.35175"
+       y="161.88139"
+       width="404.70349"
+       height="293.94254"
+       id="rect1376" />
+    <rect
+       x="202.35175"
+       y="161.88139"
+       width="404.70349"
+       height="293.94254"
+       id="rect6584" />
+    <rect
+       x="202.35175"
+       y="161.88139"
+       width="404.70349"
+       height="293.94254"
+       id="rect12716" />
+    <rect
+       x="202.35175"
+       y="161.88139"
+       width="404.70349"
+       height="293.94254"
+       id="rect12964" />
+    <rect
+       x="202.35175"
+       y="161.88139"
+       width="404.70349"
+       height="293.94254"
+       id="rect12966" />
+    <rect
+       x="202.35175"
+       y="161.88139"
+       width="404.70349"
+       height="293.94254"
+       id="rect12968" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10692"
+       id="linearGradient10694"
+       x1="484.33984"
+       y1="187.75883"
+       x2="595.96094"
+       y2="187.75883"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10692"
+       id="linearGradient10696"
+       x1="509.73047"
+       y1="234.75508"
+       x2="605.43854"
+       y2="234.75508"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-14.617682,-56.015036)">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.8083845,0,0,1.077846,-376.91514,-126.41361)"
+       id="text1374"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:end;white-space:pre;shape-inside:url(#rect1376);opacity:1;mix-blend-mode:color;fill:#986dbd;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       x="120.05859"
+       y="0"><tspan
+         x="482.60156"
+         y="198.37407"
+         id="tspan13744"><tspan
+           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial, Bold'"
+           id="tspan13742">Open. 
+</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.8083845,0,0,1.077846,-371.27947,-138.28292)"
+       id="text6582"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:end;white-space:pre;shape-inside:url(#rect6584);opacity:1;mix-blend-mode:color;fill:#986dbd;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       x="120.05859"
+       y="0"><tspan
+         x="607.05469"
+         y="198.37407"
+         id="tspan13748"><tspan
+           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial, Bold'"
+           id="tspan13746">
+</tspan></tspan><tspan
+         x="506.89844"
+         y="248.83712"
+         id="tspan13752"><tspan
+           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial, Bold'"
+           id="tspan13750">Make</tspan></tspan></text>
+  </g>
+</svg>
