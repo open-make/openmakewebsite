@@ -73,8 +73,10 @@ params:
   contact_form_ajax: no
   copyright: Copyright (c) 2021, open.make team.
   date_format: January 2, 2006
-  default_sharing_image: img/sharing-default.png
-  defaultDescription: Open.make homepage
+  default_sharing_image: img/visualabstract_buacall.png
+  defaultDescription: Open.make aims at fostering open and FAIR hardware production in academia, and build the foundation of a recognition system for academic makers. 
+  images:
+  - img/visualabstract_buacall.png
   defaultKeywords:
     - devows
     - hugo
