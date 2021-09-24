@@ -43,7 +43,6 @@ These drafts were written using a markdown-based approach via [a GitHub reposito
 >
 >Form there we met on Zoom every Friday afternoon for an hour to align on the proposal writing. One central aspect was partnering. In the last years, Julien and I had both been following the online forum of the Gathering for Open Science Hardware, a natural ally for the project and started reaching out to them as well as other possible external partners. One other very important link was the already ongoing founding of a new spin-off association of the OPENNEXT project, the Open Hardware Observatory e.V. Closely before the deadline, we also sent the abstract to the Dr Jürgen Christof, head of the university library at the TU Berlin and our partners from Wikifactory. They all gave us a positive response and it made us confident that we were on the right track. In May, the BUA communicated the good news that our efforts had actually paid off. 
 
-```
 
 
 # What about the project content ?
