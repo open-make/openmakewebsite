@@ -65,6 +65,11 @@ They all gave us a positive response and it made us confident that we were on th
 In May, the BUA communicated the good news that our efforts had actually paid off. 
 
 
+### Moritz Maxeiner:
+
+> Having defended my master's thesis at Tim Landgraf's Biorobotics Lab with a focus on applying machine learning to the behavior of fish I became a research assistant there in March 2020 and have been working there first as a member of the Hiveopolis project, and later also as part of the Electrofish project. In my free time I've contributed to several FLOSS projects over the years and am familiar with the problems inherent to propriatary software.
+> Near the end of 2020 Tim - knowing my involvement with FLOSS - mentioned that he was looking to collaborate on an open hardware project, to which I expressed substantial interest in participating.
+> Later on I was invited to participate in the drafting of the BUA project proposal and have been working on `Open.Make` with Julien on Robert since.
 
 # What about the project content ?
 
