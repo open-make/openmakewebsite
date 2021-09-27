@@ -16,18 +16,18 @@ tags:
 ---
 
 
-On September 1st  the [Berlin university alliance]() project `Open.make: toward open and FAIR hardware` has officially started. Three labs that work together for the first time will collaborate and design a social and technical infrastructure, in order to foster open and FAIR hardware publication and recognition. In this post, we will describe how the idea was developped over a short period of time following the publication of a BUA call.
+On September 1st  the [Berlin university alliance]() project `Open.make: toward open and FAIR hardware` has officially started. Three labs that work together for the first time will collaborate and design a social and technical infrastructure, in order to foster open and FAIR hardware publication and recognition. In this post, we will describe how the idea was developed over a short period of time following the publication of a BUA call.
 
 ## A two months process
 
-Between January and February of this year, the open.make team was created, the project was developed and the application was written. In response to the a [BUA call for open science and quality insurance](https://www.berlin-university-alliance.de/news/events/2021/210112-call-obj3.html), both Robert Mies (TU) and Julien Colomb (HU) wanted to work on an open hardware project. The embryonic idea of the latter was well complementing the more mature project of the former. With the support of their respective PIs, Prof. Jochem and Prof. Larkum, they started combining their objectives and knowledge. The addition of a practical approach via Tim Landgraf and his doctoral student Moritz Maxeiner's (FU) expertise, gave a final touch to the project bringing in additional hihgly complementary resources. 
+Between January and February of this year, the open.make team was created, the project was developed and the application was written. In response to the a [BUA call for open science and quality insurance](https://www.berlin-university-alliance.de/news/events/2021/210112-call-obj3.html), both Robert Mies (TU) and Julien Colomb (HU) wanted to work on an open hardware project. The embryonic idea of the latter was well complementing the more mature project of the former. With the support of their respective PIs, Prof. Jochem and Prof. Larkum, they started combining their objectives and knowledge. The addition of a practical approach via Tim Landgraf and his doctoral student Moritz Maxeiner's (FU) expertise, gave a final touch to the project bringing in additional highly complementary resources. 
 
 
 
 ## Technology used
 
-The project approach was debated in video conferences and asynchronously on the online drafts. Emails were used to organise meetings and search for external partners.
-These drafts were written using a markdown-based approach via [a GitHub repository](https://github.com/open-science-promoters/BUAgrant_OSH), which was synchronized with an hackmd.io document. The idea was to produced a well-formatted pdf file from that document using pandoc. Because the submission portal accepted only text (and not our nice pdf), we moved to googledoc for the last changes in the application text.
+The project approach was debated in video conferences and asynchronously on the online drafts. Emails were used to organize meetings and search for external partners.
+These drafts were written using a markdown-based approach via [a GitHub repository](https://github.com/open-science-promoters/BUAgrant_OSH), which was synchronized with an hackmd.io document. The idea was to produced a well-formatted pdf file from that document using pandoc. Because the submission portal accepted only text (and not our nice pdf), we moved to google doc for the last changes in the application text.
 
 ## Personal experiences
 
@@ -50,7 +50,7 @@ So, we both took part in a very helpful information session by
 the BUA and discussed different angles how to address this very specific and theoretic,
 yet application-oriented call. 
 >
->The next question was about the right partners to create a small team around the concept, ideally from two other BUA partners to maximise our chances. As the year was ending, we deferred the search to the new year. By chance, Julien contacted us in January and it became clear very quickly that he had critical knowledge on open data publishing combined with a broader mindset for free and open source culture. This was an extremely pleasant surprise. Moreover, we quickly started talking about possible use cases and Julien mentioned a former supervisor called Tim Landgraf who had more recently become a junior professor at the FU Berlin – and was working on open hardware prototypes. He quickly contacted him and conversing together about the project idea and the open hardware policy at Tim’s lab, it turned out that we could all agree on very strongly aligned goals.
+>The next question was about the right partners to create a small team around the concept, ideally from two other BUA partners to maximize our chances. As the year was ending, we deferred the search to the new year. By chance, Julien contacted us in January and it became clear very quickly that he had critical knowledge on open data publishing combined with a broader mindset for free and open source culture. This was an extremely pleasant surprise. Moreover, we quickly started talking about possible use cases and Julien mentioned a former supervisor called Tim Landgraf who had more recently become a junior professor at the FU Berlin – and was working on open hardware prototypes. He quickly contacted him and conversing together about the project idea and the open hardware policy at Tim’s lab, it turned out that we could all agree on very strongly aligned goals.
 >
 > From there, we met on Zoom on Friday afternoon for an hour to align on the proposal writing.
 A central aspect was partnering.
@@ -67,7 +67,7 @@ In May, the BUA communicated the good news that our efforts had actually paid of
 
 ### Moritz Maxeiner:
 
-> Having defended my master's thesis at Tim Landgraf's Biorobotics Lab with a focus on applying machine learning to the behavior of fish I became a research assistant there in March 2020 and have been working there first as a member of the Hiveopolis project, and later also as part of the Electrofish project. In my free time I've contributed to several FLOSS projects over the years and am familiar with the problems inherent to propriatary software.
+> Having defended my master's thesis at Tim Landgraf's Biorobotics Lab with a focus on applying machine learning to the behavior of fish I became a research assistant there in March 2020 and have been working there first as a member of the Hiveopolis project, and later also as part of the Electrofish project. In my free time I've contributed to several FLOSS projects over the years and am familiar with the problems inherent to proprietary software.
 > Near the end of 2020 Tim - knowing my involvement with FLOSS - mentioned that he was looking to collaborate on an open hardware project, to which I expressed substantial interest in participating.
 > Later on I was invited to participate in the drafting of the BUA project proposal and have been working on `Open.Make` with Julien on Robert since.
 
