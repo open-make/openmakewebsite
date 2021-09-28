@@ -103,10 +103,7 @@ params:
   recent_posts:
     enable: yes
     hide_summary: no
-    subtitle: Pellentesque habitant morbi tristique senectus et netus et malesuada
-      fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,
-      tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
-      ultricies mi vitae est. Mauris placerat eleifend leo.
+    subtitle: Follow our progress.
     title: From our blog
   see_more:
     enable: yes
