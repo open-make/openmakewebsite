@@ -63,7 +63,7 @@ params:
     slide_speed: 2000
   carouselTestimonals:
     auto_play: no
-    items: 6
+    items: 4
     pagination_speed: 1000
     slide_speed: 2000
   clients:
