@@ -37,33 +37,32 @@ These drafts were written using a markdown-based approach via [a GitHub reposito
 
 ### Robert Mies:
 
->When the BUA published the call, 
-we were fully stretched on prior commitments at the TU Berlin due to intensive work on the EU
-project OPENNEXT and preparations for grant writing for
-the Green deal deadline at the end of January.
-However, it was very close to our ongoing activities and we felt very tempted.
-A few days later, Lukas Winter from the Physikalisch-Technische Bundesanstalt (PTB)
-called me to stress that it was a great opportunity to
-work together even though they could only act as an external partner
-as they were not eligible for funding.
-So, we both took part in a very helpful information session by
-the BUA and discussed different angles how to address this very specific and theoretic,
-yet application-oriented call. 
+>When the BUA published the call,
+we were fully stretched on prior 
+commitments at the
+TU Berlin.
+However, it was very close to our ongoing activities and we felt very tempted. A few days later, Lukas Winter from the Physikalisch-Technische Bundesanstalt (PTB) called to stress that it was a great opportunity to work together even though they were not eligible for funding and could only act as an external partner. So, we both took part in a very helpful information session by the BUA and discussed different angles how to address this very specific and theoretic, yet application-oriented call.
 >
->The next question was about the right partners to create a small team around the concept, ideally from two other BUA partners to maximize our chances. As the year was ending, we deferred the search to the new year. By chance, Julien contacted us in January and it became clear very quickly that he had critical knowledge on open data publishing combined with a broader mindset for free and open source culture. This was an extremely pleasant surprise. Moreover, we quickly started talking about possible use cases and Julien mentioned a former supervisor called Tim Landgraf who had more recently become a junior professor at the FU Berlin – and was working on open hardware prototypes. He quickly contacted him and conversing together about the project idea and the open hardware policy at Tim’s lab, it turned out that we could all agree on very strongly aligned goals.
+>The next question was about finding the right partners to create a small team around the concept.
+As the year of 2020 was coming to a close, we deferred the search to the new year.
+By chance, Julien contacted us in early January and it became clear very quickly that he possessed critical knowledge on open data publishing,
+combined with a broader mindset for free and open source culture.
+This was an extremely pleasant surprise.
+Moreover, Julien mentioned a former colleague Tim Landgraf who had more recently become a junior professor at the FU Berlin
+– and was working on open hardware prototypes.
+Conversing together about the project idea and the open hardware policy at Tim’s lab,
+it turned out that we could all agree on very strongly aligned goals.
 >
-> From there, we met on Zoom on Friday afternoon for an hour to align on the proposal writing.
+>From there, we met via Zoom on Friday afternoons for an hour to align on the proposal writing.
 A central aspect was partnering.
-In the last years, Julien and I had both been following the online forum of the Gathering for Open Science Hardware,
+In the last years, Julien and I had both been following the online forum of the Gathering for Open Science Hardware (GOSH),
 a natural ally for the project and started reaching out to them as well as other possible external partners.
-One other very important link was the already ongoing founding of a new spin-off association of the OPENNEXT project coordinated at TU Berlin, 
-he Open Hardware Observatory e.V.
-Closely before the deadline,
-we also sent the abstract to the Dr Jürgen Christof,
+One very important link was with the Open Hardware Observatory e.V. a new spin-off association in Berlin from the
+OPENNEXT project (coordinated by the TU Berlin) that was just being founded. Shortly before the deadline,
+we also sent the abstract to Dr Jürgen Christof,
 head of the university library at the TU Berlin and our partner Wikifactory.
 They all gave us a positive response and it made us confident that we were on the right track.
-In May, the BUA communicated the good news that our efforts had actually paid off. 
-
+In May this year, the BUA communicated the good news that our effort had actually paid off. 
 
 ### Moritz Maxeiner:
 
