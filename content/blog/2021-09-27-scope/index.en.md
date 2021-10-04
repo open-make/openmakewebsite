@@ -3,6 +3,7 @@ title: Scope of the Open.Make project.
 author: Open.Make team
 date: '2021-09-27'
 slug: scope
+banner: img/banners/scope.png
 tags:
   - team work
   - grant
