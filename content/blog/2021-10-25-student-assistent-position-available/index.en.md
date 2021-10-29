@@ -43,7 +43,7 @@ You will work in Prof. Dr.-Ing. Roland Jochem's chair (TU Berlin, Insitut for Ma
 
 ### 3. FUB: Open hardware making and documentation (40h/month)
 
-You will work in Prof. Tim Landgraf's lab (FU Berlin, Dahlem campus), under Moritz Maxeiner's supervision. Your first task will be to actively observe an document the work of hardware makers.
+You will work in Prof. Tim Landgraf's lab (FU Berlin, Dahlem campus), under Moritz Maxeiner's supervision. Your first task will be to actively observe and document the work of hardware makers.
 
 
 
