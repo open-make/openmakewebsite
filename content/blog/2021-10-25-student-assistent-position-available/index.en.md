@@ -1,10 +1,11 @@
 ---
-title: Student assistent position available
-author: julien colomb
+title: Student assistant position available
+author: open.make team
 date: '2021-10-25'
 slug: positions
 categories:
   - position
+banner: img/banners/hiring.png
 tags: [job]
 ---
 
