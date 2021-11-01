@@ -13,7 +13,7 @@ In [Open.Make](/blog/2021/09/27/2021-09-27-scope/) we are looking for three moti
 
 Any student of a Berlin university can apply to any of the three positions (salary 12,68 € brutto according to TV Stud III). The majority of the work needs to be done on site. Yet, some of the work can also be carried out remotely. 
 
-Women*, Inter*, Trans*, and Nonbinary* should feel especially encourage to apply, in accordance with the universities' provisions.
+Women*, Inter*, Trans*, and Nonbinary* should feel especially encouraged to apply, in accordance with the universities' provisions.
 
 We expect candidates to have interest in open science, open source hardware and/or open design,
 as well as being able to show initiative and responsibility.
