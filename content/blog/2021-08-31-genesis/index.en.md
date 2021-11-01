@@ -64,6 +64,7 @@ head of the university library at the TU Berlin and our partner Wikifactory.
 They all gave us a positive response and it made us confident that we were on the right track.
 In May this year, the BUA communicated the good news that our effort had actually paid off. 
 
+
 ### Moritz Maxeiner:
 
 > Having defended my master's thesis at Tim Landgraf's Biorobotics Lab with a focus on applying machine learning to the behavior of fish I became a research assistant there in March 2020 and have been working there first as a member of the Hiveopolis project, and later also as part of the Electrofish project. In my free time I've contributed to several FLOSS projects over the years and am familiar with the problems inherent to proprietary software.
