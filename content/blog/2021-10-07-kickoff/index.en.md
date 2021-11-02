@@ -13,6 +13,7 @@ tags:
   - kickoff
   - goals
 ---
+we are testing hackmd together.
 
 On a Thursday afternoon (October 7th), the open.make project had his kickoff
 meeting on the Charité campus in Mitte. All participating research groups, a BUA
