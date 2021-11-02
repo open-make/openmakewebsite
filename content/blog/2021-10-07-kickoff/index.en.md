@@ -21,7 +21,7 @@ a successful event, bringing us a broad overview of open hardware in academia
 and beyond. Originally planned as fully in-person, the kickoff meeting had to be
 shifted to a hybrid meeting, as two participants could not come.
 
-## Open.make partners
+## Open.make partners and attendees
 
 ### The open.make project
 
