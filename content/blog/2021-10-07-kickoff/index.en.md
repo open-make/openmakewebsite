@@ -125,7 +125,7 @@ could not attend due to health issues), this time presenting the details of the
 [Airtrack system](https://doi.org/10.1152/jn.00088.2016) and how being open has already enabled eight labs to
 incorporate it and co-develop it further to a versatile experimenting platform. The group of researchers keeps extending the Airtrack system for emergent research inquiry along various different interests so various adjustments keep evolving in parallel (e.g. features to support new activities or stimulate more realistic rodent behaviour). This generative design process appeared very interesting to the Open.Make team as it is expected to be representative for many joint projects for research hardware.
 
-<img src="images/AIRTRACK.png" alt="screenshot of the airtrack video available at https://journals.physiology.org/doi/suppl/10.1152/jn.00088.2016/suppl_file/Supplementary_Video_3.mp4" width="300px"/>
+<img src="/img/blogs/AIRTRACK.png" alt="screenshot of the airtrack video available at https://journals.physiology.org/doi/suppl/10.1152/jn.00088.2016/suppl_file/Supplementary_Video_3.mp4" width="300px"/>
 
 ### RoboFish
 
@@ -139,7 +139,9 @@ follow-up project in particular, where open hardware add-on components are prese
 
 ### Open MRI
 
-![](/img/blogs/OSI_logo_1.jpg)The use case presentations were then closed off by **Lukas Winter** from the **Physikalisch-Technische Bundesanstalt (PTB)**, who recounted in-depth his
+![](/img/blogs/OSI_logo_1.jpg)
+
+The use case presentations were then closed off by **Lukas Winter** from the **Physikalisch-Technische Bundesanstalt (PTB)**, who recounted in-depth his
 experience - including the challenges - in developing an open source magnetic resonance imaging scanner called [open MRI](https://www.opensourceimaging.org)
 that, for certain use cases, can hold its own against significantly more
 expensive proprietary systems. While the main goal of the project is to be able to produce an affordable system (affordable here means 20,000 EUR, instead of half a million EUR), the prototype is already able to produce better images than their expensive counterparts in some particular cases.
