@@ -15,9 +15,6 @@ tags:
 ---
 
 
-> [name=Julien Colomb] the images saved on the website repo will not show here, do not worry about them I will have a final check.
-
-
 
 On October 7th 2021, the Open.Make project kickoff
 meeting took place at the Charité campus in Mitte. The three research partners/labs, the
@@ -28,29 +25,53 @@ shifted to a hybrid meeting, as two participants could not come to the meeting l
 
 This post presents shortly how the day went before providing more detailed minutes of the content.
 
+- [Summary](#summary)
+- [Detailed minutes](#detailed-minutes)
+  - [Opening presentations by the principal investigators and the project officer](#opening-presentations-by-the-principal-investigators-and-the-project-officer)
+    - [The Open.Make project](#the-openmake-project)
+    - [FU Berlin](#fu-berlin)
+    - [HU Berlin](#hu-berlin)
+    - [TU Berlin](#tu-berlin)
+    - [Berlin University Alliance](#berlin-university-alliance)
+  - [Presentations of the use cases](#presentations-of-the-use-cases)
+    - [Airtrack hardware](#airtrack-hardware)
+    - [RoboFish](#robofish)
+    - [Open MRI](#open-mri)
+  - [Related thematic presentations](#related-thematic-presentations)
+    - [The Open Hardware Observatory (OHO)](#the-open-hardware-observatory-oho)
+    - [LabMaker GmbH](#labmaker-gmbh)
+    - [The OSH ecosystem](#the-osh-ecosystem)
+  - [Discussions](#discussions)
+
 # Summary
 
 The **principal investigators** of the three partners/labs presented their related research activities:
-* on the mammalian cortex and the importance of neuronal computation in "pyramidal cells" dendrites (HU Berlin); 
-* on quality management in product development (TU Berlin); 
-* and on robotics use for the study of emerging properties of social behaviour (FU Berlin). 
 
-This was followed with a presentation about the **BUA "Objective 3: Advancing Research Quality and Value"** on open science and research quality improvement. 
+* on the mammalian cortex and the importance of neuronal computation in "pyramidal cells" dendrites (HU Berlin);
+* on quality management in product development (TU Berlin);
+* and on robotics use for the study of emerging properties of social behaviour (FU Berlin).
+
+This was followed with a presentation about the **BUA "Objective 3: Advancing Research Quality and Value"** on open science and research quality improvement.
 
 Then, three selected **research hardware use cases** were presented:
-* the Airtrack, a virtual reality simulator for rodents that allows to monitor brain activity (HU Berlin project); 
-* the RoboFish, an experimental aquarium in which fish swarms swim and interact with robotic fish (FU Berlin project); 
+
+* the Airtrack, a virtual reality simulator for rodents that allows to monitor brain activity (HU Berlin project);
+* the RoboFish, an experimental aquarium in which fish swarms swim and interact with robotic fish (FU Berlin project);
 * and the Open MRI, a magnetic low-cost resonance imaging scanner (community project).
 
-Moreover, there were three insightful **thematic presentations** related to Open.Make: 
-* on the Open Hardware Observatory (OHO), a non-profit association and online platform for sustainable open hardware; 
+Moreover, there were three insightful **thematic presentations** related to Open.Make:
+
+* on the Open Hardware Observatory (OHO), a non-profit association and online platform for sustainable open hardware;
 * on the LabMaker GmbH, a medium-sized manufacturing enterprise in Berlin specialised in small-batch production of open hardware from and for biological research;
 * and about the open source hardware (OSH) ecosystem in general.
 
 # Detailed minutes
+
 *Long read - the following read takes circa 9 - 10 minutes.*
-> [name=Robert Mies]8 min. at fast / 9min 15 sec at average / 11 min. at slow reading speed
-## Opening presentations by the principal investigators and the project officer 
+
+
+## Opening presentations by the principal investigators and the project officer
+
 In the first hour, the principal investigators of the three partners/labs and the project officer gave their presentations.
 
 ### The Open.Make project
@@ -82,7 +103,8 @@ Jochem (TU Berlin)** detailed his chair's work in quality management for product
 ![TUB research focus](/img/blogs/TU.pdf)
 
 ### Berlin University Alliance
-> [name=Robert] @Julien: Could you please double-check this part:
+
+
 
 Before everyone headed into a break, **Stefan Skupien (BUA)**, the project officer gave an overview of the
 [BUA's work](https://www.berlin-university-alliance.de), their main goals and their expectations for the project. Figuratively speaking, the
@@ -93,7 +115,7 @@ In future, open science should be conducted in Berlin within constellations that
 ## Presentations of the use cases
 
 The next series of talks - with one intermission - were about three specific use cases
-for the 
+for the
 [hardware publication platform](https://www.openmake.de/#features) to be developed in Open.Make:
 
 ### Airtrack hardware
@@ -113,37 +135,35 @@ follow-up project in particular, where open hardware add-on components are prese
 
 <img src="https://www.frontiersin.org/files/Articles/326349/frobt-05-00003-HTML/image_m/frobt-05-00003-g002.jpg"  width="200px"/>
 
-*Bierbach, D., Lukas, J., Bergmann, A., Elsner, K., Höhne, L., Weber, C., Weimar, N., Arias-Rodriguez, L., Mönck, H. J., Nguyen, H., Romanczuk, P., Landgraf, T., & Krause, J. (2018). Insights into the Social Behavior of Surface and Cave-Dwelling Fish (Poecilia mexicana) in Light and Darkness through the Use of a Biomimetic Robot. In Frontiers in Robotics and AI (Vol. 5). Frontiers Media SA. https://doi.org/10.3389/frobt.2018.00003*
-
-
+*Bierbach, D., Lukas, J., Bergmann, A., Elsner, K., Höhne, L., Weber, C., Weimar, N., Arias-Rodriguez, L., Mönck, H. J., Nguyen, H., Romanczuk, P., Landgraf, T., & Krause, J. (2018). Insights into the Social Behavior of Surface and Cave-Dwelling Fish (Poecilia mexicana) in Light and Darkness through the Use of a Biomimetic Robot. In Frontiers in Robotics and AI (Vol. 5). Frontiers Media SA. <https://doi.org/10.3389/frobt.2018.00003>*
 
 ### Open MRI
+
 ![](/img/blogs/OSI_logo_1.jpg)The use case presentations were then closed off by **Lukas Winter** from the **Physikalisch-Technische Bundesanstalt (PTB)**, who recounted in-depth his
 experience - including the challenges - in developing an open source magnetic resonance imaging scanner called [open MRI](https://www.opensourceimaging.org)
 that, for certain use cases, can hold its own against significantly more
-expensive proprietary systems. While the main goal of the project is to be able to produce an affordable system (affordable here means 20,000 EUR, instead of half a million EUR), the prototype is already able to produce better images than their expensive counterparts in some particular cases. 
-The whole process is complex as we are talking about health-related equipment, and the hardware has to go through specific quality assessment procedures. 
+expensive proprietary systems. While the main goal of the project is to be able to produce an affordable system (affordable here means 20,000 EUR, instead of half a million EUR), the prototype is already able to produce better images than their expensive counterparts in some particular cases.
+The whole process is complex as we are talking about health-related equipment, and the hardware has to go through specific quality assessment procedures.
 However, the community involved has been growing in the last years and the project is presently endorsed by many institutions. The strong focus on applied research creating open source technology to address market failure makes the use case very interesting, especially, with regard to certification issues or potential conflicts with intellectual property rights (IPR) protection strategies that remain the default in academia today.
 
 ## Related thematic presentations
+
 In the last segment, there were three presentations that are thematically related to Open.Make:
 
 ### The Open Hardware Observatory (OHO)
 
-**Dietrich Jaeger** made the start by giving an overview of the 
+**Dietrich Jaeger** made the start by giving an overview of the
 [**Open
 Hardware Observatory**](https://de.oho.wiki/wiki/Home), a non-profit organization from Berlin that was founded in April this year and tries to make open
 hardware projects more easily findable, accessible and assessable through a dedicated online platform. He gave a quick walk-through on their website to show the OHO search engine and to see examples of the OHO accreditation system, which facilitates the review of hardware components. So far, the focus is mainly on mechanical products. So, the question came up, whether OHO is planning to extend the system for electronic hardware components. Also, it was asked, whether they would be interested to make the accreditation systems available as independently deployed and federated system. Both questions were cleared as the OHO team could indeed imagine to do so in due course.
-
 
 ### LabMaker GmbH
 
 Following that, **York
 Winter** spoke about three companies of his - [**LabMaker GmbH**](https://www.labmaker.org), PhenoSys GmbH, and
-Apprendis UG - each of which are interfacing with the open science hardware community. 
+Apprendis UG - each of which are interfacing with the open science hardware community.
 A thorough discussion ensued on the work of LabMaker, as the company is looking for promising hardware, before helping the hardware makers to go from the prototype to a production-ready hardware.
 They first make sure a community is present to respond to customer questions, as their margin is so slim that they cannot offer much customer support. They also only work on a piece of hardware if the original developers are ready to help them. Moreover, they make sure the originators are appropriately mentioned in the hardware description. These good practices seemed highly desirable to the participants.
- 
 
 ### The OSH ecosystem
 
