@@ -172,7 +172,8 @@ They first make sure a community is present to respond to customer questions, as
 The last talk was given by **Robert Mies (TU Berlin)**, who gave an in-depth
 summary about the open source hardware (OSH) ecosystem. As the meeting was behind schedule, he presented concisely his understanding of the OSH ecosystem and what makes it such a unique and fascinating research subject. Thereby, he particularly touched upon the main elements, the high variety of actors in the OSH ecosystem and the emergence of OSH projects. He moreover shared some study results on the diversity of project categories, the characteristics of involved persons, different role descriptions, participation levels as well as the use of licenses. Additionally, he briefly introduced the Open Source Hardware Association (OWSHA) and the Gathering for Open Science Hardware (GOSH) as the most relevant associations in this domain.
 
-![OSH ecosystem](/img/blogs/OSHEcosystem.png)
+<img src="/img/blogs/OSHEcosystem.png" alt="OSH ecosystem" width="100%"/>
+
 
 ## Discussions
 
