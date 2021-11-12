@@ -100,7 +100,7 @@ He also mentioned the development of the Airtrack system, that allows to monitor
 Closing the round of presentations by the principal investigators, **Professor Roland
 Jochem (TU Berlin)** detailed his chair's work in quality management for product development and for production engineering. In particular, he illustrated how early spotting of design errors (so-called "frontloading") can significantly reduce development costs as changing the design is less costly in early design phases. With regard to openness and inclusivity, he put forward the great importance of involving all relevant actors in product design and development right from the beginning. The emphasis on continuous gathering and tracking of customer requirements in open design and OSH development can thus be seen as another form of preventing design errors.
 
-![TUB research focus](/img/blogs/TU.pdf)
+![TUB research focus](/img/blogs/TU.png)
 
 ### Berlin University Alliance
 
@@ -172,7 +172,7 @@ They first make sure a community is present to respond to customer questions, as
 The last talk was given by **Robert Mies (TU Berlin)**, who gave an in-depth
 summary about the open source hardware (OSH) ecosystem. As the meeting was behind schedule, he presented concisely his understanding of the OSH ecosystem and what makes it such a unique and fascinating research subject. Thereby, he particularly touched upon the main elements, the high variety of actors in the OSH ecosystem and the emergence of OSH projects. He moreover shared some study results on the diversity of project categories, the characteristics of involved persons, different role descriptions, participation levels as well as the use of licenses. Additionally, he briefly introduced the Open Source Hardware Association (OWSHA) and the Gathering for Open Science Hardware (GOSH) as the most relevant associations in this domain.
 
-![OSH ecosystem](/img/blogs/OSHEcosystem.pdf)
+![OSH ecosystem](/img/blogs/OSHEcosystem.png)
 
 ## Discussions
 
