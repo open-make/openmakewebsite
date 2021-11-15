@@ -44,6 +44,7 @@ You will work in Prof. Dr.-Ing. Roland Jochem's chair (TU Berlin, Insitut for Ma
 
 You will work in Prof. Tim Landgraf's lab (FU Berlin, Dahlem campus), under Moritz Maxeiner's supervision. Your first task will be to actively observe and document the work of hardware makers.
 
+[official job description](https://www.fu-berlin.de/universitaet/beruf-karriere/jobs/stud/19_fb-mathematik-und-informatik/MI-BUA-Landgraf-SHK1.html) 
 
 
 
