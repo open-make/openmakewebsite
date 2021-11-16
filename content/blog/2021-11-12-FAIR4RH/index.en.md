@@ -3,7 +3,7 @@ title: defining FAIR for research software
 author: julien colomb
 date: '2021-11-10'
 slug: defining-fair-for-research-software
-banner: img/banners
+banner: img/banners/FAIR.jpg
 categories: [FAIR$RH]
 tags: []
 ---
