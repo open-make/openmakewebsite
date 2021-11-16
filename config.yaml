@@ -1,5 +1,5 @@
 baseurl: /
-title: Open-make
+title: Towards open and FAIR hardware
 theme: hugo-universal-theme
 languageCode: en-us
 defaultContentLanguage: en
@@ -7,6 +7,10 @@ disqusShortname:
 googleAnalytics: ''
 summaryLength: 70
 paginate: 10
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 menu:
   main:
     - identifier: menu.home
