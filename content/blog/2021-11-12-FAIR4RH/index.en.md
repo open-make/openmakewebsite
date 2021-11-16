@@ -56,10 +56,11 @@ Finally, we ended the meeting, with giving us the task to draft a putative actio
 plan/vision, in order to discuss it during the next meeting. Here it is!
 
 <img src="images/Untitled Diagram.drawio-3.png" alt="Putative work plans for the FAIR4RH group" width="100%"/>
+
 *Two different timelines depending whether we would like to do a RDA WG (up) or not (below), on the upper right are some putative working groups that would deal with different approaches for the definition of FAIR for hardware.*
 
 There are still many question that remain to be answered, the following ones 
-came into our di:
+came into our internal (open.make) discussions:
  
 - Can we apply the FAIR principles to hardware in general, or are there particularities for different types of hardware
 - Define where principles stops and specifications starts
