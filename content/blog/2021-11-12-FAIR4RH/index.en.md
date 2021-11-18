@@ -38,9 +38,9 @@ she especially talked about table 2.
 We then discussed what this group could bring to that previous initiative, 
 and came to these conclusions:
 
-- getting community feedback and review of the principles.
-- producing a more complete document (similar to the FAIR4RS one).
-- maximizing outreach and adoption of the principles.
+- Getting community feedback and review of the principles.
+- Producing a more complete document (similar to the FAIR4RS one).
+- Maximizing outreach and adoption of the principles.
 
 We also discussed what strategey would be the most effective,
 and the most suited to our own schedule and tasks.
