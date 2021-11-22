@@ -1,8 +1,8 @@
 ---
-title: defining FAIR for research software
+title: defining FAIR for research hardware
 author: julien colomb
 date: '2021-11-10'
-slug: defining-fair-for-research-software
+slug: defining-fair-for-research-hardware
 banner: img/banners/FAIR.jpg
 categories: [FAIR4RH]
 tags: []
