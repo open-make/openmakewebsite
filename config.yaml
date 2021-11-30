@@ -116,10 +116,10 @@ params:
   see_more:
     enable: yes
     icon: far fa-file-alt
-    link_text: Contribute, give us feedback !
-    link_url: 'https://github.com/open-make/open.make-mainrepo/issues/new?assignees=jcolomb&labels=externalquestion&template=first-contact.md&title=%5Bcontact%5D'
-    subtitle: We have a public GitHub home to facilitate collaboration.
-    title: Do you want to see more?
+    link_text: See related project and join the effort
+    link_url: /related/
+    subtitle: 
+    title: This is a collaborative effort!
   style: violet 
   testimonials:
     enable: yes
