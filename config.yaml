@@ -25,9 +25,9 @@ menu:
       name: Work packages
       url: /#features
       weight: 3
-    - identifier: menu.team
-      name: Team
-      url: /#testimonials
+    - identifier: menu.related
+      name: Collaborate!
+      url: /related/
       weight: 4  
 
     - identifier: menu.blog
@@ -61,7 +61,7 @@ params:
   author: "openmake team"
   carouselCustomers:
     auto_play: no
-    items: 6
+    items: 1
     pagination_speed: 1000
     slide_speed: 2000
   carouselHomepage:
@@ -77,7 +77,7 @@ params:
   clients:
     enable: yes
     subtitle: ''
-    title: Funding and partners
+    title: Funding
   contact_form_ajax: no
   copyright: Copyright (c) 2021, open.make team.
   date_format: January 2, 2006
