@@ -9,9 +9,16 @@ tags: []
 ---
 
 This blog post will present our progresses in our work on defining FAIR for research hardware.
-It will be updated.
+It has been updated, you can see [its history on github](https://github.com/open-make/openmakewebsite/commits/main/content/blog/2021-11-12-FAIR4RH).
 
-# First meeting
+# Summary
+
+After initial meetings, we have created a RDA group for FAIR hardware: http://rd-alliance.org/groups/fair-principles-research-hardware.
+
+
+# Project History
+
+## First meeting (2021-11-03)
 
 After calling for participants [via the GOSH forum](https://forum.openhardware.science/t/defining-fair-for-hardware/3167/5),
 we pulled a group of about 12 interested people. 
@@ -50,7 +57,7 @@ and the most suited to our own schedule and tasks.
 - Another strategy discussed was to take the paper in its form and get it endorsed
  and signed by the community, similar to what the TOP guidelines did.
 
-## For the next meeting
+
 
 Finally, we ended the meeting, with giving us the task to draft a putative action
 plan/vision, in order to discuss it during the next meeting. Here it is!
@@ -59,6 +66,14 @@ plan/vision, in order to discuss it during the next meeting. Here it is!
 
 *Two different timelines depending whether we would like to do a RDA WG (up) or not (below), on the upper right are some putative working groups that would deal with different approaches for the definition of FAIR for hardware.*
 
+## Second meeting
+
+After presenting the timelines plans, we decided to go for a RDA interest group,
+and we hope to get a first declaration for the end of the open.make project in 2023.
+The RDA group attracted other members, notably from other RDA groups.
+
+---
+
 There are still many question that remain to be answered, the following ones 
 came into our internal (open.make) discussions:
  
@@ -66,3 +81,5 @@ came into our internal (open.make) discussions:
 - Define where principles stops and specifications starts
 - How FAIR principles are/will be related to hardware publication
 - What outputs for the group (RDA document, paper,...)
+
+RDA first meeting is meant for January 2022.
