@@ -9,6 +9,9 @@ banner: img/banners/hiring.png
 tags: [job]
 ---
 
+> update 2022-05-02
+> The three positions have been filled, thanks to all who applied !
+
 In [Open.Make](/blog/2021/09/27/2021-09-27-scope/) we are looking for three motivated student assistants to support our research team and enrich it with your own unique and complementary skillset.
 
 Any student of a Berlin university can apply to any of the three positions (salary 12,68 € brutto according to TV Stud III). The majority of the work needs to be done on site. Yet, some of the work can also be carried out remotely. 
