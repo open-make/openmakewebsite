@@ -13,8 +13,19 @@ It has been updated, you can see [its history on github](https://github.com/open
 
 # Summary
 
-After initial meetings, we have created a RDA group for FAIR hardware: http://rd-alliance.org/groups/fair-principles-research-hardware.
+After a gosh forum entry and initial meetings, we have created a RDA group for FAIR hardware: httpS://rd-alliance.org/groups/fair-principles-research-hardware.
+The group has agreed on a charter that has been endorsed by the RDA.
+Our next tasks are:
+- Preparing the plenary and get more members
+- Work on the definition of open hardware.
 
+Refer to the group page for history of emails and minutes of meetings.
+We only give a very short history here.
+Minutes were taken via an etherpad: https://etherpad.hu-berlin.de/ep/p/g.b9vQvzly2nMJWI6l$FAIR4RH-1
+Documents were worked in a googledoc: https://docs.google.com/document/d/14vQR_24OXVOLGcEB1frAYqKbRZ_Gc8Dtk6bG25720ks/edit?usp=sharing
+
+PLEASE JOIN THE RDA GROUP IF YOU HAVE INTEREST IN THIS QUESTION !
+https://www.rd-alliance.org/user/login?destination=group/node/74820/subscribe/og_user_node
 
 # Project History
 
@@ -83,3 +94,28 @@ came into our internal (open.make) discussions:
 - What outputs for the group (RDA document, paper,...)
 
 RDA first meeting is meant for January 2022.
+
+## RDA meetings
+
+### 2022-01
+
+- decision to use email as a communication channel
+- work on the charter.
+
+
+### 2022-02
+
+- Charter discussion.
+- link from louise: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854
+
+
+### 2022-03
+
+- Discussion research hardware definition:
+
+
+### 2022-04
+
+- Discussion research hardware definition
+- Plenary preparation
+
