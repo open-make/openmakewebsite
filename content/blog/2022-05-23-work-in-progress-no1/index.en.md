@@ -5,9 +5,12 @@ date: '2022-05-23'
 slug: work-in-progress-no1
 categories:
   - progress report
+banner: img/banners/progress.jpg  
 tags:
   - progress
   - scope
+
+
 ---
 
 We had our first progress report with the professors last week.
@@ -61,4 +64,7 @@ and some insights into FAIR definitions for hardware.
 This will allow us to discuss our next steps, especially the hardare publication platform and a guidance system for reasearchers (book, choice software,...).
 In addition, that meeting will see discussion about the creation of follow up projects.
 
+---
 
+banner image credit:
+Progress by Nick Youngson CC BY-SA 3.0 
