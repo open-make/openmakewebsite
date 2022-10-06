@@ -1,0 +1,12 @@
+<div class="w3-card-4">
+
+<header class="w3-container w3-green w3-hover-amber">
+  <h1>{{ .Get 0 }}</h1>
+</header>
+
+<div class="w3-container w3-hover-amber">
+  <p>{{ .Inner | markdownify | emojify }}</p>
+</div>
+
+</div>
+
