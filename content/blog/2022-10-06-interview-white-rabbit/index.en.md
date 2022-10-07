@@ -11,10 +11,16 @@ tags:
   - technology
   - open hardware
   - personal story
-toc: true  
 ---
 Interview: White rabbit, by the Open make team, Javier Serrano and Amanda Diez Frenandez.
-®the authors, distributed under a CC-BY 4.0 licence.
+copyright to the authors, distributed under a CC-BY 4.0 licence.
+
+Sections:
+- [The project](#the-project)
+- [The Hardware](#the-hardware)
+- [The Research outputs](#research-outputs)
+- [The participants](#participants)
+
 
 >Interviewee: Javier Serrano (CERN) & Amanda Diez Fernandez (CERN)
 >
@@ -60,8 +66,8 @@ If the purchasing people tell us that we should be looking for providers in this
 
 ## The project
 
-{{< card2 >}}
-### Project start
+{{< card2 "Project start" >}}
+
 In 2005-2006, we started discussing about the next generation of timing system at CERN.
 
 We wanted to get an atmosphere, an environment for hardware developers, that would be similar to the software developers who were working with the Linux Kernel community.
@@ -81,8 +87,8 @@ So, this is where the vision for open hardware came from, at least insofar as CE
 
 These were all very basic decisions in the beginning of the project that ultimately played a key role in the in the success of White Rabbit. So, just to say how it started: We had a meeting, it must have been 2008, where we invited people from other institutes, laboratories, experts from industry, and we exposed the problem, we explained our preliminary ideas, and we kick started the project.
 {{< /expand >}}
-{{< card2>}}
-### Hardware importance
+{{< card2 "Hardware importance">}}
+
 As soon as you want to go into the microsecond realm, and we go into the nanoseconds, that is six orders of magnitude better than Network Time Protocol, then you need hardware support. So, we use optical fibres with two different wavelengths of light going in different directions.
 
 White Rabbit is an extension of Ethernet. You can do anything you can do with Ethernet and more.
@@ -96,8 +102,8 @@ So, we use optical fibres with two different wavelengths of light going in diffe
 
 It turned out to be a very good decision to base everything on Ethernet. It's also very scalable, actually kind of infinitely scalable. We can add nodes and switches as we want, and the whole kind of management of addresses happens automatically. So, there are many, many good things about Ethernet that White Rabbit benefits from. But basically, to answer your question, the core of a White Rabbit network is the White Rabbit switch, which we can replicate and interconnect as needed. And, then, people design White Rabbit nodes which are specialized for something. They benefit from this common notion of time that White Rabbit gives them, but then they do something else.
 {{< /expand >}}
-{{< card2>}}
-### Funding
+{{< card2 "Funding">}}
+
 A lot of the funding comes from CERN. There was a grant from the Spanish government. Two Spanish companies worked on the initial design of White Rabbit, one on the hardware side and one on the software side. And that was a very good initial push. Then other people joined.
 
 White Rabbit has been going on for something like 13 years. The involvement at CERN has ranged from three or four FTEs at the height of the development to one, one and a half FTEs at the lowest parts of development.
@@ -114,8 +120,8 @@ Then with time many people joined. Many of them just as a user, but also some of
  {{< expand "Show answer">}}
 I don't have a straight answer, because how do you count? We have budgets for material and we have people working on it, which I don't know how you count. White Rabbit has been going on for something like 13 years now. Typically, the involvement at CERN has ranged from three or four FTEs at the height of the development to maybe one, one and a half FTEs at the lowest parts of development. Our expenditure in materials, testing gear, subcontracting to companies, etc. typically ranges in the 100k per year. Some years are bigger than that, never smaller. So, that's roughly the order of magnitude of things, but I have not made a precise calculation.
 {{< /expand >}}
-{{< card2>}}
-### Project process
+{{< card2 "Project process">}}
+
 It was a very clear program of work, and we handled it in an open source way inspired by open source software. It was quite informal in the end.
 
 We had annual meetings where everybody would show up and show their latest work, and synchronize with the rest face to face.
@@ -129,8 +135,8 @@ So, we had a team at CERN working on it, but people would regularly show up volu
 
 There were also visits, so people from GSI, for example, spending time at CERN. Otherwise, it was a bit more formal for the Spanish companies, because they needed to report more formally to their funders. But for the rest of the project, I would say, you know, if you imagine your typical free and open source software project and how it's managed, it was a bit like that. It was quite informal.
 {{< /expand >}}
-{{< card2>}}
-### Major issues 
+{{< card2 "Major issues">}}
+ 
 Some of the issues were brought about by people who utilise White Rabbit in an environment which was not what we anticipated at CERN. That was actually a very good thing, because we had bugs that we had not noticed at CERN. They made those improvements, fed it to us, and they merged it with the standard open source projects. So, that was very nice.
 
 That was one of the organizational challenges: how to coordinate all the actors and how to motivate them to play the game, to stay within the main project and also to open source their improvements.
@@ -148,8 +154,8 @@ On the non-technical side, I think the biggest challenge was to have all these p
 
 But if you stay within the project, even if it's not fully optimal from a technical point of view, you still benefit from trying to be part of the community and try to merge your kind of variations into the main trunk of the project. Then, also the open sourcing of the improvements: you know, some people will not be motivated to open source their improvements. The license of White Rabbit actually allows that to happen, you can have proprietary extensions. So sometimes I would ask myself, or I would say, we need to be nice if these improvements have been open sourced. And sometimes it was a private company, so that there was nothing for me to say, you know, if a private company says I'm not open sourcing this, I'm doing it with my money. They are perfectly legitimized to take that decision and I would never tell a company what to do with their money. But sometimes it would be publicly financed laboratories, and then I would ask the question, why is it that you're not open sourcing this? And then there could be different reasons. 
 {{< /expand >}}
-{{< card2>}}
-### Decision making
+{{< card2 "Decision making">}}
+
 The project works insofar as people find it useful to play the game and to contribute to the main branch that we are maintaining.
 
 We’re starting to put in place with Amanda that we should communicate more broadly the advantages of doing so.
@@ -172,8 +178,8 @@ Yes, this is a very good question, and this is one question that we are asking o
 {{< /expand >}}
 ## The Hardware
 
-{{< card2>}}
-### Hardware components
+{{< card2 "Hardware components">}}
+
 The main product is the White Rabbit switch. This is something that you need in every White Rabbit network. We're in version three now, and we are preparing version four.
 
 And then, for people who want to design White Rabbit nodes, we tell them a recipe. There's a reference design, because no two nodes are equal; people have different needs. For example, somebody working on cosmic ray detection or in the stocks market might be interested in a time-stamping node.
@@ -206,8 +212,8 @@ One of the big advantages of open hardware is that the design is there for any c
 White Rabbit in particular and open hardware in general, gives us the flexibility that if the purchasing people tell us that we should be looking for providers in this or that country, it is a much simpler prospect than with proprietary hardware. Because if we had to work with a German company for our timing system, we'd have to look for a timing company in Germany that does exactly what we need. Whereas if we have an open source design, we can work with many hardware companies in Germany that could understand this design and commercialize it and test it.
 {{< /expand >}}
 ## Research outputs
-{{< card2>}}
-### Academic outputs
+{{< card2 "Academic outputs">}}
+
 Hardware, software, and documentation, and papers. The hardware itself is available from commercial companies, which we always thought would make things scalable.
 
 There has been a lot of publications. Not only about the technical features of White Rabbit, but about the White Rabbit phenomenon in itself, like, people studying the open source hardware phenomenon and the White Rabbit community
@@ -219,8 +225,8 @@ Well, all of that. We have hardware. There has been a lot of publications. Not o
 
 The hardware itself is available from commercial companies, which is something that we always thought would make things scalable. We were concerned that if this technology were successful, which it ended up being, the original design team would be swamped by requests for support. So, we counted on commercial companies to take a part of that support by selling white rabbit gear and by offering support to their clients. So, hardware has also been an output of the project and software as well. So hardware, software, documentation, and papers.
 {{< /expand >}}
-{{< card2>}}
-### Publication strategy 
+{{< card2 "Publication strategy">}}
+
 We present and publish papers in conferences on big physics facilities and synchronisation. 
 
 In its latest incarnation, the Open Hardware Repository [the platform where the hardware documentation is] is nothing else than an instance of GitLab Community Edition. It would be nice to have things more indexable, easier to find. So, I see space for improvements in the way these projects are documented and presented to the world. It is true that open sourcing something needs an extra effort on quality.
@@ -247,8 +253,8 @@ I can't think of anything we didn't publish. Let's see. If it were the case, it 
 
 Some colleagues told me, nobody is asking them to publish it. Or if someone is asking them, they're not giving them the means to do it, either economically, or in terms of time assigned to this task. But in our case, we didn't have that problem.
 {{< /expand >}}
-{{< card2>}}
-### Successes and Failures
+{{< card2 "Successes and Failures">}}
+
 It had an impact way beyond what we expected, beyond the physics realm, like telecom, energy distribution, or stock market. It was also very interesting because it brought other types of feedback to the project that improved it even more.
 
 To align our visions with the competitive interests of partner companies was not so successful. This kind of friction, we did not anticipate. We're trying to see how we can fix it in the new White Rabbit Collaboration that we're preparing
@@ -261,11 +267,11 @@ The success clearly is that it had an impact way beyond what we expected. We wis
 First, it went to the outside of CERN, but still within the physics realm. This was something that could still be kind of considered normal, because many of our problems are very close to the problems of some of our colleagues that we meet in conferences all the time. It was not that spectacular, yet still very nice that White Rabbit is used to find neutrinos inside of the Mediterranean Sea, or in Antarctica, or in the search for very highly energetic particles in China. That's still within the normality. But then we went beyond science and we had impact in sectors which are typically very removed from fundamental research, like telecom, energy distribution, or stock market. This was very nice, very rewarding for the designers, and also very interesting because it brought other types of feedback to the project that improved it even more. So, that's on the successful side.
 
 On the less successful side, when I was discussing with some of the key companies that make up the White Rabbit ecosystem, it was difficult sometimes to align our visions in a sense that the open source core of the White Rabbit project would be seen as a benefit and an advantage for everybody. There was a risk at some point that part of the open source core, when it gets expanded as a result of a decision of the core team, is seen as competition by some of the companies to some of their proprietary products. This kind of friction, we did not anticipate. It didn't happen that often. But it is one part of the project, which was less successful. I had this idea that companies would be building on top of the open source core making bigger margins with proprietary developments in the periphery of the project. It's just that there is this time dimension where what's in the periphery, at some point becomes part of the core, because the core is growing. Then, companies need to innovate in a proprietary way somewhere else, because something just becomes open source and they cannot have so big margins in that part of the project. This was sometimes not perfectly synchronized, to employ a term that's very commonly linked with White Rabbit. So yeah, that would be something that we're trying to see how to fix in the new White Rabbit Collaboration that we're preparing. If I have to point out something that has been less successful, it will be probably that.
-:::
+{{< /expand >}}
 ## Participants
 
-{{< card2 >}}
-### Personal gain
+{{< card2 "Personal gain">}}
+
 At CERN, we have a mission to conduct research in fundamental physics, but also to share the things we do with the rest of the world. So, the mandate of CERN suits me perfectly. And in 2008, at the start of this project, I had been at CERN for 10 years already. I had reached a kind of maturity at an engineering level that allowed me to innovate in my domain.
 {{< /card2 >}}
 >What brought you to work for this project at CERN ?
@@ -279,8 +285,8 @@ How I came to White Rabbit? Well, first, how I came to knowledge transfer? I had
 
 And then as a a colleague left, I took White Rabbit in its full application range as they were. Already, years ago, when I first look on Quantum, I looked a little bit about the timing problem, because also for the application of atomic clocks and portable atomic foxes about the resilient timing and timing distribution and so forth. And already back then I found it was a fascinating problem that can be applied in many areas. So, I was very happy to take on the topic.
 {{< /expand >}}
-{{< card2>}}
-### Core team and community
+{{< card2 "Core team and community">}}
+
 The key contributors to White Rabbit would be a few tens of people. It would not reach a hundred. In terms of users, it's many more than that.
 
 I think a big part of that success, in hiring and attracting talent, has been the open source nature of White Rabbit.
@@ -300,9 +306,9 @@ It was really an embarrassment of riches. White Rabbit was a very nice project, 
 
 {{< /expand >}}
 
-{{< card2>}}
+{{< card2 "Work Coordination">}}
 
-### Work Coordination
+
 Most, if not all of the teachings from the open source software world transpose quite nicely: respecting people, treating them as first-class citizens, making them feel part of a community and valuing their work. All these things that people do well in successful open source projects.
 
 We created Frequently Asked Questions for every project, so that we don't end up answering the same questions over and over in the forums.
