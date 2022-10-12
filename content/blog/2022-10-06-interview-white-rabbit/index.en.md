@@ -1,7 +1,7 @@
 ---
 title: 'Interview: White rabbit'
 author: 
-  - Open make team
+  - Open make interview team
   - Javier Serrano
   - Amanda Diez Fernandez
 date: '2022-05-01'
@@ -25,7 +25,7 @@ Sections:
 >Interviewee: Javier Serrano (CERN) & Amanda Diez Fernandez (CERN)
 >
 >Interviewers: Robert Mies (TU Berlin) & Moritz Maxeiner (FU Berlin)
-
+Transcription and editing: Diana Paola Americano Guerrero, Robert Mies, Moritz Maxeiner & Julien Colomb
 
 <img src="images/Screenshot 2022-10-06 at 14.16.40.png" alt="screenshot of the interview" width="60%"/>
 
