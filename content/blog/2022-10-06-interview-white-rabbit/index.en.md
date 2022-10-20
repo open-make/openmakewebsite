@@ -12,10 +12,11 @@ tags:
   - open hardware
   - personal story
 ---
-Interview: White rabbit, by the Open make team, Javier Serrano and Amanda Diez Frenandez.
-copyright to the authors, distributed under a CC-BY 4.0 licence.
+# Interview: White rabbit
 
-Sections:
+*by the Open make team, Javier Serrano and Amanda Diez Frenandez. Copyright to the authors, distributed under a CC-BY 4.0 licence.*
+
+**Sections:**
 - [The project](#the-project)
 - [The Hardware](#the-hardware)
 - [The Research outputs](#research-outputs)
@@ -25,9 +26,10 @@ Sections:
 >Interviewee: Javier Serrano (CERN) & Amanda Diez Fernandez (CERN)
 >
 >Interviewers: Robert Mies (TU Berlin) & Moritz Maxeiner (FU Berlin)
-Transcription and editing: Diana Paola Americano Guerrero, Robert Mies, Moritz Maxeiner & Julien Colomb
+>
+>Transcription and editing: Diana Paola Americano Guerrero, Robert Mies, Moritz Maxeiner & Julien Colomb
 
-<img src="images/Screenshot 2022-10-06 at 14.16.40.png" alt="screenshot of the interview" width="60%"/>
+<img src="images/Screenshot.png" alt="screenshot of the interview" width="60%"/>
 
 *Screenshot of the interview.*
 
@@ -111,9 +113,10 @@ White Rabbit has been going on for something like 13 years. The involvement at C
 >How is it funded, overall?
  
  {{< expand "Show answer">}}
-A lot of the funding comes from CERN. Traditionally, before we did open hardware, these types of ad-hoc systems for the accelerators were designed at CERN and paid completely by CERN. So, we had a budget for this project. A lot of the development of the core infrastructure for White Rabbit happened thanks to this budget. One of the differences with respect to past efforts at CERN was that we involved industry from day one, and there was a grant from the Spanish government. I think it was called industry for science. It was supposed to give Spanish companies a competitive advantage for these types of projects, collaborating with big international laboratories to get some kind of competitive edge. So, we benefited from that grant. Two Spanish companies worked on the initial design of White Rabbit, one on the hardware side and one on the software side. And that was a very good initial push. Other laboratories like GSI in the south of Germany [GSI Helmholtz Centre for Heavy Ion Research] joined very early on and they also contributed financially and in-kind with the effort of their designers.
+A lot of the funding comes from CERN. Traditionally, before we did open hardware, these types of ad-hoc systems for the accelerators were designed at CERN and paid completely by CERN. So, we had a budget for this project. A lot of the development of the core infrastructure for White Rabbit happened thanks to this budget. One of the differences with respect to past efforts at CERN was that we involved industry from day one, and there was a grant from the Spanish government. I think it was called industry for science. It was supposed to give Spanish companies a competitive advantage for these types of projects, collaborating with big international laboratories to get some kind of competitive edge. So, we benefited from that grant. Two Spanish companies worked on the initial design of White Rabbit, one on the hardware side and one on the software side. And that was a very good initial push. Other laboratories like GSI in the south of Germany [GSI Helmholtz Centre for Heavy Ion Research](https://www.gsi.de/) joined very early on and they also contributed financially and in-kind with the effort of their designers.
 
-Then with time many people joined. Many of them just as a user, but also some of them like Nikhef, the physics laboratory in the Netherlands, which ultimately became quite an important actor, also from the design point of view. So, from the budget perspective, a big portion of it comes from CERN, but there are also many other players.
+Then with time many people joined. Many of them just as a user, but also some of them like [Nikhef](https://www.nikhef.nl/), the physics laboratory in the Netherlands, which ultimately became quite an important actor, also from the design point of view. So, from the budget perspective, a big portion of it comes from CERN, but there are also many other players.
+
 {{< /expand >}}
 >Can you give an overall estimate over the years, how much funding you have received?
  
