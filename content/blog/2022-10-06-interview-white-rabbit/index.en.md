@@ -4,7 +4,7 @@ author:
   - Open make interview team
   - Javier Serrano
   - Amanda Diez Fernandez
-date: '2022-05-01'
+date: '2022-10-20'
 slug: interview-white-rabbit
 categories: [interview]
 banner: img/banners/WRlogo-original.png
@@ -43,7 +43,8 @@ From an engineering perspective, this requires a distributed real-time system to
 
 {{< card  "The White Rabbit in a nutshell">}}
 
-![image alt](images/TRQ_7262 "WR Switch") 
+![White Rabbit equipment](images/TRQ_7262.jpg "WR Switch") 
+
 *Photos of the White Rabbit team and equipment, OPEN-PHO-TECH-2020-002-14, source and copyright CERN*
 
 - Project start: 2006
