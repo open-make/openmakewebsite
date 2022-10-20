@@ -7,6 +7,7 @@ author:
 date: '2022-05-01'
 slug: interview-white-rabbit
 categories: [interview]
+banner: img/banners/WRlogo-original.png
 tags:
   - technology
   - open hardware
@@ -16,12 +17,15 @@ tags:
 
 *by the Open make team, Javier Serrano and Amanda Diez Frenandez. Copyright to the authors, distributed under a CC-BY 4.0 licence.*
 
+
+
 **Sections:**
 - [The project](#the-project)
 - [The Hardware](#the-hardware)
 - [The Research outputs](#research-outputs)
 - [The participants](#participants)
 
+*Banner image: white rabbit logo, By CERN, distributed under a CC-BY-SA 4.0*
 
 >Interviewee: Javier Serrano (CERN) & Amanda Diez Fernandez (CERN)
 >
@@ -39,8 +43,8 @@ From an engineering perspective, this requires a distributed real-time system to
 
 {{< card  "The White Rabbit in a nutshell">}}
 
-![image alt](https://ohwr.org/project/wr-switch-hw/uploads/8bec64c2bc708e20d516d4ddb9ce8da4/wrs3_W02-v3.4-smc.jpg "WR Switch v3.4: Front view, FMC connectors") 
-*WR Switch v3.4: Front view, FMC connectors, shared under [no license?]*
+![image alt](images/TRQ_7262 "WR Switch") 
+*Photos of the White Rabbit team and equipment, OPEN-PHO-TECH-2020-002-14, source and copyright CERN*
 
 - Project start: 2006
 - Core development team size: 5-10
