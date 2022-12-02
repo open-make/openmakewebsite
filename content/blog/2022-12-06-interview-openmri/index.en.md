@@ -6,7 +6,7 @@ author:
 date: '2022-10-20'
 slug: interview-open-mri
 categories: [interview]
-banner: img/banners/OSI_logo.jpg
+banner: img/banners/osi_logo.jpg
 tags:
   - technology
   - open hardware
