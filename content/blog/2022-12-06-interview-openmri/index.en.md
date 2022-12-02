@@ -6,7 +6,7 @@ author:
 date: '2022-10-20'
 slug: interview-open-mri
 categories: [interview]
-banner: img/banners/WRlogo-original.png
+banner: img/banners/OSI_logo.jpg
 tags:
   - technology
   - open hardware
@@ -28,7 +28,7 @@ distributed under a CC-BY 4.0 licence.*
 -   [The Research outputs](#research-outputs)
 -   [The participants](#participants)
 
-\*Banner image:
+\*Banner image:open-source-imaging logo, by the OSI community, CC-BY-SA
 
 > Interviewee: Lukas Winter
 >
