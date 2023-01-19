@@ -7,6 +7,8 @@ disqusShortname:
 googleAnalytics: ''
 summaryLength: 70
 paginate: 10
+relativeURLs: true
+uglyURLs: true
 markup:
   goldmark:
     renderer:
