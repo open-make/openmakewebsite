@@ -1,0 +1,41 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: openmake-blogpost and interview
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Julien
+    family-names: Colomb
+    email: julien.colomb@hu-berlin.de
+    orcid: 'https://orcid.org/0000-0002-3127-5520'
+    affiliation: HU Berlin
+  - given-names: Robert
+    family-names: Mies
+    orcid: 'https://orcid.org/0000-0003-0195-7405'
+  - given-names: Moritz
+    family-names: Maxeiner
+  - given-names: Fabio
+    family-names: Reeh
+  - given-names: Mik
+    family-names: Schutte
+  - given-names: Diana Americano
+    family-names: Guerrero
+url: 'https://www.openmake.de'
+repository: 'https://github.com/open-make'
+abstract: >-
+  Here the data for the open make website. You can open the
+  public/index.html file in a browser to see the webpage.
+
+
+  Most text content is in the `content/blog` folder.
+keywords:
+  - open hardware
+  - research on research
+  - interview data
+license: CC-BY-4.0
+version: '1'
+date-released: '2023-01-19'
