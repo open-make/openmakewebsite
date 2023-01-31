@@ -97,17 +97,17 @@ system not in its completeness yet.
 
 {{< card2 "Project process">}}
 
-There are two parts. One is around the website and the community
-efforts. The other one is actually the development of hardware (and
+There are two parts in this project. One is around the website and the community
+efforts, the other one is actually the development of hardware (and
 software).
 
-Overall we have more than hundred people involved, but it's not a fixed,
+Overall we have more than hundred people involved, but there is no fixed,
 structured hierarchy.
 
-The low-field scanners is something we can do with moderate funding. We
-can now have more precise goals around one system with a larger group of
-people. Initially it was not possible nor very effective because
-everyone has different interests.
+Initially, the communication was not very effective, because
+everyone had different interests. But with the low-field scanners (which can be built with moderate funding), we
+can have more precise goals around one system, with a larger group of
+people. 
 
 {{< /card2 >}}
 
@@ -152,11 +152,10 @@ That's the biggest resource we have.
 {{< /expand >}}
 
 {{< card2 "Funding">}}
-We had no public funding.
+We had no public funding specific to OSI.
 
-We make it work with what we have. The idea is to have many different people doing it like that. 
-
-Some have project funding and they use it. The only difference is that they make it open source. 
+We make it work with what we have. 
+Some have project funding and they use it. The only difference is that they make it open source and get extra visibility for it. 
 
 {{< /card2 >}}
 
@@ -184,6 +183,7 @@ clear for both parts. There is no clear organizational structure for the
 website and community parts. They are three to five people which keep it
 running in the small core and for the ultra developments the
 organization is based on the labs.
+> [name=Julien Colomb]probably not "ulta"
 
 > Robert Mies  
 > Yeah, so many more people.
@@ -196,12 +196,12 @@ to promote things. {{< /expand >}}
 {{< card2 "Project start" >}}
 
 The motivation was to change the market behavior to prevent
-monopolization of MRI scanners. A solution is by open source.
+monopolization of MRI scanners, by open sourcing our work.
 
 We started off by providing visibility to the scientists.
 
-It didn't happen that we had one place and around this place it
-developed, but with time we put it together. {{< /card2 >}}
+We didn't have one place, around which it
+developed, but with time, we put the different systems together. {{< /card2 >}}
 
 > You have no clear organizational structure. Does that mean everybody
 > works on what they're interested in or whatever they decide to work
@@ -216,25 +216,25 @@ supposed to be and how it in practice developed. Initially we wanted to
 have an open platform around open source imaging where people start
 working in one direction. We started off by providing simple visibility
 to the scientists something that was not there. If they do open source,
-visibility inside the community is an extra effort. This is very simple
+visibility inside the community is an extra effort. This is 
 how it started. We highlight the projects, you get visibility, you get
 something back and you're in a way part of this community. But I think
 one of the most difficult things in most such community efforts and
 things in general is its own interests and ecosystems. Everyone had the
 urge to keep it in their own domain, repositories, websites and servers.
 It didn't happen that we had one place and around this place it
-developed, everyone was doing their their small modules. With time we
+developed, everyone was doing their small modules. With time we
 put this together. We work with some smaller teams within this whole
 ecosystem towards one system. With open source imaging that goes a bit
 wider than just one single low-field MR system. There are other
-technologies for other field strengths, very specific things which may
-cannot be applied to the low field scanner. Now we have this low field
-scanner, in the beginning the goal was to keep people open sourcing
+technologies for other field strengths, very specific things which
+cannot be applied to the low field scanner. Now, we have this low field
+scanner. In the beginning the goal was to keep people open sourcing
 their stuff. Now we can bring some of these modules together and have
-enough of this modules to make a whole system. The next step is to have
-one system with communicating and improvement around it. Besides will be
-people in this community that have other interests and outside of this
-low-field system which is completely fine. It gives value and benefits.
+enough of these modules to make a whole system. The next step is to have
+one system with communicating and improvement around it. Besides, we will have
+people in this community who have other interests (outside of this
+low-field system) and this is completely fine. It gives value and benefits.
 In the lab setting we cannot reproduce a 1.5 or 3 Tesla MRI scanner
 where you need superconductors for the magnet. That's not realistic. The
 low-field scanners are a bit smaller. It is something we can do with
@@ -251,14 +251,15 @@ their environment.
 We changed strategies a little bit. We had a different communication
 strategy. We tried to get more people involved. Then it seemed to be to
 much dispersion. We went away from that. One example, we have a Slack
-channel with like 300 people. In the beginning we used this, but we
+channel with about 300 people. In the beginning we used this, but we
 figured out that we just need one system to work around. We started to
 get back from that. The community was not inactive just the Slack
-channel communication. We started to focus on getting this one system up
+channel communication did not work.
+We started to focus on getting this one system up
 and running. Now we will work around this system, it will make sense to
 have something with a wider community again. The goals were pretty clear
 and the details, but not how to fulfill them, this is in progress. You
-learn and always get pieces of puzzles. The strategy changes to see what
+learn and always get pieces of the puzzle. The strategy changes to see what
 works because there are no real blueprints for such complex open source
 projects.
 {{< /expand >}}
@@ -270,9 +271,9 @@ projects.
 > Please describe the system and roughly the subsystems.
 
 {{< expand "Show answer">}}  
-I would define a product as something useful to the research community
-because we don't have a clinical system yet. In Europe a clinical system
-requires certification which can only be done by a company that has
+I would define a product as something useful to the research community,
+because we don't have a clinical system yet. In Europe, a clinical system
+requires certification, which can only be done by a company that has
 certified production facilities. That is a piece of hardware which is
 helping someone in whatever task. If you just look at open source
 imaging, there are a lot of different hardware pieces. It can be small
@@ -295,8 +296,8 @@ pretty much reproduce this components. That's the big advantage.
 If it was a product you could buy the low field system. It's a machine
 itself which you put something in and you make an image.
 
-Of course it isn't certified. You couldn't make a human image at least
-not in Europe but you could make images of other objects. You could take
+Of course it isn't certified. You couldn't make a human image (at least
+not in Europe), but you could make images of other objects. You could take
 it apart and purchase it in modules. In principle, you could buy the RF
 power amplifier components. You don't necessarily need to use it for
 MRI, maybe for different applications where you need power amplification
@@ -339,7 +340,7 @@ the cloud. Compared to local hardware you could use an exchange. In
 terms of image post processing the results in the cloud have
 segmentation, you have other clinically relevant algorithms that fetches
 some information from the images that you acquired and present you
-clinically relevant and research wise results. This you could exchange
+clinically relevant and research wise results. This, you could exchange
 with the community. There are different ways that a cloud based system
 around these open source devices would be very interesting, similar to
 comparing different AI algorithms and solutions on your data.
@@ -361,7 +362,7 @@ this is not 100% there yet. {{< /expand >}}
 
 {{< expand "Show answer">}}  
 Primarily at this stage are research institutions. There will be
-transition to commercial entities. Both isn't limited to a few regions
+transition to commercial entities. Both isn't limited to any regions
 in the world.
 {{< /expand >}}
 
@@ -450,7 +451,7 @@ moment.
 {{< expand "Show answer">}}  
 Apart from the standard documentation, how to rebuild, the whole
 development process depends on the project. Some have it, most don't
-have it. It's a lot of extra effort. Thinking it from from a research
+have it. It's a lot of extra effort. Thinking it from a research
 perspective I'm mostly interested in papers. I need to make a paper and
 the paper is unfortunately not the whole documentation of the failures.
 It's mostly the positive results. We are happy at this stage if together
@@ -503,11 +504,10 @@ have less documentation.
 {{< /expand >}}
 
 {{< card2 "Major issues">}}
-People are not used to work openly. People only share  when it’s perfect enough.
+People are not used to work openly. People only share when it’s "perfect enough". They want to publish something when it’s done, when you have new results using the hardware.
 
-ou want to publish something when it’s done. When you have new results. If you do it on the way, you risk someone taking over. You wait until you’re done. Then you present the last results.
-
-This documentation part is a lot of extra work, it’s optional. You need resources for that.
+This documentation part is a lot of extra work, it’s optional. You need resources for that. And it is difficult to keep
+the documentation updated.
 {{< /card2 >}}
 
 > Why has there not been published any other output?
@@ -536,10 +536,8 @@ still difficult to share.
 {{< /expand >}}
 
 {{< card2 "Successes and Failures">}}
- If I go anywhere and have this open source project there is no discussions around who has which interests.
- This is the huge advantage of open source way of doing it because it makes it much easier. And it’s much more fun.
- 
- I get much faster the information I need.
+ If I go anywhere and show this open source project, there is no discussions around who has which interests.
+ This is the huge advantage of open source way of doing it, because it makes it much easier and fun. I get much faster the information I need.
  
  If we can manage to not close it down, I think the potential impact is much higher than just getting this specific system to some patients. From the immediate impact it’s less. But long term is the way to go.
  
@@ -576,9 +574,10 @@ have to rebuild before actually making the next step. That's very
 inefficient.
 {{< /expand >}}
 
--   I would erase this part, the question was not understood\*
-
-    > Would you say today it's possible to reproduce and modify the
+> [name=Julien Colomb]I would erase the following part, the question was not understood\*
+> 
+  
+  > Would you say today it's possible to reproduce and modify the
     > product with the published information?
 
 {{< expand "Show answer">}}  
@@ -603,13 +602,13 @@ of current commercial products, I remember that some commercial products
 came actually with electronic schematics. There was a manual and a
 schematics plan that you could repair or modify some of these components
 for example radios or radio amplifiers. We've been there. Now it gets
-more secret in a way you cannot repair many of the things. This is a
+more secret in a way you cannot repair any of the things. This is a
 negative trend. One way is to keep it like that and just force the
 companies. Like in the automobile industry where you have a huge
 ecosystem that depends on being able to repair the cars. It's much
 simpler with mechanical parts because you know even if you don't have
 the information how it works. With electronics that is connected to some
-software which is hidden that makes it very difficult.
+software (which is hidden) that makes it very difficult.
 {{< /expand >}}
 
 > Do you want to encourage that or even force that?
@@ -654,7 +653,7 @@ different people doing it like that. It's the significant resource.
 I think it's from the idea of it, it's a very natural and convincing to
 do. People are working on their own projects anyway. The only difference
 is, can you actually share what you've been doing. You don't need to
-convince to do technology or develope this. It's like you're developing
+convince to do technology or develop this. It's like you're developing
 it and asked to share your your files because then other can use them
 and work together on something bigger than on your project. You will
 have more impact because others will see more what you have been doing.
@@ -685,7 +684,7 @@ communication.
 It's not a sprint, it's a marathon. We use multiple communication
 channels. Whatever works. We have meetings and talk about things.
 
-We think it's important to keep it enjoyable and to not have to strict
+We think it's important to keep it enjoyable and to not have too strict
 milestones. {{< /card2 >}}
 
 > How do you coordinate the work between the members?
@@ -707,8 +706,8 @@ conviction, the stress feels differently.
 
 {{< expand "Show answer">}}  
 The most significant part is to have a good feeling about it. Similar
-like, why people do charity or help others? I think you feel you
-participating in doing something or doing it the right way. If you work
+like, why people do charity or help others. I think you feel you
+are participating in doing something the right way. If you work
 on something you love, it's much better than you work for something to
 give you money, just to make you survive and for other reasons that you
 try to exchange for some happiness in different ways. It's in a way all
@@ -734,7 +733,8 @@ two things. One is you can focus on the patient aspect. Where you fokus
 on how can I most effectively and in my time get these systems to
 patients. This is very beneficial. Maybe a closed approach would make
 sense. It's the classical approach people go who are very much driven by
-values. It's very legitimate. The other focus is the chance of making a
+values. It's very legitimate. 
+The other focus is the chance of making a
 point and to change how it's currently done. It's difficult to decide
 for one route because if we make an open source device which is maybe
 commercially failing for other reasons, we can still make a point that
