@@ -97,17 +97,17 @@ system not in its completeness yet.
 
 {{< card2 "Project process">}}
 
-There are two parts in this project. One is around the website and the community
-efforts, the other one is actually the development of hardware (and
-software).
+We worked initially in different working groups on different components
+or different modules of the system. Currently, this is all coming
+together into one scanner.
 
-Overall we have more than hundred people involved, but there is no fixed,
-structured hierarchy.
+Overall we have more than hundred people involved, but there is no
+fixed, structured hierarchy.
 
-Initially, the communication was not very effective, because
-everyone had different interests. But with the low-field scanners (which can be built with moderate funding), we
-can have more precise goals around one system, with a larger group of
-people. 
+Initially, the communication was not very effective, because everyone
+had different interests. But with the low-field scanners (which can be
+built with moderate funding), we can have more precise goals around one
+system, with a larger group of people.
 
 {{< /card2 >}}
 
@@ -166,6 +166,10 @@ We had no public funding, we only had very small grants that helped us
 to make some videos and a bit of content for the websites in the beginning.
 {{< /expand >}}
 
+
+{{< card2 "Hardware importance">}}
+There are two parts in this project. One is around the website and the community efforts, the other one is actually the development of hardware (and software).{{< /card2 >}}
+
 > Can you describe to us the overall process and how the project is
 > organized?
 
@@ -191,10 +195,10 @@ organization is based on the labs.
 There are a lot of on and off experts. Overall we have more than hundred
 people involved, but it's not a fixed, structured hierarchy. Decision is
 made by a discussion and besides there are also some individual efforts
-to promote things. {{< /expand >}}
+to promote things.{{< /expand >}}
+
 
 {{< card2 "Project start" >}}
-
 The motivation was to change the market behavior to prevent
 monopolization of MRI scanners, by open sourcing our work.
 
@@ -245,6 +249,8 @@ funding pot for this project. Everyone has to make it work from within
 their environment.
 {{< /expand >}}
 
+{{< card2 "Decision making">}} Decision is made by a discussion and besides there are also some individual efforts to promote things.{{< /card2 >}}
+
 > You changed your requirements to resolve some of these issues?
 
 {{< expand "Show answer">}}  
@@ -264,7 +270,13 @@ works because there are no real blueprints for such complex open source
 projects.
 {{< /expand >}}
 
-# the Hardware
+## The Hardware
+
+{{< card2 "Hardware component">}}
+If you just look at open source
+imaging, there are a lot of different hardware pieces. It can be small
+things like a phantom to scan or a piece of hardware that is used to
+very specific MRI related tasks. {{< /card2 >}}
 
 > What hardware products have you developed as part of the product? We
 > mean physical objects. They wouldn't have to end up in a clinic.
@@ -574,10 +586,11 @@ have to rebuild before actually making the next step. That's very
 inefficient.
 {{< /expand >}}
 
-> [name=Julien Colomb]I would erase the following part, the question was not understood\*
-> 
-  
-  > Would you say today it's possible to reproduce and modify the
+> \[name=Julien Colomb\]I would erase the following part, the question
+> was not understood\*
+
+> Would you say today it's possible to reproduce and modify the
+
     > product with the published information?
 
 {{< expand "Show answer">}}  
