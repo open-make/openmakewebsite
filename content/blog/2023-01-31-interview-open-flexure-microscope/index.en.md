@@ -6,7 +6,7 @@ author:
 date: '2023-01-01'
 slug: interview-open-flexure
 categories: [interview]
-banner: img/banners/flexure.jpg
+banner: img/banners/openflexure.png
 tags:
   - technology
   - open hardware
@@ -44,10 +44,11 @@ distributed under a CC-BY 4.0 licence.*
 
 The OpenFlexure project makes high precision mechanical positioning
 available to anyone with a 3D printer - for use in microscopes,
-micromanipulators, and more.
+micromanipulators, and more. 
+Its biggest priority at the moment is a collaborative project between the Universities of Bath and Cambridge (UK), Ifakara Health Institute (Bagamoyo, Tanzania), and Bongo Tech & Research Labs (Bagamoyo, Tanzania).
 
-Its core developement has been mainly organised by Julian Stirling in
-the UK, in cooperation with a group in Tanzania.
+Julian Stirling has been a postdoc organizing its core development since the start, when he was working in the university of Bath in
+the UK.
 
 {{< card "The open flexure microscope in a nutshell">}}
 
@@ -55,7 +56,8 @@ the UK, in cooperation with a group in Tanzania.
 
 *image of a built microscope*
 
-Project start: 2016 Core development team size: 3-5
+Project start: 2016
+Core development team size: 3-5
 
 ### Hardware products
 
