@@ -34,6 +34,8 @@ distributed under a CC-BY 4.0 licence.*
 >
 > Transcription and editing: Diana Paola Americano Guerrero, Robert
 > Mies, Moritz Maxeiner & Julien Colomb
+>
+> Banner image: derived from an icon from the Gathering for Open Hardware Community (CC-BY) and photo from Julian Stirling.
 
 <img src="images/screenshot.png" alt="Screenshot of the interview." width="60%"/>
 
@@ -52,7 +54,7 @@ UK, in cooperation with a group in Tanzania.
 
 <img src="https://openflexure.org/assets/ofm-photos/ofm_6.1.5_wide.jpg" width="100%">
 
-*image of a built microscope*
+*Image of a built microscope, by Samuel McDermott, CC-BY-SA 4.0*
 
 -   Project start: 2016
 -   Core development team size: 3-5
