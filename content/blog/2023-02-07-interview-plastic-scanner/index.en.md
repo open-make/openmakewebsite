@@ -39,9 +39,13 @@ tags:
 
 *Screenshot of the interview.*
 
+The plastic scanner will be a device that can identify the most common types of plastic, in order to make plastic recycling simpler, more accessible, and more viable! All in an open source way. 
+
+Jerry de Vos developped a first prototype during his master thesis, and its development continues at the TU Delft.
+
 {{< card  "The Plastic scanner in a nutshell">}}
 
-![Plastic scanner photo](images/scanner.png) 
+<img src="images/scanner.png" width="100%" alt="photo of a plastic scanner prototype">
 
 *Photos of the plastic scanner, screenshot of video from Jerry de Vos.*
 
@@ -51,17 +55,17 @@ tags:
 
 ### Hardware products
 
-The plastic scanner is an infrared specterometer. If you do a scan of an object in plastic, it gives you a graph which will change depending on the type of plastic. By comparing the spectrum to known values, you can hopefully tell what type of plastic it is.
+The plastic scanner is an infrared spectrometer. If you do a scan of an object in plastic, it gives you a graph, which will change depending on the type of plastic. By comparing this spectrum to known values, you can hopefully tell what type of plastic it is.
 
-At the moment, it's a printed circuit board, an Arduino Uno that's connected to the computer and a sensor area. In that we have schematics of all of the different components and how they're connected together. Further we have firmware and software.
+At the moment, it's a printed circuit board, an Arduino Uno that is connected to the computer and a sensor area. We have schematics of all the different components and how they're connected together. Further, we have firmware and software.
 
 ### Hardware maturity
-Prototype stage. There is always the uncertainty if and how well it will work. We're at a point to not change much on the PCV itself anymore. It  can be a difference if we build housing instead of a spacer, or divider between the sensor and LEDs depending on the size. If we change that, properties would change again. There's a lot of dependencies on hardware, PCV and software which are all dependent on each other and firmware settings.
+Prototype stage. There is always the uncertainty if and how well it will work. We're at a point where we will not change much on the PCV itself anymore. We are still designing the housing (or using a spacer, or divider between the sensor and LEDs). If we change it, properties could change. There's a lot of dependencies on hardware, firmware settings, PCV and software, which are all dependent on each other.
 
 
 
 ### Rebuilds
-I think at that point, people will hopefully hack it or adjust it to their needs. There's one guy in Shanghai who wants to replicate it and we agreed that we would cover all of the material cost and  support him as much as we can.
+I think at that point, people will hopefully hack it, or adjust it to their needs. There's one guy in Shanghai who wants to replicate it and we agreed that we would cover all of the material cost and support him as much as we can.
 
 {{< /card >}}
 
@@ -223,6 +227,7 @@ We always need to find a balance between high tech, nice solution and low tech e
 {{< /card2 >}}
 
 
+## Participants
 
 {{< card2 "Core team and community">}} 
 Since I work at the TU Delft, I don't pay myself for the project. Joga gets paid by the hours that he actually spent on the different tasks. 
