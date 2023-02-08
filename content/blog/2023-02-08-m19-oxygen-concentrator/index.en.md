@@ -45,20 +45,30 @@ tags:
 
 *Photos of the M19 Oxygen Concentrator *
 
-- Main website: 
-- Project start: 
-- Core development team size: 
+- Main website: https://makersasylum.com/m19o2/
+- Project start: 2020
+- Core development team size: 10-15
 
 ### Hardware products
+It's an oxygen concentrator that gives you about 15 liters per minute, the oxygen is at 90 plus percent efficiency or purity.  We were able to look at a few issues and work on issues around humidity and tropicalisation of the concentrators.
 
 ### Hardware maturity
-
+Version one was a high flow rate oxygen concentrator, the second was completely open. The third was made using locally available parts.
 ### Rebuilds
+Many other organizations were able to take our design and go to market with it.
 
 
 {{< /card >}}
 
+## The project
 
+{{< card2 "Project start">}} 
+The oxygen concentrator project started in the second wave of the pandemic.
+We decided to do two things. One was build them, understand how they work and share that knowledge. At the same time, we "tropicalised" them.
+We involved a lot of communities across the country.
+
+Then we went through the certification process of output and input. We didn't go through the full medical use certification but we went for validating our input and output. We  know exactly what's coming out of it and what's going into it.
+{{< /card2 >}}
 > How did it all started with the M19 Oxygen Concentrator?
 
 {{< expand "Show answer">}}  
@@ -69,6 +79,10 @@ The oxygen concentrator project started in the second wave of the pandemic. Init
 
 {{< expand "Show answer">}}  
 One core benefit was that we were able to increase the output to 15 liters per minute above 90 percent (humidity or purity?). Another benefit was  to find alternative power sources and we  are still looking for more. Further we looked at humidity. We were able to add moisture separators and a few other things to the device to increase the lifespan of the zeolites in humid conditions. {{< /expand >}}
+
+{{< card2 "Funding">}} 
+We received a bunch of small grants, from various organizations. The largest donor was Schmidt Futures which is a rich man's foundation. We received it from the European Union and Cambridge University. Besides we raised some crowdfunding money.
+{{< /card2 >}}
 
 > How’s the project funded? How much overall budget did you receive?
 
@@ -88,12 +102,26 @@ We worked with the University of Cambridge professors who were spending their ti
 In most of these calls and videos we automate update videos. At the website of  Maker's Asylum M19 initiative you can go to the M19 O2 project to see multiple videos of the different stages of the project. We have  four or five videos talking about the philosophy and similar things.
 {{< /expand >}}
 
+{{< card2 "Project process">}} 
+We worked with the University of Cambridge professors and the open community of hardware enthusiasts in India and with smaller organizations. We used to have calls every night.
+
+We divided ourselves in smaller groups. The tech team used to have calls a different time than the management team.
+
+Having this kind of network helped everyone trying to make a difference.
+{{< /card2 >}}
+
 > How did you organize the entire process?
 
 
 {{< expand "Show answer">}}  
 We were using telegram as the main source of communication. Apart from that, we had regular calls daily or at least two times per week. We divided ourselves in smaller groups, eventually when folks became bigger. The tech team used to have calls a different time and management team would have calls at a different time. 
 {{< /expand >}}
+
+{{< card2 "Major issues">}} 
+We had a lot of technical issuesn and consistency amongst other labs:it was an issue in terms of getting the same parts.
+
+We had a bunch of issues primarily on the supply chain side because we don't manufacture some of these things in India. 
+{{< /card2 >}}
 
 > On the project level, what major bottlenecks have you come across? How did you resolve them?
 
@@ -107,17 +135,36 @@ We had a lot of technical issues. Over four or five weeks we were able to fully 
 We couldn't because you can't start manufacturing zeolite as a country overnight but eventually it caught up. Now  it's available everywhere. There are few Indian organizations coming up doing things in that space.
 {{< /expand >}}
 
+{{< card2 "Decision making">}} 
+There were three of us who were making certain decisions. We were listening to everyone. But it was important to move fast.
+{{< /card2 >}}
+
+
+
 > How were decisions made within the project?
 
 {{< expand "Show answer">}}  
 It was pretty democratic for most of the way to be able to move quick. At that time, it was important to be able to move quick. Internally, there were three of us that were making certain decisions. We were listening to everyone. But it was important to move faster. The guys leading the project were taking massive decisions and listening to everyone and moving forward. 
 {{< /expand >}}
 
+{{< card2 "Hardware importance">}} 
+
+Almost about 150 organizations were able to join up for M19 collective. We build an oxygen concentrator. We were able to build on top of it and do a lot of service in terms of repairing. 
+
+We were trying to figure out how do we create a system where we are able to make it easier for folks to certify hardware for medical use. I think it's a work in progress always.
+{{< /card2 >}}
+
+## The Hardware
+
 > What was the hardware product exactly that you have developed?
 
 {{< expand "Show answer">}}  
 It's an oxygen concentrator that gives you about 15 liters per minute, the oxygen is at 90 plus percent efficiency or purity. This is pretty standard now. But one was a high flow rate oxygen concentrator, the second was completely open. The third was made using locally available parts in India and without anything that was not available at that time. We were able to look at a few issues and work on issues around humidity and tropicalisation of the concentrators. We realized when we opened up a lot of concentrators coming from outside of India that they had physical damage as well. 
 {{< /expand >}}
+
+{{< card2 "Hardware components">}} 
+Mechanically, we have to create the entire structure and to assemble all the parts. Electronically, we designed our own PCBs. One of the labs/teams was able to design a software to calibrate the machine because one of the issues was timing and calibration.
+{{< /card2 >}}
 
 > How would you classify the product in terms of mechanical, electrical or software components?
 
@@ -138,6 +185,13 @@ We use premade chips on a PCB to connect them all together.
 The software for the  prototype is complete. Many other organizations were able to take our design and go to market with it. 30 organizations were able to recreate the same in their patients. Some of them created bulk orders of the same and manufactured it. I don't know  if they pass through certification or not because getting the full oxygen concentrator certification should have taken longer. But they were selling under recreational use or something like that, like the Chinese one.
 {{< /expand >}}
 
+{{< card2 "Local production">}} 
+30 organizations were able to recreate the same in their patients.
+They were part of the calls and then they did use the designs that were shared by us.
+
+We started using locally available materials to be able to build them.
+{{< /card2 >}}
+
 > Those other entities have independently produced this hardware or did they take instructions from you? Were there any?
 
 {{< expand "Show answer">}}  
@@ -150,12 +204,22 @@ They were part of the calls and then they did use the designs that were shared b
 I'm sure there are, I know one or two at least but there will be more. If you put it out in the open source domain, that happens.
 {{< /expand >}}
 
+## Research outputs
+
 > When you started the project, what were the envisioned outputs of the hardware development in terms of publications, prototypes, documentation and learning? 
 
 
 {{< expand "Show answer">}}  
 For us, it was about learning about the process and documenting it and sharing the knowledge. We use that and we are still building programs around how to tell people to fix them and things like that. It’s more on scaling and learning.
 {{< /expand >}}
+
+{{< card2 "Publication strategy">}} 
+Our project is on https://hackday.io and a few other websites, including our own. We still need to write some papers on it, which we are hoping to finish.
+
+We published the repair manual with the European Union on their website.
+
+Instead of writing a paper, we went back into running the rest of our organization and back to work. 
+{{< /card2 >}}
 
 > Have you published the project findings in relation to the hardware?
 
@@ -175,6 +239,12 @@ We published the repair manual with the European Union on their website.
 They're shared the bill of materials, CAD files and assembly instructions on GitHub with all the schematics as well.
 {{< /expand >}}
 
+
+{{< card2 "Academic outputs">}} 
+It's all on GitHub, Hackaday and a few other websites.
+With the European Union, we did a report on repairing EU. That's been published on their website.
+{{< /card2 >}}
+
 > How did you publish the hardware?
 
 {{< expand "Show answer">}}  
@@ -191,7 +261,7 @@ We choose GitHub because we were documenting ourselves on GitHub and since the b
 > Were using those platforms easy or were there any barriers involved?
 
 {{< expand "Show answer">}}  
-No, it was straight forward. 
+No, it was straightforward. 
 {{< /expand >}}
 
 > Why haven’t you published the results in papers?
@@ -219,8 +289,14 @@ The one that we shared is on repairing the EU which was repairing existing oxyge
 We didn't follow up. 
 {{< /expand >}}
 
-> What was successful about the project and what wasn't?
+{{< card2 "Successes and Failures">}} 
+We managed to build the product ! The project grew really fast. We were able to solve a lot of the local issues, and to create it using locally available material (apart from the zeolite). We were able to build services in terms of repairing it in the country as well.
 
+But we didn't manage to find how to scale in medical devices production, while following a certain quality assurance. We were trying to figure out how to create a system where we are able to make it easier for folks to recreate the certification in different phases.
+
+{{< /card2 >}}
+
+> What was successful about the project and what wasn't?
 
 {{< expand "Show answer">}}  
 We managed to build the product. But we still didn't manage to find the answer to how do you scale in medical devices or anything else in a distributed fashion while following a certain QA and QC because the regulatory authorities don't allow certification to be passed on. That's not possible. We learned a lot in the process. If I build a hardware and then you make the same hardware in Berlin or wherever, the same certification would not apply. But are you allowed to redo the certification? We were trying to figure out how do we create a system where we are able to make it easier for folks to recreate in different phases while following a certain QA and QC. We don't have a complete answer. That's why we didn't really get to that part. I would say that we were unsuccessful on more research into it, I know that.
@@ -231,6 +307,17 @@ We managed to build the product. But we still didn't manage to find the answer t
 {{< expand "Show answer">}}  
 Almost about 150 organizations were able to join up for M19 collective which was quite good. That means that a lot of people wanted to participate in open hardware research in India and especially this project, they were all excited about it. It was at the time of the pandemic, that really helped. The project grew really fast. We were able to build the oxygen concentrator within four to five weeks. We were able to solve a lot of the local issues, we were able to create it using locally available material apart from the zeolite. I think we were able to build on top of it and do a lot of service in terms of repairing it in the country as well. We're still doing research over that. I think those are all the successes I would say or the good parts of the project that worked out. The bad side was that we still don't have an answer for what we were looking for. I think it's a work in progress always.
 {{< /expand >}}
+
+## Participants
+
+
+{{< card2 "Core team and community">}} 
+I would say about 10 to 15 in the core team but overall, it have been about 50. 
+
+I would say some technicians, makers, engineers and people from a design background as well. As I mentioned, some have diving backgrounds. Last we have some manufacturers and industrial doctors.
+
+It was a lot of word of mouth because we were working on the project and people were adding other people to it.
+{{< /card2 >}}
 
 > What made you work on this project?
 
@@ -262,11 +349,21 @@ We were just talking about our project. More and more people were reaching out t
 Through  our social media and other organizations we talked about it. It was a lot of word of mouth because we were working on the project and people were adding other people to it. 
 {{< /expand >}}
 
+{{< card2 "Work Coordination">}} 
+We coordinated it over the (daily, or biweekly) calls and over telegram.
+{{< /card2 >}}
+
 > How did you coordinate the work between the members of the project?
 
 {{< expand "Show answer">}}  
 We coordinated it over the calls and over telegram.
 {{< /expand >}}
+
+{{< card2 "Personal gain">}} 
+I think all of us got to learn a lot in terms of the function of devices and how to make it.
+
+There was a lot of media and publicity about it. We were able to raise a few grants during that time.
+{{< /card2 >}}
 
 > How have the members who provided the inputs benefited from the work and the project?
 
@@ -285,6 +382,11 @@ I'm not sure how a lot of folks benefited. Maybe it’s a question we should ask
 {{< expand "Show answer">}}  
 We were able to raise a few grants during that time that helped make this happen. We were able to create a project which was an example of work we can do. Did we make a lot of? I think it was more of a learning experience for us regarding this and we were able to present about it in a few spaces and talk about it. Through our work of the facial chameleon patients it became a documentary. There was a lot of media and publicity about it, especially about the facial whatever we did and not that much about the oxygen concentrator.  Some papers have been written about it.
 {{< /expand >}}
+
+
+
+
+
 
 > What was the actual impact of the project?
 
