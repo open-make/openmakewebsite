@@ -3,10 +3,10 @@ title: "M19 Oxygen Concentrator"
 author: 
   - Open make interview team
   - Vaibhav Chhabra
-date: '2022-10-20'
+date: '2023-02-08'
 slug: interview-oxy-concentrator
 categories: [interview]
-banner: img/banners/WRlogo-original.png
+banner: img/banners/makerasylum.png
 tags:
   - technology
   - open hardware
@@ -41,7 +41,7 @@ tags:
 
 {{< card  "The M19 Oxygen Concentrator in a nutshell">}}
 
-![M19 Oxygen Concentrator equipment](images/...) 
+<img src="https://makersasylum.com/wp-content/uploads/2021/08/221463930_4917624014931052_2275684526650810246_n.jpg" alt="photo of M19 Oxygen Concentrator equipment" width="100%"/>
 
 *Photos of the M19 Oxygen Concentrator *
 
