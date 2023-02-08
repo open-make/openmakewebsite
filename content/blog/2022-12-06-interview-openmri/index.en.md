@@ -68,6 +68,7 @@ rings.](https://www.opensourceimaging.org/wp-content/uploads/open_source_magneti
 magnet elements. The rings are held together using threaded brass rods,
 with nuts and washers acting as spacers between individual rings.*
 
+-    Main website: https://www.opensourceimaging.org
 -   Project start: 2016
 -   Core development team size: 5-6 people
 
@@ -368,6 +369,16 @@ its completeness yet.
 
 Pre-prototypes exist but we want to have a multicenter evaluation and
 this is not 100% there yet. {{< /expand >}}
+
+{{< card2 "Local production">}} 
+Primarily at this stage, production is meant at research institutions. There will be
+transition to commercial entities.
+
+In Europe, a clinical system
+requires certification, which can only be done by a company that has
+certified production facilities. If
+initially it's a cheap device, it will not be cheap on the market.
+{{< /card2 >}}
 
 > When this project continues who will develop it further and by whom?
 > You mentioned centers.
