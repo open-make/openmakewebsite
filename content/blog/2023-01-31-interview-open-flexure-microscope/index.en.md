@@ -41,7 +41,7 @@ distributed under a CC-BY 4.0 licence.*
 
 *Screenshot of the interview.*
 
-# the OpenFlexure microscope
+# The OpenFlexure microscope
 
 The OpenFlexure project makes high precision mechanical positioning
 available to anyone with a 3D printer - for use in microscopes,
@@ -56,6 +56,7 @@ UK, in cooperation with a group in Tanzania.
 
 *Image of a built microscope, by Samuel McDermott, CC-BY-SA 4.0*
 
+-   main website: https://openflexure.org
 -   Project start: 2016
 -   Core development team size: 3-5
 
@@ -91,7 +92,7 @@ not the printed parts, just the fasteners.
 {{< card2 "Project process">}}
 We're very interested in medical microscopy, where to diagnose malaria, you need to look at 100 fields of view with a x100 objective and count the parasites. So it needs to be automated and reproducible.
 
-Rather than looking at how professional metal motorized microscope are made, and building a cheap imitation, the whole thing was designed for being 3d printed from the ground up.
+Rather than looking at how professional metal motorized microscope are made, and building a cheap imitation, the whole thing was designed for being 3D printed from the ground up.
 
 We are now moving on to the stage of improving the software and making it more robust as we get towards production.
 
@@ -101,10 +102,10 @@ The aim has always been around local manufacturing and to be maintainable : it�
 > How did it all start with the OpenFlexure Microscope project?
 
 {{< expand "Show answer">}}
-I joined the OpenFlexure microscope project: it’s building a microscope that’s 3d printed, the optics are not 3d printed, but the rest of the mechanics are.
+I joined the OpenFlexure microscope project: it’s building a microscope that’s 3D printed, the optics are not 3D printed, but the rest of the mechanics are.
 Indeed microscope optics haven’t changed that much, for a very long time. They’re quite standard, the components are very easily available and quite standardized. Whereas the mechanics are very difficult, you’ve got to position the sample, you’ve got to position the objective relative to the sample to sub-micron accuracy. Or at least, in one direction, and you then need to move the sample around very precisely.
 There are different ways to build a stage that is that accurate, but a lot of them involve very expensive machining processes to make very sort of flat ways for dovetails. What we’ve done, or what Richard had done even before I started, was to create a flexure stage, which is a monolithic part that you print in one go. It does the X, Y and Z translations, by bending of plastic.
-Then you’re not limited by the fact that the 3d printer produces sort of very rough surfaces. So rather than looking at how professional metal ones are made, and building a cheap imitation, the whole thing is designed to 3d print from the ground up.
+Then you’re not limited by the fact that the 3D printer produces sort of very rough surfaces. So rather than looking at how professional metal ones are made, and building a cheap imitation, the whole thing is designed to 3D print from the ground up.
 There are a lot of projects, which do open microscopy. But a lot of them might fall into the category of “cool tools”: you can stick a thing to your phone or move around this little thingy. These tools can produce really great image, but what the users don’t show you, is the time spent poking it, swearing, getting angry, shifting it around, before they eventually got an image that was worth sharing. And we’re very interested in medical microscopy, where to diagnose malaria, you need to look at 100 fields of view with a x100 objective and count the parasites. You don’t want to be sitting there fighting for every single image. It needs to be really reproducible, so you need a motorized microscope. And we’re now moving on to the stage of improving the software and making it more robust as we get towards production.
 
 The OpenFlexure is a digital microscope. So the computer is obviously not 3D printed, the camera is not 3D printed, the motor drivers are not, the screws are not, but the main custom components are. You take the camera, the objective, some standard motors and then all of the custom mechanical parts are 3D printed. The only exception to that is a couple of electronics parts that are custom.
@@ -120,8 +121,8 @@ The project started as a hobby project for Richard. We got a research project wh
 > So could you describe a little bit the overall process to us?
 
 {{< expand "Show answer">}}
-It started probably about five or six years ago. The project started as a hobby project for Richard on a Friday that somebody showed him a 3D printed microscope and he wanted to show that he can 3D print more of a microscope. Then he got interested after talking to some people about water testing, and whether it would be useful if you could actually make a microscope in countries where access to microscopy is hard. We got a research project which is how I became employed just over four years ago. 
-Also on that research project, there was some sort of wider team around some other low cost instruments, but the main OpenFlexure team was me and Richard and a group in Tanzania. We've been very much interested in building it locally in Tanzania and it's not just about building it,  it's about being able to make the parts and service themselves. Because one of the biggest problems, if you look at medical devices in Africa, is that about 70% of them are non-functioning because people can't get spare parts and company certified technicians to fix them. So the aim has always been around local manufacturing and to be maintainable. There were three people from Tanzania working on the project which finished a couple of years ago. We are still in contact with them and they're still working on the microscope, it's maybe not their main focus because they don't have so much funding. For example, I talked to Paul this morning, we're still very much in contact. We also have two PhD students in the group in Bath, though only one is focused on the microscope. We've had other postdocs in the past and we had a technician. But as always with academic projects it sort of grows and shrinks based on based on grants, but they're still very active.  Richard used to be in Cambridge when he started it.  We've got different versions of the microscope, one which we call the Delta stage which is largely developed by Sam in Cambridge who's a postdoc and the malaria research grant where we're looking at how we use the microscope. We're doing a lot of that with the Ifakara Health Institute in Tanzania. Besides there are some other people in Cambridge on the project that pays Sam. It's always hard to work out who is in the core team and who is peripherally involved. We've got some other collaborators in Peru who are using it and feeding back information. Daniel Rosen is a pathologist in America who is very interested in the microscope. While they've never been on a grant that's funded by us, they're definitely some of our core community that feed back into the project. It's very hard to estimate how big the project is; where is the cutoff is between a community member and the core project team?
+It started probably about five or six years ago. The project started as a hobby project for Richard on a Friday when somebody showed him a 3D printed microscope and he wanted to show that he can 3D print more of a microscope. Then he got interested after talking to some people about water testing, and whether it would be useful, if you could actually make a microscope in countries where access to microscopy is hard. We got a research project which is how I became employed just over four years ago. 
+Also on that research project, there was some sort of wider team around some other low cost instruments, but the main OpenFlexure team was me and Richard and a group in Tanzania. We've been very much interested in building it locally in Tanzania and it's not just about building it,  it's about being able to make the parts and service themselves. Because one of the biggest problems, if you look at medical devices in Africa, is that about 70% of them are non-functioning because people can't get spare parts and company certified technicians to fix them. So the aim has always been around local manufacturing and to be maintainable. There were three people from Tanzania working on the project which finished a couple of years ago. We are still in contact with them and they're still working on the microscope, it's maybe not their main focus because they don't have so much funding. For example, I talked to Paul this morning, we're still very much in contact. We also have two PhD students in the group in Bath, though only one is focused on the microscope. We've had other postdocs in the past and we had a technician. But as always with academic projects it sort of grows and shrinks based on based on grants, but they're still very active.  Richard used to be in Cambridge when he started it.  We've got different versions of the microscope, one which we call the Delta stage which is largely developed by Sam in Cambridge who's a postdoc and the malaria research grant where we're looking at how we use the microscope. We're doing a lot of that with the Ifakara Health Institute in Tanzania. Besides there are some other people in Cambridge on the project that pays Sam. It's always hard to work out who is in the core team and who is peripherally involved. We've got some other collaborators in Peru who are using it and feeding back information. Daniel Rosen is a pathologist in America who is very interested in the microscope. While they've never been on a grant that's funded by us, they're definitely some of our core community that feed back into the project. It's very hard to estimate how big the project is; where the cutoff is between a community member and the core project team?
 {{< /expand >}}
 
 {{< card2 "Funding">}} 
@@ -136,9 +137,9 @@ It’s generally been government funding. We’ve looked at a few smaller charit
 > said it was done three years ago? Is the project finished, then?
 
 {{< expand "Show answer">}}
-I joined just over four years ago, we probably finished that specific project about two years ago. But then we had the malaria project, which was using the microscope for malaria diagnosis, which finished later than that. And there have been a series of different grants, which may not such big grants, but for instance, one was from the university to try and translate research into impact. The size of the team varies, but we've always had enough funding, therefore at least I haven't become unemployed yet.
+I joined just over four years ago, we probably finished that specific project about two years ago. But then we had the malaria project, which was using the microscope for malaria diagnosis, which finished later than that. And there have been a series of different grants, which may not be such big grants, but for instance, one was from the university to try and translate research into impact. The size of the team varies, but we've always had enough funding, therefore at least I haven't become unemployed yet.
 
-We've kept the project going through lots of smaller grants and other peripheral funding. I mean, my main focus is the microscope. But, for instance, a lot of my time is spent is developing a program for writing our documentation. Since we had lots of different versions of the microscope, the microscope setup differs in variations or configurations, you have the low cost one, the high cost one, you can modify it for fluorescence or to be an upright microscope. We trying to keep all of those different types of documentation in line and consistent. You end up having either one giant document which reads like a computer program: "If you're doing this, then this, else do this." It becomes impossible for anyone to follow. Or you end up with lots of independent documents which are each differently out of date. Therefore we've ended up writing our own program for managing the different configurations. A lot of my time has been writing tools for better documentation; the tool is designed for this project, but we hope to be more generally useful for other people as well.
+We've kept the project going through lots of smaller grants and other peripheral funding. I mean, my main focus is the microscope. But, for instance, a lot of my time is spent in developing a program for writing our documentation. Since we had lots of different versions of the microscope, the microscope setup differs in variations or configurations, you have the low cost one, the high cost one, you can modify it for fluorescence or to be an upright microscope. We trying to keep all of those different types of documentation in line and consistent. You end up having either one giant document which reads like a computer program: "If you're doing this, then this, else do this." It becomes impossible for anyone to follow. Or you end up with lots of independent documents which are each differently out of date. Therefore we've ended up writing our own program for managing the different configurations. A lot of my time has been writing tools for better documentation; the tool is designed for this project, but we hope to be more generally useful for other people as well.
 {{< /expand >}}
 
 {{< card2 "Hardware importance">}}
@@ -153,7 +154,7 @@ malaria project, which was using (and modifying) the microscope.
 > entities like GOSH or where do these grants generally come from?
 
 {{< expand "Show answer">}}
-Our first couple of big grants were from something called the Global Challenges Research Fund (GCRF) which is a UK Government Fund, it was part of the UK's aid budget. It was sort of both the aid budget and the science budget. It was trying to get scientists and engineers in academia, to focus on global challenges that would be aid funding eligible. If you take a charitable view of it, it was a very good way to get new people looking at development projects. You could also take the less charitable view that it was a way to double count the same money in two government budgets. It would have been less rude if they didn't double count the money, but I think it was a good scheme.  That's where a lot of our money came from. Even some of the fund went to universities, who were free to decide how they carry on the impact from these GCRF projects. We got some of these smaller pots of money, where we were only competing inside the university, but if you trace the money back it was  still funded by the the government. I can never quite remember what project I'm employed on, we have so many small grants. But generally, the impact grants are smaller ones, anyone that got funding from UKRI (the government agency that gave us the GCRF money) can apply for this impact grant. So, yes, our funding has generally been government funding, we've looked at a few smaller charitable grants, but it's very hard to make charitable grants work inside the university. At universities it costs a lot to employ someone, they charge all sorts of extra costs. If start telling a charity: "Hey, here's what we want to do.", and then when you calculate cost of doing it is always too high by the time you're paying somebody to do it in a university. That is the reason we never seem a good value for money. Maybe if we find the right charity scheme it may be different. I suppose that was a long way of saying: we are mostly government funded.
+Our first couple of big grants were from something called the Global Challenges Research Fund (GCRF) which is a UK Government Fund, it was part of the UK's aid budget. It was sort of both the aid budget and the science budget. It was trying to get scientists and engineers in academia, to focus on global challenges that would be aid funding eligible. If you take a charitable view of it, it was a very good way to get new people looking at development projects. You could also take the less charitable view that it was a way to double count the same money in two government budgets. It would have been less rude if they didn't double count the money, but I think it was a good scheme.  That's where a lot of our money came from. Even some of the fund went to universities, who were free to decide how they carry on the impact from these GCRF projects. We got some of these smaller pots of money, where we were only competing inside the university, but if you trace the money back it was still funded by the the government. I can never quite remember what project I'm employed on, we have so many small grants. But generally, the impact grants are smaller ones, anyone that got funding from UKRI (the government agency that gave us the GCRF money) can apply for this impact grant. So, yes, our funding has generally been government funding, we've looked at a few smaller charitable grants, but it's very hard to make charitable grants work inside the university. At universities it costs a lot to employ someone, they charge all sorts of extra costs. If start telling a charity: "Hey, here's what we want to do.", and then when you calculate cost of doing it is always too high by the time you're paying somebody to do it in a university. That is the reason we never seem a good value for money. Maybe if we find the right charity scheme it may be different. I suppose that was a long way of saying: we are mostly government funded.
 
 {{< /expand >}}
 
@@ -169,14 +170,14 @@ Then, as I mentioned, there's a lot of problems with how we do documentation. I 
 > resolve them?
 
 {{< expand "Show answer">}}
-I think one of the big problems is that we just don't have the tooling. Thus we've always done our CAD in OpenSCAD. Partly because physicists tend to program and think in mathematical functions. I'm trained in CAD. I used CAD before I got here and found it a bit of an adjustment to use OpenSCAD. But then, being a physicist, I was generally fine with it. It does mean that we get some members of the community which can't contribute because OpenSCAD is hard to learn. It does also mean that people become angry at us that we won't share certain types of files that OpenSCAD won't do. We spend time trying to explain that we're not being secret and hiding the STEP file, it just doesn't exist. OpenSCAD is a "fun" discussion with some members of the community. But the benefit of having used OpenSCAD is that things like GitHub and GitLab that track how your code changes over time, work very well for us. For a really complex project with lots of parts that can have different people working on them simultaneously, you can actually manage your merge requests and conflict management granularly inside Git. This is very hard to do for a graphical CAD unless you've got your proper PLM (Product Lifecycle Management) type program for doing all of the version management. And, you know, having sat in an office with people using SolidWorks vault shouting at each other, because they've locked a file the other one wants to use. You can avoid all of that with openSCAD and Git. But it does mean that the project, if you come to it, as an engineer, without a lot of background in software engineering, it can be quite confusing. We're basically using software engineering processes to manage the hardware design. Then, as I mentioned, there's a lot of problems with how we do documentation. I think documentation is just hard. But finding tools to help manage the design is hard. We need a whole ecosystem for being able to openly share a design, have people track how it changes over time, have people contribute. And of course, people are always upset if you don't want use their favorite CAD tool. So it really is tooling that holds us back each time we move the project through to the next stage. If you progress to having a bigger community, you have to worry more about how you manage that. You move through to having more software and different releases, you have to manage that. More people using it, you need to manage the software releases even better. And then as you get towards people wanting to use a project for production, there's a whole of different levels of complication and tooling that you realize you don't have. I think we're on the bleeding edge of trying to turn something like this into production while keeping it open. It would be very easy to ignore making the process open as you move from publication to production. But, well, that's the end of the open hardware. Trying to keep the entire process open as you move into production, it means that you start inventing and new processes and writing new tools.
+I think one of the big problems is that we just don't have the tooling. Thus we've always done our CAD in OpenSCAD. Partly because physicists tend to program and think in mathematical functions. I'm trained in CAD. I used CAD before I got here and found it a bit of an adjustment to use OpenSCAD. But then, being a physicist, I was generally fine with it. It does mean that we get some members of the community who can't contribute because OpenSCAD is hard to learn. It does also mean that people become angry at us that we won't share certain types of files that OpenSCAD won't do. We spend time trying to explain that we're not being secret and hiding the STEP file, it just doesn't exist. OpenSCAD is a "fun" discussion with some members of the community. But the benefit of having used OpenSCAD is that things like GitHub and GitLab that track how your code changes over time, work very well for us. For a really complex project with lots of parts that can have different people working on them simultaneously, you can actually manage your merge requests and conflict management granularly inside Git. This is very hard to do for a graphical CAD unless you've got your proper PLM (Product Lifecycle Management) type program for doing all of the version management. And, you know, having sat in an office with people using SolidWorks vault shouting at each other, because they've locked a file the other one wants to use. You can avoid all of that with OpenSCAD and Git. But it does mean that the project, if you come to it, as an engineer, without a lot of background in software engineering, it can be quite confusing. We're basically using software engineering processes to manage the hardware design. Then, as I mentioned, there's a lot of problems with how we do documentation. I think documentation is just hard. But finding tools to help manage the design is hard. We need a whole ecosystem for being able to openly share a design, have people track how it changes over time, have people contribute. And of course, people are always upset if you don't want to use their favorite CAD tool. So it really is tooling that holds us back each time we move the project through to the next stage. If you progress to having a bigger community, you have to worry more about how you manage that. You move through to having more software and different releases, you have to manage that. More people using it, you need to manage the software releases even better. And then as you get towards people wanting to use a project for production, there's a whole of different levels of complication and tooling that you realize you don't have. I think we're on the bleeding edge of trying to turn something like this into production while keeping it open. It would be very easy to ignore making the process open as you move from publication to production. But, well, that's the end of the open hardware. Trying to keep the entire process open as you move into production, it means that you start inventing new processes and writing new tools.
 {{< /expand >}}
 
 ## The Hardware
 
 {{< card2 "Hardware components">}} 
 The microscope is mechanical and electrical, in terms of it’s a motorized microscope, it’s digital.
-The mechanical parts of it, there’s quite a few. But most of the mechanics is in one single part, the main body. Then there’s peripherals like, we’ve got some gears and somewhere to mount the illumination and somewhere to mount the objective and a little base.
+The mechanical parts of it, there’s quite a few. But most of the mechanics is in one single part, the main body. Then there’s peripherals like, where we’ve got some gears and somewhere to mount the illumination and somewhere to mount the objective and a little base.
 
 For software we run a client server architecture where on the microscope is a server that deals with all of the interaction with all the different pieces of hardware. That has an API.
 
@@ -194,13 +195,13 @@ the shelf components, it's a lot of the bill of materials cost, but
 there's only a couple of them. It's a Raspberry Pi, Raspberry Pi camera,
 the motor board is custom because it's unipolar motors. It's very hard
 to find a motor board for driving unipolar motors. But they're very
-cheap and easily available; they are the the tiny little round ones that tend to be used in things like air conditioning units to move the fans.
+cheap and easily available; they are the tiny little round ones that tend to be used in things like air conditioning units to move the fans.
 We've got a custom motor driver there, we are trying to get the latest
 version of this out. We've had some issues getting it released as I don't do electronics (or at least not the advanced surface mount stuff). The board was designed by Valerian in Tanzania. We've also got a small illumination circuit board. It turns out that one of the biggest, costs of building a microscope is free hand soldering wires and the LED together as it's actually quite a time consuming process. And of course, time is money in production. Making a custom little board, which is basically a
 constant current driver and a resistor, will save you a lot of money in
-the long run. As forth the mechanical components, there are quite a few. But most
+the long run. As for the mechanical components, there are quite a few. But most
 of the mechanism is in one single part: the main body. Then there are
-peripherals, we've got some gears, somewhere to mount the illumination, somewhere to mount the objective and, a little base.
+peripherals, where we've got some gears, somewhere to mount the illumination, somewhere to mount the objective and, a little base.
 
 Then there is the software. A huge amount of effort went into the
 software. Most of this was done by Joel, a previous postdoc. We
@@ -228,8 +229,8 @@ have you built it or used it? So far, it's been used on every continent,
 including Antarctica. We've got a photo of somebody using it on the ice
 in Antarctica. It's been built in about 40 countries. We also have a user forum with over
 250 people. We don't know if every single one of them has built or used
-the microscope, some people will have joined to ask questions about the project. But the community we know about may tip of the iceberg, we assume there are thousands of microscopes out there,
-but we don't know quite how many. We've see it pop up all over the internet. On Hackaday somebody (that we did not know) had built one and then
+the microscope, some people will have joined but turn off "ask questions". But the community we know about may just be the tip of the iceberg, we assume there are thousands of microscopes out there,
+but we don't know quite how many. We've seen it pop up all over the internet. On Hackaday somebody (that we did not know) had built one and then
 modified it into a laser scanning confocal microscope. So we do know that a
 lot of people can build them, are building them, using them, and
 modifying them.
@@ -240,7 +241,7 @@ modifying them.
 
 {{< expand "Show answer">}}
 Most of its independent. We set up a small company in the UK which is
-selling 3D printed part kits and also kits of nuts and bolts, and the illumination. Fasteners and the plastic illumination lenses as very cheap if you buy in bulk. So the kit we sell is just the number of screws you need, the LED and the lens. It's much more efficient for us to buys a bag of a thousand and divided them up. But I don't know exactly how many we've sold. But I'd guess we've sold some something in the number of 10s of kits. Maybe 50 of the fasteners, probably more like 10-20 of the printed parts kits.
+selling 3D printed part kits and also kits of nuts and bolts, and the illumination. Fasteners and the plastic illumination lenses as very cheap if you buy in bulk. So the kit we sell is just the number of screws you need, the LED and the lens. It's much more efficient for us to buys a bag of a thousand and divide them up. But I don't know exactly how many we've sold. But I'd guess we've sold some something in the number of 10s of kits. Maybe 50 of the fasteners, probably more like 10-20 of the printed parts kits.
 
 So yes, some kits have been sold, but the vast majority are people building their
 own. Lab Maker, a company in Germany, has just started selling the fasteners and illumination kit, but not the printed parts. Interestingly, their
@@ -250,7 +251,7 @@ and other things. We're only just breaking even on what we sell them
 for, which is not sustainable. But we just wanted more people to be able to build a microscope. The price for the fasteners kit is a little unsustainable. I think it just comes down to volume, we don't have a high enough volume.
 I think it will become better if you get to a higher price thing like a
 fully assembled microscope. But there's also things we can learn in
-terms of moving on to full production, because we haven't fully got our process working. When you don't have to spend 10 minutes soldering up each LED before you send out the kit, that's going to make it a lot cheaper. Especially if you're paying graduates in Germany (as Labmaker are) 10 minutes wasted 
+terms of moving on to full production, because we haven't fully got our process working. When you don't have to spend 10 minutes soldering up each LED before you send out the kit, that's going to make it a lot cheaper. Especially if you're paying graduates in Germany (as Labmaker are) that puts the 
 price up.
 {{< /expand >}}
 
@@ -334,8 +335,8 @@ A lot of what we've been doing is thinking about how we can improve our
 processes. We've got an auditable record of all of the design decisions.
 We're never going to plan to be ISO 1345 certified in the university.
 We are working on the best way to transfer the IP. It's
-not IP in terms of protecting the design, but we still need transfer the knowledge out of the
-university. We're very keen for BTech in Tanzania not to be reliant on
+not IP in terms of protecting the design, but we still need  to transfer the knowledge out of the
+university. We're very keen for BTech (https://btech.co.tz/initiatives) in Tanzania not to be reliant on
 us. One thing you could do is you could try and raise a load of
 money here, set up a company that subcontracts BTech in Tanzania to build
 the microscope. Then at least it's built locally, at least there are
@@ -352,7 +353,7 @@ be a medical device foundation. Perhaps that helps to hold some of the
 liability. At least for the design side of it, where you could basically
 be a design house that was ISO 1345 accredited and then transfer the design to manufacturers. Because you need to make sure you provide a good enough dossier of
 how everything works, that whoever is going to be the legal
-manufacturer, can write a good technical file and convince regulator
+manufacturer, can write a good technical file and convince regulators
 that they understand it and can maintain it for the future. We've done a
 lot of thinking about that, we're not fully through deciding how we're
 doing it. But our partners in Tanzania are now registered as medical
@@ -360,7 +361,7 @@ device producers in Tanzania. They've started doing their training. In
 Tanzania you have to register and have your
 premises inspected before you can go to the training for what you're meant
 to do to have your premises set up. It is a very interesting
-situation. But they have now got through that now.
+situation. But they have got through that now.
 
 Once they get to production it will be the first
 in vitro diagnostic device to be built locally in Tanzania. There's a
@@ -439,7 +440,7 @@ want to be open, because that's nice. I want to design a
 ventilator" They went down the route of designing something that will pump
 air. Pumping air is easy, I could connect a relay to my vacuum cleaner and produce something that pumps air periodically, but it's not a medically
 certifiable as a ventilator. We're less facetious in the actual
-paper. It a paper that's interesting and different.
+paper. We published something if we think that's interesting and different.
 
 It is good that we are now actually to the point where we're getting a reasonable
 number of academic papers out. At the start of the project, there were two years after just after I arrived where we didn't get anything out. There had already been the original paper on the microscope, and it's very
@@ -568,7 +569,7 @@ up. Certain times you just put this one YAML file into my repository
 that says run a bash script, and the bash script says, run this program.
 Oh look, it works. Other time, you get frustrating issues such as the
 program uses OpenGL and OpenGL doesn't work in Docker, and you end up
-with complicated, is not necessarily something that seems like it should
+with complications, is not necessarily something that seems like it should
 be complicated. So anyways, our workflow has evolved over time as we've
 needed it. I think if I said to myself, what you need to set up is what
 we have now, it would have sounded impossible. And it would have been
@@ -576,8 +577,10 @@ impossible in many ways. But it's grown organically from: "Oh look,
 there are some easy things you can automate, Oh, can we add this? Oh can
 we add this?"
 
-But, is it possible for another project to replicate the process for
-their own project? And not necessarily the microscope? Yes and No. Some
+>But, is it possible for another project to replicate the process for
+their own project? And not necessarily the microscope? 
+
+Yes and No. Some
 of the jobs are very specific to us and use a lot of custom code. Some
 of them aren't. I think if they were in OpenSCAD, then a lot of the
 build script there are simpler. Our build scripts got complicated
@@ -587,7 +590,7 @@ creates the build script to run in the server and build the
 documentation.
 
 The problem with our workflow at the moment is that it's ad hoc, and
-specific to our project. But that's only because we wrote it ad hoc for
+specific to our project. But that's only because we wrote it ad hoc for our 
 project and writing something with general purpose would be more work.
 But there's nothing inherent that couldn't be generalized. Except we
 don't have the time to sit there and generalize it, especially when
@@ -610,7 +613,7 @@ I think there’s a lot of people who now have microscopes that wouldn’t. Ther
 {{< card2 "Core team and community">}}
 
 It's a reasonably big project, it's not huge, like Linux kernel
-development, but it's big. In total there must be 50 to 100 people sent
+development, but it's big. In total there must be 50 to 100 people who sent
 changes to at least one of the repositories.
 
 About three or four people worked on it full time. More when we had more
@@ -649,7 +652,7 @@ like the documentation project GitBuilding. I wrote a script that pulls
 in each of them and runs the program "Gource" on the combined
 repositories. It creates an animation of little characters adding files
 to the repository, it gives a visual overview of how the project has
-grown. In total there must be 50 to 100 people sent changes to at least
+grown. In total there must be 50 to 100 people who sent changes to at least
 one of the repositories. There're also changes that end up being a fix
 for that old version, it's released somewhere in the project, but if you
 only looked down the master branches, they don't necessarily show up in
@@ -659,7 +662,7 @@ actively a part of the project, even if they didn't change things. Then
 you get out to the size of the community which is about 250 participants
 on our forum specifically for the OpenFlexure microscope. So depending
 on your definition the team is maybe hundreds of people, or you could
-argue it is around 10. It's a reasonably, it's not huge, like Linux
+argue it is around 10. It's a reasonable number, it's not huge, like Linux
 kernel development but it's big. It's big for a hardware project because
 I think it's much harder to contribute to hardware. {{< /expand >}}
 
@@ -687,7 +690,7 @@ one. Here, look at this, I found some cells, they're dividing."
 The community is a broad church. I could not pigeonhole the community
 which I think is a positive sign. Because if you can make it
 understandable to people with a different background, then you are also
-getting all of the advantages from from each technical field.
+getting all of the advantages from each technical field.
 {{< /expand >}}
 
 > How did you find suitable project members with the competences to work
@@ -697,7 +700,7 @@ getting all of the advantages from from each technical field.
 I think the bulk of it is done by people who are employed on the
 research projects. While there are community contributions, most of the
 community contributions are people getting involved in discussions. Some
-people become more collaborators long term.
+people become more long term collaborators.
 
 For those designing it here, whether it's me or Joel (who wrote the
 software), we found the project by a job advert. If you ask someone else
@@ -731,7 +734,7 @@ done a lot of travelling, spent a lot of time looking, not just how I
 build something that works well, but how we think about production. What
 happens with supply chains as you try and move them, as you try and move
 things into Tanzania? Why can't we just get that? Oh, there's no Amazon.
-Oh, things get stuck in the post you need, you need to understand the
+Oh, things get stuck in the post, you need to understand the
 local supply chains. Then there's just huge power imbalances between
 trying to run an academic project between a university that holds all of
 the money and expects to pay people on really slow payment schedule to
@@ -774,9 +777,9 @@ I think. {{< /expand >}}
 {{< expand "Show answer">}}
 Yes, in the wider project which includes different versions of the main
 microscope for the wider OpenFlexure project. We've had a few people
-work on there have been a couple of master's students that did their
+work on there who have been a couple of master's students that did their
 project on the OpenFlexure block stage. We made an OpenFlexure
-interferometer which we had a couple of students on, master students,
+interferometer which we had a couple of master students,
 we've had some doing phase contrast with the microscope. One student did
 a summer project where she created the upright version of the
 microscope. Normally the microscope is an inverted microscope, she had
