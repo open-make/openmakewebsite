@@ -70,14 +70,14 @@ geared stepper motors.
 
 ### Hardware maturity
 
-I'd say, sort of 80 to 90 percent of the way to product ready. In terms
-of performance, its product ready. We're doing clinical evaluations to
-check it's good enough to diagnose malaria.
+The microscope is about 80 to 90 percent of the way to product ready. In terms
+of performance, its product ready. We're now doing clinical evaluations to
+check whether it is good enough to diagnose malaria.
 
 ### Rebuilds
 
 The device has been used and built on every continent, including
-Antarctica and in at least 40 countries. 250 people participated in the
+Antarctica, and in at least 40 countries. 250 people participated in the
 forum, but it is difficult to know how many built the microscope. We
 assume that there are thousands of microscopes out there, but we don't know
 for sure.
