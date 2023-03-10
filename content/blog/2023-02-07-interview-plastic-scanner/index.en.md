@@ -11,61 +11,69 @@ tags:
   - technology
   - open hardware
   - personal story
-
 ---
 
 # Interview: Plastic scanner
 
-
 *by the Open make team, and Jerry de Vos. Copyright to the authors, distributed under a CC-BY 4.0 licence.*
 
-
-
 **Sections:**
-- [The Project](#the-project)
-- [The Hardware](#the-hardware)
-- [The Research outputs](#research-outputs)
-- [The Participants](#participants)
 
-*Banner image: *
+-   [The project](#the-project)
+-   [The hardware](#the-hardware)
+-   [The research outputs](#research-outputs)
+-   [The participants](#participants)
 
->Interviewee: Jerry de Vos (TU Delft)
+*Banner image:*
+
+> Interviewee: Jerry de Vos (TU Delft)
 >
->Interviewers: Robert Mies (TU Berlin) & Moritz Maxeiner (FU Berlin)
+> Interviewers: Robert Mies (TU Berlin) & Moritz Maxeiner (FU Berlin)
 >
->Transcription and editing: Diana Paola Americano Guerrero, Fabio Reh, Robert Mies, Moritz Maxeiner & Julien Colomb
+> Transcription and editing: Diana Paola Americano Guerrero, Fabio Reh, Robert Mies, Moritz Maxeiner & Julien Colomb
 
 <img src="images/screenshot.png" alt="screenshot of the interview" width="60%"/>
 
 *Screenshot of the interview.*
 
-The plastic scanner will be a device that can identify the most common types of plastic, in order to make plastic recycling simpler, more accessible, and more viable! All in an open source way. 
+The plastic scanner will be a device that can identify the most common types of plastic, in order to make plastic recycling simpler, more accessible, and more viable!
+All in an open source way.
 
 Jerry de Vos developed the first prototype during his master thesis, and its development continues at the TU Delft.
 
-{{< card  "The Plastic scanner in a nutshell">}}
+{{< card "The Plastic scanner in a nutshell">}}
 
 <img src="images/scanner.png" width="100%" alt="photo of a plastic scanner prototype">
 
 *Photos of the plastic scanner, screenshot of video from Jerry de Vos.*
 
-- main website: https://plasticscanner.com
-- Project start: 2017
-- Core development team size: 2
+-   Main website: <https://plasticscanner.com>
+-   Project start: 2017
+-   Core development team size: 2
 
 ### Hardware products
 
-The plastic scanner is an infrared spectrometer. If you do a scan of a plastic object, it gives you a graph, which will change depending on the type of plastic. By comparing this spectrum to known values, you can hopefully tell what type of plastic it is.
+The plastic scanner is an infrared spectrometer.
+If you do a scan of a plastic object, it gives you a graph, which will change depending on the type of plastic.
+By comparing this spectrum to known values, you can hopefully tell what type of plastic it is.
 
-At the moment, it's a printed circuit board, an Arduino Uno that is connected to the computer and a sensor area. We have schematics of all the different components and how they're connected together. Further, we have firmware and software.
+At the moment, it's a printed circuit board, an Arduino Uno that is connected to the computer and a sensor area.
+We have schematics of all the different components and how they're connected together.
+Further, we have firmware and software.
 
 ### Hardware maturity
-Prototype stage. There is always the uncertainty of if and how well it will work. We're at a point where we will not change much on the PCV itself anymore. We are still designing the housing (currently using a spacer, or divider between the sensor and LEDs). If we change it, properties could change. There's a lot of dependencies on hardware, firmware settings, PCV and software, which are all dependent on each other.
 
-
+Prototype stage.
+There is always the uncertainty of if and how well it will work.
+We're at a point where we will not change much on the PCV itself anymore.
+We are still designing the housing (currently using a spacer, or divider between the sensor and LEDs).
+If we change it, properties could change.
+There's a lot of dependencies on hardware, firmware settings, PCV and software, which are all dependent on each other.
 
 ### Rebuilds
-I think at that point, people will hopefully hack it, or adjust it to their needs. There's one guy in Shanghai who wants to replicate it and we agreed that we would cover all of the material costs and support him as much as we can.
+
+I think at that point, people will hopefully hack it, or adjust it to their needs.
+There's one guy in Shanghai who wants to replicate it and we agreed that we would cover all of the material costs and support him as much as we can.
 
 {{< /card >}}
 
@@ -77,14 +85,12 @@ The initial seed for starting the plastic scanner project was me helping out at 
 First, I did research on what are the different sorting methods and how are these used around the world in small or large scale, talking to people from the precious plastic community and some other independent recyclers. All of them  have  one form of infrared spectroscopy, I wanted to see if it would be possible to make a DIY version or a simpler version that people either make themselves or have it made at a FabLab or makerspace.
 {{< /card2 >}}
 
-
-
-
-> Do you think the plastic scanner would be an interesting project we could focus on? It would be good to focus on one project you've been involved in closely.
+> Do you think the plastic scanner would be an interesting project we could focus on?
+> It would be good to focus on one project you've been involved in closely.
 
 {{< expand "Show answer">}}
 We can talk about different projects. The fume sensor project is a relatively simple project to talk about. It has  benefits as it's both hardware and electronic software and  we have a collaborative interaction within the Delft open hardware group. But it wasn't a lot of people sitting down together regularly trying to optimize this. It was mostly a project from my side. Since I do a lot of 3D printing and soldering, I have a use for it. With that in mind, maybe it's not the most interesting project, because there wasn't a lot of collaboration. With the plastic scanner, we now got to a point where there is more collaboration and more people are involved. But it's still a lot from our side. 
-{{< /expand >}} 
+{{< /expand >}}
 
 > We would focus on the plastics scanner if you're flexible because it's very spontaneous.
 
@@ -92,9 +98,10 @@ We can talk about different projects. The fume sensor project is a relatively si
 That's fine, let me  get one prototype because it always helps me to talk about it.
 These are the more foreign factor prototypes and the development boards to make it easy to analyze stuff and to have people replicate it in a simpler way. Feel free to shoot questions and  ask as much as you want. It's fully open source.  I don't think any question is inappropriate.
 
-{{< /expand >}} 
+{{< /expand >}}
 
-> Let's start with the project area and afterwards we broach the issue of  product hardware output and participants. How was the project initiated?
+> Let's start with the project area and afterwards we broach the issue of product hardware output and participants.
+> How was the project initiated?
 
 {{< expand "Show answer">}}
 The initial seed for starting the plastic scanner project  was me helping out at precious plastic, another open hardware project. I first saw the challenges in sorting different types of plastic. If you have a random plastic product, sometimes at the bottom there is a triangle that tells you what type of plastic it is. If there is no triangle at the bottom, you can only guess or assume what type of plastic it is. There are other methods of identifying the type of plastic, you have different properties of a material. Some plastics float, some sink. There's the option  to burn pieces of plastic and  based on the smell, the smoke or the color of the flame determine the type of plastic. There  wasn't something simple, not harmful and easy to use to help you sort plastic simple. This was something I found, on one hand, interesting was that there wasn't a way and on the other hand, I felt  tempted to look into this and give it a try.
@@ -121,20 +128,50 @@ Since a few weeks we have a Discord server where people can join for questions i
 
 {{< expand "Show answer">}}
 
-That directed me  towards electronics and finding out about  the working principle of this infrared spectroscopy. While doing so, I found the reremeter project. This is a project by Armin Straller, a German guy who made a discrete infrared circuit boards with the aim to identify types of plastic. This was for his electronics bachelor thesis and he put everything on GitHub. I started to contact him to see what the status  of the project was and if  it would be possible for me to have my thesis be part of  his project, to develop a version two of what he had or to take his input and build upon that. He was  super friendly and eager to help out. Currently, he  is   doing  a Master's  somewhere in Germany and he didn't have  time to maintain or improve the project. That is 
-what he was happy about, somebody would pick it up from there and work  on new versions. 
+That directed me towards electronics and finding out about the working principle of this infrared spectroscopy.
+While doing so, I found the reremeter project.
+This is a project by Armin Straller, a German guy who made a discrete infrared circuit boards with the aim to identify types of plastic.
+This was for his electronics bachelor thesis and he put everything on GitHub.
+I started to contact him to see what the status of the project was and if it would be possible for me to have my thesis be part of his project, to develop a version two of what he had or to take his input and build upon that.
+He was super friendly and eager to help out.
+Currently, he is doing a Master's somewhere in Germany and he didn't have time to maintain or improve the project.
+That is what he was happy about, somebody would pick it up from there and work on new versions.
 
-There were some limitations of the work he did and we addressed this to see if my future prototypes could improve this. From there, I started prototyping and testing a lot of different things. I made some changes, for example, moving to bigger components to be easily hand soldered. It was important for me to ensure that people at FabLab and makerspace with a soldering iron  could replicate this. His products needed to be connected to a computer where it would run a Python script which  gives  an interpretation.  I wanted a fully standalone device without the requirements of internet access because  one  thing  people  I interviewed in the beginning highlighted was to have a device as simple as possible and  with usability at various places  like on the landfill itself. Based on his PCB design, I made a new PCV that you could connect to a Raspberry Pi Zero. 
+There were some limitations of the work he did and we addressed this to see if my future prototypes could improve this.
+From there, I started prototyping and testing a lot of different things.
+I made some changes, for example, moving to bigger components to be easily hand soldered.
+It was important for me to ensure that people at FabLab and makerspace with a soldering iron could replicate this.
+His products needed to be connected to a computer where it would run a Python script which gives an interpretation.
+I wanted a fully standalone device without the requirements of internet access because one thing people I interviewed in the beginning highlighted was to have a device as simple as possible and with usability at various places like on the landfill itself.
+Based on his PCB design, I made a new PCV that you could connect to a Raspberry Pi Zero.
 
-This  does all of the computing and drives a screen which  gives output. That was very close to the final presentation of my thesis. At the end, I had one more visual model which has  a Raspberry Pi inside, a battery charger screen and a PCB where infrared LEDs could be placed. But the functionality wasn't good. The maximum values that I would get from this were a lot different than from earlier prototypes on bigger PCBs. I had one more technical prototype that would show  the functionality. 
+This does all of the computing and drives a screen which gives output.
+That was very close to the final presentation of my thesis.
+At the end, I had one more visual model which has a Raspberry Pi inside, a battery charger screen and a PCB where infrared LEDs could be placed.
+But the functionality wasn't good.
+The maximum values that I would get from this were a lot different than from earlier prototypes on bigger PCBs.
+I had one more technical prototype that would show the functionality.
 
-That was for a bit the end of the project because although I wanted to keep developing the plastic scanner, I had just graduated,  needed to figure out life and find sources of income.  I registered myself as a freelance designer for engineering design projects. I wanted to make more of a longer term plan and set out some fishing lines. Some possible leads that could turn into something. One of them was intensifying the process of embedding. They put a hardware group within the TU Delft. Another thing was submitting the plastic scanner project in the current state to a few design contests. One thing led to another and  suddenly all of these things were realized. In November, two days apart from each other, I was first being employed at TU Delft and won on the plastic scanner project the James Dyson Sustainability Award. Quite a lot of things going on. But what made it super nice is that the James Dyson award came with prize money that I wanted to use to develop the plastic scanner more. That made it possible. Now  half of the week I'm working on the plastic scanner together with some other people and half of the week I'm working to incorporate the Delft open hardware group at the TU Delft. {{< /expand >}}
-
+That was for a bit the end of the project because although I wanted to keep developing the plastic scanner, I had just graduated, needed to figure out life and find sources of income.
+I registered myself as a freelance designer for engineering design projects.
+I wanted to make more of a longer term plan and set out some fishing lines.
+Some possible leads that could turn into something.
+One of them was intensifying the process of embedding.
+They put a hardware group within the TU Delft.
+Another thing was submitting the plastic scanner project in the current state to a few design contests.
+One thing led to another and suddenly all of these things were realized.
+In November, two days apart from each other, I was first being employed at TU Delft and won on the plastic scanner project the James Dyson Sustainability Award.
+Quite a lot of things going on.
+But what made it super nice is that the James Dyson award came with prize money that I wanted to use to develop the plastic scanner more.
+That made it possible.
+Now half of the week I'm working on the plastic scanner together with some other people and half of the week I'm working to incorporate the Delft open hardware group at the TU Delft.
+{{< /expand >}}
 
 {{< card2 "Funding">}} 
 I first work on this project inside my master thesis, then got the James Dyson award came with prize money (35k€) that I wanted to use to develop the plastic scanner.
 {{< /card2 >}}
->How much money was that?
+
+> How much money was that?
 
 {{< expand "Show answer">}}
 This was 35,000 euros. It’s some good money and helpful to start. It's difficult to fully develop a product, commercialize it and do large scale stuff with it. It gets you started with something. I was surprised to see how friendly and relaxed the people from Dyson were. Basically, you get the money and you figure out what to do. They always invite you for events with the option to present or tell a bit about the project if you want to. There's no specific contract or commitment that this money should be used for the plastic scanner or that within a year you should be at a certain stage. It's up to you which is nice. At the beginning of this year I sat down and had to think what to do. In my mind have been  two options. One was keeping the plastic scanner fully open source, try to incorporate more feedback from the community and based on that build a product like the best possible open source plastic scanner.  Another option would be seeing how this product could be in the hands of people that need it as quickly as possible. That would most likely have a bit more of a commercial aspects and a bit more of a larger scale in terms of  manufacturing and optimizing.
@@ -149,10 +186,12 @@ I think at that point, people will hopefully hack it or adjust it to their needs
 {{< /card2 >}}
 
 {{< expand "Show answer">}}
-Companies and institutions just want to have a plastic scanner, something that is already calibrated. There's one other thing which makes it less attractive to make it open source. If people replicate it, they need to buy some very specific infrared LED’s that are pricey as single units.  It’s round 20€ for an LED. If you buy 100 or 500 of them, it's  around a quarter of the price. At the end of the year we might share a prototype and people can source all the components and solder it together. We expect it to have a material cost of around 300€. Besides it could be that we make next year 100 or 500 with a material cost of only 75 euros. Then we could assemble it, calibrate it and ship it. You would end up with maybe 300 euros as a price. This is still something that we're also finding out and finding a way. It's always sort of the case that single unit replication is more expensive. It’s for us now very helpful if people replicate it and see if the documentation is up to what they're looking for. We're very happy that there's interest and it's very useful for people to be able to replicate it. I think at that point, people will hopefully hack it or adjust it to their needs which is something that we wouldn't be able to do if we make hundreds of them. {{< /expand >}}
+Companies and institutions just want to have a plastic scanner, something that is already calibrated. There's one other thing which makes it less attractive to make it open source. If people replicate it, they need to buy some very specific infrared LED’s that are pricey as single units.  It’s round 20€ for an LED. If you buy 100 or 500 of them, it's  around a quarter of the price. At the end of the year we might share a prototype and people can source all the components and solder it together. We expect it to have a material cost of around 300€. Besides it could be that we make next year 100 or 500 with a material cost of only 75 euros. Then we could assemble it, calibrate it and ship it. You would end up with maybe 300 euros as a price. This is still something that we're also finding out and finding a way. It's always sort of the case that single unit replication is more expensive. It’s for us now very helpful if people replicate it and see if the documentation is up to what they're looking for. We're very happy that there's interest and it's very useful for people to be able to replicate it. I think at that point, people will hopefully hack it or adjust it to their needs which is something that we wouldn't be able to do if we make hundreds of them.
+{{< /expand >}}
 
-## The Hardware
-> Have you major issues you came across during the project and  how did you resolve them?
+## The hardware
+
+> Have you major issues you came across during the project and how did you resolve them?
 
 {{< expand "Show answer">}}
 There is always the uncertainty if and how well it will work. We had some good experiments and tests  with mainly different types of plastics in white color. A lot of infrared light would reflect. With different types of colors, we get less and less of a strong signal back. It's more difficult to process and we don't know to what extent  we can optimize that.  At this moment, there's a lot of uncertainty. That's due to a lot of things that are still changing. If we make a change in the hardware like the value of a capacitor or resistor, it changes the measurement value. The light intensity sensor measures in the middle. If that changes, we need to scan all of the plastic samples we have now again and build a model based on that. We're at a point to not change much on the PCV itself anymore. At the end of the month, we're going to build a nice, big example database for people to play around more to do the interpretation.  But it  can be a difference if we build housing instead of a spacer or divider between the sensor and LEDs depending on the size. If we change that, it would change again. There's a lot of dependencies on hardware, PCV and software which are all dependent on each other and firmware settings. {{< /expand >}}
@@ -175,7 +214,8 @@ It’s important  to calibrate it with a piece of  a specific spectral line to m
 {{< expand "Show answer">}}
 There's a guy in Shanghai who wants to help out. But it was slightly difficult to find out some specific things that he could help out with. We figured that the first thing would be is him testing the documentation and seeing if he could replicate it. Unfortunately, for the last two months or something Shanghai has been in quite a heavy lockdown.  At the moment, he was only able to find suppliers online and order some components which was super interesting because he was able to find components for a better price than I could find them. I think because for him Shenzhen is super close by and he can talk Chinese which is super helpful. I think he found the original supplier of the place where I buy the LEDs from. One component he wasn’t able to find and he was able to modify the board itself in KiCad to adjust for the component that he could find. That was nice to see, but we're still waiting for him to replicate the full board. This is interesting for us to see where documentation is lacking and if he gets the same measurement values.
 
-We agreed that we would cover all of the material cost and  support him as much as we can from here in replicating. Besides him there's nobody I know of at this point who has replicated the port itself  in the current version. This is partly because we don't encourage anybody to replicate it. We don't know the current state and quality of the product. We haven't really gone out there and say: „Hey, we have this and please try to make it and replicate it“.  It still needs so some changes. We need more time in finding out what needs to be changed and testing all different possible scenarios. {{< /expand >}}
+We agreed that we would cover all of the material cost and  support him as much as we can from here in replicating. Besides him there's nobody I know of at this point who has replicated the port itself  in the current version. This is partly because we don't encourage anybody to replicate it. We don't know the current state and quality of the product. We haven't really gone out there and say: „Hey, we have this and please try to make it and replicate it“.  It still needs so some changes. We need more time in finding out what needs to be changed and testing all different possible scenarios.
+{{< /expand >}}
 
 {{< card2 "Academic outputs">}} 
 The project for me started out as my Master's thesis and with that came my thesis report. There is a paper that Armin wrote about his first prototype and why it works (I think it was in the process of being published somewhere).
@@ -191,8 +231,8 @@ The project for me started out as my Master's thesis and with that came my thesi
 Initially, I started out on wiki factory. Later, we decided to move away from wiki factory. One of the problems was that it's not possible to download the files without having an account. Then we found  that our project has some very specific needs or we want to be able to customize it. Additional we want to have it future proof. We see that many of  bigger open source projects put more in a specific place. You can see this in Precious Plastic where an  academy hosts information and videos and a GitHub which hosts  the files. Prusa printers has a knowledge base form cell. Both of them have a website for general information and GitHub to store the actual files and to do version control.
 {{< /expand >}}
 
-
-> Why did you choose GitHub? Was it easy to use it or were there any barriers?
+> Why did you choose GitHub?
+> Was it easy to use it or were there any barriers?
 
 {{< expand "Show answer">}}
 We chose GitHub because it's well known and relatively easy to use. In the beginning, I didn't understand anything about GitHub. By watching many videos online about how to use it I got an understanding. The possibility to host our documentation website there and the other guy(Joga?) is more on embedded systems. He is doing a lot of software and firmware. He was very used to Git and GitHub. He made it that all of the files are in on one platform. Even though the hardware files are not ideal for GitHub, it's nice to have everything in  central place. Over time, I have the feeling GitHub is getting better. Now they can show STL files as a 3D model and you can move it around. The PDF viewer of GitHub is a lot better than from Wiki factory. That's why we chose GitHub. {{< /expand >}}
@@ -200,26 +240,26 @@ We chose GitHub because it's well known and relatively easy to use. In the begin
 > Do you think it is possible to reproduce and modify  the plastic scanner from  what you've published, even if you don't have much feedback?
 
 {{< expand "Show answer">}}
-Yes, I think by now we have a good documentation. It's to a point where people are able to reproduce it. If they stumble into problems, there are some simple things they can check  to get it working or to get feedback. We have written instructions like the PCV files which had an easy EDA. Now we move to KiCad because it is more open source and it's easier to see changes between different proposals of people. On the documentation, we don't only provide the GitHub and the KiCad project, we already made an export to Gerber in a zip file which provides a one click order online. Since a few weeks we have a Discord server where people can join for questions if there's something that they don't understand. {{< /expand >}}
+Yes, I think by now we have a good documentation. It's to a point where people are able to reproduce it. If they stumble into problems, there are some simple things they can check  to get it working or to get feedback. We have written instructions like the PCV files which had an easy EDA. Now we move to KiCad because it is more open source and it's easier to see changes between different proposals of people. On the documentation, we don't only provide the GitHub and the KiCad project, we already made an export to Gerber in a zip file which provides a one click order online. Since a few weeks we have a Discord server where people can join for questions if there's something that they don't understand.
+{{< /expand >}}
 
-> Where are things you didn’t publish? Where do you see difficulties?
+> Where are things you didn't publish?
+> Where do you see difficulties?
 
 {{< expand "Show answer">}}
 Things we didn't publish are videos about the build process. In these videos somebody explains how he's making something. This would be very beneficial and much needed for the project itself and what I want to improve or make more publicly available. Further I want  a roadmap or an overview on how to get involved. The other day I found people  from One Army who are building a platform. One Army is the overarching company of precious plastic, a project called „fixing fashion“ and some different communities. All of these have  an open source project and there's documentation about  how to reproduce something and knowledge that people want to share. They first build a precious plastic website, later they thought this would be very useful to have for other projects. It would be useful to have different communities be able to use a template. That's what they're building now and they're testing it with, for example, Project Comp. They have this documentation and different resource research topics. 
 
-In the end, they want to have something that people can fork and adjust to their community. On their GitHub page is a lot of very specific issues or things that need to be fixed with  an explanation. There’re labels and people can earn money by fixing these things. They have full documentation of how it works, and if you want to contribute to the project, they have a monthly developer meeting. It’s much easier for external people to get to understand the project and to hopefully be involved in the project. That is something that the plastic scanner is missing very much at this moment and it's something that we want to improve but  we still are figuring out. It takes a lot of management to define these exact roles, assigning people and talking to people. Most of the time I want to do physical hardware hacking instead of talking to people and explaining the project. {{< /expand >}}
+In the end, they want to have something that people can fork and adjust to their community. On their GitHub page is a lot of very specific issues or things that need to be fixed with  an explanation. There’re labels and people can earn money by fixing these things. They have full documentation of how it works, and if you want to contribute to the project, they have a monthly developer meeting. It’s much easier for external people to get to understand the project and to hopefully be involved in the project. That is something that the plastic scanner is missing very much at this moment and it's something that we want to improve but  we still are figuring out. It takes a lot of management to define these exact roles, assigning people and talking to people. Most of the time I want to do physical hardware hacking instead of talking to people and explaining the project.
+{{< /expand >}}
 
-> At what maturity are the different parts of your hardware? Are the firmware, software and hardware  a prototype, demonstrator or market ready?
+> At what maturity are the different parts of your hardware?
+> Are the firmware, software and hardware a prototype, demonstrator or market ready?
 
 {{< expand "Show answer">}}  
 In general, I think the project is in a prototype stage. We're happy with the electronics. That's frozen now in order to focus more on the firmware, the software and the housing. From these four different particularities the electronics and the PCV are the most developed. Next is the firmware, followed by the software and last is the housing. I expect the PCV to have a few more revisions. The goal is to have  something at the end of the year with that we can encourage people to replicate it. There is a data sheet on the quality of the scanning of the plastic. At the moment, we're with two people and the plan is to expand to four people in the next coming months. {{< /expand >}}
 
 {{< card2 "Successes and Failures">}} 
 It's super interesting to see all of the different people that reach out like companies who want to improve.
-
-
-
-
 {{< /card2 >}}
 
 > What was was successful about this project and what wasn't?
@@ -238,7 +278,6 @@ There's a lot of communication involved, and a lot of waiting for each other.
 We always need to find a balance between high tech, nice solution and low tech easy to implement solutions.
 {{< /card2 >}}
 
-
 ## Participants
 
 {{< card2 "Core team and community">}} 
@@ -247,25 +286,26 @@ Since I work at the TU Delft, I don't pay myself for the project. Joga gets paid
 One guy read it in the newspaper and wanted to help. He has been his whole life into spectroscopy and gave feedback on our design choices.  In one afternoon, people can tell as much as you could learn in years finding out or learning about.
 {{< /card2 >}}
 
-
-> What’s the background and the occupations of the people your working with?
-
+> What's the background and the occupations of the people your working with?
 
 {{< expand "Show answer">}}  
 Currently, Joga helps out. He’s a guy from Slovenia who's studied at the TU Delft and did his Master's in embedded systems. He knows a lot about electronics and programming. We can think of different things on how to develop the project. The only downside is that he needs to go back to Slovenia. We're now looking for new people in the directions of graduating or who were just graduated. In the end, we only have around 35,000 euros. If we want to pay three people full salary for full time, we're going to be bankrupt in a few months. We can give people compensation around 12 to 15 euros per hour and we're looking for people who can help out for two to four days a week. It's not fully lean back and see what happens. It's not a full time job and crazy busy.  We want to find people in Delft who can come over. We have a workspace that can host these people. In general I find it works quite nice for people to be able to talk to each other and see how the plastic scanner itself is developing. It will be good to have  a list of GitHub issues that people can help out remotely. One of the things that helps a lot is using this dummy data when there's not a plastic scanner connected and check that it shows an output graph and if it does the right pre-processing, clean up the data and if the right button show up in the program.
 
-The people we're looking for go towards embedded systems. One person would be for algorithm and clustering the different types of plastic. Another person is ideally one with a physics background that has knowledge about optics.{{< /expand >}}
+The people we're looking for go towards embedded systems. One person would be for algorithm and clustering the different types of plastic. Another person is ideally one with a physics background that has knowledge about optics.
+{{< /expand >}}
 
 > Are you still looking for these persons?
 
 {{< expand "Show answer">}}  
-There is this Dutch company TNO who helps industry. They make satellites and defense stuff but they have a lot of technical high knowledge. They help out sometimes where they can give feedback on, as maybe you can try it with more reflective. Let me give you a bit of insight. There are six scanner boards. There is a ring which is all of the specific wavelength to LEDs and they flash one by one. In the middle is a gas sensor that measures the reflectivity. The idea is to have something around it that all of the light first bounces off the sample. We always need to find a balance between high tech nice solution and low tech easy to implement. For this we probably found a solution which is an easy to apply aluminum tape. Aluminum is great for reflecting infrared light and you can cut it to size. Sometimes we get these feedback from physics people and then we need to find out how to incorporate it. The guy from 70 here was proposing to have a piece of glass fiber and then turning it in a certain angle to make sure that the light was hitting the sample at just the right angle. If we can not do that and and still get decent results, this outweighs the benefits that we would get. It's always a balance.{{< /expand >}}
+There is this Dutch company TNO who helps industry. They make satellites and defense stuff but they have a lot of technical high knowledge. They help out sometimes where they can give feedback on, as maybe you can try it with more reflective. Let me give you a bit of insight. There are six scanner boards. There is a ring which is all of the specific wavelength to LEDs and they flash one by one. In the middle is a gas sensor that measures the reflectivity. The idea is to have something around it that all of the light first bounces off the sample. We always need to find a balance between high tech nice solution and low tech easy to implement. For this we probably found a solution which is an easy to apply aluminum tape. Aluminum is great for reflecting infrared light and you can cut it to size. Sometimes we get these feedback from physics people and then we need to find out how to incorporate it. The guy from 70 here was proposing to have a piece of glass fiber and then turning it in a certain angle to make sure that the light was hitting the sample at just the right angle. If we can not do that and and still get decent results, this outweighs the benefits that we would get. It's always a balance.
+{{< /expand >}}
 
-> How did you find the people you work with? They have very valuable content competences.
+> How did you find the people you work with?
+> They have very valuable content competences.
 
 {{< expand "Show answer">}}  
 For the new people this is mostly internal, asking friends if they know somebody. Especially because we want to have people helping out at the TU Delft or at Delft itself. It's often TU Delft students or people from the college. For example, we put some posters up or mention it in conversations.
-{{< /expand >}} 
+{{< /expand >}}
 
 {{< card2 "Work Coordination">}} 
 we have a Monday morning meeting where we go through the week. We make a plan and based on that we assigned tasks.  We have a place where we put all the tasks, assign a person to it, assign in which area it is, the estimated hours and the actual hours.
@@ -273,8 +313,7 @@ we have a Monday morning meeting where we go through the week. We make a plan an
 
 > How did you coordinate the work between the members of the project?
 
-{{< expand "Show answer">}}  
-Me and Joga, most of the time, we have a Monday morning meeting where we go through the week. We make a plan and based on that we assigned tasks.  We have a place where we put all the tasks, assign a person to it, assign in which area it is, the estimated hours and  the actual hours. For me personally, since I work at the TU Delft, I don't pay myself for the project. Joga gets paid by the hours that he actually spent on the different tasks. For him, it's more important to keep track of these hours.{{< /expand >}}
+{{< expand "Show answer">}} Me and Joga, most of the time, we have a Monday morning meeting where we go through the week. We make a plan and based on that we assigned tasks. We have a place where we put all the tasks, assign a person to it, assign in which area it is, the estimated hours and the actual hours. For me personally, since I work at the TU Delft, I don’t pay myself for the project. Joga gets paid by the hours that he actually spent on the different tasks. For him, it’s more important to keep track of these hours.{{< /expand >}}
 
 {{< card2 "Personal gain">}} 
 People like to get a purpose and a specific project that they can work on.
@@ -284,5 +323,4 @@ The benefit for citizen scientists would be to be mentioned in videos or include
 
 > As a conclusion, could you maybe say how the different members in your project have benefited from working on it?
 
-{{< expand "Show answer">}}  
-Joga was previously working at Accenture as an embedded systems engineer and for some reason they hired him without having specific projects that he could work on. After half a year of working there he wasn't assigned to a specific project. He was paid to do nothing. That frustrated him so much that he quit the job, even though he was payed very well. People like to get a purpose and a specific project that they can work on. That is  the benefit for Joga from working on this project, apart from getting paid a bit.  "Ruenav" [phonetic spelling], a guy from Shanghai, wanted to help out. He has a normal job but in his spare time he wants to contribute to this project. The benefit for him would be that he gets mentioned in videos or he can put on his own resume to have worked on this project. For me, it's being associated with this project and doing the things that I like. That's very beneficial. {{< /expand >}}
+{{< expand "Show answer">}} Joga was previously working at Accenture as an embedded systems engineer and for some reason they hired him without having specific projects that he could work on. After half a year of working there he wasn’t assigned to a specific project. He was paid to do nothing. That frustrated him so much that he quit the job, even though he was payed very well. People like to get a purpose and a specific project that they can work on. That is the benefit for Joga from working on this project, apart from getting paid a bit. "Ruenav" [phonetic spelling], a guy from Shanghai, wanted to help out. He has a normal job but in his spare time he wants to contribute to this project. The benefit for him would be that he gets mentioned in videos or he can put on his own resume to have worked on this project. For me, it’s being associated with this project and doing the things that I like. That’s very beneficial. {{< /expand >}}
