@@ -32,7 +32,7 @@ tags:
 >
 >Transcription and editing: Diana Paola Americano Guerrero, Robert Mies, Fabio Reeh, Moritz Maxeiner & Julien Colomb
 
-<img src="images/Screenshot.png" alt="screenshot of the interview" width="60%"/>
+<img src="images/screenshot.png" alt="screenshot of the interview" width="60%"/>
 
 *Screenshot of the interview.*
 
@@ -43,13 +43,17 @@ tags:
 
 *Photos of the VentMon team and equipment*
 
-- Main URL:
-- Project start: 
-- Core development team size: 5-10
+- Main URL: https://github.com/PubInv/ventmon-ventilator-inline-test-monitor
+- Project start: 2020
+- Core development team size: 4
 
 ### Hardware products
 
+I built a ventilator test device which became the Ventmon. It has wifi connections with "Internet of Things" enabled.
+
 ### Hardware maturity
+
+It was built by the team, and used to test ventilators worldwide.
 
 ### Rebuilds
 
@@ -70,21 +74,34 @@ I call myself the invention coach. If I were a university professor, I might cal
 
 > How did it all start with the  VentMon project?
 
+{{< card2 "Project start">}} 
+The VentMon project started in March of 2020 when COVID-19 was first identified. There was a extremely urgent belief that there might not be enough mechanical ventilators for all the people.
+
+Instead [of building a ventilator like other teams], I wanted to be in service to those teams. I knew they all needed a test device. Instead of making a ventilator,  I built a ventilator test device.
+
+{{< /card2 >}}
+
 {{< expand "Show answer">}}  
-The VentMon project started in March of 2020 when COVID-19 was first identified. There was a extremely urgent belief that  in the wealthy nations of the world, like Germany and the United States, might not be enough mechanical ventilators as needed for all the people. This turned out not to be true but it wasn't a panic. It was based on good evidence that we had at the time, we didn't know that social distancing would work. We didn't know that people with COVID-19 can survive hypoxic conditions which would be life threatening if they were caused by a different disease. I observed many teams attempting to solve this problem by making mechanical ventilators. They had no coordination all over the world including in Europe, United States, Latin America, Africa and India. I built a spreadsheet and kept track of them which became a little bit famous in this space. I built a scoring rubric and evaluated these. I thought I shouldn't become another team doing this. Instead I should be in service to those teams. I knew they all needed a test device. Testing is  critical for this kind of thing. Instead of making a ventilator,  I built a ventilator test device which became the landline.
+The VentMon project started in March of 2020 when COVID-19 was first identified. There was a extremely urgent belief that  in the wealthy nations of the world, like Germany and the United States, might not be enough mechanical ventilators as needed for all the people. This turned out not to be true, but it was a panic. It was based on good evidence that we had at the time, we didn't know that social distancing would work. We didn't know that people with COVID-19 can survive hypoxic conditions which would be life threatening if they were caused by a different disease. I observed many teams attempting to solve this problem by making mechanical ventilators. They had no coordination all over the world including in Europe, United States, Latin America, Africa and India. I built a spreadsheet and kept track of them, which became a little bit famous in this space. I built a scoring rubric and evaluated these. I thought I shouldn't become another team doing this. Instead I should be in service to those teams. I knew they all needed a test device. Testing is  critical for this kind of thing. Instead of making a ventilator,  I built a ventilator test device which became the Ventmon.
 {{< /expand >}}  
 
 > Could you say what have been the core benefits of this project? How does the hardware fit in the overall project?
 
 {{< expand "Show answer">}}  
-The original core benefit was the ability to test  a mechanical ventilator you designed. Before you didn't know if it works well. There wasn't a monitor of some kind. You can solve the initial problem with just a fan. Pushing air is not a difficult problem. For medical purposes you have to do it very precisely and you have to test it to know it's working correctly. That was the problem the VentMon meant to solve. It allowed a quality assurance for the teams that were attempting to build mechanical ventilators.
+The original core benefit was the ability to test a mechanical ventilator you designed. Before you didn't know if it works well. There wasn't a monitor of some kind. You can solve the initial problem with just a fan. Pushing air is not a difficult problem. For medical purposes you have to do it very precisely and you have to test it to know it's working correctly. That was the problem the VentMon meant to solve. It allowed a quality assurance for the teams that were attempting to build mechanical ventilators.
 {{< /expand >}}  
+
+{{< card2 "Funding">}} 
+It was funded by my nonprofit,  which is called Public Invention, itself funded by donations.
+
+We got grants to manufacture and give Ventmon devices away. One was from the Mozilla Open Source Foundation and one was from Protocol Labs.
+{{< /card2 >}}
 
 > How is it funded?
 
 {{< expand "Show answer">}} 
 
-It was funded by my nonprofit which is called Public Invention. It's a US 501(c)(3) public charity.  I started working on it before we had specific funding for it.  Public Invention has a small amount of money from donations. Then we got to $20,000 dollar grants to manufacture and give it away. One was from the Mozilla Open Source Foundation and one was from Protocol Labs who were very generous to other teams as well. With that money we manufactured 30 of them and gave them away free of charge to teams all over the world. I'm sad to say,  when you're dealing with a crisis there's always confusion and chaos. Many of them were not used. I think six or seven of them were were heavily used and were extremely important to the engineering teams who received them. They sent me nice e-mails about it. Often people thought they were going to use them, they got them and just put them on a shelf. 
+It was funded by my nonprofit which is called Public Invention. It's a US 501(c)(3) public charity.  I started working on it before we had specific funding for it.  Public Invention has a small amount of money from donations. Then we got to $20,000 dollar grants to manufacture and give it away. One was from the Mozilla Open Source Foundation and one was from Protocol Labs who were very generous to other teams as well. With that money we manufactured 30 of them and gave them away free of charge to teams all over the world. I'm sad to say,  when you're dealing with a crisis there's always confusion and chaos. Many of them were not used. I think six or seven of them were  heavily used and were extremely important to the engineering teams who received them. They sent me nice e-mails about it. Often people thought they were going to use them, they got them and just put them on a shelf. 
 {{< /expand >}}  
 
 > Could you describe the overall process how that happened?
