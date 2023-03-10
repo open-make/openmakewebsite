@@ -229,7 +229,7 @@ have you built it or used it? So far, it's been used on every continent,
 including Antarctica. We've got a photo of somebody using it on the ice
 in Antarctica. It's been built in about 40 countries. We also have a user forum with over
 250 people. We don't know if every single one of them has built or used
-the microscope, some people will have joined but turn off "ask questions". But the community we know about may just be the tip of the iceberg, we assume there are thousands of microscopes out there,
+the microscope, some people will have joined only to ask questions. But the community we know about may just be the tip of the iceberg, we assume there are thousands of microscopes out there,
 but we don't know quite how many. We've seen it pop up all over the internet. On Hackaday somebody (that we did not know) had built one and then
 modified it into a laser scanning confocal microscope. So we do know that a
 lot of people can build them, are building them, using them, and
