@@ -3,7 +3,7 @@ title: 'Interview: VentMon'
 author: 
   - Open make interview team
   - Robert Read
-date: '2022-10-20'
+date: '2023-03-01'
 slug: interview-ventmon
 categories: [interview]
 banner: img/banners/fixme
@@ -12,7 +12,7 @@ tags:
   - open hardware
   - personal story
 ---
-# Interview: VentMon
+# Interview: VentMon 
 
 *by the Open make team and Robert Read. Copyright to the authors, distributed under a CC-BY 4.0 licence.*
 
@@ -51,11 +51,17 @@ tags:
 
 I built a ventilator test device which became the Ventmon. It has wifi connections with "Internet of Things" enabled.
 
+It allowed a quality assurance for the teams that were attempting to build mechanical ventilators.
+
 ### Hardware maturity
 
-It was built by the team, and used to test ventilators worldwide.
+The VentMon is halfway between a demonstration and commercial product, it is the most mature product. You can't buy it right now and I don't have an inventory of them.
+
+The PolyVent is somewhere between a prototype and a demonstration because we attempt to build an educational platform with it.
 
 ### Rebuilds
+It was built by the team, and used to test ventilators worldwide.
+
 
 {{< /card >}}
 
@@ -127,7 +133,6 @@ I wouldn't necessarily say we had problems but we've had difficulties where thin
 {{< expand "Show answer">}}
 When I was looking at data representations for human respiration data, most of them assumed a standard data interval like five milliseconds or ten milliseconds. They assume everything comes that way. Of course, that has advantages because you can do an FFT on the data and various other things. But it's not advantageous at the time you're collecting the data if you're using a microcontroller, although it may vary. The technique may very well have been invented 100 times, but no one has taken the time to produce an international standard for it. 
 
-(FIXME)(Moritz answers unrelated to topic but nessessary for further answer of robert :  I mean, I have no idea about respirator data. For me, it's just like observation data from fish specifically. They communicate with electrical signals, and we record them. (Right.) But I would definitely be interested in thinking about this problem.)
 
 Robert Read 
 I will make a brief digression about a related problem. The interest in the problem of making open-source mechanical ventilators has been falling off in a straight line since March 2020. Because people  don't care anymore. They think COVID-19 is over, although the mechanical ventilation crisis in the wealthy nations has disappeared. But it's still a problem in low and middle income countries to some extent. One team had their own data standard that was different from mine.  I wrote an adapter for my data standard into their data standard. With this adapter, they could download my data without a software change and display it using their equipment. That's an example. If you want to estabilsh a standard, you're going to have to address how you transfer data in and out of those things. The best way to solve it is socially by accepting a standard data format that has been agreed upon by some kind of consortium or standards body.
@@ -149,7 +154,7 @@ Within the VentMon, we made decisions as a team with the four major volunteers L
 {{< expand "Show answer">}}
 I would refer you to the free spirit code document which sort of answers your question. There is a software system that's very important which was not developed by public invention, it's develped by helpful engineering, I'm on the board of helpful engineering as well, called VentOS which was initiated by an Australian anesthesiologist named Eric Schultz. It's the software which runs on the PolyVent machine. PolyVent is a mechanical ventilator. If you think of a family of technologies, there are quite a few. I'm going to name them now.
 
-As a computer scientist, you understand the modern way this is done in software. You end up having a lot of GitHub repositories or Git Lab repositories corresponding to a project. You try to identify libraries or sub modules which can be taken out and reused. We've done that as much as possible. If you look at the Public Invention GitHub there are probably 20 repositories, in one way or another that relates to the free spirit ecosystem. I call it ECOSOC but I'm  going to tell you the main ones. One is PolyVent a mechanical ventilator. Another one is the VentMon. The PolyVent runs the VentOS. 'OS' originally meant operating system but that isn't really an operating system. It's a platform for mechanical ventilation. 
+As a computer scientist, you understand the modern way this is done in software. You end up having a lot of GitHub repositories or GitLab repositories corresponding to a project. You try to identify libraries or sub-modules which can be taken out and reused. We've done that as much as possible. If you look at the Public Invention GitHub there are probably 20 repositories, in one way or another that relates to the free spirit ecosystem. I call it ECOSOC but I'm  going to tell you the main ones. One is PolyVent a mechanical ventilator. Another one is the VentMon. The PolyVent runs the VentOS. 'OS' originally meant operating system but that isn't really an operating system. It's a platform for mechanical ventilation. 
 
 The idea is VentOS should be able to run any microcontroller-based mechanical ventilator because they're all fundamentally the same. Even if the mechanism which powers them use a piston, compressed air, a bellow, fan or blower. Fundamentally, they all do the same thing. The idea was to build VentOS and then we use hardware drivers to change based on which kind of mechanical equipment you have. There's nothing original about this except that it had never been applied to mechanical ventilation before. If you were building a computer or something else, you would do the same thing. I'm taking techniques developed by the open source software world and applying them to this new realm. 
 
@@ -256,18 +261,16 @@ There started several projects in Germany which were competent engineers doing t
 By the way, it was started by a guy named Victor Citroen who lives in Germany now. He agreed to make it open source in exchange for Public Invention funding it.  Now, it's a Public Invention project, but he started it before he knew about Public Invention. His goal was to build a medical device that would save lives. That's my goal as well but both of us know that's  a decade long goal. The goal is to change the way medical devices are made worldwide and to develop them the open source software way. It's a very difficult social, political and economic problem. There's a little crack and we put a screwdriver in that crack. We're trying to pry it open. That's about all we've accomplished so far. 
 {{< /expand >}}
 
-(FIXME)Robert Mies - (no question but relevant for the flow)
-You said at the Open Hardware summit that the success rate of all the projects is very low because most of them haven't made it to the market. Therefore your list may not show a great success in terms of impact in reality. 
+>You said at the Open Hardware summit that the success rate of all the projects is very low because most of them haven't made it to the market. Therefore your list may not show a great success in terms of impact in reality. 
 
-Robert Read  
+{{< expand "Show answer">}}
 That's one of the valuable lessons of open source software. The world is littered with. At GitHub almost like nine out of 10 repositories, aren't used by anybody. You could say that's a failure. But I would say it's not a failure, it's a success because those are pieces of material that can be used by other people and are used by other people to build upon and to build other things. It's a strange situation.  Thomas Edison said, you need perspiration and a giant pile of junk. The open source software and abandoned projects are a giant pile of junk but it's extremely valuable junk from which other stuff is built.
-
+{{< /expand >}}
 
 ## Participants
 
 
->How did you end up working on that project?
-In fact, what motivated you as a person how did you decide for it or what made you start?
+>How did you end up working on that project? In fact, what motivated you as a person how did you decide for it or what made you start?
 
 {{< expand "Show answer">}}
 This is going to get a little weird. I'm going to tell you the honest truth. When I was a freshman in college, one of my friends gave me a book by Buckminster Fuller who is an American philosopher. He invented the geodesic dome. His argument was, technology isn't neutral. There's a difference between making nerve gas and neutron bombs that are only good for killing people and making things like shelter and vaccine which are mostly good for helping people. It's not entirely true because shelters can be used to house attack helicopters. Nothing is pure in this world. But his argument was technologists aren't relieved of moral responsibility because it's difficult to know the impact of your technology. 
@@ -311,29 +314,69 @@ You might have to ask them, but most of them have got a real sense of satisfacti
 
 
 {{< card2 "Project process">}} 
+On this project I got lucky and I had really good volunteers and that wasn't a problem.
+
+We tried to identify libraries or sub modules which can be taken out and reused.
+
+I'm taking techniques developed by the open source software world and applying them to this new realm.
+
+Not all of our work is currently documented at good level because the documentation often kind of lags behind where we are. The goal is to document everything with CAD files, Bill of Materials and tips like use a hot melt glue gun to attach this to the side of the enclosure, those kind of assembly instructions which are necessary for someone to reproduce the device.
 {{< /card2 >}}
 {{< card2 "Hardware importance">}} 
+There is a software system that's very important.
+The idea was to build VentOS and then we use hardware drivers to change based on which kind of mechanical equipment you have.
+VentOS GUI which is closely related to VentDisplay, is a software control mechanism that's like a clinical display a doctor would use.
 {{< /card2 >}}
 {{< card2 "Decision making">}} 
+We made decisions as a team with the four major volunteers Lauria, Geoff, Ben and myself, a small team.
 {{< /card2 >}}
 {{< card2 "Hardware components">}} 
 {{< /card2 >}}
 {{< card2 "Academic outputs">}} 
+I like to write academic papers. The VentMon has been published in Hardware X.
+I believe that is a useful way to disseminate knowledge.
 {{< /card2 >}}
 {{< card2 "Publication strategy">}} 
+Everything we do has an open source license on it from the start.
+
+They're a technical report, from an engineering point of view on how to build something, they're not the kind of thing that is considered to be interesting from an intellectual point of view.
+
+ That's for the peers to say not for me to say whether it's worthy of publication or not. If it doesn't, it will  be a non peer reviewed publication at GitHub.
+ 
+ It's a lack of time that keeps some things from being published.
 {{< /card2 >}}
 {{< card2 "Major issues">}} 
+The biggest issue was that people would ask for one and not be committed to using it. We attempted to address that with a memo, saying that we made you sign something saying that if you got this and you weren't going to use it, you had to ship it back to us.
+
+The interest in the problem of making open-source mechanical ventilators has been falling off in a straight line since March 2020.
+
+
 {{< /card2 >}}
 {{< card2 "Successes and failures">}} 
+
+One thing we did that I'm very proud of was define a data interface called the Public Invention Respiration Data Standard. But I have not yet gotten anyone who isn't directly associated with my teams to use that data standard. 
+
+The technique may very well have been invented 100 times, but no one has taken the time to produce an international standard for it. One team had their own data standard that was different from mine.  I wrote an adapter for my data standard into their data standard.
+
+It doesn't matter how reliable the device are, they must have alarms: Things go wrong even if you built the very best device in the world. Right now the PolyVent has no alarm mechanism, it cannot make a noise or a light. I've been trying to recruit volunteers to make a general purpose alarm module. 
+
+Most people would say the best I did was the spreadsheet which was a service to the community: it made something that was invisible visible and discoverable. 
 {{< /card2 >}}
 {{< card2 "Local production">}} 
+ We had a spreadsheet of people who were requesting them and as soon as we could manufacture them, we shipped them out to them.
+ 
+ We will make 10 or 20 of a device for the purpose of convincing other people to make it. We may even sell those but we are not going to become a medical device manufacturing firm.
 {{< /card2 >}}
 
 {{< card2 "Personal gain">}} 
 {{< /card2 >}}
 
 {{< card2 "Work Coordination">}} 
+Many of the teams using the VentMon were geographically distributed. 
+
+We held some virtual symposia and workshops.
 {{< /card2 >}}
 
 {{< card2 "Core team and community">}} 
 {{< /card2 >}}
+
