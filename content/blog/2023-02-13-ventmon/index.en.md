@@ -38,7 +38,7 @@ tags:
 
 {{< card "The VentMon in a nutshell">}}
 
-![VentMon equipment](https://user-images.githubusercontent.com/5296671/113649478-1e9da800-9654-11eb-934b-7e8a9a5c5bfe.JPG)
+<img src="https://user-images.githubusercontent.com/5296671/113649478-1e9da800-9654-11eb-934b-7e8a9a5c5bfe.JPG" alt="VentMon equipment" width="60%"/>
 
 *Photos of the VentMon*
 
