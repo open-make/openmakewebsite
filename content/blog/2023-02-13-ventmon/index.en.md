@@ -126,11 +126,8 @@ Because of the unemployment caused by COVID-19, I got two excellent volunteers, 
 One thing that Geoff Mulligan suggested was to be 'Internet of Things' enabled; he's kind of famous for having created IPV6. We did that very early on. We made it Wi-Fi enabled, using an ESP-32 chip that had a Wi-Fi connector built in. One of the side benefits is that an engineer in Houston could observe an engineer in New York running the machine because Internet of Things is enabled. Many of the teams using the VentMon were geographically distributed in the first place, because COVID-19 prevented people from being close together in the same room. The whole team could look at it simultaneously on the internet. It's a browser based data lake, where you can see a live performance of the ventilator with about a two or three second delay. We created a spreadsheet of requests for it. Some of those requests came from people that I was personally in contact with because I built the spreadsheet. We held some virtual symposia and workshops. People got to know it that way. We had a spreadsheet of people who were requesting them and as soon as we could manufacture them, we shipped them out to them.
 {{< /expand >}}
 
-{{< card2 "Local production">}} 
- We had a spreadsheet of people who were requesting them and as soon as we could manufacture them, we shipped them out to them.
- 
- We will make 10 or 20 of a device for the purpose of convincing other people to make it. We may even sell those but we are not going to become a medical device manufacturing firm.
-{{< /card2 >}}
+
+
 {{< card2 "Major issues">}} 
 The biggest issue was that people would ask for one and not be committed to using it. We attempted to address that with a memo, saying that we made you sign something saying that if you got this and you weren't going to use it, you had to ship it back to us.
 
@@ -144,7 +141,13 @@ I would like for society to move to a model of simply recognizing the work of op
 {{< expand "Show answer">}}
 In any technical problem project, there are many issues that come up that I don't think you want to hear about. Since people weren't paying for them, the biggest issue was that people would ask for one and not be committed to using it. We attempted to address that with a memo, saying that we made you sign something saying that if you got this and you weren't going to use it, you had to ship it back to us. Several people did that. They shipped them back to us when they decided they weren't going to use it. That was kind of the biggest social problem that we had. Now, on many other projects I have trouble getting volunteers. On this project I got lucky and I had really good volunteers and that wasn't a problem.
 {{< /expand >}}
-  
+
+{{< card2 "Local production">}} 
+ We had a spreadsheet of people who were requesting them and as soon as we could manufacture them, we shipped them out to them.
+ 
+ We will make 10 or 20 of a device for the purpose of convincing other people to make it. We may even sell those but we are not going to become a medical device manufacturing firm.
+{{< /card2 >}}
+
 >Did you have  problems on a technical level?
 
 {{< expand "Show answer">}}
@@ -387,21 +390,5 @@ You might have to ask them, but most of them have got a real sense of satisfacti
 {{< /expand >}}
 
 
-
-
-
-
-
 {{< card2 "Hardware components">}} 
 {{< /card2 >}}
-
-
-
-
-
-
-
-
-
-
-
