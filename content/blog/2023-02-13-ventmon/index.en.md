@@ -108,6 +108,16 @@ We got grants to manufacture and give Ventmon devices away. One was from the Moz
 It was funded by my nonprofit which is called Public Invention. It's a US 501(c)(3) public charity.  I started working on it before we had specific funding for it.  Public Invention has a small amount of money from donations. Then we got upto $20,000 grants to manufacture and give it away. One was from the Mozilla Open Source Foundation and one was from Protocol Labs which was very generous to other teams as well. With that money we manufactured 30 of them and gave them away free of charge to teams all over the world. I'm sad to say,when you're dealing with a crisis,there's always confusion and chaos. Many of them were not used. I think six or seven of them were heavily used and were extremely important to the engineering teams who received them. They sent me nice e-mails about it. But the others thought they were going to use them; they got them and just put them on a shelf. 
 {{< /expand >}}
  
+{{< card2 "Project process">}} 
+On this project I got lucky and I had really good volunteers and that wasn't a problem.
+
+We tried to identify libraries or sub modules which can be taken out and reused.
+
+I'm taking techniques developed by the open source software world and applying them to this new realm.
+
+Not all of our work is currently documented at good level because the documentation often kind of lags behind where we are. The goal is to document everything with CAD files, Bill of Materials and tips like use a hot melt glue gun to attach this to the side of the enclosure, those kind of assembly instructions which are necessary for someone to reproduce the device.
+{{< /card2 >}}
+
 >Could you describe the overall process how that happened?
 
 {{< expand "Show answer">}}
@@ -115,6 +125,19 @@ Because of the unemployment caused by COVID-19, I got two excellent volunteers, 
 
 One thing that Geoff Mulligan suggested was to be 'Internet of Things' enabled; he's kind of famous for having created IPV6. We did that very early on. We made it Wi-Fi enabled, using an ESP-32 chip that had a Wi-Fi connector built in. One of the side benefits is that an engineer in Houston could observe an engineer in New York running the machine because Internet of Things is enabled. Many of the teams using the VentMon were geographically distributed in the first place, because COVID-19 prevented people from being close together in the same room. The whole team could look at it simultaneously on the internet. It's a browser based data lake, where you can see a live performance of the ventilator with about a two or three second delay. We created a spreadsheet of requests for it. Some of those requests came from people that I was personally in contact with because I built the spreadsheet. We held some virtual symposia and workshops. People got to know it that way. We had a spreadsheet of people who were requesting them and as soon as we could manufacture them, we shipped them out to them.
 {{< /expand >}}
+
+{{< card2 "Local production">}} 
+ We had a spreadsheet of people who were requesting them and as soon as we could manufacture them, we shipped them out to them.
+ 
+ We will make 10 or 20 of a device for the purpose of convincing other people to make it. We may even sell those but we are not going to become a medical device manufacturing firm.
+{{< /card2 >}}
+{{< card2 "Major issues">}} 
+The biggest issue was that people would ask for one and not be committed to using it. We attempted to address that with a memo, saying that we made you sign something saying that if you got this and you weren't going to use it, you had to ship it back to us.
+
+The interest in the problem of making open-source mechanical ventilators has been falling off in a straight line since March 2020.
+
+I would like for society to move to a model of simply recognizing the work of open source software and open source hardware more and besides providing more financial support for the people who give their time for this.
+{{< /card2 >}}
 
 >What major issues have you come across during the project and how did you resolve them?
 
@@ -134,11 +157,14 @@ I wouldn't necessarily say we had problems but we've had difficulties where thin
 When I was looking at data representations for human respiration data, most of them assumed a standard data interval like five milliseconds or ten milliseconds. They assume everything comes that way. Of course, that has advantages because you can do an FFT on the data and various other things. But it's not advantageous at the time you're collecting the data if you're using a microcontroller, although it may vary. The technique may very well have been invented 100 times, but no one has taken the time to produce an international standard for it. 
 
 
-Robert Read 
 I will make a brief digression about a related problem. The interest in the problem of making open-source mechanical ventilators has been falling off in a straight line since March 2020. Because people  don't care anymore. They think COVID-19 is over, although the mechanical ventilation crisis in the wealthy nations has disappeared. But it's still a problem in low and middle income countries to some extent. One team had their own data standard that was different from mine.  I wrote an adapter for my data standard into their data standard. With this adapter, they could download my data without a software change and display it using their equipment. That's an example. If you want to estabilsh a standard, you're going to have to address how you transfer data in and out of those things. The best way to solve it is socially by accepting a standard data format that has been agreed upon by some kind of consortium or standards body.
 
 As an aside, a czechoslovakian team talked to me about it. They just weren't willing to give up regular time intervals. We briefly had a meeting about doing this and we decided not to continue working together because they just didn't want to do it that way.
 {{< /expand >}}  
+
+{{< card2 "Decision making">}} 
+We made decisions as a team with the four major volunteers Lauria, Geoff, Ben and myself, a small team.
+{{< /card2 >}}
 
 >How were decisions within the project made?
 
@@ -148,6 +174,11 @@ Within the VentMon, we made decisions as a team with the four major volunteers L
 
 ## The Hardware
 
+{{< card2 "Hardware importance">}} 
+There is a software system that's very important.
+The idea was to build VentOS and then we use hardware drivers to change based on which kind of mechanical equipment you have.
+VentOS GUI which is closely related to VentDisplay, is a software control mechanism that's like a clinical display a doctor would use.
+{{< /card2 >}}
 
 >Which hardware projects have you developed as part of this project? Just the ventilator or are there more components?
 
@@ -160,6 +191,17 @@ The idea is VentOS should be able to run any microcontroller-based mechanical ve
 
 The other thing is, we have a system called VentOS GUI which is closely related to VentDisplay. VentDisplay is the code that I wrote which runs in a browser and does a real time display of the Public Invention respiration data system. Right now, the VentMon is the only thing that produces a data stream like that, but we've  produced it in simulation or in silico. The software renders that, which is an important part of a medical ventilator to be able to see that way before the doctors need to see it in order to understand the health of the patient. VentOS GUI is another project of Helpful Engineering which is an attempt to build a software control mechanism that's like a clinical display a doctor would use. The PolyVent ventilator has no hardware control on it, it has no knobs. Currently, it has no way for you to change the respiration rate, you change that programmatically through the serial port. As a separate module someone has to build. For example, we're using a Raspberry Pi and a little seven inch touchscreen.  It's something where the doctor can increase the pressure or decrease the pressure. 
 {{< /expand >}}
+
+{{< card2 "Successes and failures">}} 
+
+One thing we did that I'm very proud of was define a data interface called the Public Invention Respiration Data Standard. But I have not yet gotten anyone who isn't directly associated with my teams to use that data standard. 
+
+The technique may very well have been invented 100 times, but no one has taken the time to produce an international standard for it. One team had their own data standard that was different from mine.  I wrote an adapter for my data standard into their data standard.
+
+It doesn't matter how reliable the device are, they must have alarms: Things go wrong even if you built the very best device in the world. Right now the PolyVent has no alarm mechanism, it cannot make a noise or a light. I've been trying to recruit volunteers to make a general purpose alarm module. 
+
+Most people would say the best I did was the spreadsheet which was a service to the community: it made something that was invisible visible and discoverable. 
+{{< /card2 >}}
 
 >Are there other parts that need to be developed?
 
@@ -201,6 +243,15 @@ No, Ben Coombs is making the next version of the VentMon. But as far as I know, 
 
 ## Research Outputs
 
+{{< card2 "Publication strategy">}} 
+Everything we do has an open source license on it from the start.
+
+They're a technical report, from an engineering point of view on how to build something, they're not the kind of thing that is considered to be interesting from an intellectual point of view.
+
+ That's for the peers to say not for me to say whether it's worthy of publication or not. If it doesn't, it will  be a non peer reviewed publication at GitHub.
+ 
+ It's a lack of time that keeps some things from being published.
+{{< /card2 >}}
 
 >What are the envisioned outputs of the hardware development for all the parts on the components?
 
@@ -211,6 +262,10 @@ The way Public Invention works is, we start a project, we make a GitHub reposito
 I don't have all the volunteers that I'd like to have and these papers are a certain class of publication. They're a technical report, from an engineering point of view on how to build something, they're not the kind of thing that is considered to be interesting from an intellectual point of view.  Some people would say, it's very applied research, not basic research. Public Invention does write pure math papers, I've done some pure math work that I consider more interesting. I'd like to do it more. But I feel like I have a moral obligation to try to help people. For me math is fun. But there are people who are dying. I have to make these things.
 {{< /expand >}}
 
+{{< card2 "Academic outputs">}} 
+I like to write academic papers. The VentMon has been published in Hardware X.
+I believe that is a useful way to disseminate knowledge.
+{{< /card2 >}}
 
 >About the contents of what you've shared on GitHub and within the papers, are there  Bill of Materials, CAD files, assembly instructions, documentation? What does it all entail?
 
@@ -269,6 +324,15 @@ That's one of the valuable lessons of open source software. The world is littere
 
 ## Participants
 
+{{< card2 "Personal gain">}} 
+I believe in a coming Star Trek universe, a bright universe where humanity works together, national differences have dissolved and we do wonderful things.
+
+I didn't do this until I became financially secure.Now, I can finally do what I've always thought should be done. I started this nonprofit.
+
+All of these people did it  out of the goodness of their heart. All of them don't mind getting academic papers. Geoff doesn't need an academic paper, but Lauria's career was advanced by an academic paper. Ben Coombs finds the work interesting and it expands his universe, kind of socially.
+
+For young people, I think they had a very strong resume type situation. I  will write them a strong recommendation.
+{{< /card2 >}}
 
 >How did you end up working on that project? In fact, what motivated you as a person how did you decide for it or what made you start?
 
@@ -286,6 +350,11 @@ I want to point out , I don't know what the correct phrase would be, that I'm no
 Public Invention has done some different projects, some are more academic than the pandemic related project. I'm very proud of the people who worked on the VentMon. First of all, Geoff Mulligan has a Wikipedia page. He was a Presidential Innovation Fellow with me in the Obama administration. It's a program where you can go and work for the US federal government trying to innovate things. He and I met there when the pandemic started. He's a very kind hearted guy and a very senior electrical engineer. He put a little bit of time into it and some senior guidance. Lauria Clarke is a young woman who has a master's degree in electrical engineering but she's now studying art. She had got into art school, but it was delayed because of the COVID pandemic. She made a decision  to take a gap year except she had a Master's degree. She found me and sent me her resume and immediately started working on the VentMon. She did the electrical design. Ben Coombs is in New Zealand, he did the mechanical design, the enclosure and some other stuff. He did the 3D printing and the manufacturing of this, although Lauria designed the electrical schematic. He did the layout of the physical part. He was under employed at the time and had owned his own businesses. I think COVID-19 was making transition. All of these people did it  out of the goodness of their heart. All of them don't mind getting academic papers. Geoff doesn't need an academic paper, but Lauria's career was advanced by an academic paper. Ben joined the project so late, he's not an author of the Hardware X paper which is a problem.
 {{< /expand >}}
 
+{{< card2 "Core team and community">}} 
+What I can do with my technology, is try to build the best technology that helps people instead of hurting them. That is what motivated us. 
+
+No one, including me, gets paid by Public Invention.
+{{< /card2 >}}
 
 >How did you find those people? 
 
@@ -297,6 +366,13 @@ There are some retired people who in theory are sympathetic to the idea but they
 I don't believe we can turn a switch and say these highly skilled and energetic engineers are going to be paid what they're worth. Because their payment would be arnound $100,000 to $200,000. One of the models Public Invention uses is to  call it the no out of pocket expenses policy. We only have $35,000 in the bank, we can't pay people what they're worth. If you buy microcontrollers, 3D filament and soldering irons for hardware engineers they seem to react emotionally as if you've given them six times that amount of money. I don't know why. But if you buy them equipment, they highly appreciate it. They could have made that much money by  working some extra hours. But psychologically, it makes them feel appreciated if you're purchasing equipment for them and they don't have to pay for it themselves.
 {{< /expand >}}
 
+{{< card2 "Work Coordination">}} 
+Many of the teams using the VentMon were geographically distributed. 
+
+We held some virtual symposia and workshops.
+
+We use GitHub and Git issues to represent issues and weekly meetings. I'm a big proponent of agile development. When I was in industry, I was a manager who used user stories, velocity tracking and the whole scrumn framework. I know how to do that. I find that people don't want to do that.
+{{< /card2 >}}
 
 >How did you coordinate the work with these people?
 
@@ -313,70 +389,19 @@ You might have to ask them, but most of them have got a real sense of satisfacti
 
 
 
-{{< card2 "Project process">}} 
-On this project I got lucky and I had really good volunteers and that wasn't a problem.
 
-We tried to identify libraries or sub modules which can be taken out and reused.
 
-I'm taking techniques developed by the open source software world and applying them to this new realm.
 
-Not all of our work is currently documented at good level because the documentation often kind of lags behind where we are. The goal is to document everything with CAD files, Bill of Materials and tips like use a hot melt glue gun to attach this to the side of the enclosure, those kind of assembly instructions which are necessary for someone to reproduce the device.
-{{< /card2 >}}
-{{< card2 "Hardware importance">}} 
-There is a software system that's very important.
-The idea was to build VentOS and then we use hardware drivers to change based on which kind of mechanical equipment you have.
-VentOS GUI which is closely related to VentDisplay, is a software control mechanism that's like a clinical display a doctor would use.
-{{< /card2 >}}
-{{< card2 "Decision making">}} 
-We made decisions as a team with the four major volunteers Lauria, Geoff, Ben and myself, a small team.
-{{< /card2 >}}
 {{< card2 "Hardware components">}} 
 {{< /card2 >}}
-{{< card2 "Academic outputs">}} 
-I like to write academic papers. The VentMon has been published in Hardware X.
-I believe that is a useful way to disseminate knowledge.
-{{< /card2 >}}
-{{< card2 "Publication strategy">}} 
-Everything we do has an open source license on it from the start.
-
-They're a technical report, from an engineering point of view on how to build something, they're not the kind of thing that is considered to be interesting from an intellectual point of view.
-
- That's for the peers to say not for me to say whether it's worthy of publication or not. If it doesn't, it will  be a non peer reviewed publication at GitHub.
- 
- It's a lack of time that keeps some things from being published.
-{{< /card2 >}}
-{{< card2 "Major issues">}} 
-The biggest issue was that people would ask for one and not be committed to using it. We attempted to address that with a memo, saying that we made you sign something saying that if you got this and you weren't going to use it, you had to ship it back to us.
-
-The interest in the problem of making open-source mechanical ventilators has been falling off in a straight line since March 2020.
 
 
-{{< /card2 >}}
-{{< card2 "Successes and failures">}} 
 
-One thing we did that I'm very proud of was define a data interface called the Public Invention Respiration Data Standard. But I have not yet gotten anyone who isn't directly associated with my teams to use that data standard. 
 
-The technique may very well have been invented 100 times, but no one has taken the time to produce an international standard for it. One team had their own data standard that was different from mine.  I wrote an adapter for my data standard into their data standard.
 
-It doesn't matter how reliable the device are, they must have alarms: Things go wrong even if you built the very best device in the world. Right now the PolyVent has no alarm mechanism, it cannot make a noise or a light. I've been trying to recruit volunteers to make a general purpose alarm module. 
 
-Most people would say the best I did was the spreadsheet which was a service to the community: it made something that was invisible visible and discoverable. 
-{{< /card2 >}}
-{{< card2 "Local production">}} 
- We had a spreadsheet of people who were requesting them and as soon as we could manufacture them, we shipped them out to them.
- 
- We will make 10 or 20 of a device for the purpose of convincing other people to make it. We may even sell those but we are not going to become a medical device manufacturing firm.
-{{< /card2 >}}
 
-{{< card2 "Personal gain">}} 
-{{< /card2 >}}
 
-{{< card2 "Work Coordination">}} 
-Many of the teams using the VentMon were geographically distributed. 
 
-We held some virtual symposia and workshops.
-{{< /card2 >}}
 
-{{< card2 "Core team and community">}} 
-{{< /card2 >}}
 
