@@ -2,7 +2,7 @@
 title: 'Interview: Libre Solar'
 author: 
   - Open make interview team
-  - 
+  - Michel Langhammer
 date: '2022-10-20'
 slug: interview-libre-solar
 categories: [interview]
@@ -105,6 +105,10 @@ There were different prototyping phases of different components. It was always
 developing one component and testing it. Based on the test we implemented new
 requirements.
 
+We do not write down the issues, we just make an iteration of the documentation.
+
+We did the entry workshop about how to use Git with a colleague of ours.
+GitHub is really comfortable because you have version controlling and all this DevOps functionalities behind it.
 {{< /card2 >}}
 
 > Where was this developed?
@@ -143,7 +147,11 @@ it. There're different layers of benefits. {{< /expand >}}
 {{< card2 "Funding">}} 
 The first development stage was made without funding.
 Open educational resources creation was funded by the city of Hamburg by the Hamburg Open Online University.
+(All the money wasn’t spend on people but on external resources.)
+
 A research fund from Scotland helped with development together with partner startups.
+
+The university didn't have the infrastructure for us. That's why we went to a Fab Lab.
 {{< /card2 >}}
 
 > How were the different parts funded?
@@ -200,6 +208,8 @@ contribution guideline for the hardware design help mitigate these issues.
 If you don't have proper documentation, people don't have a good starting point where they can jump in the development.
 
 Within the forum, you can  see a lot of people who are interacting and making questions because they replicate the components by themselves.
+
+We had a telegram channel where we had ad hoc communication. We built up a GitHub repository where we had issue-based coordination. We had weekly meetings at a Fab Lab
 {{< /card2 >}}
 
 > Would you do this from different locations?
@@ -308,18 +318,16 @@ stage declared for each product. {{< /expand >}}
 > Have these hardware components been built, produced or modified by others
 > outside of the project independently?
 
-{{< expand "Show answer">}} Yes, definitely. We had a maker space in South South Germany who
+{{< expand "Show answer">}} Yes, definitely. We had a maker space in South Germany who
 replicated one charge controller completely by themselves, we didn't even know
-about. Afterwards they sended us a link to the forum when he discussed it. They
+about. Afterwards they sent us a link to the forum when he discussed it. They
 replicated it and used it for a sensor node as well. This is one independent
-replication of the component. We have a forum in the project. Within the forum,
+replication of the component.
+
+We have a forum in the project. Within the forum,
 you can see a lot of people who are interacting and making questions because
 they replicate the components by themselves. I don't have an exact number.
 {{< /expand >}}
-
-> Good, that would be it for the second block. The third block would now be
-> about the output, unless Robert has any further questions about the hardware?
-> {{< /expand >}}
 
 > Is the project still ongoing and you're working together in a group?
 
@@ -337,6 +345,8 @@ aren't in a local group here in Hamburg. It's distributed in the world.
 {{< expand "Show answer">}} Yes, everything around the hardware components within the Libre
 Solar project. {{< /expand >}}
 
+## Research outputs
+
 > What were or still are the envisioned outputs of the hardware development in
 > terms of publications, the hardware itself, documentation, learning and
 > experience?
@@ -350,7 +360,7 @@ the laboratory for measuring the CE standards but we were out of range and
 didn't get the CE certification. That's why we can't legally sell the products,
 but it's a goal. Right now we have the supply shortage of microcontrollers which
 causes the prototyping process to hold because we can't source STM 32
-microcontrollers. In the beginning the goal is to have a set of hardware
+microcontrollers. In the beginning, the goal is to have a set of hardware
 components ready to sell with a portfolio for educational reasons and research
 institutes. There was a connection with the Uni Freiburg and different other
 universities who are interested. This is a low entry point because you don't
@@ -360,7 +370,7 @@ need the proper certification if you just use it in research environment.
 > Would those be your customers?
 
 {{< expand "Show answer">}} This would be one channel. For example, we think of sensor nodes
-for agricultural applications which we test here in Hamburg for loading stations
+for agricultural applications, which we test here in Hamburg for loading stations
 for mobile farm. It's energy supply, we can use it for nearly everything which
 needs electrical current. {{< /expand >}}
 
@@ -369,6 +379,10 @@ needs electrical current. {{< /expand >}}
 {{< expand "Show answer">}} The hardware is just a load for us.
 
 {{< /expand >}}
+
+{{< card2 "Academic outputs">}} 
+It’s not the main goal.
+{{< /card2 >}}
 
 > What do you think about publications in scientific journals or in hardware
 > journals?
@@ -408,6 +422,13 @@ we made a guideline how to source the components. It's like our educational
 resource website where we put in everything concerning assembly processes.
 {{< /expand >}}
 
+{{< card2 "Publication strategy">}} 
+We published it only on GitHub. There’re some linkings to the wiki from Open Source Ecology in Germany. 
+
+Open Source Ecology helped to disseminate or promote the project in a way.
+We provide information on different platforms to draw more people for us and the Open Source Ecology.
+{{< /card2 >}}
+
 > How did you publish the hardware?
 
 {{< expand "Show answer">}} We published it only on GitHub. There're some linkings to the
@@ -435,6 +456,17 @@ Git-based repositories. {{< /expand >}}
 We didn't have the time to make it in a qualitative documentation to publish.
 {{< /expand >}}
 
+{{< card2 "Core team and community">}} 
+The creating of more content is limited by the amount of people, time and financial resources. Everything is on a voluntary basis.
+
+With master students from electrical engineering, renewable energy systems and mechanical engineering, we mainly replicated the Libre Solar hardware and redesigned the solar box.
+I was introducing it to all the courses. They wrote me they were interested.
+
+We used a typical forum where people can add questions and threads.
+It’s very good because you see people contributing in this topic.
+This shows that different people come with different requirements. 
+
+{{< /card2 >}}
 > Is there something else besides the time constraints?
 
 {{< expand "Show answer">}} Yeah, that's one of the main main components and maybe the amount
@@ -495,6 +527,15 @@ attended at the POC 2021 meeting in Paris. I don't know how he got there and
 under which circumstances. He was asked for something that I don't know. He got
 to know different people from this from the Open Source Hardware community and
 they're still connected there. {{< /expand >}}
+
+{{< card2 "Local production">}} 
+I think because the documentation is there. They're replicating it.
+ 
+The second part in the educational part is the production.
+We have development and production stage and now the usage stage. Each component has a user manual.
+It would contain the data acquisition, data analyzes of energy systems and improvements. 
+The fourth stage would be recycling or upcycling of such components.
+{{< /card2 >}}
 
 > How would you classify the overall information you've put out?
 
@@ -558,6 +599,22 @@ renewable energy.
 The creating of more content is limited by the amount of people, time and
 financial resources. Everything is on a voluntary basis. {{< /expand >}}
 
+{{< card2 "Successes and failures">}} 
+
+ 
+ Successful is the ready to use prototype we developed.
+ 
+ In my opinion, it's a very high quality documentation of all the components, it’s very structured. We were able to develop educational resources within such a hardware project which isn’t typical.
+ 
+  The idea behind the open education resources was that people who want to contribute in the development have a starting point of what do they want to develop.
+ 
+  The feedback on hardware design is crucial. It would be easier with a lot of contributors. For now, there's not so much qualitative feedback for the design.
+ It would be nice to have more contributors dedicated on the electrical hardware design.
+ 
+ If we would have people who manage the feedback and community work, we could get more qualitative feedback out of it. 
+
+{{< /card2 >}}
+
 > What was successful and what wasn't about the project?
 
 {{< expand "Show answer">}} Successful is the ready to use prototype we developed. I would
@@ -612,6 +669,9 @@ sharing with us information.
 
 If we would have people who manage this feedback and community work, we could
 get more qualitative feedback out of it. {{< /expand >}}
+
+
+## Participants
 
 > What brought you to this project?
 
@@ -708,6 +768,11 @@ could use this for. But I did my master thesis in the Libre Solar project. I
 asked my professor if I can do my master thesis there. I introduced the topic,
 it was about control systems {{< /expand >}}
 
+{{< card2 "Personal gain">}} 
+Some students perceived a benefit, they could get credit points. For the others, it was fun. You're playing football and others are tinkering in a Fab Lab.
+It provided a learning effect. Application oriented learning I would call it now. 
+{{< /card2 >}}
+
 > How did the different members benefited from the work?
 
 {{< expand "Show answer">}} I think, Martin Jäger's was happy that people were interested in
@@ -784,22 +849,24 @@ Lab. {{< /expand >}}
 
 {{< expand "Show answer">}} We were seven people.
 
-## Research outputs
 
-## Participants
 
-31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AFkAZwBBADIAQQBEAFUAQQBZAGcAQQAxAEEARABnAEEAWgBnAEIAawBBAEMAMABBAFoAQQBBADMAQQBEAEEAQQBOAHcAQQB0AEEARABRAEEAWQB3AEEAegBBAEQAQQBBAEwAUQBBADQAQQBHAE0AQQBPAFEAQQAzAEEAQwAwAEEATQB3AEIAawBBAEQAawBBAE8AUQBCAGgAQQBHAE0AQQBaAGcAQQA1AEEARwBFAEEATQBRAEEAMQBBAEQAYwBBAAoAcABvAHMAaQB0AGkAbwBuADoATgBBAEEAeABBAEQAVQBBAE4AdwBBADUAQQBBAD0APQAKAHAAcgBlAGYAaQB4ADoACgBzAG8AdQByAGMAZQA6AGUAdwBCADcAQQBEAHcAQQBJAEEAQgBqAEEARwBFAEEAYwBnAEIAawBBAEQASQBBAEkAQQBBAGkAQQBFAGcAQQBZAFEAQgB5AEEARwBRAEEAZAB3AEIAaABBAEgASQBBAFoAUQBBAGcAQQBHAGsAQQBiAFEAQgB3AEEARwA4AEEAYwBnAEIAMABBAEcARQBBAGIAZwBCAGoAQQBHAFUAQQBJAGcAQQArAEEASAAwAEEAZgBRAEEAZwBBAEEAbwBBAGUAdwBCADcAQQBEAHcAQQBJAEEAQQB2AEEARwBNAEEAWQBRAEIAeQBBAEcAUQBBAE0AZwBBAGcAQQBEADQAQQBmAFEAQgA5AEEAQQBvAEEAQwBnAEEASwBBAEgAcwBBAGUAdwBBADgAQQBDAEEAQQBZAHcAQgBoAEEASABJAEEAWgBBAEEAeQBBAEMAQQBBAEkAZwBCAEkAQQBHAEUAQQBjAGcAQgBrAEEASABjAEEAWQBRAEIAeQBBAEcAVQBBAEkAQQBCAGoAQQBHADgAQQBiAFEAQgB3AEEARwA4AEEAYgBnAEIAbABBAEcANABBAGQAQQBCAHoAQQBDAEkAQQBQAGcAQgA5AEEASAAwAEEASQBBAEEASwBBAEgAcwBBAGUAdwBBADgAQQBDAEEAQQBMAHcAQgBqAEEARwBFAEEAYwBnAEIAawBBAEQASQBBAEkAQQBBACsAQQBIADAAQQBmAFEAQQA9AAoAcwB1AGYAZgBpAHgAOgA=:31b8e172-b470-440e-83d8-e6b185028602
-31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AFkAZwBBADIAQQBEAFUAQQBZAGcAQQAxAEEARABnAEEAWgBnAEIAawBBAEMAMABBAFoAQQBBADMAQQBEAEEAQQBOAHcAQQB0AEEARABRAEEAWQB3AEEAegBBAEQAQQBBAEwAUQBBADQAQQBHAE0AQQBPAFEAQQAzAEEAQwAwAEEATQB3AEIAawBBAEQAawBBAE8AUQBCAGgAQQBHAE0AQQBaAGcAQQA1AEEARwBFAEEATQBRAEEAMQBBAEQAYwBBAAoAcABvAHMAaQB0AGkAbwBuADoATgBBAEEAeABBAEQAWQBBAE8AQQBBAHoAQQBBAD0APQAKAHAAcgBlAGYAaQB4ADoACgBzAG8AdQByAGMAZQA6AGUAdwBCADcAQQBEAHcAQQBJAEEAQgBqAEEARwBFAEEAYwBnAEIAawBBAEQASQBBAEkAQQBBAGkAQQBFAEUAQQBZAHcAQgBoAEEARwBRAEEAWgBRAEIAdABBAEcAawBBAFkAdwBBAGcAQQBHADgAQQBkAFEAQgAwAEEASABBAEEAZABRAEIAMABBAEgATQBBAEkAZwBBACsAQQBIADAAQQBmAFEAQQBnAEEAQQBvAEEAZQB3AEIANwBBAEQAdwBBAEkAQQBBAHYAQQBHAE0AQQBZAFEAQgB5AEEARwBRAEEATQBnAEEAZwBBAEQANABBAGYAUQBCADkAQQBBAG8AQQBlAHcAQgA3AEEARAB3AEEASQBBAEIAagBBAEcARQBBAGMAZwBCAGsAQQBEAEkAQQBJAEEAQQBpAEEARgBBAEEAZABRAEIAaQBBAEcAdwBBAGEAUQBCAGoAQQBHAEUAQQBkAEEAQgBwAEEARwA4AEEAYgBnAEEAZwBBAEgATQBBAGQAQQBCAHkAQQBHAEUAQQBkAEEAQgBsAEEARwBjAEEAZQBRAEEAaQBBAEQANABBAGYAUQBCADkAQQBDAEEAQQBDAGcAQgA3AEEASABzAEEAUABBAEEAZwBBAEMAOABBAFkAdwBCAGgAQQBIAEkAQQBaAEEAQQB5AEEAQwBBAEEAUABnAEIAOQBBAEgAMABBAAoAcwB1AGYAZgBpAHgAOgA=:31b8e172-b470-440e-83d8-e6b185028602
 
-{{< card2 "Successes and failures">}} 
-{{< /card2 >}}
-{{< card2 "Local production">}} 
-{{< /card2 >}}
-
-{{< card2 "Personal gain">}} 
+{{< card2 "Hardware components">}} 
 {{< /card2 >}}
 
 
 
-{{< card2 "Core team and community">}} 
-{{< /card2 >}}
+
+
+
+
+
+
+
+
+
+
+
+It's really comfortable because you have version controlling and all this DevOps functionalities behind it.
+
