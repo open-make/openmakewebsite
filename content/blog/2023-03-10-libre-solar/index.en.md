@@ -6,7 +6,7 @@ author:
 date: '2022-10-20'
 slug: interview-libre-solar
 categories: [interview]
-banner: img/banners/libresolar.png
+banner: img/banners/libresolar_logo_small.png
 tags:
   - technology
   - open hardware
@@ -28,8 +28,10 @@ distributed under a CC-BY 4.0 licence.*
 -   [The research outputs](#research-outputs)
 -   [The participants](#participants)
 
-*Banner image: fixme, By CERN, distributed under a CC-BY-SA 4.0*
+*Banner image: libresolar logo, distributed under a CC-BY-SA 4.0*
 
+> Date: 2022-08-02
+>
 > Interviewee: Michel Langhammer
 >
 > Interviewers: Robert Mies (TU Berlin) & Moritz Maxeiner (FU Berlin)
@@ -37,7 +39,7 @@ distributed under a CC-BY 4.0 licence.*
 > Transcription and editing: Diana Paola Americano Guerrero, Robert Mies, Fabio
 > Reeh, Moritz Maxeiner & Julien Colomb
 
-<img src="images/Screenshot.png" alt="screenshot of the interview" width="60%"/>
+<img src="images/screenshot.png" alt="screenshot of the interview" width="60%"/>
 
 *Screenshot of the interview.*
 
