@@ -37,6 +37,9 @@ authors:
   - given-names: Julian
     family-names: Stirling
     orcid: 'https://orcid.org/0000-0002-8270-9237'   
+  - given-names: Jerry
+    family-names: de Vos
+    orcid: 'https://orcid.org/0009-0005-3240-1081' 
     
 url: 'https://www.openmake.de'
 repository: 'https://github.com/open-make/openmakewebsite'
