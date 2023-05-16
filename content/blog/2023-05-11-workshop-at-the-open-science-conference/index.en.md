@@ -13,9 +13,13 @@ tags:
   - team work
 ---
 
-{{< card "27-29 June 2023">}}
-We will run a workshop at the coming [open science conference](https://www.open-science-conference.eu), which will be held online: mark your calendar and join us  !.
+{{< card "28 June 2023">}}
+We will run a workshop at the coming [open science conference](https://www.open-science-conference.eu), which will be held online: register to the conference, mark your calendar and join us  !.
+
+- Conference: 2023-06-27 to 2023-06-29
+- workshop: 2023-06-28 14:30 (to 16:30)
 {{</ card >}}
+
 
 
 # Creating a research hardware publication ecosystem: Technical and cultural roadmap
@@ -61,5 +65,7 @@ Break *\[15 min\]*
 
 Results presentation and further discussions *\[40 min\]*
 
+## Price
 
+The conference fee is 50 €, please contact us if this would impede your participation, as the open.make project could cover this for you.
 
