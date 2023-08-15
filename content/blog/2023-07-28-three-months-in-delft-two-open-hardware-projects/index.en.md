@@ -61,6 +61,8 @@ The Microstimulation setup had been developed in the lab mostly by Guy Doron, it
 
 # Delft Open Hardware Academy
 
+homepage: https://www.openhardware.academy/01_Welcome.html
+
 Open hardware documentation is the process of recording and sharing information about the design, operation, and maintenance of hardware systems.
 This aims to make hardware more accessible to a wider audience, including hobbyists, students, and researchers.
 During the Delft Open Hardware Academy, I learned a great deal about the importance and practice of open hardware documentation and how it can benefit hardware development and innovation.
