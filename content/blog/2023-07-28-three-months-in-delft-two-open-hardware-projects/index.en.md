@@ -49,7 +49,7 @@ The Microstimulation setup is a customisable, open-source experimental setup tha
 The setup is roughly 80% of the intended product, for use in our lab. With regards to performance the setup is ready for use. We are adapting the BPOD protocol for online visualisation of results and implementing neurophysiological recordings with multiple-channel probes.
 
 ## Rebuilds 
-This project was indeed a rebuilt project from an older setup
+This project was indeed a rebuilt project from an older setup, while we also modified it quite extensively as it is using a different software
 
 
 # Project history
@@ -91,7 +91,7 @@ The Academy however, is only a small part of the open hardware community in Delf
 
 # Delft Open Hardware community
 
-The existing community of Delft Open Hardware is surrounded by people that are also working on optimizing their documentation for third part use. From this surrounding it is easy to obtain tips and ideas. Moreover, having a community that quickly provides feedback on the comprehensiveness and completeness of the documentation is crucial as it optimizes your work to many different professional backgrounds. Naturally, Delft’s highly diverse community, involving engineers, businesses, biologists, artists, and creative hobbyists fosters an environment for innovation. For instance, I met a developer whom decided to build an anti-theft system to prevent their bike from being stolen. This phone-size device is sensitive to vibrations, which can trigger the alarm to go off. This prompted me to determine if their hardware was also able to detect animal licks for my setup. The same technology is already implemented in some lick-detectors but have high financial cost. Additionally, the Delft community introduced me to a preliminary method for replacing the microstimulation setup’s most expensive component: the micromanipulator. The Open Hardware Automated microscope uses a lower-cost alternative to manipulate a platform, which could be adapted for microstimulation. By making hardware designs and documentation available to a wider audience, open hardware can foster a community of developers and enthusiasts who can work together to improve and enhance hardware systems.
+The existing community of Delft Open Hardware is surrounded by people that are also working on optimizing their documentation for third part use. From this surrounding it is easy to obtain tips and ideas. Moreover, having a community that quickly provides feedback on the comprehensiveness and completeness of the documentation is crucial as it optimizes your work to many different professional backgrounds. Naturally, Delft’s highly diverse community, involving engineers, businesses, biologists, artists, and creative hobbyists fosters an environment for innovation. For instance, I met a developer whom decided to build an anti-theft system to [prevent their bike from being stolen](https://www.tudelft.nl/open-hardware/projects/anti-bike-theft-device). This phone-size device is sensitive to vibrations, which can trigger the alarm to go off. This prompted me to determine if their hardware was also able to detect animal licks for my setup. The same technology is already implemented in some lick-detectors but have high financial cost. Additionally, the Delft community introduced me to a preliminary method for replacing the microstimulation setup’s most expensive component: the micromanipulator. The [Open Hardware Automated microscope](https://www.tudelft.nl/open-hardware/projects/automated-microscope) uses a lower-cost alternative to manipulate a platform, which could be adapted for microstimulation. By making hardware designs and documentation available to a wider audience, open hardware can foster a community of developers and enthusiasts who can work together to improve and enhance hardware systems.
 
 
 
@@ -107,14 +107,14 @@ Finally, I learned that open hardware documentation is not just important for ho
 
 ## Berlin time
 
-In November 2021, I started his master project that would use the microstimulation setup. However, the setup was no longer available in the lab. The people who worked on that paradigm had left the lab, too. Thus, I set out to re-establish the setup. My only source of information was an incomplete wiring diagram. Luckily, with the help of colleagues, I was able to get the basics of the setup to work: stimulate an electrode and detect licks. Next, I implemented the behavioural aquisition, meaning that I set up a camera that were able to clearly capture individual whisker movement and a camera that clearly captured the pupil of the animal. 
+In November 2021, I started his master project that would use the microstimulation setup. However, the setup was no longer available in the lab. The people who worked on that paradigm had left the lab, too. Thus, I set out to re-establish the setup. My only source of information was an incomplete wiring diagram. Luckily, Moritz Drüke knew a lot about the setup and could help me. With his help, I was able to get the basics of the setup to work: stimulate an electrode and detect licks. Next, I implemented the behavioural aquisition, meaning that I set up a camera that were able to clearly capture individual whisker movement and a camera that clearly captured the pupil of the animal. 
 
 During this time, Dr. Julien Colomb from the Open.Make team asked me if we could work on making a good documentation of the setup. This would entail a documentation of the hardware, description of the protocol, redesigning the analysis software and getting away from large pay-walls.
 As I already was keeping track of the hardware and writing analysis, I gladly agreed.
 
 At the end of my master, I joined the open make project and went to Delft and continue to work on the microstimulation setup and its documentation. The goal was to build 2 setups (I would build one there, Jelte de Vries, another student, would build one in Berlin).
 
-## Deflt time
+## Delft time
 
 With the help of Jerry de Vos and other engineers, we seperated the setup into three distinct compartments: animal, electrical and behavioural.
 
@@ -181,6 +181,9 @@ Making the microstimulation project open source with regards to both soft- and h
 **Fails :**
 In the past we have had problems with the ordering of components. This led to long delays which, in turn, caused us to be less productive during a colaboration with the [Delft Open Hardware Academy](https://www.openhardware.academy/01_Welcome.html). We also have have lost some time while trying to develop the BPOD laboratory interface in Python. [PyBPOD](https://pybpod.readthedocs.io/projects/pybpod-api/en/v1.8.1/) is a suitable product, yet I would discourage it's use for new users.
 
+
 # Aknowledgements
+
 The core team members are Mik Schutte (myself) and Jelte de Vries. Both of us are employed by the Humboldt University and PhD-students in the Larkum lab and are being supervised by Dr. Robert Sachdev. Data-management and the supervision concerning open source is done by Dr. Julien Colomb. Lastly, we thank the Delft Open Hardware Academy for its many valuable lessons in designing, project management and hardware documentation.
 Banner image: OpenHardware academy logo, By Open Hardware Academy,  CC-BY
+
