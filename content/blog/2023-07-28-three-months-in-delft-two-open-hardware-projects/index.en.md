@@ -7,6 +7,7 @@ categories:
   - progress report
 tags:
   - personal story
+banner: img/banners/OHacademylogo.jpg  
 ---
 
 
@@ -182,3 +183,4 @@ In the past we have had problems with the ordering of components. This led to lo
 
 # Aknowledgements
 The core team members are Mik Schutte (myself) and Jelte de Vries. Both of us are employed by the Humboldt University and PhD-students in the Larkum lab and are being supervised by Dr. Robert Sachdev. Data-management and the supervision concerning open source is done by Dr. Julien Colomb. Lastly, we thank the Delft Open Hardware Academy for its many valuable lessons in designing, project management and hardware documentation.
+Banner image: OpenHardware academy logo, By Open Hardware Academy,  CC-BY
