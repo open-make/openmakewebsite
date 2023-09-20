@@ -4,7 +4,7 @@ author:
   - Open make interview team
   - Robert Read
 date: '2023-03-01'
-slug: interview-VentMon
+slug: interview-ventMon
 categories: [interview]
 banner: img/banners/ventmon.png
 tags:
@@ -103,7 +103,7 @@ We got grants to manufacture and give Ventmon devices away. One was from the Moz
 > How is it funded?
 
 {{< expand "Show answer">}}
-It was funded by my nonprofit which is called Public Invention. It's a US 501(c)(3) public charity.  I started working on it before we had specific funding for it. Public Invention has a small amount of money from donations. Then we got unto $20,000 grants to manufacture and give it away. One was from the Mozilla Open-Source Foundation, and one was from Protocol Labs which was very generous to other teams as well. With that money we manufactured 30 of them and gave them away free of charge to teams all over the world. I'm sad to say, when you're dealing with a crisis, there’s always confusion and chaos. Many of them were not used. I think six or seven of them were heavily used and were extremely important to the engineering teams who received them. They sent me nice e-mails about it. But the others thought they were going to use them; they got them and just put them on a shelf. 
+It was funded by my nonprofit which is called Public Invention. It's a US 501(c)(3) public charity.  I started working on it before we had specific funding for it. Public Invention has a small amount of money from donations. Then we got up to $20,000 grants to manufacture and give it away. One was from the Mozilla Open-Source Foundation, and one was from Protocol Labs which was very generous to other teams as well. With that money we manufactured 30 of them and gave them away free of charge to teams all over the world. I'm sad to say, when you're dealing with a crisis, there’s always confusion and chaos. Many of them were not used. I think six or seven of them were heavily used and were extremely important to the engineering teams who received them. They sent me nice e-mails about it. But the others thought they were going to use them; they got them and just put them on a shelf. 
 {{< /expand >}}
 
 {{< card2 "Project process">}}
@@ -119,8 +119,9 @@ Not all of our work is currently documented at good level because the documentat
 > Could you describe the overall process how that happened?
 
 {{< expand "Show answer">}}
-As I recall, in part because of unemployment caused by COVID-19. I got two excellent volunteers. Lauria Clarke and Ben Coombs. Ben Coombs is in New Zealand, Lauria Clarke is in the United States. And also, I had assistance from a very senior electrical engineer named Geoff Mulligan, who was not unemployed, but just wanted to help. So, we originally built the device and put it in an acrylic case that we drilled holes into. So, it was not very professionally done, but it worked, and it was good enough to be used. And one thing that Geoff Mulligan suggested (he's kind of famous for having created IPV6), he wanted it to be Internet of Things enabled. And we did that very early on, we made it Wi Fi enabled, using an ESP-32 chip that had a Wi Fi thing built in. 
+As I recall, in part because of unemployment caused by COVID-19. I got two excellent volunteers. Lauria Clarke and Ben Coombs. Ben Coombs is in New Zealand, Lauria Clarke is in the United States. And also, I had assistance from a very senior electrical engineer named Geoff Mulligan, who was not unemployed, but just wanted to help. So, we originally built the device and put it in an acrylic case that we drilled holes into. So, it was not very professionally done, but it worked, and it was good enough to be used. 
 
+And one thing that Geoff Mulligan suggested (he's kind of famous for having created IPV6), he wanted it to be Internet of Things enabled. And we did that very early on, we made it Wi Fi enabled, using an ESP-32 chip that had a Wi Fi thing built in. 
 So one of the side benefits of this is, that many of the teams that were made using the Ventmon, were geographically distributed in the first place, because COVID-19 prevented people from being close together in the same room, because it was Internet of Things enabled, a team, you know, an engineer in Houston could observe an engineer in New York, running the machine. And they, the whole team could kind of look at it at the same time on the internet. Right? So, it's a browser-based data lake where you can see a live performance of the ventilator, with just about a two or three second delay. 
 
 And we created a spreadsheet of request for it. And some of those requests came from the people that I was personally in contact with, because I built the spreadsheet. Also, we held some virtual conferences, or they were short, you might call them symposia, workshops. And people found out about it that way. So basically, we had a spreadsheet of people who were requesting them. And as soon as we could manufacture them, we just shipped them out to them.
@@ -146,16 +147,18 @@ I wouldn't necessarily say we had problems, but we've had difficulties where thi
 When I was looking at data representations for human respiration data, most of them assumed a standard data interval like five milliseconds or ten milliseconds. They assume everything comes that way. Of course, that has advantages because you can do an FFT on the data and various other things. But it's not advantageous at the time you're collecting the data if you're using a microcontroller, although it may vary. The technique may very well have been invented 100 times, but no one has taken the time to produce an international standard for it. 
 
 I will make a brief digression about a related problem. The interest in the problem of making open-source mechanical ventilators has been falling off in a straight line since March 2020. Because people don't care anymore. They think COVID-19 is over, although the mechanical ventilation crisis in the wealthy nations has disappeared. But it's still a problem in low and middle income countries to some extent. One team had their own data standard, which was different from mine. I wrote an adapter for my data standard into their data standard. With this adapter, they could download my data without a software change and display it using their equipment. That's an example. If you want to establish a standard, you're going to have to address how you transfer data in and out of those things. The best way to solve it is socially by accepting a standard data format that has been agreed upon by some kind of consortium or standards body.
+
+As an aside, a Czechoslovakian team talked to me about it. They just weren't willing to give up regular time intervals. We briefly had a meeting about doing this and we decided not to continue working together because they just didn't want to do it that way.
 {{< /expand >}}
 
 {{< card2 "Decision making">}} 
-We made decisions as a team with the four major volunteers Lauria, Geoff, Ben and me, a small team.
+We made decisions as a team with the four major volunteers Lauria, Geoff, Ben, and myself: a small team.
 {{< /card2 >}}
 
 > How were decisions within the project made?
 
 {{< expand "Show answer">}}
-Within the VentMon, we made decisions as a team with the four major volunteers Lauria, Geoff, Ben and me, a small team. We didn't have a lot of dissension. The larger your team is, the more likely you are to have disagreements. In this case it was easy to make decisions because it was a small number of people.
+Within the VentMon, we made decisions as a team with the four major volunteers Lauria, Geoff, Ben, and myself: a small team. We didn't have a lot of dissension. The larger your team is, the more likely you are to have disagreements. In this case it was easy to make decisions because it was a small number of people.
 {{< /expand >}}
 
 ## The Hardware
@@ -188,7 +191,7 @@ The technique may very well have been invented 100 times, but no one has taken t
 One team had their own data standard that was different from mine.
 I wrote an adapter for my data standard into their data standard.
 
-It doesn't matter how reliable the device is, they must have alarms: Things go wrong even if you built the very best device in the world.
+It doesn't matter how reliable the devices are, they must have alarms: Things go wrong even if you built the very best device in the world.
 Right now, the PolyVent has no alarm mechanism, it cannot make a noise or a light.
 I've been trying to recruit volunteers to make a general-purpose alarm module.
 
@@ -200,7 +203,9 @@ Most people would say the best I did was the spreadsheet which was a service to 
 {{< expand "Show answer">}}
 Yes, there are.  First, let me mention that Ben Coombs is developing an oxygen concentrator, a pressure swing and an adsorption oxygen concentrator. If I could go back in time, we believe more lives would have been saved by building a robust oxygen concentrator than by building a mechanical ventilator. But we started on the mechanical ventilator and we're going to finish it. **Ben forked VentOS and made a modification for running his oxygen concentrator** because a pressure swing adsorption oxygen concentrator raises the pressure, changes some valves and lowers the pressure. That's very similar to what a mechanical ventilator does, it happens that the pressures are about 100 times higher than for human breathing, fundamentally it does the same. 
  
-**Right now, the PolyVent has no alarm mechanism, it cannot make a noise or a light. It cannot tell you that something has gone wrong. Although the computer inside is powerful enough to figure out that it's trying to raise the pressure and the pressure is not going up that probably means the hose is disconnected, but here is no way to report that data. This is an example of where I haven't been successful. I've been trying to recruit volunteers to make a general-purpose alarm module.** 
+There is another piece which is very important from a medical point of view. On all of these devices, especially if you're trying to make open source devices that people don't necessarily trust, part of reliability is to produce monitoring and alarms. For Example, Drager is a famous medical device firm that is on top of the line. They make the best medical equipment and the most expensive medical equipment in the world. Even their devices, it doesn't matter how reliable they are, must have alarms because a nurse will trip over the hose or the patient will vomit into the tube. Things go wrong even if you built the very best device in the world. Electricity will fail, pressure coming out of the wall will fail. You have to tell the medical staff that something went wrong. 
+
+Right now the PolyVent has no alarm mechanism, it cannot make a noise or a light. It cannot tell you that something has gone wrong. Although the computer inside is powerful enough to figure out that it's trying to raise the pressure and the pressure is not going up that probably means the hose is disconnected, but, here is no way to report that data. This is an example of where I haven't been successful. I've been trying to recruit volunteers to make a general purpose alarm module.
  
 The long-term goal of this is for a firm to make open-source respiration devices which will probably be sold in low and middle income countries. We're very far away from getting FDA or CE approval of a medical device because there's a lot of paperwork and a lot of reliability that is needed. But we must have an alarm mechanism before we even have all of the components that are necessary for that. 
 {{< /expand >}}
@@ -250,7 +255,7 @@ They're a technical report, from an engineering point of view on how to build so
 {{< expand "Show answer">}} 
 The way Public Invention works is, we start a project, we make a GitHub repository, and we publish everything at the end of the day. We believe in working in the light. Everything we do has an open-source license on it from the start. At the beginning it's completely unusable. But we just constantly do that, like the open-source software idea of release early and currently I like to write academic papers. The VentMon has been published in Hardware X. I believe, I will someday write an academic paper about VentOS and PolyVent. I believe that is a useful way to disseminate knowledge. I aim for an academic paper for most of these devices if they're worthy of it. Not everything is interesting enough to be published in a journal. I would do it more, but my time is limited. 
 
-I don't have all the volunteers that I'd like to have, and these papers are a certain class of publication. They're a technical report, from an engineering point of view on how to build something, they're not the kind of thing that is considered to be interesting from an intellectual point of view.  Some people would say, its very applied research, not basic research. Public Invention does write pure math papers, I've done some pure math work that I consider more interesting. I'd like to do it more. But I feel like I have a moral obligation to try to help people. For me math is fun. But there are people who are dying. I have to make these things.
+I don't have all the volunteers that I'd like to have, and these papers are a certain class of publication. They're a technical report, from an engineering point of view on how to build something, they're not the kind of thing that is considered to be interesting from an intellectual point of view.  Some people would say, it is very applied research, not basic research. Public Invention does write pure math papers, I've done some pure math work that I consider more interesting. I'd like to do it more. But I feel like I have a moral obligation to try to help people. For me math is fun. But there are people who are dying. I have to make these things.
 {{< /expand >}}
 
 {{< card2 "Academic outputs">}} 
@@ -335,7 +340,8 @@ This is going to get a little weird. I'm going to tell you the honest truth. Whe
 
 I've always believed that and I'm a Unitarian. I believe the Thomas Jefferson, Benjamin Franklin, Jonas Salk and Richard Stallman model that by developing technology we enable and ennoble humanity. I think of it as American but I'm sure there are other examples. Someday we're going to explore the stars together in peace. We're going to quit killing each other. All this petty stuff is going to go away, poverty is going to be solved and we're going to  work together to explore the stars. I know that may sound completely wacky, but I believe in a coming Star Trek universe, a bright universe where humanity works together, national differences have dissolved, and we do wonderful things. I recognize the future may be darker than that, we may blow each other up instead. But I'm not a politician and not a preacher. I'm a technologist. What I can do with my technology, is trying to build the best technology that helps people instead of hurting them. That is what motivated us. 
 
-I want to point out , I'm not a saint and not a choirboy. I had a family and made money. I didn't do this until my kids became adults and didn't need me anymore and until I became financially secure. When my kids were grown up and I was financially secure, I didn't have to work. Then I can finally do what I've always thought should be done. I started this nonprofit. 
+I want to point out , I don't know what the correct phrase would be, that I'm not a saint and not a choirboy. I had a family and made money. I didn't do this until my kids became adults and didn't need me anymore and until I became financially secure. When my kids were grown up and I was financially secure, I didn't have to work. Then I can finally do what I've always thought should be done. I started this nonprofit. If I can say one thing that's a little sharp, I find it really weird that many people like myself, would rather spend $100,000 on a sports car, than spend $100,000 on some invention that they've had in the back of their mind. I don't know why they want to do that, but I don't.
+
 {{< /expand >}}
 
 > Could you tell us about the other people you've worked with?
