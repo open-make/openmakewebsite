@@ -18,7 +18,7 @@ editor_options:
 
 # Interview: Libre Solar
 
-*by the Open make team and Michel Langhammer. Copyright to the authors,
+*By the Open make team and Michel Langhammer. Copyright to the authors,
 distributed under a CC-BY 4.0 licence.*
 
 **Sections:**
@@ -57,6 +57,7 @@ FIXME
 
 ### Hardware products
 
+The project propose building blocks for direct current Energy Systems: Charge Controllers, Battery Management, Interfaces and other elements.
 The libre solar is a set of (mostly electronic) products like a portfolio. You
 have different components for different requirements and can mix them to build
 up a system.
@@ -64,12 +65,12 @@ up a system.
 ### Hardware maturity
 
 Different products are at different development stage, it is declared for each
-product on the website.
+product on [the website](https://libre.solar/hardware/): alpha, beta, eval, release.
 
 ### Rebuilds
 
 We have test fields of friends who are living in rural areas. They build up the
-off grid energy system completely by themselves
+off grid energy system completely by themselves.
 
 {{< /card >}}
 
