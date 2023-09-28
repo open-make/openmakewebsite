@@ -3,7 +3,7 @@ title: 'Interview: VentMon'
 author: 
   - Open make interview team
   - Robert Read
-date: '2023-03-01'
+date: '2023-09-28'
 slug: interview-ventMon
 categories: [interview]
 banner: img/banners/ventmon.png
