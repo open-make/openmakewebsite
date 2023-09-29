@@ -3,7 +3,7 @@ title: 'Interview: Libre Solar'
 author: 
   - Open make interview team
   - Michel Langhammer
-date: '2022-10-20'
+date: '2023-09-29'
 slug: interview-libre-solar
 categories: [interview]
 banner: img/banners/libresolar_logo_small.png
@@ -28,7 +28,7 @@ distributed under a CC-BY 4.0 licence.*
 -   [The research outputs](#research-outputs)
 -   [The participants](#participants)
 
-*Banner image: libresolar logo, distributed under a CC-BY-SA 4.0*
+*Banner image: libre solar logo, distributed under a CC-BY-SA 4.0*
 
 > Date: 2022-08-02
 >
@@ -43,7 +43,7 @@ distributed under a CC-BY 4.0 licence.*
 
 *Screenshot of the interview.*
 
-FIXME
+
 
 {{< card "The Libre Solar in a nutshell">}}
 
@@ -58,19 +58,17 @@ FIXME
 ### Hardware products
 
 The project propose building blocks for direct current Energy Systems: Charge Controllers, Battery Management, Interfaces and other elements.
-The libre solar is a set of (mostly electronic) products like a portfolio. You
-have different components for different requirements and can mix them to build
-up a system.
+The libre solar is a set of (mostly electronic) products like a portfolio. 
+You have different components for different requirements and can mix them to build up a system.
 
 ### Hardware maturity
 
 Different products are at different development stage, it is declared for each
-product on [the website](https://libre.solar/hardware/): alpha, beta, eval, release.
+product on [the website](https://libre.solar/hardware/): alpha, beta, eval, and release.
 
 ### Rebuilds
 
-We have test fields of friends who are living in rural areas. They build up the
-off grid energy system completely by themselves.
+We have test fields of friends who are living in rural areas. They build up the off grid energy system completely by themselves.
 
 {{< /card >}}
 
@@ -91,7 +89,9 @@ already existing set of electronics developed by Martin Jäger, who began in
 systems. It was back on Arduino base with low entry and later developed to a
 next generation of electronic charge controller with a STM 32. The higher demand
 regarding resolution and calculation time required the upgrade of the hardware
-component. Further we built the Libre Solar around or with that component and
+component. 
+
+Further we built the Libre Solar around or with that component and
 started prototyping. There were different prototyping phases of different
 components. It was always developing one component and testing it. Based on the
 test we implemented new requirements. An example would be power classes and how
@@ -227,7 +227,7 @@ other people contribute, make a pull, push or merge requests or give comments.
 That's a typical good workflow. {{< /expand >}}
 
 {{< card2 "Major issues">}} 
-From the development and production side the main issues was safety, quality and secureness. Esxpecially when you work with batteries some people have been insecure how to handle the safety issues: You can’t shortcut them otherwise they will explode.
+From the development and production side the main issues was safety, quality and secureness. Especially when you work with batteries some people have been insecure how to handle the safety issues: You can’t shortcut them otherwise they will explode.
 {{< /card2 >}}
 
 > During that process or the project overall, what major issues have you come
@@ -273,7 +273,7 @@ For the educational part, it was made in a group of seven people by consensus.
 > How were the decisions made within the project all the time?
 
 {{< expand "Show answer">}} Martin made most of the decisions because he had the
-main expertise. What he said should fit. Other people had expertises which been
+main expertise. What he said should fit. Other people had expertise which been
 discussed. For the educational part, I was the project leader on the
 administration side but I didn't make any decisions. It was made in a group of
 seven people by consensus.{{< /expand >}}
@@ -364,8 +364,8 @@ we are nearly there. It's just because of the CE certification. We already did a
 few tests in the laboratory for measuring the CE standards but we were out of
 range and didn't get the CE certification. That's why we can't legally sell the
 products, but it's a goal. Right now we have the supply shortage of
-microcontrollers which causes the prototyping process to hold because we can't
-source STM 32 microcontrollers. In the beginning, the goal is to have a set of
+micro-controllers which causes the prototyping process to hold because we can't
+source STM 32 micro-controllers. In the beginning, the goal is to have a set of
 hardware components ready to sell with a portfolio for educational reasons and
 research institutes. There was a connection with the Uni Freiburg and different
 other universities who are interested. This is a low entry point because you
@@ -428,7 +428,7 @@ educational resource website where we put in everything concerning assembly
 processes. {{< /expand >}}
 
 {{< card2 "Publication strategy">}} 
-We published it only on GitHub. There’re some linkings to the wiki from Open Source Ecology in Germany. 
+We published it only on GitHub. There’re some linking to the wiki from Open Source Ecology in Germany. 
 
 Open Source Ecology helped to disseminate or promote the project in a way.
 We provide information on different platforms to draw more people for us and the Open Source Ecology.
@@ -436,8 +436,8 @@ We provide information on different platforms to draw more people for us and the
 
 > How did you publish the hardware?
 
-{{< expand "Show answer">}} We published it only on GitHub. There're some
-linkings to the wiki from Open Source Ecology in Germany. The key entry in this
+{{< expand "Show answer">}} We published it only on GitHub. There is
+linking to the wiki from Open Source Ecology in Germany. The key entry in this
 platform is describing a so called Open Nano Grid. This would be another
 application you can make with hardware components from the Libre Solar project.
 {{< /expand >}}
@@ -502,7 +502,7 @@ have any qualitative feedback. I can just assume and you can analyze the forum.
 {{< expand "Show answer">}} It's easy for people who have a technical or
 software development background. We did the entry workshop about how to use Git.
 (Yeah, okay.) A colleague of ours did a little workshop. The graphical interface
-of GitHub makes it much more esay using it and it was like trial and error or
+of GitHub makes it much more easy using it and it was like trial and error or
 working with it together. It helped to focus on the main features. With time the
 people got used to it. It's like a learning curve for platforms. {{< /expand >}}
 
@@ -564,14 +564,14 @@ regarding the nano grid system, renewable energy and PV battery. The second part
 is the component part. It's to dive in into the components. For example, how is
 a charge controller built up? What does a charge controller contain? It has a
 power electronics, measuring and communication stage. I'm clustering it in the
-subcomponents of the hardware. The idea behind it was that people who want to
+sub-components of the hardware. The idea behind it was that people who want to
 contribute in the development have a starting point of what do they want to
 develop. If you have an electrical engineering background, you don't need this
 because this what you learn in university. But if you don't have and you're
 interested in renewable energies, you can use the educational resources to get
 the basic overview. The second part in the educational part is the production.
 It's about how to replicate and produce such components. I'm oriented on the
-lifecycle process. We have development and production stage and now the usage
+life cycle process. We have development and production stage and now the usage
 stage. Each component has a user manual. For learning environment, user usage
 and documentation it would contain the data acquisition, data analyzes of energy
 systems and improvements. But this isn't yet developed. The fourth stage would
@@ -717,7 +717,7 @@ University. They had a funding round and they were very interested of students
 who contribute. At this time it was mainly professors, researcher and staff. I
 was like a student which they were very interested in. This time I got funded.
 It was like 25,000 Euro. It was like the first funding project for me. I was a
-completely unexperienced with such things. I was just a student.
+completely inexperienced with such things. I was just a student.
 
 My professor was the mentor because that was needed from the Hamburg open online
 university. I was a student and the project leader of this funding project.
@@ -858,7 +858,7 @@ charging a battery. This is why we went to the Fab Lab St Pauli, too.
 {{< expand "Show answer">}} The university didn't gave us a room. We asked for
 it. They brought us then in an old laboratory, where we could hang around. But
 this isn't a good place to work. Then they build up a Fab Lab but it wasn't open
-for students. We asked for it but it's just for startups and some ecosystem
+for students. We asked for it but it's just for start-ups and some ecosystem
 share stakeholders.Further, there was a Fab Lab with 3D printers. But it wasn't
 a Fab Lab where you can like tinker around, it was just for 3D printing. The
 university didn't have the infrastructure for us. That's why we went to a Fab
