@@ -186,7 +186,7 @@ got money. For the Rwanda project I have no numbers. {{< /expand >}}
 Solar component, it was a community based workshop run in a FabLab. In the
 planning process, we got a bill of materials and saw what components we needed.
 We divided the replication into PCB replication and the actual solar box
-replication. Within PCB replication we decided between to order a full assembled
+replication. Within PCB replication, we decided between to order a full assembled
 PCB or to order the circuit board without parts on it. It was like the PCB
 without components. With the ordered components we went to the Fab Lab and did
 the usual process steps to do for electronics. Afterwards it was about testing
@@ -196,16 +196,11 @@ Then we flashed the PCBU. Finally, we had a ready to use charge controller.
 
 > How did you organize the development process?
 
-{{< expand "Show answer">}} The development process for the PCB mainly took
-place in GitHub as a collaboration platform. The repository is placed in GitHub.
-For the electric design, I'm using KiCad as a development tool to design
-components as being offline. When it's ready, you place the design fire to play
-some guitar and make some comments. To get a workflow you have to use the tools
-placed on GitHub and then iterating if you want to go into selection.
+{{< expand "Show answer">}} So the development process for the PCB mainly took place in GitHub, as as a collaboration platform. The repository is placed in GitHub. For the electric design, I'm using KiCAD as an offline development tool, to design the component. And then, you placed ready design files in place in Github, and make some comments. We used the Git workflow, you have there and yeah. So this about development, using the tools on GitHub and then iterating.
 {{< /expand >}}
 
 {{< card2 "Work Coordination">}} 
-It’s like the usual software kit workflow where you have other people contribute, make a pull, push or merge requests or give comments.
+It’s like the usual software kit workflow where you have other people who contribute, make a pull, push or merge requests or give comments.
 
 Different people are working with different styles and the documentation gets a little bit unstructured and messy,
 contribution guideline for the hardware design help mitigate these issues.
@@ -214,14 +209,18 @@ If you don't have proper documentation, people don't have a good starting point 
 
 Within the forum, you can  see a lot of people who are interacting and making questions because they replicate the components by themselves.
 
-We had a telegram channel where we had ad hoc communication. We built up a GitHub repository where we had issue-based coordination. We had weekly meetings at a Fab Lab
+We had a telegram channel where we had ad hoc communication. We built up a GitHub repository where we had issue-based coordination. We had weekly meetings at a Fab Lab.
+
+About contributors: A review was there because it was from friends. We
+had the direct contact. It wasn't on a GitHub sphere or distributed community
+sphere.
 {{< /card2 >}}
 
 > Would you do this from different locations?
 
 {{< expand "Show answer">}} The electrical design is mainly developed by Martin.
 I have to look up if there're some other comments. Especially in electric
-designing hardware is designed without many contributors because you need
+designing, hardware is designed without many contributors because you need
 technical knowledge. It's like the usual software kit workflow where you have
 other people contribute, make a pull, push or merge requests or give comments.
 That's a typical good workflow. {{< /expand >}}
@@ -234,28 +233,30 @@ From the development and production side the main issues was safety, quality and
 > across and how did you resolve them?
 
 {{< expand "Show answer">}} About development process issues, I can't tell much
-because Martin is the main developer of it. I know what the issue are regarding
+because Martin is the main developer. I know there are issues regarding
 contribution guidelines. Especially for the firmware, you stick to a code style
 but different people are working with different styles and the code gets a
 little bit unstructured and messy. For people to learn the code, it's important
 to have a common structure. This was one case of a contribution guideline for
 the hardware design, but I can't say too much because I'm not too much
-contributor in it. If you don't have proper documentation, people don't have a
+contributing in it. If you don't have proper documentation, people don't have a
 good starting point where they can jump in the development. A proper
-documentation is crucial. The same counts for modular development that people
-can contribute to specific modules or sub components of your hardware. From the
-development and production side the main issues was safety, quality and
-secureness. When you work with batteries some people have been insecure how to
+documentation is crucial. 
+
+The same counts for modular development that people
+can contribute to specific modules or sub-components of your hardware. From the
+development and production side, the main issues was safety, quality and
+secureness. When you work with batteries some people have been insecure on how to
 handle the safety issues. You can't shortcut them otherwise they will explode.
 There you need expertise and a guide how to trust the people you're working
 with. Some of us had an electrical background. The people, who didn't have the
-background in electrical engineering, were more insecure about handling
+background in electrical engineering were more insecure about handling
 batteries. {{< /expand >}}
 
 > Did you them some idea what not to do?
 
 {{< expand "Show answer">}} This was one issue besides the quality testing. For
-quality parameters was not so much documentation done. About this we depended on
+quality parameters, there was not so much documentation done. About this, we depended on
 expertise. {{< /expand >}}
 
 > Did you receive some outside expertise from people?
@@ -298,7 +299,7 @@ mix them to build up a system out of it. {{< /expand >}}
 is like DC-DC converters and charge controllers with different types depending
 on power class. The second type is a battery management system which have
 different types depending on how many cells you want to connect. The third are
-communication gateways to connect to server based applications. {{< /expand >}}
+communication gateways to connect to server-based applications. {{< /expand >}}
 
 > How would you classify the products in terms of mechanical, electrical
 > andsoftware?
@@ -331,18 +332,20 @@ it. They replicated it and used it for a sensor node as well. This is one
 independent replication of the component.
 
 We have a forum in the project. Within the forum, you can see a lot of people
-who are interacting and making questions because they replicate the components
+who are interacting and asking questions, because they replicate the components
 by themselves. I don't have an exact number. {{< /expand >}}
 
 > Is the project still ongoing and you're working together in a group?
 
 {{< expand "Show answer">}} The hardware development of the electrical layout is
-mainly done by Martin Jäger. I have to look in the GitHub if there are more
+mainly done by Martin Jäger. I have to look in the GitHub[*] if there are more
 contributors. I'm doing the educational part. I'm designing the resource
 contents for education. Katherine, who was in the Open Hardware Summit, works in
 the educational part because she's in the library and does a little bit of
 software for data visualization. On the data software side are contributors, but
 we aren't in a local group here in Hamburg. It's distributed in the world.
+
+[* Notes from the open make team: not many more contributors spotted on GitHub, although the projects are often forked.]
 {{< /expand >}}
 
 > Are you all working on the same hardware what can be found on the repository?
@@ -357,18 +360,20 @@ within the Libre Solar project. {{< /expand >}}
 > experience?
 
 {{< expand "Show answer">}} My wish is to build up Libre Solar as the Arduino
-for renewable energy systems. I always want to have an open hardware base for
+for renewable energy systems. I always wanted to have an open hardware base for
 learning and building up its own renewable energy system for everyone. It's for
 industrial, private or educational use. We aim for a ready to sell product and
 we are nearly there. It's just because of the CE certification. We already did a
 few tests in the laboratory for measuring the CE standards but we were out of
 range and didn't get the CE certification. That's why we can't legally sell the
-products, but it's a goal. Right now we have the supply shortage of
-micro-controllers which causes the prototyping process to hold because we can't
+products, but it's a goal. 
+
+Right now we have the supply shortage of
+micro-controllers which causes the prototyping process to hold, because we can't
 source STM 32 micro-controllers. In the beginning, the goal is to have a set of
 hardware components ready to sell with a portfolio for educational reasons and
-research institutes. There was a connection with the Uni Freiburg and different
-other universities who are interested. This is a low entry point because you
+research institutes. There was a connection with the University of Freiburg and different
+other universities are interested. This is a low entry point because you
 don't need the proper certification if you just use it in research environment.
 {{< /expand >}}
 
@@ -407,8 +412,8 @@ it's not the main focus. {{< /expand >}}
 we make an iteration of the documents and republish the documentation. If we see
 that there is something missing within the documentation, we redevelop the
 documentation and publish it. But it's not explicitly a publication about the
-issues. We're thinking about a blog. If you have a blog post, you can say here
-is something we made. It's a little bit like issue tracking using GitHub. While
+issues. We're thinking about a blog. If you have a blog post, you can say: 'here
+is something we made'. It's a little bit like issue tracking using GitHub. While
 we were in a replication workshop, we didn't write down the issues. We just make
 an iteration of the documentation. {{< /expand >}}
 
@@ -509,8 +514,8 @@ people got used to it. It's like a learning curve for platforms. {{< /expand >}}
 > Could you explain the connection to Open Source Ecology Germany?
 
 {{< expand "Show answer">}} Yeah, it wasn't directly to GitLab from Open Source
-Psychology but to the wiki from Open Source Psychology. Open Source Psychology
-Germany is running a wiki. There they can maybe just search for the entry. It
+Ecology but to the wiki from Open Source Ecology. (Open Source Ecology
+Germany is running a wiki). There they can maybe just search for the entry. It
 was like one article where they mentioned the Libre Solar project. But we are
 documenting it mainly on GitHub. Other people, who are reusing the component,
 are documenting it and the key focus was ecology. They helped to disseminate or
@@ -555,8 +560,9 @@ an information base. It's like the hardware information. This was mainly the
 repository you have on GitHub. The hardware information is consisting of the
 design files, BOM file, readme file and an overview. This is the technical
 documentation of the hardware. It's one main information cluster. For all the
-components exists a separate or a dedicated repository with these informations.
-The second information cluster is the learning the learning cluster. It's the
+components, a separate or a dedicated repository exists with these informations.
+
+The second information cluster is the learning cluster. It's the
 open education resources. The main idea behind it is to give a basic information
 about the used technologies within a system. It's divided in two chapters. One
 is a system view to have an overall view of what we are here talking about
@@ -569,7 +575,9 @@ contribute in the development have a starting point of what do they want to
 develop. If you have an electrical engineering background, you don't need this
 because this what you learn in university. But if you don't have and you're
 interested in renewable energies, you can use the educational resources to get
-the basic overview. The second part in the educational part is the production.
+the basic overview. 
+
+The second part in the educational part is the production.
 It's about how to replicate and produce such components. I'm oriented on the
 life cycle process. We have development and production stage and now the usage
 stage. Each component has a user manual. For learning environment, user usage
@@ -637,7 +645,7 @@ more qualitative feedback out of it.
 developed. I would declare it a prototype because of this legal issue of the CE
 certification and not call it a product. It's ready to use and people are using
 it with off grid applications all around the world. We have a feedback loop from
-the research project how the system is running. It's running. This is the main
+the research project how the system is running: It's running. This is the main
 success. The documentation is a success, too. In my opinion, it's a very high
 quality documentation of all the components, it's very structured. We were able
 to develop educational resources within such a hardware project which isn't
