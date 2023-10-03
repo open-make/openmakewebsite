@@ -227,6 +227,10 @@ That's a typical good workflow. {{< /expand >}}
 
 {{< card2 "Major issues">}} 
 From the development and production side the main issues was safety, quality and secureness. Especially when you work with batteries some people have been insecure how to handle the safety issues: You can’t shortcut them otherwise they will explode.
+
+[Getting feedback was difficult]: A review was there because it was from friends. We
+had the direct contact. It wasn't on a GitHub sphere or distributed community
+sphere.
 {{< /card2 >}}
 
 > During that process or the project overall, what major issues have you come
