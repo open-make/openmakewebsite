@@ -27,19 +27,16 @@ We will build a academic maker community inside the Berlin University Alliance i
 
 <img src="images/OPEN.MAKE II Poster.pdf" alt="Visual poster of the Open Make project plan. Four working packages are indicated around a figure of the Turing way book representing reasons to open the hardware creation work in academia." width="400px"/>
 
-# Other good news
 
-## Guidance book
+## The team 
 
-We worked with the TU Delft open hardware team and other GOSH members in the open hardware part of the Turing way book.
-The chapter on open hardware has been updated, as well as the chapter on open project documentation (there is one chapter for both hardware or software projects). 
-We also wrote a new part about open hardware licensing.
+The open make core team does not change.
 
-## Team success
+It is also time to congratulate Prof. (!!) Sacha Hodencq, team member as a visiting scientist, who got a permanent position in Grenoble (Maître de conférences). 
 
-It is also time to congratulate Prof. (!) Sacha Hodencq, team member as a visiting scientist, who got a permanent position in Grenoble. 
-Our second visitor, Dr. Julieta Arancio, will continue her work as employed by the NASA.
+Our second visitor, Dr. Julieta Arancio, got a wonderful opportunity as an [open accelerator fellow by Open Research Funders group](https://www.orfg.org/news/2023/10/02/orfg-welcomes-julieta-arancio-as-open-accelerator-fellow). 
 
-R. Mies will defend his PhD thesis early next year, his lab at the TU also got some European grant money to work on local production of open hardware. 
+Robert Mies will defend his PhD thesis early next year, he was also involved in another successful  grant application (Local Accessible Urban Digital and Sustainable Factories -LAUDS-, 2024-2027, Horizon Europe).
 
 
+> Poster image re-use: The Turing Way project illustration by Scriberia. Zenodo. http://doi.org/10.5281/zenodo.3332807
