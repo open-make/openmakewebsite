@@ -30,7 +30,7 @@ We will build a academic maker community inside the Berlin University Alliance i
 
 ## The team 
 
-The open make core team does not change.
+The open make core team does not change. We are welcoming a fourth PI from the Charité, such that all four BUA universities are represented.
 
 It is also time to congratulate Prof. (!!) Sacha Hodencq, team member as a visiting scientist, who got a permanent position in Grenoble (Maître de conférences). 
 
