@@ -25,7 +25,9 @@ Our work inside the RDA will cover the social and cultural aspects of creating a
 On the other hand, we will work locally. 
 We will build an academic open hardware maker community inside the Berlin University Alliance institutions. We will offer specific training and teaching formats for open source hardware development for the researchers and students, as well as a direct support including a mobile / pop up workshop.
 
-<img src="images/OPEN.MAKE_II_Poster.pdf" alt="Visual poster of the Open Make project plan. Four working packages are indicated around a figure of the Turing way book representing reasons to open the hardware creation work in academia." width="400px"/>
+<img src="images/OPEN.MAKE_II_Poster.jpeg" alt="Visual poster of the Open Make project plan. Four working packages are indicated around a figure of the Turing way book representing reasons to open the hardware creation work in academia." width="400px"/>
+
+*Open Make project plan, see [pdf version here](images/OPEN.MAKE_II_Poster.jpeg)*
 
 
 ## The team 
