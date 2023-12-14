@@ -13,6 +13,7 @@ tags:
   - scope
   - goals
 ---
+*Original post (2021-09-27) has been updated (2023-12-14).*
 
 ## The problem(s)
 
@@ -25,13 +26,13 @@ On the other hand, from the perspective of the researchers designing the (hardwa
 
 ## Solutions
 
-In this project, we intend to contribute to the establishment of an open and FAIR[^4] hardware strategy in academia, as well as to improve the quality or hardware documentation. While this goal is shared with other projects and communities, we will particularly focus on the prototyping of an hardware publication (eco-)system. 
+**In this project, we intend to contribute to the establishment of an open and FAIR[^4] hardware strategy in academia, as well as to improve the quality or hardware documentation. While this goal is shared with other projects and communities, we will particularly focus on the prototyping of an hardware publication (eco-)system.** 
 
-In a first phase, we will investigate the current practices concerning hardware documentation and its (exisiting and potential) importance for researchers and engineers career. On the other hand, we will consult with different communities, in order to define how the `open` and FAIR principles[^4] can be applied to hardware. This will help us frame the  technical and social requirements the hardware publication system should fulfill. 
+In a first phase (2021-2023), we have investigated the current practices concerning hardware documentation and its (exisiting and potential) importance for researchers and engineers career. On the other hand, we are working on the application of `open` and FAIR principles[^4] to hardware inside the international  [RDA4RH group](https://www.rd-alliance.org/groups/fair-principles-research-hardware). This helps us frame the  technical and social requirements the hardware publication system should fulfill. We are also producing guidance materials to ease the documentation of hardware and to help researchers creating FAIR documentation from the start of their project.  
 
-The second phase will be utilized for the creation or the adaptation of tools allowing to prototype a hardware peer review, certification and publication system. In a third phase, we will use the prototype to publish hardware use cases and disseminate our results. In parallel to defining a peer review process, we will produce guidance materials to ease the documentation of hardware and to help researchers creating FAIR documentation from the start of their project. 
+The second phase (2023-2026), we will adapt software tools to prototype a hardware peer review, certification and publication system, as well as build a community of makers inside the four BUA universities. More details available in [this blog post.](/blog/2023/11/25/2023-08-02-openmake-ii-funded/)
 
 [^1]: Under the assumption that starting from scratch is not a requirement
 [^2]: The [Gathering for Open Science Hardware](https://openhardware.science) community is very active in this regard.
 [^3]: See https://rri-tools.eu for an overview of the responsible research and innovation importance in europe.
-[^4]: The [FAIR principles](https://www.go-fair.org/fair-principles/) were created with datasets in mind, but were recently adapted to research hardware by the [FAIR Principles for Research Software (FAIR4RS Principles) RDA group](https://www.rd-alliance.org/group/fair-research-software-fair4rs-wg/outcomes/fair-principles-research-software-fair4rs?mc_cid=0a0624c6ad&mc_eid=374604702f). The principles states that research outputs should be Findable, Accessible, Interoperable and Reusable.
+[^4]: The [FAIR principles](https://www.go-fair.org/fair-principles/) were created with datasets in mind, and were recently adapted to research software by the [FAIR Principles for Research Software (FAIR4RS Principles) RDA group](https://www.rd-alliance.org/group/fair-research-software-fair4rs-wg/outcomes/fair-principles-research-software-fair4rs?mc_cid=0a0624c6ad&mc_eid=374604702f). The principles states that research outputs should be Findable, Accessible, Interoperable and Reusable.
