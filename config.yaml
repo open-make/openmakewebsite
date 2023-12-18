@@ -94,7 +94,7 @@ params:
   enableRecaptchaInContactForm: no
   facebook_site: ''
   features:
-    cols: 3
+    cols: 4
     enable: yes
   footer:
     recent_posts:
