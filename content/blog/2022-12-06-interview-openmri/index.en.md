@@ -68,7 +68,7 @@ rings.](https://www.opensourceimaging.org/wp-content/uploads/open_source_magneti
 magnet elements. The rings are held together using threaded brass rods,
 with nuts and washers acting as spacers between individual rings.*
 
--    Main website: https://www.opensourceimaging.org
+-   Main website: https://www.opensourceimaging.org
 -   Project start: 2016
 -   Core development team size: 5-6 people
 
@@ -186,14 +186,10 @@ part is to make it open source. When we post it on the website, we know
 that we can put it together into a single system. The organization isn't
 clear for both parts. There is no clear organizational structure for the
 website and community parts. They are three to five people which keep it
-running in the small core and for the ultra developments the
+running in the small core and for the developments the
 organization is based on the labs.
-> [name=Julien Colomb]probably not "ulta"
 
-> Robert Mies  
-> Yeah, so many more people.
-
-There are a lot of on and off experts. Overall we have more than hundred
+There are a lot of on and off experts. Overall, we have more than hundred
 people involved, but it's not a fixed, structured hierarchy. Decision is
 made by a discussion and besides there are also some individual efforts
 to promote things.{{< /expand >}}
@@ -212,7 +208,7 @@ developed, but with time, we put the different systems together. {{< /card2 >}}
 > works on what they're interested in or whatever they decide to work
 > on? (Later, you discuss what of the work is included in some kind of
 > mainline version of the Open MRI, I guess everyone has their own
-> version of this, this Open MRI, and there is no mainline version of
+> version of this Open MRI, and there is no mainline version of
 > it.)
 
 {{< expand "Show answer">}}  
@@ -220,7 +216,7 @@ I can tell you the short history of how things happened, how it was
 supposed to be and how it in practice developed. Initially we wanted to
 have an open platform around open source imaging where people start
 working in one direction. We started off by providing simple visibility
-to the scientists something that was not there. If they do open source,
+to the scientists, something that was not there. If they do open source,
 visibility inside the community is an extra effort. This is 
 how it started. We highlight the projects, you get visibility, you get
 something back and you're in a way part of this community. But I think
@@ -393,10 +389,10 @@ in the world.
 
 {{< expand "Show answer">}}  
 As a scientist and not only as a scientist. I try to work on something
-that creates impact and there're different ways how to create impact.
+that creates impact and there are different ways how to create impact.
 With my time available, I'm trying to maximize the impact I can create.
 This leads one to the other, ending up with an open source version. It
-has the most impact thinking it from a big picture.
+has the most impact, thinking it from a big picture.
 {{< /expand >}}
 
 > Why do you believe doing it open source has the biggest impact?
@@ -597,21 +593,7 @@ have to rebuild before actually making the next step. That's very
 inefficient.
 {{< /expand >}}
 
-> \[name=Julien Colomb\]I would erase the following part, the question
-> was not understood\*
 
-> Would you say today it's possible to reproduce and modify the
-
-    > product with the published information?
-
-{{< expand "Show answer">}}  
-Current products on the market? No.
-Modify without the company isn't possible. Of course the
-company needs to interested in that. But what's the benefit? What does
-it give them? Modifying, maybe some software, but it's very difficult.
-You do have some very specific applications, you can work it out with
-the company.
-{{< /expand >}}
 
 > If another group wants to join in the development, would they be able
 > to replicate the prototype right now?
@@ -650,6 +632,9 @@ I try to work on something that creates impact.  An open source version of a MRI
 The most significant part is to have a good feeling about it.
 
 You can continue your own work and have advanced it which gives you publications.
+
+We highlight the projects, you get visibility, you get
+something back and you're in a way part of this community.
 
 {{< /card2 >}}
 
