@@ -43,8 +43,9 @@ distributed under a CC-BY 4.0 licence.*
 
 # The Open Source Imaging Initiative
 
-The Open Source Imaging Initiative (OSI²) represents a new approach to the development of medical imaging devices, aiming to make the health-care benefits of modern instruments accessible to many more people around the globe. The project will pool the knowledge and
-experience of many experts in open-source designs for Magnetic Resonance Imaging devices (MRI) which can be built and maintained for a fraction of the price of current instruments. Its [hardware section](https://www.opensourceimaging.org/category/hardware/) is rich with 36 projects.
+The Open Source Imaging Initiative (OSI²) represents a new approach to the development of medical imaging devices, aiming to make the health-care benefits of modern instruments accessible to many more people around the globe.
+The project will pool the knowledge and experience of many experts in open-source designs for Magnetic Resonance Imaging devices (MRI) which can be built and maintained for a fraction of the price of current instruments.
+Its [hardware section](https://www.opensourceimaging.org/category/hardware/) is rich with 36 projects.
 
 Lukas Winter is a core member of the large community behind this project.
 
@@ -60,15 +61,18 @@ rings.](https://www.opensourceimaging.org/wp-content/uploads/open_source_magneti
 magnet elements. The rings are held together using threaded brass rods,
 with nuts and washers acting as spacers between individual rings.*
 
--    Main website: https://www.opensourceimaging.org
+-   Main website: https://www.opensourceimaging.org
 -   Project start: 2016
 -   Core development team size: 5-6 people
 
 ### Hardware products
 
-Our goal with Open Source Imaging is to have a completely transparent and open source MRI scanner, ideally somewhere in the clinic. Our main output is now a low-field MRI system.
+Our goal with Open Source Imaging is to have a completely transparent and open source MRI scanner, ideally somewhere in the clinic.
+Our main output is now a low-field MRI system.
 
-There were lots of different amplifiers and phantoms. All the modules that you need for an MRI system to run. We list above 100 projects at the moment (both hardware and software).
+There were lots of different amplifiers and phantoms.
+All the modules that you need for an MRI system to run.
+We list above 100 projects at the moment (both hardware and software).
 
 ### Hardware maturity
 
@@ -95,12 +99,14 @@ Initially, the communication was not very effective, because everyone had differ
 > Could you give a short introduction about the hardware project that you've been working on recently, the Halbach array magnet for in vivo imaging?
 
 {{< expand "Show answer">}}
- Our goal with Open Source Imaging is to have a completely
-transparent and open source MRI scanner, ideally somewhere in the clinic. We worked initially in different working groups, on different components or different modules of the system. Currently, this is all coming together into one scanner. In MRI you have different types of scanners. This one is called low-field MRI system. Probably the most
-important goals are a more affordable medical technology and access to more people. The secondary goal is a transparent system for science which has the advantage of being more effective and bringing more people to the table, more percisely bringing the ones that are currently excluded from the scientific discussion. 
+Our goal with Open Source Imaging is to have a completely transparent and open source MRI scanner, ideally somewhere in the clinic.
+We worked initially in different working groups, on different components or different modules of the system.
+Currently, this is all coming together into one scanner.
+In MRI you have different types of scanners. This one is called low-field MRI system. Probably the most important goals are a more affordable medical technology and access to more people.
+The secondary goal is a transparent system for science which has the advantage of being more effective and bringing more people to the table, more precisely bringing the ones that are currently excluded from the scientific discussion. 
 
 Further, open source systems are pretty beneficial for society. For example, there is a lot of discussion around AI entry into medical products. However, it's already difficult with AI by itself. But if you had some transparent systems, you could evaluate, understand, test the robustness, and maybe implement more physics-based learning models that are more robust in a clinical
-setting. This still has to be determined. It's on the research side so to speak. I think for regulatory purposes that's quite interesting to have. Then you dont necessarily only have MR companies but you have other companies that work together with MR. If they would have more access to
+setting. This still has to be determined. It's on the research side so to speak. I think for regulatory purposes that's quite interesting to have. Then you do not necessarily only have MR companies but you have other companies that work together with MR. If they would have more access to
 such transparent systems, they could test more products and create more innovation. There are many different aspects of why we want to have it open source. If you want to have whatever outputs, I think it's more effective doing it in an open source way, and it connects the globe.
 {{< /expand >}}
 
@@ -133,11 +139,6 @@ There are two parts in this project. One is around the website and the community
 There are two parts. One is the more around the website and the community efforts. The other one is actually the development of hardware. The community efforts are made by a few people who just tried to keep the topic in the conversation and convince more people around it. The hardware development is independent of that, it's happening in research labs and on different interests and modules. The connecting part is to make it open source. When we post it on the website, we know that we can put it together into a single system. The organization isn't clear for both parts. There is no clear organizational structure for the
 website and community parts. There are three to five people who keep it running in the small core and for the other developments the organization is based on the labs.
 
-> [name=Julien Colomb]probably not "ultra"
-
-> [name=Robert Mies]
-> Yeah, so many more people.
-
 There are a lot of on and off experts. Overall, we have more than hundred people involved, but it's not a fixed, structured hierarchy. Decision is made by a discussion and besides there are also some individual efforts to promote things.{{< /expand >}}
 
 
@@ -149,10 +150,10 @@ We started off by providing visibility to the scientists.
 
 We didn't have one place, around which it developed, but with time, we put the different systems together. {{< /card2 >}}
 
-> You have no clear organizational structure. Does that mean everybody works on what they're interested in or whatever they decide to work on? <!-- Later, you discuss what of the work is included in some kind of mainline version of the Open MRI, I guess everyone has their own version of this, this Open MRI, and there is no mainline version of it. -->
+> You have no clear organizational structure. Does that mean everybody works on what they are interested in or whatever they decide to work on? <!-- Later, you discuss what of the work is included in some kind of mainline version of the Open MRI, I guess everyone has their own version of this Open MRI, and there is no mainline version of it. -->
 
 {{< expand "Show answer">}}  
-I can tell you the short history of how things happened, how it was supposed to be and how it has developed in practice. Initially, we wanted to have an open platform around Open Source Imaging where people start working in one direction. We started off by providing simple visibility to the scientists, something that was not there. If they do open source, visibility inside the community is an extra effort. This is how it started. We highlight the projects, you get visibility, you get something back and you're in a way part of this community. But I think
+I can tell you the short history of how things happened, how it was supposed to be and how it has developed in practice. Initially, we wanted to have an open platform around Open Source Imaging where people start working in one direction. We started off by providing simple visibility to the scientists, something that was not there. If they do open source, visibility inside the community is an extra effort. This is how it started. We highlight the projects, you get visibility, you get something back and you are in a way part of this community. But I think
 one of the most difficult things in most such community efforts and things in general is its own interests and ecosystems. Everyone had the urge to keep it in their own domain, repositories, websites and servers. It didn't happen that we had one place and around this place it
 developed, everyone was doing their small modules. With time we put this together. 
 
@@ -207,7 +208,7 @@ Maybe one thing that is interesting to have as open source and as a product, at 
 > If you say cloud, do you mean a system where everybody can remotely operate such imaging devices? Or do you mean a database with imaging results that can any anybody search through and use?
 
 {{< expand "Show answer">}}  
-Different things, I mean that you don't need to have some fancy reconstruction hardware like GPUs. You could have slim hardware with the scanners, then you transfer the data to the cloud. Image reconstruction is a big part in MRI. There's not always the same thing to do, there're
+Different things, I mean that you don't need to have some fancy reconstruction hardware like GPUs. You could have slim hardware with the scanners, then you transfer the data to the cloud. Image reconstruction is a big part in MRI. There's not always the same thing to do, there are
 different methods with different effectiveness. Some of them just need good and fast hardware. If you have it on cloud, this would make it easier. You have a small tablet or probably a phone, the rest is done in the cloud. Compared to local hardware you could use an exchange. In
 terms of image post processing the results in the cloud have segmentation, you have other clinically relevant algorithms that fetches some information from the images that you acquired and present you clinically relevant results and also help research wise. This, you could exchange with the community. There are different ways that a cloud based system around these open source devices would be very interesting, similar to comparing different AI algorithms and solutions on your data.
 {{< /expand >}}
@@ -217,7 +218,7 @@ terms of image post processing the results in the cloud have segmentation, you h
 {{< expand "Show answer">}}
 It's a prototype but it's mostly because of ethical issues. Different modules were produced and successfully tested, the overall system not in its completeness yet.
 
-Pre-prototypes exist but we want to have a multicenter evaluation and this is not 100% there yet. {{< /expand >}}
+Pre-prototypes exist but we want to have a multi-center evaluation and this is not 100% there yet. {{< /expand >}}
 
 {{< card2 "Local production">}} 
 Primarily at this stage, production is meant at research institutions. There will be transition to commercial entities.
@@ -234,7 +235,7 @@ Primarily at this stage are research institutions. There will be transition to c
 > How did you end up working on this product?
 
 {{< expand "Show answer">}}  
-As a scientist and not only as a scientist, I try to work on something that creates impact and there're different ways how to create impact. With my time available, I'm trying to maximize the impact I can create. This leads one to the other, ending up with an open source version. It
+As a scientist and not only as a scientist, I try to work on something that creates impact and there are different ways how to create impact. With my time available, I'm trying to maximize the impact I can create. This leads one to the other, ending up with an open source version. It
 has the most impact, thinking of it like a big picture.
 {{< /expand >}}
 
@@ -251,7 +252,7 @@ transparency would be very beneficial for. We as a global society should search 
 {{< expand "Show answer">}}  
 When we found it, mine and some others motivation was open source imaging. It was out of this, the question for impact. I was researcher in ultra high field MRI which are systems that are even more expensive than the current standard MRI systems. You ask yourself, how is it successful? How many people will it reach? Then what's the problem? Why doesn't it reach more people? You start to investigate. You try to pinpoint the reasons. The classic one is the cost. Then it gets more complicated. You
 think what can I do about it? Is there a way to do it different? You pinpoint the most impactful parts of the system. First technology wise you say there are superconductors which are very expensive, can I do
-standard magnets? You start to investigate a little bit into this direction and figure out that's possible. You see the next issue. If I even make it happen, I have this whole other area of certification. Even if initially it's a cheap device, it will not be cheap on the market. Thenyou figure  out how can I change this market behavior to not have this
+standard magnets? You start to investigate a little bit into this direction and figure out that's possible. You see the next issue. If I even make it happen, I have this whole other area of certification. Even if initially it's a cheap device, it will not be cheap on the market. Then, you figure  out how can I change this market behavior to not have this
 monopolization in the end? A solution is by open source. This was the motivation, to start, take it off and see if we can get the community together because this community is very open and very susceptible to go into this direction.
 {{< /expand >}}
 
@@ -304,7 +305,7 @@ This documentation part is a lot of extra work, it’s optional. You need resour
 {{< expand "Show answer">}}  
 The progress of development you mean? It has not been published for several reasons. One is the extra time it takes to publish something. Second is people are not used to openly publishing. It's a culture change. People are
 growing up, they are more used to share, upload videos, share their life´and their things, but classically it's not like that. You just do it when it's perfect enough. Another reason might be that the scientific world is competitive. You want to publish something when it's done. When
-you have new results. If you do it on the way, you risk someone taking over. Someone that maybe has more resources and then they publish before you. That's a disadvantage for you. You wait until you're done. Then you present the last results. This documentation part is a lot of extra work, it's optional. You need resources for that. For example
+you have new results. If you do it on the way, you risk someone taking over. Someone that maybe has more resources and then they publish before you. That's a disadvantage for you. You wait until you are done. Then you present the last results. This documentation part is a lot of extra work, it's optional. You need resources for that. For example
 institutions, the tech transfer could be actually a real tech transfer and work for open source projects instead of other things. You could have these resources in institutions. Then you could have a culture change towards more open and more early open projects.
 
 We just need to be patient. I think that the younger people have it much easier to have it early. Many others wait until it's perfect, then it's still difficult to share.
@@ -318,7 +319,7 @@ If we can manage to not close it down, I think the potential impact is much high
 We have to try it, even if we fail, we might prove a point that there’s some value to it.
 {{< /card2 >}}
 
-> Were there some things you did where it was easy to do and it didn't cost as much? Because you're after impact in terms of the barriers that you mentioned and of the things that work.
+> Were there some things you did where it was easy to do and it didn't cost as much? Because you are after impact in terms of the barriers that you mentioned and of the things that work.
 
 {{< expand "Show answer">}}  
 I think the easiest thing that that works with open source is connecting elements. It's low on hurdles to any type of collaboration. If I go anywhere and have this open source project there is no discussions around who has which interests. Of course, everyone has their own interests but not as much as in other disciplines. If there is a commercial product, you have to set the stage how you collaborate together. What information can you share and what not. You must have nondisclosure agreements. Maybe some other contracts, who does what for what. It's always about what do I get back for my time invested? This is
@@ -331,17 +332,6 @@ the huge advantage of open source way of doing it because it makes it much easie
 I get much faster the information I need. Without this information I cannot continue on some paths regardless of it's development, regulatory or whatever. I can build upon it long term. In other areas you always have to rebuild before actually making the next step. That's very inefficient.
 {{< /expand >}}
 
-> \[name=Julien Colomb\]I would erase the following part, the question
-> was not understood\*
-
-> Would you say today it's possible to reproduce and modify the
-
-    > product with the published information?
-
-{{< expand "Show answer">}}  
-Current products on the market? No. Modifying without the company isn't possible. Of course the company needs to be interested in that. But what's the benefit? What does
-it give them? Modifying, maybe some software, but it's very difficult. You do have some very specific applications, you can work it out with the company.
-{{< /expand >}}
 
 > If another group wants to join in the development, would they be able to replicate the prototype right now?
 
@@ -363,12 +353,13 @@ I try to work on something that creates impact.  An open source version of a MRI
 
 You can continue your own work and have advanced in it which gives you publications.
 
+We highlight the projects, you get visibility, you get something back and you're in a way part of this community.
 {{< /card2 >}}
 
 > You answered how many people have worked on a project and there are different levels of where they work on within two parts you mentioned. What are the occupations of the people, is it researchers or postdocs?
 
 {{< expand "Show answer">}}  
-It's mostly researchers in different levels of their career,students, PhD students, postdocs and PI's,
+It's mostly researchers in different levels of their career,students, PhD students, post-docs and PIs,
 Bachelor thesis and master thesis.
 
 We do not have technicians dedicated for the project,
@@ -404,7 +395,7 @@ We think it's important to keep it enjoyable and to not have too strict mileston
 > How do you coordinate the work between the members?
 
 {{< expand "Show answer">}}  
-We use multiple communication channels. Whatever works. It's not a sprint, it's a marathon. It could be more effective. The good thing with this project is that time is on our side. We think it's important to keep it enjoyable and to not have to strict milestones. We're doing health care, we don't want to make ourselves unhealthy to create health. We should do both in parallel and it works. We have meetings and talk about things. But we don't have very strict deadlines. That's what gives people a burnout in the end. Sometimes you have a lot of sprints and it's stressful. I don't want to say that. If you do it out of your own conviction, the stress feels differently.
+We use multiple communication channels. Whatever works. It's not a sprint, it's a marathon. It could be more effective. The good thing with this project is that time is on our side. We think it's important to keep it enjoyable and to not have to strict milestones. We are doing health care, we don't want to make ourselves unhealthy to create health. We should do both in parallel and it works. We have meetings and talk about things. But we don't have very strict deadlines. That's what gives people a burnout in the end. Sometimes you have a lot of sprints and it's stressful. I don't want to say that. If you do it out of your own conviction, the stress feels differently.
 {{< /expand >}}
 
 > How do the members benefit from the work in the project?
