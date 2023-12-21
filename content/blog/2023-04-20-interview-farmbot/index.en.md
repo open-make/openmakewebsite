@@ -102,13 +102,7 @@ Yes, absolutely. With the internet age, that type of knowledge has not transferr
 Further I thought about how cool it is to be part of the 3D printer community. There were the proprietary 3D printers based on patents that were tens of thousands of dollars. Later those patents expired. They were from around the 70s. Suddenly, these DIY hobbyists started making the open source 3D printers. They're laser cuttable, you could make them at home if you had a printer. You could print even more parts for somebody else. That community really blossomed around the 2010s. There was pretty robust open source software that people could install, it was well documented. There were forums where people were exchanging ideas for how to troubleshoot problems. A bunch of websites, like Thingiverse, popped up where you could share 3D models. There were good standards for the data. Regarding interoperability, there was a lot of different software tool chains and the hardware to back it all up.
 {{< /expand >}}
 
-{{< card2 "Hardware components">}} 
-The FarmBot is basically a large 3D printer. Instead of extruding plastic, it sprays water.
 
-On the software side, there’re three primary code bases. (web application,  FarmBot OS which is an operating system that runs on the Raspberry Pi, Arduino code base).
-
-Being a useful source means reducing barriers to use that source content for something useful.
-{{< /card2 >}}
 
 >From a technology point of view, the way that the 3D printer runs is similar to CNC, isn’ it? (FIXME - Question is not clear/related to answer)
 
@@ -143,13 +137,7 @@ A big part about being open source isn’t making a zip file available of all of
 It's very unorganized and not very useful. If the documentation isn’t complete or very sparse, it’s really difficult. You want to find some information, you go looking for it and it's not there.
 {{< /expand >}}
 
-{{< card2 "Core team and community">}} 
-The people who were more committed stuck around and eventually became my cofounders for the company. The people who were more peripherally interested made some contributions and they went on to some other project or got busy with something else.
 
-One is a software developer. The other is our customer support and salesperson. I am the CEO, do the hardware design and interface with the manufacturing partner.
-
-They mostly find us. People will come onto the forum and they'll post about something that they're working on. 
-{{< /card2 >}}
 
 
 ## The hardware
@@ -168,7 +156,14 @@ On the software side, there’re three primary code bases. One is the web applic
 It's important to go from not just open source to useful source where you give them the link to the codebase but also to the documentation where you describe how the thing works. You can read about it in under an hour and have a pretty good understanding. If you want to interact with it in a new way or modify it in some way, you know more specifically where to go and how to do that. If you have questions, you know what to ask.  You're not just given this jumble of lines of code and say good luck.
 {{< /expand >}}
 
- 
+{{< card2 "Hardware components">}} 
+The FarmBot is basically a large 3D printer. Instead of extruding plastic, it sprays water.
+
+On the software side, there’re three primary code bases. (web application,  FarmBot OS which is an operating system that runs on the Raspberry Pi, Arduino code base).
+
+Being a useful source means reducing barriers to use that source content for something useful.
+{{< /card2 >}}
+
 >Do you need previous knowledge to understand the documentation?
 
 {{< expand "Show answer">}}  
@@ -195,6 +190,21 @@ It's easy to have conversations in Slack groups or over email, but those convers
 Contrary, it's important to not overshare. A lot of people, when they're wanting to find information, they just want to get the end result. They want to find the a CAD model or the schematic for this electronics board. They don't necessarily need to know about all the decision making that went into this electronics board. They want to get the end result that they can check the value of some resistor or some specification and move on. Maybe you do want to have some of the conversation and some of the previous iterations available. You have to  think if this is useful to a good percentage of people or it’s going to make too much noise. It's about the signal to noise ratio. You don't want to share the previous versions or be extremely visible if 99% of people want the final schematic and 1% of people want to look back at previous versions of the schematic that were interesting from an engineering perspective but had problems and never been used. You'd want to highlight the latest and greatest and in side note show the previous versions. If you really want to, you can find it. But you don't have a list with everything equally important. You want to direct people to the information that they actually are looking for. I know some open source projects which record all of their zoom calls and publish them on a YouTube channel. I'd rather get the meeting minutes and  scan through it in three minutes than spending an hour watching a video.
 {{< /expand >}}
 
+{{< card2 "Project process">}} 
+I decided that it would be open source. When I published the paper online, it was revolutionary in a way.
+
+Our work in progress is only shared amongst people who are actually working on that next feature or version of the FarmBot. That’s our internal team and maybe some small number of community members who are helping us doing some things. 
+
+We'll do the big publish and public release when the product is publicly available.
+
+A lot of being useful is about choosing the right tools for internal development and external sharing with people. 
+
+If somebody emails us with a problem, our support policy is to  update the documentation and send them the link.
+
+They can come to the forum, search for certain problems and find the solutions on the forum. It's about having the right information in the right places and formats.
+
+You want to direct people to the information that they actually are looking for.
+{{< /card2 >}}
 
 ## Research outputs
 
@@ -266,21 +276,7 @@ How did you get some funding after you were  a student?
 There was the Shuttleworth Foundation. They provided a grant in the beginning over $125,000. This was enough to go from the prototype to a product that we marketed in our initial crowdfunding campaign. Since the beginning we have operated on a preorder model. We announced the new version of the FarmBot and we say, order now to get a discount and the money goes towards the manufacturing of this new version. Six months later,  we finish making and we ship them to people. It’s a preorder crowdfunding model. We always manufacture more than we've accepted pre-orders for.  Then we have a little bit of inventory left. Because of the margin we have a little bit of money left to do the R&D and to make the next version of the FarmBot.
 {{< /expand >}}
 
-{{< card2 "Project process">}} 
-I decided that it would be open source. When I published the paper online, it was revolutionary in a way.
 
-Our work in progress is only shared amongst people who are actually working on that next feature or version of the FarmBot. That’s our internal team and maybe some small number of community members who are helping us doing some things. 
-
-We'll do the big publish and public release when the product is publicly available.
-
-A lot of being useful is about choosing the right tools for internal development and external sharing with people. 
-
-If somebody emails us with a problem, our support policy is to  update the documentation and send them the link.
-
-They can come to the forum, search for certain problems and find the solutions on the forum. It's about having the right information in the right places and formats.
-
-You want to direct people to the information that they actually are looking for.
-{{< /card2 >}}
 
 {{< card2 "Publication strategy">}} 
 
@@ -303,11 +299,15 @@ We don't publish anything until it is ready for the public or if it’s work in 
 
 ## Participants
 
-{{< card2 "Successes and failures">}} 
-I could have published the paper without anybody interested in it, maybe only a couple hundred people read it. Then I would not have a team and  much momentum. It could have ended there. But people were interested in it and it gave me confidence that this could be successful. 
+{{< card2 "Core team and community">}} 
+The people who were more committed stuck around and eventually became my cofounders for the company. The people who were more peripherally interested made some contributions and they went on to some other project or got busy with something else.
 
-It's about 3000 sold FarmBots up to now.
+One is a software developer. The other is our customer support and salesperson. I am the CEO, do the hardware design and interface with the manufacturing partner.
+
+They mostly find us. People will come onto the forum and they'll post about something that they're working on. 
 {{< /card2 >}}
+
+
   
 >How did you end up working on this? 
 
@@ -320,6 +320,12 @@ If we didn't have enough momentum, we would have said that's not enough to make 
 {{< /expand >}}
 
   
+{{< card2 "Successes and failures">}} 
+I could have published the paper without anybody interested in it, maybe only a couple hundred people read it. Then I would not have a team and  much momentum. It could have ended there. But people were interested in it and it gave me confidence that this could be successful. 
+
+It's about 3000 sold FarmBots up to now.
+{{< /card2 >}}
+
 >How many people worked on the project? 
 
 {{< expand "Show answer">}}  
