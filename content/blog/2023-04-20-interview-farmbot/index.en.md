@@ -6,7 +6,7 @@ author:
 date: '2023-03-14'
 slug: interview-farmbot
 categories: [interview]
-banner: img/banners/fixme
+banner: img/banners/farmbot.png
 tags:
   - technology
   - open hardware
@@ -36,13 +36,12 @@ tags:
 
 *Screenshot of the interview.*
 
-FIXME
 
 {{< card  "The FarmBot in a nutshell">}}
 
-![FIXME](images/FIXME.jpg "WR Switch") 
+<img src="images/farmbotexample.JPG" alt="Farmbot in action, by FarmBot Inc, CC-BY" width="80%"/>
 
-*Photos of FIXME*
+*Photos of Farmbot in action, by FarmBot Inc, CC-BY*
 
 - Main website: https://farm.bot/
 - Project start: 2013
