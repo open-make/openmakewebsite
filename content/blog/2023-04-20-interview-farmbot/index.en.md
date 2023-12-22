@@ -354,7 +354,7 @@ One is a software developer. The other is our customer support and salesperson. 
 
 {{< expand "Show answer">}}  
 I am the CEO, do the hardware design and interface with the manufacturing partner. I do a lot of the documentation and marketing videos and help leading the development of the software. 
-
+{{< /expand >}}
 
 >What are the occupation of the volunteer working people?
 
