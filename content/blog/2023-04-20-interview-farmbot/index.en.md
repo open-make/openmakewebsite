@@ -3,7 +3,7 @@ title: 'Interview: Farmbot'
 author: 
   - Open make interview team
   - Rory Aronson
-date: '2023-03-14'
+date: '2023-12-24'
 slug: interview-farmbot
 categories: [interview]
 banner: img/banners/farmbot.png
@@ -24,7 +24,7 @@ tags:
 - [The Research outputs](#research-outputs)
 - [The Participants](#participants)
 
-*Banner image: , distributed under a CC-BY-SA 4.0*
+*Banner image: farmbot logo, distributed under a  CC-BY-NC.*
 
 >Interviewee: Rory Aronson
 >
