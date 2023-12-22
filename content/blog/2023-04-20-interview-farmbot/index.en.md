@@ -44,8 +44,9 @@ tags:
 *Photos of Farmbot in action, by FarmBot Inc, CC-BY*
 
 - Main website: https://farm.bot/
+- 2023 White paper : https://farm.bot/pages/whitepaper
 - Project start: 2013
-- Core development team size: 3-5 people
+- Core development team size: 3-5 paid people + around 5 external contributors.
 
 ### Hardware products
 The FarmBot is basically a large, outdoor resistant, 3D printer for the garden. Instead of extruding plastic, it plants seeds and sprays water.
@@ -116,7 +117,7 @@ A lot of my business model is based on that business model. People who are stuck
 
 If there was a cool open source microwave out there, the geeks would build it themselves Most people would probably buy the ready to go microwave. Being open source empowers the people who are more passionate about the technology itself. These are people who want to improve the technology and truly own the technology. When you buy a tractor from John Deere, it's questionable if you really own it. If you buy a FarmBot from us, you really own the whole thing in and out. You own the physical hardware, the software, the CAD models and all of the technical specifications. You have free access to all of that stuff and you can review it on our websites or you can download it to have it on your computer forever. There’re no restrictions. That's very much how intergenerational knowledge of gardening used to be and how farmers used to be able to fix their own equipment. They can call on a friend or look at the manual and figure things out on their own.
  
-Plenty of companies have come and gone. It’s especially startups or smaller companies who have a cool idea but maybe they're ahead of their time or have some unfortunate circumstances even if they were really good. The team could be really good at coming up with ideas and engineering but they weren't good at business, marketing or other aspects required to make a sustainable business. If an idea comes into existence which is proprietary and the business goes out of business, all of that knowledge is lost. It lives on in a couple people's heads and a filing cabinet or hard drive of papers and documents that nobody has access to except the original founders. Whereas with FarmBot, every hour of work that we've done and documented online is available to everyone in the world for the rest of time. As long as there's not some catastrophic data loss somewhere, the information is forever in the hands of the humans like the dictionary. People come up with words and make definitions. This information is put out in the world, everyone makes copies of it and stores that information in their head. FarmBot is kind of that way. We’ve put this information out, people have made copies of it, they've inspected it and now it lives on in perpetuity. This is another important aspect because if my business fails tomorrow, the vast majority of the work we've put into this business is available and preserved. It's still very valuable.
+Plenty of companies have come and gone. It’s especially startups or smaller companies who have a cool idea but maybe they are ahead of their time or have some unfortunate circumstances even if they were really good. The team could be really good at coming up with ideas and engineering but they weren't good at business, marketing or other aspects required to make a sustainable business. If an idea comes into existence which is proprietary and the business goes out of business, all of that knowledge is lost. It lives on in a couple people's heads and a filing cabinet or hard drive of papers and documents that nobody has access to except the original founders. Whereas with FarmBot, every hour of work that we've done and documented online is available to everyone in the world for the rest of time. As long as there's not some catastrophic data loss somewhere, the information is forever in the hands of the humans like the dictionary. People come up with words and make definitions. This information is put out in the world, everyone makes copies of it and stores that information in their head. FarmBot is kind of that way. We’ve put this information out, people have made copies of it, they've inspected it and now it lives on in perpetuity. This is another important aspect because if my business fails tomorrow, the vast majority of the work we've put into this business is available and preserved. It's still very valuable.
 {{< /expand >}}
 
 {{< card2 "Work Coordination">}} 
@@ -330,6 +331,8 @@ If we didn't have enough momentum, we would have said that's not enough to make 
 I could have published the paper without anybody interested in it, maybe only a couple hundred people read it. Then I would not have a team and  much momentum. It could have ended there. But people were interested in it and it gave me confidence that this could be successful. 
 
 It's about 3000 sold FarmBots up to now.
+
+Being open source -what it really does-, it empowers the people who are passionate about the technology itself, to improve the technology.
 {{< /card2 >}}
 
 >How many people worked on the project? 
