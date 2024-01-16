@@ -41,7 +41,7 @@ FIXME
 
 {{< card  "The FIXME in a nutshell">}}
 
-![FIXME](images/FIXME.jpg "WR Switch") 
+<img src="images/craniobot.png" alt="photo of the Carniobot equipment" width="80%"/>
 
 *Photos of FIXME*
 
