@@ -26,7 +26,7 @@ tags:
 
 *Banner image: fixme, By CERN, distributed under a CC-BY-SA 4.0*
 
->Interviewee: fixme
+>Interviewee: Gulliem Caprodon
 >
 >Interviewers: Robert Mies (TU Berlin) & Moritz Maxeiner (FU Berlin)
 >
@@ -43,7 +43,7 @@ One such project which was developed at Fab Lab is the Smart Citizen. Following 
 
 {{< card  "The The Smart Citizen Kit 2.1 in a nutshell">}}
 
-![FIXME](https://i.imgur.com/Kpw1yzG.jpg "WR Switch") 
+<img src="/img/citizenkit.jpg" alt="photo of the Citizen kit " width="80%"/>
 
 
 *Photos of FIXME*
@@ -95,17 +95,7 @@ So, at this time, we developed the original kit that we call the Ambient sensing
 So, students helped us prototype this idea. When this happened, or after we finished, these students were actually led by Tomas Diaz and already Marco Polo. Both very important people here at the studio. We realized that actually the idea works in a way and also worked at a really minimal scale. And actually, we were thinking, okay, why don't we try to scale it? No, what if we try this idea that we tested with let's say 50 students in Barcelona, what if actually we involve real citizens? Or in a way? Is it just something that our students did, because we asked them to do? or is it actually possible to engage citizens to do something like this? to install devices on their houses to collect data and also to share it, to put it in very simple words. 
 
 We did a crowdfunding campaign in Goteo, which is the local crowdfunding company here in Barcelona, which is mostly focused on open-source projects. So, and these basically targeted the local community of geeks, you know, of the city who bought one of those devices, installed it, and that's how we basically, kind of, not fully validated, but at least had an idea that there was an interest for this kind of projects. And hence it was possible outside the scope of the Fab Lab, Barcelona, outside the scope of IAAC, to use this kind of tools and to show, to test this idea that actually, we could talk about, or we should talk about smart citizens and not smart cities. And actually, through these crowdfunding in Goteo, which was in 2012, more or less approximately was the first time that we actually call the project as smart citizen. So, this was the official public launch, that then went into a bigger crowdsourcing campaign in Kickstarter. And this was about in 2012, we are now in 2015, more or less the, the Kickstarter was 2013-2014. And at that time, we figured, we actually had a map of the world full of points, but in reality only few people were engaging into keeping their devices online. So, we saw a lot of people just installing the devices, or maybe not even installing, buying the devices, but not actually engaging in the vision that we originally had. While how, let's say a smart city could become a city of a smart citizens and contradict with the original idea, no?. 
-{{< /expand >}}
 
-{{< card2 "Project process">}} 
-We research why people, even though they were interested in the device, and were buying it, were in reality not fully engaging in the full process of collecting or actually using this device to create change in their cities, that is, why were they not using this device to actively contribute. 
-
-We consolidated the project not as a startup that's trying to make sensors and sell them, but as a platform for open participation, not only of citizens, but also of scientists and experts.
-
-The reason I see so many people engaging in the project is to learn. [Our project] work as knowledge transfer and knowledge engagement tools or platforms.
-{{< /card2 >}}
-
-{{< expand "Show answer">}}
 
 At this point, what we need to understand is that one of the communities that had helped us test a lot of the devices, was the one in Barcelona, but also the one in Amsterdam, by Bach Society. So, collecting, all the insights that we got from Barcelona, from Amsterdam, particularly from Bach Society, using this device on the field, we decided to put together a research project. Where actually, we will start assessing why people even though they were interested in the device, and were buying it, were in reality not fully engaging in the full process of collecting or actually using this device to create change in their cities, that is, why were they not using this device to actively contribute. 
 
@@ -134,15 +124,7 @@ It's not only about the hardware, nor is it only about the software, it's actual
 
 {{< expand "Show answer">}}
 This led us to release maybe four years ago, what was the version 2.1 of the device, which basically became the next successful commercial hardware that we'd release and the one that now it's kind of the default. There are many versions of it, but it kind of became the new platform that solves many of the issues that we had in the past, on data consistency, on being user friendly, etc. and also help to consolidate the project not as a startup that's trying to make sensors and sell them, more as a platform for open participation, not only of citizens, but also of scientists and experts who contribute more on the design of the hardware, on the design and the research of the sensors being used and also the data processing part etc. 
-{{< /expand >}}
 
-{{< card2 "Core team and community">}} 
-It's part of the Fab Lab Barcelona, it's not like a spinoff, we can manage it from here, there's a team of researchers that work on a research area that we call "Sense Making".
-
-Smart Citizen is managed by a team of two full times. That two are who manage the day to day of the project. But then we are a team of 30 at the Fab Lab.
-{{< /card2 >}}
-
-{{< expand "Show answer">}}
 The project right now continues to evolve. It's part of the Fab Lab Barcelona, it's not like a spinoff, we can manage it from here, there's a team of researchers that work on a  research area that we call "Sense Making". And inside that area, we've developed multiple projects around this knowledge, some or most of them using the specific hardware that we design, and the software does makes it an ecosystem, let's say, but also looking always at the edges.  And trying to bring in new fields. For example, we just finalized our project where we map the microbiome of Barcelona, the bacteria that lives in Barcelona. Consider it as, we do something that maybe 10 years ago we were not thinking about. Where other species that co-habit around us, so Sense Making basically is the area where we look at all these things, and we continue to develop. 
 
 Basically, the Smart Citizen project right now is used in research projects, where we have active partner researchers. In research projects where we don't have an active part, we just support other institutions, whether for open hardware or open software to do that, and also for commercial use. Commercial use that are connected to environmental institutions, citizen communities all over the world that either purchase the devices directly from us or purchase through some other distributors. And maybe just to wrap these up, what we are now most focused on, is consolidating the use of the Fab Lab network to provide support in the use and manufacturing of these devices. That means that if a community, let's say, in Santiago, Chile wants to use that device, it's not reaching us directly, it goes to the Fab Labs there. And we are providing the capacity to the Fab Labs there. Not to make the full electronics, for example. That's something that for economies of scale, we always make in a way, which is more or less centralized. But for the final assembly, the enclosures and more importantly, for actually the technical support and the community and engagement support. You know: what are you measuring, why you want to measure, why you want this sensor or another sensor?
@@ -280,10 +262,25 @@ And people sometimes they forget that open-source solutions are also a way to cr
 
 {{< /card2 >}}
 
-> You have already mentioned HardwareX and GitHub, have you used any other platforms for publishing? And why did you choose these platforms?
+> You have already mentioned HardwareX and GitHub, have you used any other platforms for publishing? 
 
 {{< expand "Show answer">}}
-We use four platforms. We use specific journals such as HardwareX, the one we like a lot. Now, we are starting to prepare another publication on a different project called ROMI, which is robots for micro farms and also other open hardware projects which we are still developing. So, Journals, Git repositories, particularly GitHub for software and hardware. We also like the idea of using it for hardware, hence using version control for hardware is something that is very important, hope we get better tools for that. Then we also use a lot of websites, which run on top of Git for version control, yet they present to the user as web pages, that's like the latest one I showed you, docs.smartcitizen. In this case, we use specific study documentation generator, called Material for MK docs, but within a scheme called Material which we now use in all projects, because we like it a lot. And finally, we use Zenodo, which is an archiving platform by CERN. And we mostly use that to store big datasets. So, we design our data analysis workflows in such a way that, automatically when we finish a data analysis procedure, they publish things to Zenodo. So, we don’t use it for hardware, we use it more for the software part, yet the software is fully connected with the hardware. And also, a small detail, when we finish a big milestone, we archive all the GitHub repositories into Zenodo. So, we get the DOI and have a tarball too. This is a best practice that we see is good, you know, in case that one day we disappear, and suddenly Microsoft closes GitHub maybe the Europeans will have something to do, and they will still have things in Zenodo properly archived.
+We use four platforms. We use specific journals such as HardwareX, the one we like a lot. Now, we are starting to prepare another publication on a different project called ROMI, which is robots for micro farms and also other open hardware projects which we are still developing. So, Journals, Git repositories, particularly GitHub for software and hardware. We also like the idea of using it for hardware, hence using version control for hardware is something that is very important, hope we get better tools for that. Then we also use a lot of websites, which run on top of Git for version control, yet they present to the user as web pages, that's like the latest one I showed you, docs.smartcitizen. In this case, we use specific study documentation generator, called Material for MK docs, but within a scheme called Material which we now use in all projects, because we like it a lot. And finally, we use Zenodo, which is an archiving platform by CERN. And we mostly use that to store big datasets. So, we design our data analysis workflows in such a way that, automatically when we finish a data analysis procedure, they publish things to Zenodo. 
+
+So, we don’t use it for hardware, we use it more for the software part, yet the software is fully connected with the hardware. And also, a small detail, when we finish a big milestone, we archive all the GitHub repositories into Zenodo. So, we get the DOI and have a tarball too. This is a best practice that we see is good, you know, in case that one day we disappear, and suddenly Microsoft closes GitHub maybe the Europeans will have something to do, and they will still have things in Zenodo properly archived.
+{{< /expand >}}
+
+> Why did you choose these platforms? Are there barriers of use?
+
+{{< expand "Show answer">}}
+I'll say first word is convenience. Because, documentation is something very tough to do, it's hard to find time to document. It's hard to get people to document. So you want to use platforms that follow certain criteria that you like. Sometimes we stay in what we have, just because it's easier for people to use it, just because it's convenient. That is why we use GitHub, we don't run our own git server, or use GitLab or something else, just because it's convenient. It's fast. No? And that's, that's the main answer.
+
+One important barrier is that sometimes we take for granted that everyone is familiar with these kind of platforms (specifically with Git and MK docs platforms) which they come from the software world. And something important about Fab Labs is that they work a lot between software and hardware. That means that more or less everyone you find around a Fab Lab, even though more targeted to hardware,  knows how to use Git, but that's not common in the industry, right?
+So we will work with industrial designer who know a lot about the CAD software, but they don't know how to write a markdown file, or how to actually use Git. Or she will work with a very good sociologist for the citizen engagement part. Yet they do not know these tools.
+We take for granted that everyone should be able to use Git to write things in Markdown, but that is a mistake. That might sound a bit stupid, but it's important to recognize. 
+
+We also use Emacs and org-mode. we develop a workflow, where the what we will call the lab notebooks or the designer notebooks are turning to the remain documentation. 
+So usually, when we develop any hardware component, we start by creating internal Markdown documents. We use HackMD for that, because it allows multi-users editing simply. And designers use that internally, to document the test, to create internal documentation, as the hardware evolve. We later do of course editing and polishing to get to the final documentation, but it's not something we start from the ground. That means that all the decisions we take during the process are on HackMD, in our internal change notes. We then take that, polish it and make it easier to understand. And we put it into MK docs to create a website (for example docs.smartcitizen), and we try to use that flows a lot, because they speed up the release of design files.
 {{< /expand >}}
 
 > Are there any parts or information that you do not publish? If so, why?
@@ -291,13 +288,13 @@ We use four platforms. We use specific journals such as HardwareX, the one we li
 {{< expand "Show answer">}}
 It's a good question. Actually, we could make it available. One of the beauties that we use,  HackMD, for this internal note, is that it's easy to share with others. And we share it with a lot of collaborators or people that are interested, but it's true, as you said that we don't have a public archive with all those. And  there's no reason not to do it. Because at least at the moment, in the way we work, we could disclose them, there's no reason to not do it. 
 
-I would say an important thing is not to confuse people. And the truth is, when you release lot of information, sometimes, you also have to add a lot of warnings and writing warnings takes time. So that's something important. And this happens when you start to have multiple versions of hardware, software, etc. I say, sometimes hardware is a bit more complex than software. You need to spend more time explaining to others why you take a decision, or please be aware that these two things are not the same and these things take time.
+I would say an important thing is not to confuse people. And the truth is, when you release lot of information, sometimes, you also have to add a lot of warnings and writing warnings takes time. So that's something important. And this happens when you start to have multiple versions of hardware, software, etc. I say, sometimes hardware is a bit more complex than software. You need to spend more time explaining to others why you take a decision, or please be aware that these two things are not the same and, these things take time.
 {{< /expand >}}
 
 > Is there some information you're holding back because you're afraid that it could be unsecure otherwise?
 
 {{< expand "Show answer">}}
-I mean, yeah, we don't release the passwords, of course, or the public keys of our servers. But what's true is that all the software that runs this kit is open. So, you could go to GitHub, and you can install your own platform and run it. So, there's nothing that we hide in the way it's configured or done.
+No. I mean, we don't release the passwords, of course, or the public keys of our servers. But what's true is that all the software that runs this kit is open. So, you could go to GitHub, and you can install your own platform and run it. So, there's nothing that we hide in the way it's configured or done.
 {{< /expand >}}
 
 > In your view, what generally deters or hinders projects from publishing results?
@@ -347,11 +344,31 @@ I think the hardware vs software team is more or less the same. The only thing i
 I'll say it's a mixture of engineers, designers and when it comes more into the co-creation guides and the citizen participation tools, also people with kind of social sciences backgrounds. What is very important to us at the end, is just to find people that provide most of the contributions more than being experts in something, they become experts as it happens, for example, Oscar Gonzales, who now is the lead of that project, he comes from the automotive engineering, he worked for Nissan many years. And then at some point with the diesel gate, and all the things, he started to be more concerned about air pollution, he joined as a part of the community, that was using a smart citizen, then he started to collaborate with us as a collaborator and then he became a complete part of the staff. But he's someone who arrived here with a background more on calibration, on data post processing for calibration of combustion engines. And then and now he's someone who's designing PCBs in KiCad. So, we see a lot of people learning the tools as the interest happens. So, it's very interesting. And also connecting with the idea that tools are more and more accessible. Designing PCBs 20 years ago meant having Altium installed and paying a license that was one year of your salary, and now we have it free, using open tools, which I'm not saying it's a regular citizen maybe, but we have engineers switching, for example, I see more and more engineers, which are, electronic engineers, willing to do a bit of CAD design so all these things are happening, I think that's very beautiful, in the way that disciplines are combined.
 {{< /expand >}}
 
+
+
+{{< card2 "Project process">}} 
+We research why people, even though they were interested in the device, and were buying it, were in reality not fully engaging in the full process of collecting or actually using this device to create change in their cities, that is, why were they not using this device to actively contribute. 
+
+We consolidated the project not as a startup that's trying to make sensors and sell them, but as a platform for open participation, not only of citizens, but also of scientists and experts.
+
+The reason I see so many people engaging in the project is to learn. [Our project] work as knowledge transfer and knowledge engagement tools or platforms.
+
+ That means that all the decisions we take during the process are on HackMD, in our internal change notes. We then take that, polish it and make it easier to understand. And we put it into MK docs to create a website (for example docs.smartcitizen)
+{{< /card2 >}}
+
 > How many full time people are involved on and off over time? How many people are co tributing freely? And how much time roughly?
 
 {{< expand "Show answer">}}
 Yeah, actually right now Smart Citizen is managed by a team of two full times. That two are who manage the day to day of the project. But then we are a team of 30 at Fab Lab Barcelona, which means that, there's all sorts of people coming in and out, but there's two full times that run these projects and then there's people coming in and out, for communication aspects, for writing documentation, shooting videos, doing a pilot and things like that. And the community around, it's hard to measure because it keeps going in and out. But I'll say there's always a standard group of around 10 collaborators that come in and out. Most of them nonpaid collaborators, which means that they just contribute to the project as Brain Parrot, for example, designing things because they are useful to them, and then they're sharing them. And then sometimes also paid collaborators like working on specific things like designing an algorithm for the calibration of a particular sensor, things like that.
 {{< /expand >}}
+
+
+{{< card2 "Core team and community">}} 
+It's part of the Fab Lab Barcelona, it's not like a spinoff, we can manage it from here, there's a team of researchers that work on a research area that we call "Sense Making".
+
+Smart Citizen is managed by a team of two full times. That two are who manage the day to day of the project. But then we are a team of 30 at the Fab Lab.
+{{< /card2 >}}
+
 
 > How do you co-ordinate the work of this key contributors?
 
