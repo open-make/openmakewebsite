@@ -3,15 +3,16 @@ title: 'Interview: Smart-citizen-kit'
 author: 
   - Open make interview team
   - Gulliem Caprodon
-date: '2022-10-20'
+date: '2024-01-16'
 slug: interview-citizenkit
 categories: [interview]
-banner: img/banners/fixme
+banner: img/banners/SmartCitizen_logo.png
 tags:
   - technology
   - open hardware
   - personal story
 ---
+
 # Interview: Smart citizen kit
 
 *by the Open make team, . Copyright to the authors, distributed under a CC-BY 4.0 licence.*
@@ -24,7 +25,7 @@ tags:
 - [The research outputs](#research-outputs)
 - [The participants](#participants)
 
-*Banner image: fixme, By CERN, distributed under a CC-BY-SA 4.0*
+*Banner image: Smart Citizenlogo, By smartcitizen.me, distributed under a CC-BY-SA 4.0*
 
 >Interviewee: Gulliem Caprodon
 >
@@ -43,10 +44,10 @@ One such project which was developed at Fab Lab is the Smart Citizen. Following 
 
 {{< card  "The The Smart Citizen Kit 2.1 in a nutshell">}}
 
-<img src="/img/citizenkit.jpg" alt="photo of the Citizen kit " width="80%"/>
+<img src="/img/citizenkit.jpg" alt="Photo of the Citizen kit main board " width="80%"/>
 
 
-*Photos of FIXME*
+*Photos of The Smart Citizen Kit 2.1*
 
 - Main website: https://smartcitizen.me/
 - Project start: 2012
