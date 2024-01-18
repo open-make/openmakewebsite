@@ -4,7 +4,7 @@ author:
   - Open make interview team
   - Suhasa Kodandaramaiah
 date: '2024-01-16'
-slug: interview-fixme
+slug: interview-craniobot
 categories: [interview]
 banner: img/banners/fixme
 tags:
@@ -25,7 +25,7 @@ tags:
 - [The research outputs](#research-outputs)
 - [The participants](#participants)
 
-*Banner image: fixme, By CERN, distributed under a CC-BY-SA 4.0*
+*Banner image: fixme,  distributed under a CC-BY 4.0*
 
 >Interviewee: Suhasa Kodandaramaiah
 >
@@ -37,13 +37,13 @@ tags:
 
 *Screenshot of the interview.*
 
-FIXME
 
-{{< card  "The FIXME in a nutshell">}}
+
+{{< card  "The Craniobot in a nutshell">}}
 
 <img src="images/craniobot.png" alt="photo of the Carniobot equipment" width="80%"/>
 
-*Photos of FIXME*
+*Photos of Craniobot setup*
 
 - Main website: https://github.com/bsbrl/Craniobot-2019-ver-1.0-
 - Project start: 2017
@@ -52,7 +52,7 @@ FIXME
 ### Hardware products
 The Craniobot is an open source tool that allows you to do precise microsurgical procedures on rodent models commonly used in neuroscience research. It is a robotically guided tool to precisely chip away the bone of the head.
 ### Hardware maturity
-somewhere between a refined, well put together laboratory prototype and a turnkey. The labmaker version is more mature and is produced commercially.
+Somewhere between a refined, well put together laboratory prototype and a turnkey. The labmaker version is more mature and is produced commercially.
 ### Rebuilds
 Labmaker is selling it. Few groups have rebuilt it, making improvements in the hardware and the software.
 
@@ -71,9 +71,9 @@ There was a clear need within my group that I needed to solve. Like I said, solv
 >How did the project Craniobot start?
 
 {{< expand "Show answer">}}
-The Craniobot is an open source tool that allows you to do precise microsurgical procedures on rodent models commonly used in neuroscience research. These models, including mice and rats. They can be bred up in the lab quickly and their brains are very similar to humans. For instane, humans and mice have parts of the brain for processing visual information, the visual cortex. They're good analogs. 
+The Craniobot is an open source tool that allows you to do precise microsurgical procedures on rodent models commonly used in neuroscience research. These models, including mice and rats,  can be bred up in the lab quickly and their brains are very similar to human's. For instance, humans and mice have parts of the brain for processing visual information, the visual cortex. They are good analogs. 
 
-Whenever we need to do anything to interface with the brain, for instance to insert electrodes or implant windows on the brain to image or visualize neural activity: it involves a procedure called craniotomy. Craniotomy is a process where you remove the skull on top of the region of the brain, that you want to access. That can either be replaced with, for example, a glass coverslip or it could be a burr hole through which you insert an electrode. If you want to do any invasive neuroscience experiment, that is the first step you do. It's challenging because the skull of a mouse is really thin in the range of 50 micrometers to a few 100 micrometers depending on where you are. 
+Whenever we need to do anything to interface with the brain (for instance to insert electrodes or implant windows on the brain) to image or visualize neural activity, it involves a procedure called craniotomy. Craniotomy is a process where you remove the skull on top of the region of the brain, that you want to access. That can either be replaced with, for example, a glass coverslip or it could be a burr hole through which you insert an electrode. If you want to do any invasive neuroscience experiment, that is the first step you do. It's challenging because the skull of a mouse is really thin in the range of 50 micrometers to a few 100 micrometers depending on where you are. 
 
 Traditionally, craniotomy has been done by neuroscientists using tools that are adapted from dentistry. It’s similar to what your dentist uses to chip away plaques around your teeth. With this tool we need to do it very carefully. You want to only remove the bone and not damage the brain underneath. This was a nice process for us to automate. It’s a challenge for us and a lot of other neuroscience labs. We come from an engineering background. If you have a sense for how thick the skull is at a particular location and what the contour of the skull is, you can program a computer numerically controlled mill or some kind of robotically guided tool to precisely chip away the bone. All of this is done without shaking hands. That would be otherwise hard to do for beginner surgeons. There's a lot of skill involved. That is what motivated us to work on the Craniobot.
 {{< /expand >}}
@@ -81,7 +81,7 @@ Traditionally, craniotomy has been done by neuroscientists using tools that are 
 >What are the benefits of using the Craniobot compared to classical surgery?
  
 {{< expand "Show answer">}}
-It removes the damage to the brain completely. We’re talking about a very delicate procedure. There’s skill and speed involved. The faster you can complete the procedure, the better it is for the animal's health later on. The skill factor is relevant because everyone is different and had different levels of coffee in the morning. Your hands are shaking during a surgery. Humans are bad at performing precise motor sequences or activity repeatedly. If I ask you to follow a trajectory in 3D space multiple times, there's going to be a lot of jitter. That's precisely what you need to do for these kinds of procedures. That’s why a robotically controlled cutting tool is very useful. It takes away that variability in human motor activity. 
+It removes the damage to the brain completely. We’re talking about a very delicate procedure. There’s skill and speed involved. The faster you can complete the procedure, the better it is for the animal's health later on. The skill factor is relevant because everyone is different. Your hands are usually shaking during a surgery. Humans are not very good at performing precise motor sequences or activity repeatedly. If I ask you to follow a trajectory in 3D space multiple times, there's going to be a lot of jitter. That's precisely what you need to do for these kinds of procedures. That’s why a robotically controlled cutting tool is very useful. It takes away that variability in human motor activity. 
 {{< /expand >}}
 
 >How's the project funded? 
@@ -97,7 +97,7 @@ Initially, it was all funded through lab startup funds. This is one of the first
 >How much overall budget did you receive?
 
 {{< expand "Show answer">}}
-It was a much larger grant for a bunch of related activities, because the project didn't cost a lot. The whole objective was to build tools that can benefit the neuroscience community. You don't want to build anything that's sophisticated and needs a lot of monetary resources. If you look at lab maker, they're selling it for about $3,500. It's a lot. Most of the money was used to support graduate students through their PhDs for their work. Graduate students in the US cost about $45,000 to $55,000 a year with stipend, tuition and health insurance.
+It was a much larger grant for a bunch of related activities, because the project didn't cost a lot. The whole objective was to build tools that can benefit the neuroscience community. You don't want to build anything that's sophisticated and needs a lot of monetary resources. If you look at lab maker, they're selling it for about $3,500. It's a lot. Most of the grant money was used to support graduate students through their PhDs for their work. Graduate students in the US cost about $45,000 to $55,000 a year with stipend, tuition and health insurance.
 We were funded for a certain period of time for a student to make this. This project took about two years from the ground up.
 {{< /expand >}}
  
@@ -130,13 +130,15 @@ We were trying to do this in animals, that added complexity. Some of these evalu
 >What bottlenecks did you come across and how did you solve these?
 
 {{< expand "Show answer">}}
-There were a few bottlenecks. One bottleneck was focus on inexpensive mills. We wanted to make this affordable from the ground up. That meant that the mills aren’t very accurate. It's not a sophisticated machine shop tool with the same accuracy. These mills have drifts. Because people will try to use this for very delicate animal procedures, we needed to be careful. We had to iterate a bit in that space. There was a trade off, you couldn't just buy the cheapest CNC mill available. We lost quite a bit of time dealing with this issue.
+There were a few bottlenecks. One bottleneck was focus on inexpensive mills. We wanted to make this affordable from the ground up. That meant that the mills aren’t very accurate. It's not a sophisticated machine shop tool with the same accuracy. These mills have drifts. Because people will try to use this for very delicate animal procedures, we needed to be careful. We had to iterate a bit in that space. There was a trade off, you couldn't just buy the cheapest CNC mill available. We used quite a bit of time dealing with this issue.
 {{< /expand >}}
 
 >Did you make it from the ground up or how did you design it?
 
 {{< expand "Show answer">}}
-We bought off the shelf parts. Some of them didn't work out because, from a control perspective, they weren't accurate and repeatable enough. We were trying to do this in animals, that added complexity. Some of these evaluations are much slower than if you're dealing with inanimate objects. The iteration cycles are quite slow. There's only one evaluation you can do in a particular day. You have to prep the animal, do your testing and evaluate if the instrumentation was working according to what it needed to be. Further, anything biological has high variability. Machine tools, that are designed for accurate machining of inanimate solid blocks of metal, are different from machining a soft living tissue. 
+We bought off the shelf parts. Some of them didn't work out because, from a control perspective, they weren't accurate and repeatable enough. We were trying to do this in animals, that added complexity. Some of these evaluations are much slower than if you're dealing with inanimate objects. The iteration cycles are quite slow. 
+
+Further, anything biological has high variability. Machine tools, that are designed for accurate machining of inanimate solid blocks of metal, are different from machining a soft living tissue. 
 {{< /expand >}}
 
 >What were the new aspects you developed and what existing designs have been used?
@@ -235,7 +237,7 @@ Labmaker is selling it.
 >How was your first deployment of the machine?
 
 {{< expand "Show answer">}}
-There was no sudden finishing moment. It was a slow iterative refinement, until it worked well. Afterwards we thought about experiments to show that it works well enough.
+There was no sudden finishing moment. It was a slow iterative refinement, until it worked really well. Afterwards we thought about experiments to show that it works well enough.
 {{< /expand >}}
 
 >What did you publish about the hardware? What types of files and other information did you publish, like bill of materials, CAD files and assembly instructions?
