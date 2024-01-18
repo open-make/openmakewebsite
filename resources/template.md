@@ -109,3 +109,6 @@ FIXME
 {{< card2 "Core team and community">}} 
 
 {{< /card2 >}}
+
+{{< /expand >}}
+{{< expand "Show answer">}}
