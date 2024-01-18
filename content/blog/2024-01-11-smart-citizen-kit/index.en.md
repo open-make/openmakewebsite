@@ -108,13 +108,14 @@ The other one was actually about the lack of community engagement. So, you might
 {{< /expand >}}
 
 {{< card2 "Major issues">}} 
+We had three major issues
 - the user friendliness of the technology
 - meaningfulness of data
 - lack of community engagement
 
-How you set in place the training of trainers, procedures, so that communities are self-sufficient
+How you set in place training of trainers, so that communities can become self-sufficient.
 
-Sometimes hardware is a bit more complex than software. You need to spend more time explaining to others why you take a decision
+Sometimes hardware is a bit more complex than software. You need to spend more time explaining to others why you take a decision.
 {{< /card2 >}}
 
 {{< expand "Show answer">}}
@@ -134,7 +135,7 @@ The Smart Citizen project right now is used in research projects, where we have 
 {{< /expand >}}
 
 {{< card2 "Local production">}} 
-Citizen communities all over the world that either purchase the devices directly from us or purchase through some other distributors.
+Citizen communities all over the world either purchase the devices directly from us or purchase through some other distributors.
 
 We are providing the capacity to the Fab Labs locally, for the final assembly, the enclosures and more importantly, for actually the technical support and the community and engagement support.
 
@@ -369,14 +370,14 @@ Yeah, actually right now Smart Citizen is managed by a team of two full times. T
 {{< card2 "Core team and community">}} 
 It's part of the Fab Lab Barcelona, it's not like a spinoff, we can manage it from here, there's a team of researchers that work on a research area that we call "Sense Making".
 
-Smart Citizen is managed by a team of two full times. That two are who manage the day to day of the project. But then we are a team of 30 at the Fab Lab.
+Smart Citizen is managed by a team of two full times. That two are who manage the day to day of the project. But then we are a team of 30 at the Fab Lab. 
 {{< /card2 >}}
 
 
 > How do you co-ordinate the work of this key contributors?
 
 {{< expand "Show answer">}}
-We distribute it mostly, as coordinators. I mean, at the end, what we do, is that we set goals, and the goals go mostly in two directions. We have more of the research goals, which are more connected to the research projects that we are doing on that field. And then we have the requests that we get from the communities that sometimes are mostly linked to a customization service that we do for others. Basically, at the end it's always about speaking up forward, so the research we did today is useful in two years, by the communities and back and forth, and we keep testing that.
+We distribute it mostly, as coordinators. I mean, we set goals, and the goals go mostly in two directions. We have more of the research goals, which are more connected to the research projects that we are doing on that field. And then we have the requests that we get from the communities that sometimes are mostly linked to a customization service that we do for others. Basically, at the end it's always about speaking up forward, so the research we did today is useful in two years, by the communities and back and forth, and we keep testing that.
 {{< /expand >}}
 
 > How have the different members benefited from the work in the Project?
