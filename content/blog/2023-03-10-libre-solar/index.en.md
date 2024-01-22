@@ -47,9 +47,9 @@ distributed under a CC-BY 4.0 licence.*
 
 {{< card "The Libre Solar in a nutshell">}}
 
-![FIXME](images/FIXME.jpg "WR Switch")
+![FIXME](https://libre.solar/images/bms-testing-small.jpg)
 
-*Photos of FIXME*
+*Image of the BMS circuit, by libresolar, distributed under a CC-BY-SA license.*
 
 -   Main website: <https://libre.solar>
 -   Project start: 2015/2017
