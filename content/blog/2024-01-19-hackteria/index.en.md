@@ -6,7 +6,7 @@ author:
 date: '2024-01-19'
 slug: interview-hackteria
 categories: [interview]
-banner: img/banners/fixme
+banner: img/banners/hackteriaLogo.png
 tags:
   - technology
   - open hardware
@@ -22,7 +22,7 @@ tags:
 - [The Research outputs](#research-outputs)
 - [The Participants](#participants)
 
-*Banner image: fixme, By CERN, distributed under a CC-BY-SA 4.0*
+*Banner image: hackteria logo, By hackteria, distributed under a CC-BY 4.0*
 
 >Interviewee: Marc Dusseiller
 >
@@ -38,15 +38,16 @@ Hackteria is a special interview in our series, as it does not present one hardw
 
 {{< card  "Hackteria in a nutshell">}}
 
-![FIXME](images/FIXME.jpg "WR Switch") 
 
-*Photos of FIXME*
+<img src="images/hackteriaworkshop.jpg" alt="hackteria workshop photo" width="80%"/>
+
+*Open Fluorescence Meter Workshop at UGM / Department of Agricultural Microbiology, 2023*
 
 - Main website: https://www.hackteria.org
 - Project start: 2009
 - Core development team size: 20-30
 
-### ~Hardware~ products
+###  ~~Hardware~~ products
 
 Hackteria offers a (web) platform to learn, share and document. The output is knowledge.
 
