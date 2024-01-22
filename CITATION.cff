@@ -39,7 +39,13 @@ authors:
     orcid: 'https://orcid.org/0000-0002-8270-9237'   
   - given-names: Jerry
     family-names: de Vos
-    orcid: 'https://orcid.org/0009-0005-3240-1081' 
+    orcid: 'https://orcid.org/0009-0005-3240-1081'    
+  - given-names: Vaibhav
+    family-names: Chhabra
+    orcid: 'https://orcid.org/0009-0004-1504-1072'   
+  - given-names: Robert 
+    family-names: Read
+    orcid: 'https://orcid.org/0000-0003-4749-7045' 
     
 url: 'https://www.openmake.de'
 repository: 'https://github.com/open-make/openmakewebsite'

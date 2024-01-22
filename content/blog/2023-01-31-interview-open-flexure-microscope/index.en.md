@@ -398,24 +398,7 @@ We’ve got papers on the microscope, papers on the Delta stage version of the m
 > indirectly, academically and practically?
 
 {{< expand "Show answer">}}
-For impact, the way the university sees all of the things I'm telling
-you about trying to transfer the knowledge into a company as impact and
-they're sort of pump priming for long term impact.
 
-We've done quite a bit, we've got papers on the microscope, papers on
-the Delta stage version of the microscope, papers on the block stage
-version of the similar design that's x, y, z translator for aligning
-optical fibers. We've started publishing on individual parts of it, such
-as the robustness of the autofocus algorithm, publishing on the
-software, on how we do the camera calibration.
-
-Because we do everything in Git, I don't really have anything of the
-microscope that isn't shared.
-
-There is no bill of materials directly in the repository, because the
-bill of materials is explained in the documentation. But the
-documentation has metadata in it. That metadata is read by a program
-that generates the full documentation.
 
 For impact, the way the university sees all of the things I'm telling
 you about trying to transfer the knowledge into a company as impact and
