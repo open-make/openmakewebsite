@@ -15,6 +15,8 @@ tags:
 ---
 # Interview: White rabbit
 
+Javier Serrano has been leading the development of White rabbit, which allows for a distributed real-time system to ensure all components are synchronized at sub-nanosecond accuracy. It was developed at CERN, based on the ethernet technology, while manufactured by commercial companies. 
+
 *by the Open make team, Javier Serrano and Amanda Diez Frenandez. Copyright to the authors, distributed under a CC-BY 4.0 licence.*
 
 

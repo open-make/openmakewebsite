@@ -18,6 +18,10 @@ editor_options:
 
 # Interview: OpenFlexure microsocpe
 
+Julian Stirling has been a core developer of the OpenFlexure project, which makes high precision mechanical positioning
+available to anyone with a 3D printer - for use in microscopes,
+micromanipulators, and more.
+
 *by the Open make team and Julian Stirling. Copyright to the authors,
 distributed under a CC-BY 4.0 licence.*
 

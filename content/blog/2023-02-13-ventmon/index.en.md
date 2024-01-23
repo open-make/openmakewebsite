@@ -15,6 +15,8 @@ tags:
 
 # Interview: VentMon
 
+Robert Read lead the development of a ventilator test device during the Covid19 pandemic, it became the Ventmon.
+
 *By the Open make team and Robert Read. Copyright to the authors, distributed under a CC-BY 4.0 licence.*
 
 **Sections:**

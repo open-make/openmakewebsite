@@ -15,6 +15,8 @@ tags:
 
 # Interview: M19 Oxygen Concentrator
 
+Vaibhav Chhabra organised the development of an oxygen concentrator during the Covid19 pandemic. The present version is called M19 Oxygen Concentrator.
+
 *by the Open make team, Vaibhav Chhabra. Copyright to the authors, distributed under a CC-BY 4.0 licence.*
 
 

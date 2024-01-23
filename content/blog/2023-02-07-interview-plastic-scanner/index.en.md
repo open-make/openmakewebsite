@@ -15,6 +15,8 @@ tags:
 
 # Interview: Plastic scanner
 
+Jerry de Vos developed the plastic scanner during his master thesis, it will be a device that can identify the most common types of plastic, in order to make plastic recycling simpler, more accessible, and more viable!
+
 *by the Open make team, and Jerry de Vos. Copyright to the authors, distributed under a CC-BY 4.0 licence.*
 
 **Sections:**
