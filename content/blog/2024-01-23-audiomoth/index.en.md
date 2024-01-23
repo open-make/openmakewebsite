@@ -26,7 +26,7 @@ Alex Rogers is an associate professor who lead the team that developed the audio
 - [The research outputs](#research-outputs)
 - [The participants](#participants)
 
-*Banner image: fixme, By CERN, distributed under a CC-BY-SA 4.0*
+*Banner image: logo of the openacousticdevices company, By openacousticdevices, distributed under a CC-BY 4.0*
 
 >Interviewee: Alex Rogers
 >
@@ -47,7 +47,7 @@ Alex Rogers is an associate professor who lead the team that developed the audio
 
 <img src="images/Audiomoth.jpg" alt="audiomoth v1.2" width="80%"/>
 
-*Photos of FIXME*
+*Photos of the audiomoth setup*
 
 - Main website: https://www.openacousticdevices.info/audiomoth
 - Project start: 2015
