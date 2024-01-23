@@ -15,6 +15,9 @@ tags:
 
 # Interview: Gaudilab
 
+Urs Gaudenz has been part of hackteria and similar open source hardware communities for a long time. Nine years ago, he started Gaudilabs, a "desktop manufacturing" company that is selling open source hardware produced in small scale. One of these product is the pocket-PCR machine.
+
+
 *by the Open make team, Urs Gaudenz. Copyright to the authors, distributed under a CC-BY 4.0 licence.*
 
 
