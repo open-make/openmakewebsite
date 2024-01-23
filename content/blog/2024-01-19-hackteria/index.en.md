@@ -402,7 +402,7 @@ You should apply to go to the GOSH in panama actually.
 {{< /expand >}}
 
 
->Ndr: Moritz went, it was difficult to find a flight with a reasonable price, but as an co-organizer he could go.
+>Ndr: Moritz went to GOSH, it was difficult to find a flight with a reasonable price, but as an co-organizer he could go.
 
 > Why can't you go to GOSH, did you need an authorized VISA?   
 
