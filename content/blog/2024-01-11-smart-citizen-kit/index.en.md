@@ -15,6 +15,9 @@ tags:
 
 # Interview: Smart citizen kit
 
+Gulliem Caprodon is a research lead at Fab Lab Barcelona, he was mostly involved in the development of 
+the Smart Citizen Kit, which is the central concept around having a minimum set of tools to measure the environment, leading to the development of the smart citizen concept.
+
 *by the Open make team, . Copyright to the authors, distributed under a CC-BY 4.0 licence.*
 
 
@@ -54,15 +57,15 @@ One such project which was developed at Fab Lab is the Smart Citizen. Following 
 - Core development team size: 30-40
 
 ### Hardware products
-So basically, the device is composed of what we call the Smart Citizen Kit, which is the central concept around having a minimum set of tools to measure the environment.
+So basically, the device is composed of the Smart Citizen Kit, which is the central concept around having a minimum set of tools to measure the environment.
 
-This includes a data board, which is basically an open hardware data logger. That can store data locally, also can store data on an SD card, can send data over Wi Fi, can work in different ways and can be powered by solar panel, like batteries, etc.
+This includes a data board, which is basically an open hardware data logger. That can store data locally, also can store data on an SD card, can send data over Wi Fi, can work in different ways and can be powered by solar panel or batteries.
 
 ### Hardware maturity
-So, the B2C channel, has a high TRL (Technology readiness level), because you are sending devices i.e people are buying devices and devices should work.
-And in B2B case, the TRL is lower, because I think that maybe, they go from the lab to deployment in a month.
+So, the B2C channel, has a high TRL (Technology readiness level), because you are sending device: people are buying devices and devices should work.
+And in B2B case, the TRL is lower, they go from the lab to deployment in a month.
 ### Rebuilds
-Well, our device doesn't fully comply with Japanese radio, magnetic, electromagnetic frequency, legislation and etc. So, they had to do certain changes in the board to certify and to be able to use it in Japan.
+A group in Japan built an adapted version of the kit certified for their regulations. 
 
 {{< /card >}}
 
@@ -79,8 +82,9 @@ At that time, the concept of smart cities was fairly new and confusing and we de
 
 Students could install the sensors on their balconies, they helped us prototype this idea of "citizen as infrastructure".
 
-To scale up, We did a crowdfunding campaign in Goteo in 2012, and then a bigger crowdsourcing campaign in Kickstarter in 2013. We saw a lot of people just buying the devices, but not actually engaging in the vision that we originally had.
+To scale up, we did a crowdfunding campaign in Goteo in 2012, and then a bigger crowdsourcing campaign in Kickstarter in 2013. We saw a lot of people just buying the devices, but not actually engaging in the vision that we originally had.
 
+We decided to put together a research project, where we will start assessing why people were not using this device to actively contribute. 
 
 {{< /card2 >}}
 
