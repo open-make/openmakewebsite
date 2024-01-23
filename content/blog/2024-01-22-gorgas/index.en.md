@@ -3,7 +3,7 @@ title: 'Interview: Gorgas Tracker'
 author: 
   - Open make interview team
   - Guillermo Padilla Huamantinco
-date: 2024-01-22'
+date: '2024-01-22'
 slug: interview-fixme
 categories: [interview]
 banner: img/banners/fixme
@@ -13,6 +13,9 @@ tags:
   - personal story
 ---
 # Interview: Gorgas Tracker
+
+Guillermo Padilla Huamantinco is a PhD student at Institute for Biological and Medical Engineering, he lead the development of the Gorgas Tracker, a device that was used to track the position of people in the amazon.
+
 
 *by the Open make team, Guillermo Padilla Huamantinco. Copyright to the authors, distributed under a CC-BY 4.0 licence.*
 
