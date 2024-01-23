@@ -14,7 +14,7 @@ tags:
 ---
 # Interview: Hackteria
 
-Hackteria is a special interview in our series, as it does not present one hardware. The project is about documenting the work and creating a space for new teaching methods and new collaboration and friendship. We encourage you to read it in full, as the categories we used to highlight content do not really fit with this very inspirational interview.
+Marc Dusseiller's interview about Hackteria is a special interview in our series, as it does not present one hardware. The project is about documenting the work and creating a space for new teaching methods and new collaboration and friendship. We encourage you to read it in full, as the categories we used to highlight content do not really fit with this very inspirational interview.
 
 
 *by the Open make team, Marc Dusseiller. Copyright to the authors, distributed under a CC-BY 4.0 licence.*
