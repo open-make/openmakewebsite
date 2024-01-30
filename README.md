@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/401701200.svg)](https://zenodo.org/doi/10.5281/zenodo.10592332)
+
 # openmakewebsite
 
 Website / blog platform of the openmake project.
