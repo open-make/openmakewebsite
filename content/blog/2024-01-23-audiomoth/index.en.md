@@ -6,7 +6,7 @@ author:
 date: '2024-01-23'
 slug: interview-fixme
 categories: [interview]
-banner: img/banners/logoaudiomoth.png
+banner: https://static.wixstatic.com/media/b31671_623853f8f0204fb3959dd5043fb66391~mv2.png/v1/fill/w_2500,h_360,al_c/b31671_623853f8f0204fb3959dd5043fb66391~mv2.png
 tags:
   - technology
   - open hardware
@@ -26,7 +26,7 @@ Alex Rogers is a Professor of Computer Science who lead the team that developed 
 - [The research outputs](#research-outputs)
 - [The participants](#participants)
 
-*Banner image: logo of the openacousticdevices company, By openacousticdevices, distributed under a CC-BY 4.0*
+*Banner image: logo of the openacousticdevices company, By openacousticdevices, used with permission
 
 >Interviewee: Alex Rogers
 >
