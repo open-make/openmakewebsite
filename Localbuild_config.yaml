@@ -1,0 +1,148 @@
+baseurl: /
+title: Towards open and FAIR hardware
+theme: hugo-universal-theme
+languageCode: en-us
+defaultContentLanguage: en
+disqusShortname: 
+googleAnalytics: ''
+summaryLength: 70
+paginate: 10
+uglyURLs: true
+relativeURLs: true
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+menu:
+  main:
+    - identifier: menu.home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: menu.scope
+      name: Project scope
+      url: /blog/2021/09/27/2021-09-27-scope/index.html
+      weight: 2  
+    - identifier: menu.features
+      name: Work packages
+      url: /#features
+      weight: 3
+    - identifier: menu.related
+      name: Collaborate!
+      url: /related/index.html
+      weight: 4  
+
+    - identifier: menu.blog
+      name: Blog
+      url: /blog.html
+      weight: 5
+    # - identifier: menu.faq
+    #   name: FAQ
+    #   url: /faq/
+    #   weight: 6
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 7
+  topbar:
+    - name: GitHub
+      pre: <i class='fab fa-2x fa-github'></i>
+      url: https://github.com/opensciencepromoters/open-make
+      weight: 1
+    - name: Twitter
+      pre: <i class='fab fa-2x fa-twitter'></i>
+      url: http://twitter.com
+      weight: 3
+    - name: Email
+      pre: <i class='fas fa-2x fa-envelope'></i>
+      url: mailto:julien.colomb@fu-berlin.de
+      weight: 4
+params:
+  about_us: "<p>This website presents the open.make project: towards open and FAIR hardware. <br> Funded by the Federal Ministry of Education and Research (BMBF) and the state of Berlin under the Excellence Strategy of the Federal Government and the Länder / www.berlin-university-alliance.de <br> </p>"
+  address: "Open.make <br> "
+  author: "openmake team"
+  carouselCustomers:
+    auto_play: no
+    items: 1
+    pagination_speed: 1000
+    slide_speed: 2000
+  carouselHomepage:
+    auto_play: yes
+    enable: yes
+    pagination_speed: 1000
+    slide_speed: 2000
+  carouselTestimonals:
+    auto_play: no
+    items: 4
+    pagination_speed: 1000
+    slide_speed: 2000
+  clients:
+    enable: yes
+    subtitle: ''
+    title: Funding
+  contact_form_ajax: no
+  copyright: Copyright (c) 2021, open.make team. All content is licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>
+  date_format: January 2, 2006
+  default_sharing_image: img/visualabstract_buacall.png
+  defaultDescription: Open.make aims at fostering open and FAIR hardware production in academia, and build the foundation of a recognition system for academic makers.
+  defaultKeywords:
+    - devows
+    - hugo
+    - go
+    - open hardware
+    - FAIR principles
+  disabled_logo: no
+  enableGoogleMaps: no
+  enableRecaptchaInContactForm: no
+  facebook_site: ''
+  features:
+    cols: 4
+    enable: yes
+  footer:
+    recent_posts:
+      enable: yes
+  googleMapsApiKey: AIzaSyAv7Sza8NSp9_l_g8G2vlo0H4ydEPn_2jY
+  googleRecaptchaKey: site_key_for_google_recaptcha
+  latitude: '-12.043333'
+  longitude: '-77.028333'
+  logo: img/logo.svg
+  logo_small: img/logo.svg
+  logo_text: "Open.make"
+
+  mainSections: blog
+  recent_posts:
+    enable: yes
+    hide_summary: no
+    subtitle: Follow our progress.
+    title: From our blog
+  see_more:
+    enable: yes
+    icon: far fa-file-alt
+    link_text: See related project and join the effort
+    link_url: /related/
+    subtitle: 
+    title: This is a collaborative effort!
+  style: violet 
+  testimonials:
+    enable: yes
+    subtitle: Researchers from three Berlin universities are collaborating to make this project fly.
+    title: Team
+  topbar:
+    enable: no
+    text: "<p class=\"hidden-sm hidden-xs\">Contact us on +420 777 555 333 or hello@universal.com.</p>\n
+      \     <p class=\"hidden-md hidden-lg\"><a href=\"tel:+420 777 555 333\" data-animate-hover=\"pulse\"><i
+      class=\"fas fa-phone\"></i></a>\n      <a href=\"mailto:hello@universal.com\"
+      data-animate-hover=\"pulse\"><i class=\"fas fa-envelope\"></i></a>\n      </p>\n
+      \     "
+  twitter_site: 
+  viewMorePostLink: /blog/
+  widgets:
+    categories: yes
+    search: yes
+    tags: yes
+permalinks:
+  blog: /blog/:year/:month/:day/:filename/
+taxonomies:
+  author: authors
+  category: categories
+  tag: tags
