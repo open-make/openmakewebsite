@@ -2,7 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: openmake-blogpost and interview
+title: OpenMake blogposts and interviews of open hardware projects
 message: >-
   If you use this dataset, please cite it using the metadata
   from this file.
@@ -31,39 +31,41 @@ authors:
     family-names: Guerrero
   - given-names: Javier
     family-names: Serrano
-    orcid: 'https://orcid.org/0000-0002-0522-4471'  
+    orcid: 'https://orcid.org/0000-0002-0522-4471'
   - given-names: Amanda
-    family-names: Diez    
+    family-names: Diez
   - given-names: Julian
     family-names: Stirling
-    orcid: 'https://orcid.org/0000-0002-8270-9237'   
+    orcid: 'https://orcid.org/0000-0002-8270-9237'
   - given-names: Jerry
     family-names: de Vos
-    orcid: 'https://orcid.org/0009-0005-3240-1081'    
+    orcid: 'https://orcid.org/0009-0005-3240-1081'
   - given-names: Vaibhav
     family-names: Chhabra
-    orcid: 'https://orcid.org/0009-0004-1504-1072'   
-  - given-names: Robert 
+    orcid: 'https://orcid.org/0009-0004-1504-1072'
+  - given-names: Robert
     family-names: Read
-    orcid: 'https://orcid.org/0000-0003-4749-7045' 
-  - given-names:  Rory  
-    family-names:  Aronson
-  - given-names: Alex  
+    orcid: 'https://orcid.org/0000-0003-4749-7045'
+  - given-names: Rory
+    family-names: Aronson
+  - given-names: Alex
     family-names: Rogers
-    
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.10592332
+    description: zenodo archive
 url: 'https://www.openmake.de'
 repository: 'https://github.com/open-make/openmakewebsite'
 abstract: >-
-  Here the data for the open make website. You can open the
-  public/index.html file in a browser to see the webpage.
+  Here the data for the open make website. 
 
-
-  Most text content is in the `content/blog` folder.
-  This is a hugo website.
+  Most text content is in the `content/blog` folder. This is
+  a hugo website.
 keywords:
   - open hardware
   - research on research
   - interview data
+  - open source hardware
 license: CC-BY-4.0
-version: '1'
-date-released: '2023-01-19'
+version: '0.9'
+date-released: '2024-01-30'
