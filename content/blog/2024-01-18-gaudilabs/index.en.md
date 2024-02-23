@@ -4,7 +4,7 @@ author:
   - Open make interview team
   - Urs Gaudenz
 date: '2024-01-18'
-slug: interview-gaudilab
+slug: interview-gaudilabs
 categories: [interview]
 banner: img/banners/GaudiLabs.png
 tags:
@@ -13,7 +13,7 @@ tags:
   - personal story
 ---
 
-# Interview: Gaudilab
+# Interview: GaudiLabs
 
 Urs Gaudenz has been part of hackteria and similar open source hardware communities for a long time. Nine years ago, he started Gaudilabs, a "desktop manufacturing" company that is selling open source hardware produced in small scale. One of these product is the pocket-PCR machine.
 
@@ -62,7 +62,7 @@ It’s mostly used educationally and from hobbyists doing it at home.
 It is not certified.
 A new product to do quantitative PCR is in development.
 ### Rebuilds
-None known (it is different for other Gaudilabs product)
+None known (it is different for other GaudiLabs product)
 
 {{< /card >}}
 
@@ -76,7 +76,7 @@ None known (it is different for other Gaudilabs product)
 At some point, there was always the question if you can make a viable business from open hardware and how to distribute it. I was interested on going a step further and not just doing the blueprints and collaborative development, but also go into a company and try to distribute and develop the product to a point where it's a commercial product.
 {{< /card2 >}}
 
-> How did you start Gaudi Labs, what relation does it have with Hackteria?
+> How did you start GaudiLabs, what relation does it have with Hackteria?
 
 {{< expand "Show answer">}}
 
@@ -86,7 +86,7 @@ While teaching at university, young students with the open innovation management
 We built a lot of scientific equipment for artists that could otherwise not access this technology. Besides, I was active in other global communities, like the Gathering for Open Science Hardware (GOSH), DIYBio or biohacking in general. We developed new ways to approach scientific instrument, the open hardware, and learned about publishing openly, sharing and collaborating. 
 
 At some point, there was always the question if you can make a viable business from open hardware and how to distribute it. I was interested on going a step further and not just doing the blueprints and collaborative development, but also go into a company and try to distribute and develop the product to a point where it's a commercial product.
-I kept the completely open character of the hardware and by this I kept the collaboration with other people in the world. Around eight years ago, I started Gaudi Labs, which is a node in the network. It's sometimes described as desktop manufacturing. I don't have a big facility here. It's 60 square meters of office in the centre of Lucerne, a city in Switzerland. I started producing some of the hardware. I was selective about what, about which hardware because we have developed various hardware projects. I had to select  what  is going to be a viable product. 
+I kept the completely open character of the hardware and by this I kept the collaboration with other people in the world. Around eight years ago, I started GaudiLabs, which is a node in the network. It's sometimes described as desktop manufacturing. I don't have a big facility here. It's 60 square meters of office in the centre of Lucerne, a city in Switzerland. I started producing some of the hardware. I was selective about what, about which hardware because we have developed various hardware projects. I had to select  what  is going to be a viable product. 
 
 I first started the Theremin. It’s a music instrument, that is older and has a big community, because it is considered as one of the first electronic music instruments. It’s older than the keyboard and electronic guitar. I developed it over several years with a lot of help from different people. I was inspired bya Swiss mechatronic Art Society. At some point ,I started producing 10 or 20 pieces of this hardware and put it on some online shops. There are nice online shops like  Etsy, Tindie, eBay or WooCommerce, this latter is open source and a free online shop. 
 
@@ -97,7 +97,7 @@ I'm using a lot of 3D printing for some parts. While I can do one or two prototy
 {{< /expand >}}
 
 {{< card2 "Project process">}} 
-I kept the completely open character of the hardware and by this I kept the collaboration with other people in the world. Around eight years ago, I started Gaudi Labs, which is a node in the network. It's sometimes described as desktop manufacturing.
+I kept the completely open character of the hardware and by this I kept the collaboration with other people in the world. Around eight years ago, I started GaudiLabs, which is a node in the network. It's sometimes described as desktop manufacturing.
 
 Always when I develop, I spend 80% of my brain on how to develop something that is easy to produce and manufacture. 
 
@@ -248,7 +248,7 @@ The software writing was an easy-going process. Sometimes, it's complicated with
 ## Research outputs
 
 {{< card2 "Publication strategy">}} 
-100% of what Gaudilabs sells is online.
+100% of what GaudiLabs sells is online.
 Sometimes, I have PDF files and different kinds of information on my website.
 I use GitHub basic functions, and I push my stuff there. I try to push it early and often.
 
@@ -258,7 +258,7 @@ A lot of people get to my company through the scientific publishing.
 > Did you publish the project findings in relation to the hardware? 
 
 {{< expand "Show answer">}}
-All the hardware and software are open. 100% of what Gaudilabs sells is online. I don't have any product that is not open source. Further, people can send me emails about the glue I’m using or how long I cure it. I'm open to share anything about the hardware and software. But I didn't a document a lot about the process. I am giving lectures at the University and taught open hardware like an open innovation. I am talking there about the process and how I'm doing it. But I don’t document too much of the development process.
+All the hardware and software are open. 100% of what GaudiLabs sells is online. I don't have any product that is not open source. Further, people can send me emails about the glue I’m using or how long I cure it. I'm open to share anything about the hardware and software. But I didn't a document a lot about the process. I am giving lectures at the University and taught open hardware like an open innovation. I am talking there about the process and how I'm doing it. But I don’t document too much of the development process.
 
 Sometimes people are calling me to give an interview and then they are documenting the process [laughts].
 
@@ -358,13 +358,13 @@ It takes years of promoting, developing, and selling it until the first one or t
 People are contributing. I'm always working in these communities and I’m interacting with a lot of people that helped me. Often, people think they publish something online, some kind of early prototype, and then hundreds of people will flock onto the GitHub and start collaborating. From my experience it's the opposite. It takes years of promoting, developing, and selling it until the first one or two people start contributing. It really needs to be an established and well working product or project until people join you to collaborate. OpenTheremin is almost 10 years old and has a big community. The software has been completely rewritten and I hardly understand it myself. People who are much more capable in software writing have contributed a lot to the software. It has MIDI, special linearization, better quality, and other extra functionalities. A lot of people have contributed substantial improvements to this project. But it took a long time. It was not in the first one or two years. It was years after it was in production.  I'm thankful for it because a lot of these things, I couldn't have done  because I'm not good at them or because I don't understand enough of the Theremin audio characteristics.
 
 {{< /expand >}}  
-> What made you start to work on these projects with Gaudi labs?
+> What made you start to work on these projects with GaudiLabs?
 
 {{< expand "Show answer">}}
 I started when I was 15. I was working with Commodore 64. I was part of the  early computer age. Later, I enjoyed open source by changing and using open-source software. While studying at Lausanne, I learned about open hardware. I thought it was a nice expansion of open source. I started doing open hardware. One of the first products was an open smartwatch, which I did 15 years ago. Since then, I started learning more about the community. These communities  became strong through the global social media. It became part of different local communities. This motivated me more.  It's a long journey and  difficult to say where it started.
 
 {{< /expand >}} 
-> Maybe I should rephrase it a bit. How did Gaudi Labs start as a business?
+> Maybe I should rephrase it a bit. How did GaudiLabs start as a business?
 
 {{< expand "Show answer">}}
 I was working in a startup when I was a student. I was selling some hardware to earn some money. When I joined the startup, I was interested in starting my own company and having my own business. This startup became successful and big. I decided that's not the way I want to go. I decided  to have my own company. I lost interest because I saw what it means to build a big company with employees, the procedures, sales, and marketing. 
@@ -372,10 +372,10 @@ That's why I went into consulting. When I was a lecturer at university, it kind 
 Still, I don't want to scale this company and turn it into a big manufacturing company. That's why I'm happy that just my daughter helps me out a bit. 
 For the moment, I have more work to do than what I can handle myself. 
 But I don't want to grow into a big company at the moment. Maybe that's a network idea. If it should grow, I want others to grow it with me. It should still be a small node in a bigger network. 
-After teaching 10 years,  I wanted to go a step further and like see what can be turned into commercially viable businesses. I would call it an experiment. Gaudi labs is more an experiment on how to do open-source hardware business than attempting to grow a big company.
+After teaching 10 years,  I wanted to go a step further and like see what can be turned into commercially viable businesses. I would call it an experiment. GaudiLabs is more an experiment on how to do open-source hardware business than attempting to grow a big company.
 
 {{< /expand >}} 
-> How many people are working in Gaudi labs today? 
+> How many people are working in GaudiLabs today? 
 
 {{< card2 "Core team and community">}} 
 On the payroll, we are three or four people now and in all part time.
@@ -404,7 +404,7 @@ Sometimes, I'm looking for people if I have a specific work to do. I like being 
 
 
 {{< /expand >}} 
-> Could you say how the people who've been involved closer in Gaudi labs have benefited from their work in Guadi labs?
+> Could you say how the people who've been involved closer in GaudiLabs have benefited from their work in Guadi labs?
 
 {{< card2 "Personal gain">}} 
 I like to meet people and talk about things.
@@ -416,7 +416,7 @@ Sometimes people get a lot of inspiration from what I'm doing. They can be inspi
 
 
 {{< expand "Show answer">}}
-There are different ways I'm selling interesting products. If you go on Etsy at the theremin, I got  positive feedback. People are enjoying the product. Sometimes I pay people when I can. Sometimes people get a lot of inspiration from what I'm doing. They can be inspired to do something similar or to do the same. There is all the open-source content that I do. The commercial products are a part of all products on the Gaudi labs website. You can explore non-commercial products and find blueprints on how to do it and a YouTube video. 
+There are different ways I'm selling interesting products. If you go on Etsy at the theremin, I got  positive feedback. People are enjoying the product. Sometimes I pay people when I can. Sometimes people get a lot of inspiration from what I'm doing. They can be inspired to do something similar or to do the same. There is all the open-source content that I do. The commercial products are a part of all products on the GaudiLabs website. You can explore non-commercial products and find blueprints on how to do it and a YouTube video. 
 
 
 I gave you an interview and I talked to scientists. A lot of people, especially in OpenDrop, apply for funding with the project. They  want to do this research on this platform. I think it helps th em to get funding. I sometimes think I should apply for funding myself, because I'm basically living and working from sales and profit that I make from the sales. I usually don't get grants or cultural funding with the company. 
