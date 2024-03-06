@@ -227,19 +227,20 @@ It's a well-known product in the scientific field and within biological technolo
 
 In the first meetup of Hackteria, the open bio art network, we started working on a PCR machine, because this was the thing that people did at the time. We were trying to make a PCR machine with a hairdryer. This was around 12 years ago. Since then, I started working on open PCR machine. I was always doing different variations. For a long time, I kept doing it with a lot of people in the community. There are a lot of different developments on open PCR. 
 
-At some point, Yan, a friend who was working at Novartis or measure Institute in Basel,  contacted me when he saw that I'm building PCR machines in Lucerne. He asked if he can to come for a visit. I agreed. He came here and had the idea to make a very small PCR machine. Usually there are many blocks to run PCRs on different samples, at least 32. Here the idea was to do it very small, only for five samples.
+At some point, Yanwo Guo, a friend who was working at Friedrich Miescher Institute for Biomedical Research in Basel at the time,  contacted me when he saw that I'm building PCR machines in Lucerne. He asked if he can to come for a visit. I agreed. He came here and had the idea to make a very small PCR machine. Usually there are many blocks to run PCRs on different samples, at least 32. Here the idea was to do it very small, only for five samples.
 
-I was curious why we should do it small. He, as a biologist, convinced me that the smaller the heat block the less energy you need. If you make it smaller, it can be run by a normal USB power supply. At that point, I was amazed that he came up with this idea. I never thought only about the size of the block. He did a nice prototype of a small PCR machine. We started collaborating on this and developed it further to a working product. He showed it in many meetings that he could do a PCR  in half an hour with a small machine from battery power. He was thinking of producing and selling it. Somehow, he was working at university and moved on to Oslo. He was the laboratory manager and didn't have the abilities, or the energy, or time to produce it commercially. 
+I was curious why we should do it so small. He, as a biologist, convinced me that the smaller the heat block the less energy you need. If you make it smaller, it can be run by a normal USB power supply. At that point, I was amazed that he came up with this idea. I never thought only about the size of the block. He did a nice prototype of a small PCR machine. We started collaborating on this and developed it further to a working product. He showed it in many meetings that he could do a PCR  in half an hour with a small machine from battery power. He was thinking of producing and selling it. Somehow, he was working at university and moved on to Oslo. He was the laboratory manager and didn't have the abilities, or the energy, or time to produce it commercially. 
 
 That's why I made a different, easier to produced version of this small PCR. He called it nano-PCR or pico-PCR. I call it pocket PCR.  I started to produce some, and  it works ok but it's not the biggest product that I have at the moment. I'm quite happy with it. 
 
-I developed a special way of putting the heat block on to aluminium PCB for cooling. It’s directly soldered on the PCB with a little blower on the bottom to cool it. Everything is on one PCB. All you need to do is put this little X.  You can use optional a 3D printer   to make it to look like a finished product.
+I developed a special way of putting the heat block on to aluminium PCB for cooling. It’s directly soldered on the PCB with a little blower on the bottom to cool it. 
+Everything is on one PCB. It can be produced almost entirely on a electronic assembly line. You can finish it with an optional 3D printed case  to make it look  like a finished product.
 
 {{< /expand >}} 
 > How is the device structured regarding the mechanical, electrical and software part?
 
 {{< expand "Show answer">}}
-I actually did the layout work while being on a conference in Munich where I stayed overnight in an Airbnb. I did it in the night and in the bus from here to Munich and back. That was more an entertaining product butlater it turned out nice. Sometimes being on the road or a conference and doing something on the side can turn out nice. 
+I actually did the layout work while being on a conference in Munich where I stayed overnight in an Airbnb. I did it in the night and in the bus from here to Munich and back. That was more an entertaining product but later, it turned out nice. Sometimes being on the road or a conference and doing something on the side can turn out nice. 
 
 The software writing was an easy-going process. Sometimes, it's complicated with the camera, ESP-32, and everything. I’m having a bit of trouble with the software. But on this one, it turned out to be quite easy.  I always tried to do the minimum. There is a USB connection, you could read or write the data as USB. I didn't do any of this. Even though people sometimes ask me  why they cannot control it via USB. I think there is someone from the community who develop the software for it. I usually try to do the bare minimum to be able to handle it myself and don't have too much work in supporting and changing. It's relatively basic and everything works.
 
@@ -248,7 +249,7 @@ The software writing was an easy-going process. Sometimes, it's complicated with
 ## Research outputs
 
 {{< card2 "Publication strategy">}} 
-100% of what GaudiLabs sells is online.
+100% of what GaudiLabs sells is open source online.
 Sometimes, I have PDF files and different kinds of information on my website.
 I use GitHub basic functions, and I push my stuff there. I try to push it early and often.
 
@@ -258,7 +259,7 @@ A lot of people get to my company through the scientific publishing.
 > Did you publish the project findings in relation to the hardware? 
 
 {{< expand "Show answer">}}
-All the hardware and software are open. 100% of what GaudiLabs sells is online. I don't have any product that is not open source. Further, people can send me emails about the glue I’m using or how long I cure it. I'm open to share anything about the hardware and software. But I didn't a document a lot about the process. I am giving lectures at the University and taught open hardware like an open innovation. I am talking there about the process and how I'm doing it. But I don’t document too much of the development process.
+All the hardware and software are open. 100% of what GaudiLabs sells is oen source and online. I don't sell any product that is not open source. Further, people can send me emails about detail they need to know like a special glue I’m using or how long I cure it. I'm open to share anything about the hardware and software. But I didn't a document a lot about the process. I am giving lectures at the University and taught open hardware alongside open innovation. I am talking there about the process and how I'm doing it. But I did not document too much of the development process yet.
 
 Sometimes people are calling me to give an interview and then they are documenting the process [laughts].
 
@@ -267,7 +268,7 @@ Sometimes people are calling me to give an interview and then they are documenti
 > Do you share testing data on GitHub, or was it is merely about the device itself?
 
 {{< expand "Show answer">}} 
-The hardware and software, that I'm sharing and testing: they were from different projects. We were applying for funding to do data about open science hardware and data publishing, but this was not funded. I don’t share much testing data. 
+The hardware and software, that I'm sharing and testing: they were from different projects. We were applying for funding to do data about open science hardware and data publishing, but this was not funded. I don’t have much testing data. 
 
 In the GitHub repository is sometimes a folder with measurements I did. Usually, they're a bit cryptic and not very well documented, to be honest.
 
@@ -276,7 +277,7 @@ In the GitHub repository is sometimes a folder with measurements I did. Usually,
 > You mentioned GitHub as your main publishing platform, why did you choose this platform?
 
 {{< expand "Show answer">}}  
-It just happened. For other open hardware projects, like laser cutting, I have PDF files and different kinds of information on my website. But GitHub is a standard platform that I am using. I'm not very good at using GitHub, but I can use it. Most things that I'm doing, I'm not very good at, but I just do a lot of things. I just do what usually people do.
+It just happened. For other open hardware projects, like laser cutting, I have PDF files and different kinds of information on my website. But GitHub is a standard platform that I am using. I'm not very good at using GitHub, but I can use it. Most things that I'm doing, I'm not very good at, but I just do a lot of things at the same time. And I am learning from other people.
 
 {{< /expand >}} 
 >   Did you run into any barriers while using GitHub?
@@ -287,7 +288,7 @@ No, I use it basic, and I push my stuff there. I try to push it early and often.
 {{< /expand >}} 
 
 {{< card2 "Academic outputs">}} 
-We have a publication with a friend, Alistar, about version 01 of openDrop.
+We have a publication with a friend, Mirela Alistar, about version 01 of openDrop.
 
 I don't really write papers. There’re some papers I am co-author and they get mentioned. 
 {{< /card2 >}}
@@ -295,33 +296,33 @@ I don't really write papers. There’re some papers I am co-author and they get 
 > You didn’t publish the hardware in journal?
 
 {{< expand "Show answer">}}  
-No. OpenDrop has an early product, this is version 04 of version 01. We have a publication with a friend, Alistar, about version 01. We got like 50 citations of this paper. OpenDrop has a lot of researchers working with it. I try to not compete with the researchers. Therefore, I tried to develop, promote, and support the hardware but not publish research myself. The researchers will often do that when buying the product.
+No. An early version of OpenDrop has a publication. Now we are at version 4. We have a publication with a friend, Mirela Alistar, about the early version 1. We got like 50 citations of this paper. OpenDrop has a lot of researchers working with it. I try to not compete with the researchers on the publishing. Therefore, I tried to develop, promote, and support the hardware but not publish research myself. The researchers will often do that when buying the product.
 
-Currently, there's a new paper coming from someone in the community that I was helping and I’m going to be coauthor on it. Usually,  I don't really write papers. There’re some papers I am co-author and they get mentioned. 
-I think it's good because I don't like traditional or paid advertising. What I do is this inbound advertising  by being active in the community and some people write about what I'm doing. This helps to promote the products and ideas. A lot of people get to my company through the scientific publishing.
+Currently, there's a new paper coming from someone in the community that I was helping and I’m going to be coauthor on it. Usually, I don't really write papers. There’re some papers I am co-author and they get mentioned. 
+I think it's good because I don't like traditional or paid advertising. What I do is more like inbound marketing by being active in the community and people writing about what I'm doing. This helps to promote the products and ideas. And new people find the company through the scientific publishing.
 
 {{< /expand >}} 
 
 > Are you aware of the hardware PocketPCR being built, produced, or modified by others independently of your work?
 
 {{< expand "Show answer">}}
-I know nobody for the PocketPCR. The Theremin was produced in different ways and was sold as parts or kits. The OpenDrop was produced by people. Some of the researchers need more and produce it themselves. One group produced a bigger batch for a conference. This is part of open hardware and the idea. People can build and produce on it. Further, I try to collaborate with the people that work on it. I try to keep them  in the loop and in the community.
+I am not aware of anyone producing the PocketPCR at the moment. The Theremin was produced in different ways and was sold as parts or kits. The OpenDrop was produced by other people. Some of the researchers make modifications and produce it themselves. One group produced a bigger batch for a conference. This is part of open hardware and the idea. People can build and produce on it. Further, I try to collaborate with the people that work on it. I try to keep them in the loop and in the community.
 
 {{< /expand >}}  
 > The PocketPCR has a lot of components. Did you implement some existing technology or design the whole device from scratch? 
 
 {{< card2 "Hardware components">}} 
-I'm using the same chip and I'm based on Adafruit, which is an open-source company that does a lot of cool software, like display drivers. 
+ I'm using the same basic design as Adafruit Feather M0. Adafruit is an open-source company that does a lot of cool software, like display drivers.  
 The idea of doing the small-scale heat blocks came from Yan, the engineer from Oslo.
 {{< /card2 >}}
 
 {{< expand "Show answer">}}  
-I always try to use as much as possible of what is around. It is the philosophy of open source that you don't need to start from scratch. Definitely, there is a lot of things you should use. I'm using the same chip and I'm based on Adafruit, which is an open-source company that does a lot of cool software, like display drivers. 
-When I do software, I usually pick pieces from different places and like put libraries together. The software is a collection of different contributions from different people in open-source space. 
+I always try to use as much as possible of what is around. It is the philosophy of open source that you don't need to start from scratch. Definitely, there is a lot of things you should use. I'm using the same basic design as Adafruit Feather M0. Adafruit is an open-source company that does a lot of cool software, like display drivers. 
+When I do software, I usually pick pieces from different places and put libraries together. The software is a collection of different contributions from different people in open-source space. 
 
-The idea of doing the small-scale heat blocks came from Yan, the engineer from Oslo. The clever part of this device is inspired by someone else who shared the idea with me. 
-I'm using open software, called KiCad, which is an open PCB design software and it’s very capable and good. 
-I try to use the technology in a fun way.  I'm using a lot of the PCB manufacturing in China. This is aluminium PCB, which is used for like power LEDs. You see the power LEDs on the aluminium PCBs. I get inspired by technologies that are available and easily accessible.  I decided to do this cooler with the aluminium PCB technology because it's cheap and easily available. I'm not trying to go into milling something specific for my application. I try to use the building blocks that are there and available. Of course, 3D printing is another huge open-source development that wouldn't be possible without open-source hardware and software. I try to use this for publishing the 3D files. I usually use Thingiverse. I'm trying to use and promote a bit these platforms that do  any work in open-source community.
+As mentioned earlier the idea of doing the small-scale heat blocks came from Yan, the engineer from Oslo. The clever part of this device is inspired by someone else who shared the idea with me. 
+I'm using open software such as KiCad, which is an open PCB design software and it’s very capable and good. 
+I try to use the technology in a fun way.  I'm using a lot of the PCB manufacturing in China. The PocketPCR uses an aluminium PCB, which is used for like power LEDs. You often see these power LEDs on aluminium PCBs. I get inspired by technologies that are available and easily accessible.  I decided to do this cooler with the aluminium PCB technology because it's cheap and easily available. I'm not trying to go into milling something specific for my application. I try to use the building blocks that are there and available. Of course, 3D printing is another important development that wouldn't be possible without open-source hardware and software. I like 3D printing as it is easy to share the 3D files. I usually use Thingiverse. I'm trying to use and promote a bit these platforms that do work in the open-source community.
 
 
 
@@ -337,12 +338,12 @@ It costs below 100€ which was the aim.
 > What  was successful about  the Pocket PCR and what wasn't?
 
 {{< expand "Show answer">}}
-I'm quite happy with it. The OpenDrop is quite successful, but it's a lot of work to support others and it’s not selling too much. Pocket PCR sells and there is not too much support that I have to do. Apparently, people are happy with it. It's quite unique because its battery powered and super small. It costs below 100€ which was the aim. The commercial alternatives are several 1000€. It's 99 euros currently for a Pocket PCR. It's a low price for this kind of product. It's fun, fancy and looks good. It's easy to produce and  works. Overall, I'm quite happy with this product. 
+I'm quite happy with it. The OpenDrop is quite successful, but it's a lot of work to support it and it’s not selling too much. Pocket-PCR sells and there is not too much support that I have to do. Apparently, people are happy with it. It's quite unique because its battery powered and super small. It costs below 100€ which was the aim. The commercial alternatives are several 1000€. It's 99 euros currently for a Pocket-PCR. It's a low price for this kind of product. It's fun, fancy and looks good. It's easy to produce and  works. Overall, I'm quite happy with this product. 
 
-It's limited in the software and there is no heated lid. For PCR you usually want to have heated lid, which isn’t done for this device and some people are missing it. On the other hand, there is a connector and the lid that comes with it can be heated, but I just didn't finish the development. Sometimes,  I do something half and don't finish it in the hope that it can motivate someone to take it up and finish it or develop on it. That's something that isn’t done yet.
+It's limited in the software and there is no heated lid. For PCR you usually want to have heated lid, which isn’t done for this device and some people are missing it. On the other hand, there is a connector and the lid that comes with it can be heated, but I just didn't finish the development. Sometimes,  I leave something half finished in the hope that it can motivate others to take it up and finish it or develop on it. That's something that isn’t done yet.
 
 
-If someone really wants it, they can do it probably because the things are already here, and it’s basically software that needs to be written and maybe a bit of hardware.
+If someone really wants it, they can do it probably because the things are already there, and it’s basically software that needs to be written and maybe a bit of hardware.
 
 {{< /expand >}}
 
@@ -361,18 +362,19 @@ People are contributing. I'm always working in these communities and I’m inter
 > What made you start to work on these projects with GaudiLabs?
 
 {{< expand "Show answer">}}
-I started when I was 15. I was working with Commodore 64. I was part of the  early computer age. Later, I enjoyed open source by changing and using open-source software. While studying at Lausanne, I learned about open hardware. I thought it was a nice expansion of open source. I started doing open hardware. One of the first products was an open smartwatch, which I did 15 years ago. Since then, I started learning more about the community. These communities  became strong through the global social media. It became part of different local communities. This motivated me more.  It's a long journey and  difficult to say where it started.
+I started when I was 15. I was working with Commodore 64. I was part of the  early computer age. Later, I enjoyed open source by changing and using open-source software. While studying at Lausanne, I learned about open hardware. I thought it was a nice expansion of open source. I started doing open hardware. One of the first products was an open smartwatch, which I did 15 years ago. Since then, I started learning more about the community. These communities became strong through the global social network. It became part of different local communities. This motivated me more.  It's a long journey and it is difficult to say where it started.
 
 {{< /expand >}} 
 > Maybe I should rephrase it a bit. How did GaudiLabs start as a business?
 
 {{< expand "Show answer">}}
-I was working in a startup when I was a student. I was selling some hardware to earn some money. When I joined the startup, I was interested in starting my own company and having my own business. This startup became successful and big. I decided that's not the way I want to go. I decided  to have my own company. I lost interest because I saw what it means to build a big company with employees, the procedures, sales, and marketing. 
-That's why I went into consulting. When I was a lecturer at university, it kind of happened because I had to rent an office and I started selling some products. 
+I was already selling some hardware when I was a student to earn some money.  I was interested in starting my own company and having my own business. Later I joined Sensirion, when it was still a startup company. 
+ This startup became successful and big. But I realised that's not the way I want to go. I lost interest because I saw what it means to build a big company with employees, the procedures, sales, and marketing. 
+That's why I went into consulting. Then later, when I was a lecturer at university, it kind of just happened because I had to rent an office and I started selling some products. 
 Still, I don't want to scale this company and turn it into a big manufacturing company. That's why I'm happy that just my daughter helps me out a bit. 
 For the moment, I have more work to do than what I can handle myself. 
-But I don't want to grow into a big company at the moment. Maybe that's a network idea. If it should grow, I want others to grow it with me. It should still be a small node in a bigger network. 
-After teaching 10 years,  I wanted to go a step further and like see what can be turned into commercially viable businesses. I would call it an experiment. GaudiLabs is more an experiment on how to do open-source hardware business than attempting to grow a big company.
+But I don't want to grow into a bigger company at the moment. I have this business in a network idea. If it should grow, I want others to grow it with me. It should still be a small node in a bigger network. 
+After teaching open innovation for over 10 years,  I wanted to go a step further and like see what can be turned into commercially viable businesses. GaudiLabs is more an experiment on how to do open-source hardware business than attempting to grow a big company.
 
 {{< /expand >}} 
 > How many people are working in GaudiLabs today? 
@@ -404,22 +406,24 @@ Sometimes, I'm looking for people if I have a specific work to do. I like being 
 
 
 {{< /expand >}} 
-> Could you say how the people who've been involved closer in GaudiLabs have benefited from their work in Guadi labs?
+> Could you say how the people who've been involved closer in GaudiLabs have benefited from their work in GaudiLabs?
 
 {{< card2 "Personal gain">}} 
 I like to meet people and talk about things.
 
-Sometimes I pay people when I can.
+Whenever possible, I ensure that the collaboration is mutually beneficial.
+
+Sometimes I hire people for a job when I can
 
 Sometimes people get a lot of inspiration from what I'm doing. They can be inspired to do something similar or to do the same.
 {{< /card2 >}}
 
 
 {{< expand "Show answer">}}
-There are different ways I'm selling interesting products. If you go on Etsy at the theremin, I got  positive feedback. People are enjoying the product. Sometimes I pay people when I can. Sometimes people get a lot of inspiration from what I'm doing. They can be inspired to do something similar or to do the same. There is all the open-source content that I do. The commercial products are a part of all products on the GaudiLabs website. You can explore non-commercial products and find blueprints on how to do it and a YouTube video. 
+There are different ways I'm selling interesting products. If you go on Etsy for the OpenTheremin, there is a lot of positive feedback. People are enjoying the product. Sometimes I hire people for a job when I can. Sometimes people get a lot of inspiration from what I'm doing. They can be inspired to do something similar or to do the same. There is all the open-source content that I do. The commercial products are a part of all products on the GaudiLabs website. You can explore non-commercial products and find blueprints on how to do it and a YouTube video. 
 
 
-I gave you an interview and I talked to scientists. A lot of people, especially in OpenDrop, apply for funding with the project. They  want to do this research on this platform. I think it helps th em to get funding. I sometimes think I should apply for funding myself, because I'm basically living and working from sales and profit that I make from the sales. I usually don't get grants or cultural funding with the company. 
+I give interviews and I talk to scientists. A lot of people, especially in OpenDrop, apply for funding with a related project. They  want to do their research on the OpenDrop platform. And I think it helps them to get funding. I sometimes think I should apply for funding myself, because I'm basically living and working from sales and profit that I make from the sales. I usually don't get grants or cultural funding with the company. 
 
 {{< /expand >}}  
 
@@ -430,7 +434,7 @@ I'm basically living and working from sales and profit that I make from the sale
 > Can you live from this business?
 
 {{< expand "Show answer">}}
-I earn less than at that university because universities in Switzerland pay very well. But I'm happy what I’m doing. My wife has a company and she's earning money. Together we're happy with what we have.
+I earn less than at that university because universities in Switzerland pay very well. But I'm happy to do what I do, while earning enough money to be happy with what I have.
 {{< /expand >}} 
 
 
