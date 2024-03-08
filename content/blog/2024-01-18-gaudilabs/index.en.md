@@ -55,7 +55,7 @@ Urs Gaudenz has been part of hackteria and similar open source hardware communit
 
 ### Hardware products
 Pocket-PCR: a USB powered PCR (polymerase chaine reaction) machine for 5 samples at a time.
-https://gaudi.ch/Pocket-PCR/ 
+https://gaudi.ch/PocketPCR/ 
 
 ### Hardware maturity
 
