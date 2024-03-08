@@ -184,6 +184,8 @@ You can gain a lot by doing open source: you have lower transaction costs, you d
 {{< /card2 >}}
 
 {{< expand "Show answer">}}
+The industry, mainstream or default are closed source, and patent protected. I noticed, when I was working as a consultant, sometimes we were in secret projects with big companies. I suggested to do an open innovation approach. From one second to the other, they were open and said "that's a cool idea". I think, the closed way of working  is just the default. It's not much reflected and not the best way to do it. 
+
 I tell even customers from big companies, when they approach me, that we can do it but an open license on all the results must be included if we want to collaborate. Sometimes they accept and sometimes they don’t, that is ok with me. I had a discussion with my friend Ryan Fobel from Sci-Bots in Canada. Sci-Bots is another company producing digital microfluidic devices. He said he was talking to this customer a year or two ago, trying to convince him to go open source and he was not ready to do so. Maybe two years later, the customer came again, and my friend suggested it again, then he was ready. So it may take some time to convince people. I usually say, as a joke, open source is my competitive advantage. This is what makes me much faster, better connected, easier to work with, with the customer also.
 
 You can gain a lot by doing open source: you have lower transaction costs, you don't need to fight with lawyers or do the protection of intellectual property, you can freely share documents and freely talk about everything you do. 
@@ -318,14 +320,14 @@ I am not aware of anyone producing the Pocket-PCR at the moment. The Theremin wa
 
 {{< card2 "Hardware components">}} 
  I'm using the same basic design as Adafruit Feather M0. Adafruit is an open-source company that does a lot of cool software, like display drivers.  
-The idea of doing the small-scale heat blocks came from Yan, the engineer from Oslo.
+As mentioned earlier the idea of doing the small-scale heat blocks came from Yanwo, the engineer from Oslo.
 {{< /card2 >}}
 
 {{< expand "Show answer">}}  
 I always try to use as much as possible of what is around. It is the philosophy of open source that you don't need to start from scratch. Definitely, there is a lot of things you should use. I'm using the same basic design as Adafruit Feather M0. Adafruit is an open-source company that does a lot of cool software, like display drivers. 
 When I do software, I usually pick pieces from different places and put libraries together. The software is a collection of different contributions from different people in open-source space. 
 
-As mentioned earlier the idea of doing the small-scale heat blocks came from Yan, the engineer from Oslo. The clever part of this device is inspired by someone else who shared the idea with me. 
+As mentioned earlier the idea of doing the small-scale heat blocks came from Yanwo, the engineer from Oslo. The clever part of this device is inspired by someone else who shared the idea with me. 
 I'm using open software such as KiCad, which is an open PCB design software and it’s very capable and good. 
 I try to use the technology in a fun way.  I'm using a lot of the PCB manufacturing in China. The Pocket-PCR uses an aluminium PCB, which is used for like power LEDs. You often see these power LEDs on aluminium PCBs. I get inspired by technologies that are available and easily accessible.  I decided to do this cooler with the aluminium PCB technology because it's cheap and easily available. I'm not trying to go into milling something specific for my application. I try to use the building blocks that are there and available. Of course, 3D printing is another important development that wouldn't be possible without open-source hardware and software. I like 3D printing as it is easy to share the 3D files. I usually use Thingiverse. I'm trying to use and promote a bit these platforms that do work in the open-source community.
 
@@ -398,7 +400,9 @@ On the payroll, we are three or four people now and in all part time.
 > Do you give them some share of your revenue? How do you pay them for a particular development?
 
 {{< expand "Show answer">}}
-That's a good question. That's something I'm thinking about a lot because I want to work more with biologists and other people from the community. But I'm struggling a bit. I think I should share. I don't want to have a real partner without sharing. Besides, I want to build it in a democratic way. 
+That's a good question. That's something I'm thinking about a lot because I want to work more with biologists and other people from the community. But I'm struggling a bit. I think I need a good model. I don't want to have a partner without sharing profits. Besides, I want to build it in a democratic way. 
+
+
 This is something I think about how to share if it scales in a network. There's a lot of discussion in the network.
 I'm not the only one that thinks about this. There is no good model that I know of. 
 There are some white papers on collaborative corporations and democratic distributed manufacturing collaborations companies. But it's an ongoing process.  I'm always trying to find out more how to do it in a good way.
