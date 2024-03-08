@@ -1,5 +1,5 @@
 ---
-title: 'Interview: Guaudilabs, the PocketPCR'
+title: 'Interview: Guaudilabs, the Pocket-PCR'
 author: 
   - Open make interview team
   - Urs Gaudenz
@@ -15,7 +15,7 @@ tags:
 
 # Interview: GaudiLabs
 
-Urs Gaudenz has been part of hackteria and similar open source hardware communities for a long time. Nine years ago, he started Gaudilabs, a "desktop manufacturing" company that is selling open source hardware produced in small scale. One of these product is the pocket-PCR machine.
+Urs Gaudenz has been part of hackteria and similar open source hardware communities for a long time. Nine years ago, he started GaudiLabs, a "desktop manufacturing" company that is selling open source hardware produced in small scale. One of these products is the Pocket-PCR machine.
 
 
 *by the Open make team, Urs Gaudenz. Copyright to the authors, distributed under a CC-BY 4.0 licence.*
@@ -28,13 +28,13 @@ Urs Gaudenz has been part of hackteria and similar open source hardware communit
 - [The research outputs](#research-outputs)
 - [The participants](#participants)
 
-*Banner image: fixme, By CERN, distributed under a CC-BY-SA 4.0*
+*Banner image: GaudiLabs logo, used with permission*
 
 >Interviewee: Urs Gaudenz
 >
->Interviewers: Robert Mies  >(TU Berlin) & Moritz Maxeiner (FU Berlin)
+>Interviewers: Robert Mies (TU Berlin) & Moritz Maxeiner (FU Berlin)
 >
->Transcription and editing: Diana Paola Americano Guerrero, Robert Mies, Fabio Reeh, Moritz Maxeiner & Julien Colomb
+>Transcription and editing: Diana Paola Americano Guerrero, Robert Mies, Fabio Reeh, Moritz Maxeiner, Urs Gaudenz & Julien Colomb
 
 <img src="images/Screenshot.png" alt="screenshot of the interview" width="60%"/>
 
@@ -42,7 +42,7 @@ Urs Gaudenz has been part of hackteria and similar open source hardware communit
 
 
 
-{{< card  "The PocketPCR in a nutshell">}}
+{{< card  "The Pocket-PCR in a nutshell">}}
 
 
 <img src="images/OpenPCR.jpg" alt="real Pocket-PCR machine" width="80%"/>
@@ -54,8 +54,8 @@ Urs Gaudenz has been part of hackteria and similar open source hardware communit
 - Core development team size: 2
 
 ### Hardware products
-PocketPCR: a USB powered PCR (polymerase chaine reaction) machine for 5 samples at a time.
-https://gaudi.ch/PocketPCR/ 
+Pocket-PCR: a USB powered PCR (polymerase chaine reaction) machine for 5 samples at a time.
+https://gaudi.ch/Pocket-PCR/ 
 
 ### Hardware maturity
 
@@ -201,13 +201,13 @@ In fact, it's the opposite. It makes your life easier, and people are happy with
 > You mentioned two products, the OpenDrop and OpenTheremin, can we stick to the OpenDrop? Or do you suggest another product?
 
 {{< expand "Show answer">}}
-PocketPCR is maybe 20% of my sales. It's a small product, but I like it a lot. Because it is a nice product.
+Pocket-PCR is maybe 20% of my sales. It's a small product, but I like it a lot. Because it is a nice product.
 
 {{< /expand >}}
-> We could stick to PocketPCR. Is this product  market ready or are you selling it already?
+> We could stick to Pocket-PCR. Is this product  market ready or are you selling it already?
 
 {{< expand "Show answer">}}
-PocketPCR is ready. I sell PocketPCR for several years. I have a new line with both, the PCR machine and fluorescent reading called qPocketPCR. It's with real time analysis while the other one just does amplification and no measure of fluorescence.  
+Pocket-PCR is ready. I sell Pocket-PCR for several years. I have a new line with both, the PCR machine and fluorescent reading called qPocket-PCR. It's with real time analysis while the other one just does amplification and no measure of fluorescence.  
 
 {{< /expand >}} 
 > Could you shortly explain the working mechanisms and different implemented technologies of the machine?
@@ -238,7 +238,7 @@ At some point, Yanwo Guo, a friend who was working at Friedrich Miescher Institu
 
 I was curious why we should do it so small. He, as a biologist, convinced me that the smaller the heat block the less energy you need. If you make it smaller, it can be run by a normal USB power supply. At that point, I was amazed that he came up with this idea. I never thought only about the size of the block. He did a nice prototype of a small PCR machine. We started collaborating on this and developed it further to a working product. He showed it in many meetings that he could do a PCR  in half an hour with a small machine from battery power. He was thinking of producing and selling it. Somehow, he was working at university and moved on to Oslo. He was the laboratory manager and didn't have the energy, or time to produce it commercially. 
 
-That's why I made a different, easier to produced version of this small PCR. His was called picoPCR. I call it PocketPCR.  I started to produce some, and  it works ok but it's not the biggest product that I have at the moment. I'm quite happy with it. 
+That's why I made a different, easier to produced version of this small PCR. His was called picoPCR. I call it Pocket-PCR.  I started to produce some, and  it works ok but it's not the biggest product that I have at the moment. I'm quite happy with it. 
 
 I developed a special way of putting the heat block on to aluminium PCB for cooling. It’s directly soldered on the PCB with a little blower on the bottom to cool it. Everything is on one PCB. It can be produced almost entierly on a electronic assembly line. You can finish it with an optional 3D printed case to make it to look more like a finished product.
 {{< /expand >}} 
@@ -293,7 +293,7 @@ No, I use it basic, and I push my stuff there. I try to push it early and often.
 {{< /expand >}} 
 
 {{< card2 "Academic outputs">}} 
-We have a publication with a friend, Mirela Alistar, about version 01 of openDrop.
+We have a publication with a friend, Mirela Alistar, about an early sqversion 1 of openDrop.
 
 I don't really write papers. There’re some papers I am co-author and they get mentioned. 
 {{< /card2 >}}
@@ -308,13 +308,13 @@ I think it's good because I don't like traditional or paid advertising. What I d
 
 {{< /expand >}} 
 
-> Are you aware of the hardware PocketPCR being built, produced, or modified by others independently of your work?
+> Are you aware of the hardware Pocket-PCR being built, produced, or modified by others independently of your work?
 
 {{< expand "Show answer">}}
-I am not aware of anyone producing the PocketPCR at the moment. The Theremin was produced in different ways and was sold as parts or kits. The OpenDrop was produced by other people. Some of the researchers make modifications and produce it themselves. One group produced a bigger batch for a conference. This is part of open hardware and the idea. People can build and produce on it. Further, I try to collaborate with the people that work on it. I try to keep them in the loop and in the community.
+I am not aware of anyone producing the Pocket-PCR at the moment. The Theremin was produced in different ways and was sold as parts or kits. The OpenDrop was produced by other people. Some of the researchers make modifications and produce it themselves. One group produced a bigger batch for a conference. This is part of open hardware and the idea. People can build and produce on it. Further, I try to collaborate with the people that work on it. I try to keep them in the loop and in the community.
 
 {{< /expand >}}  
-> The PocketPCR has a lot of components. Did you implement some existing technology or design the whole device from scratch? 
+> The Pocket-PCR has a lot of components. Did you implement some existing technology or design the whole device from scratch? 
 
 {{< card2 "Hardware components">}} 
  I'm using the same basic design as Adafruit Feather M0. Adafruit is an open-source company that does a lot of cool software, like display drivers.  
@@ -327,7 +327,7 @@ When I do software, I usually pick pieces from different places and put librarie
 
 As mentioned earlier the idea of doing the small-scale heat blocks came from Yan, the engineer from Oslo. The clever part of this device is inspired by someone else who shared the idea with me. 
 I'm using open software such as KiCad, which is an open PCB design software and it’s very capable and good. 
-I try to use the technology in a fun way.  I'm using a lot of the PCB manufacturing in China. The PocketPCR uses an aluminium PCB, which is used for like power LEDs. You often see these power LEDs on aluminium PCBs. I get inspired by technologies that are available and easily accessible.  I decided to do this cooler with the aluminium PCB technology because it's cheap and easily available. I'm not trying to go into milling something specific for my application. I try to use the building blocks that are there and available. Of course, 3D printing is another important development that wouldn't be possible without open-source hardware and software. I like 3D printing as it is easy to share the 3D files. I usually use Thingiverse. I'm trying to use and promote a bit these platforms that do work in the open-source community.
+I try to use the technology in a fun way.  I'm using a lot of the PCB manufacturing in China. The Pocket-PCR uses an aluminium PCB, which is used for like power LEDs. You often see these power LEDs on aluminium PCBs. I get inspired by technologies that are available and easily accessible.  I decided to do this cooler with the aluminium PCB technology because it's cheap and easily available. I'm not trying to go into milling something specific for my application. I try to use the building blocks that are there and available. Of course, 3D printing is another important development that wouldn't be possible without open-source hardware and software. I like 3D printing as it is easy to share the 3D files. I usually use Thingiverse. I'm trying to use and promote a bit these platforms that do work in the open-source community.
 
 
 
