@@ -295,7 +295,7 @@ No, I use it basic, and I push my stuff there. I try to push it early and often.
 {{< /expand >}} 
 
 {{< card2 "Academic outputs">}} 
-We have a publication with a friend, Mirela Alistar, about an early sqversion 1 of openDrop.
+We have a publication with a friend, Mirela Alistar, about an early version 1 of openDrop.
 
 I don't really write papers. There’re some papers I am co-author and they get mentioned. 
 {{< /card2 >}}
