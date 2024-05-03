@@ -50,6 +50,13 @@ authors:
     family-names: Aronson
   - given-names: Alex
     family-names: Rogers
+  - given-names: Urs
+    family-names: Gaudenz
+    orcid: 'https://orcid.org/0000-0002-0845-3202'
+  - given-names: Guillem 
+    family-names: Camprodon
+    orcid: 'https://orcid.org/0000-0002-3610-0009'
+
 identifiers:
   - type: doi
     value: 10.5281/zenodo.10592332
