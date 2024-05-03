@@ -15,7 +15,7 @@ tags:
 
 # Interview: Smart citizen kit
 
-Gulliem Caprodon is a research lead at Fab Lab Barcelona, he was mostly involved in the development of 
+Gulliem Caprodon is the Executive Director of [Fab Lab Barcelona](https://fablabbcn.org/) at [IAAC](https://iaac.net/), he was mostly involved in the development of 
 the Smart Citizen Kit, which is the central concept around having a minimum set of tools to measure the environment, leading to the development of the smart citizen concept.
 
 *by the Open make team, . Copyright to the authors, distributed under a CC-BY 4.0 licence.*
@@ -175,11 +175,11 @@ We distribute the work mostly, as coordinators.
 {{< expand "Show answer">}}
 
 It's something that might sound a bit weird, but I never had the time to do a proper calculation. But I could average that we are around 1 million euros. 
-Just to get an idea. The contribution of projects such as 'Making Sense' was 200,000. 'iScape' was closer to 400,000. So, if you put them all together, at the end, it's about 1 million. I mean, if I consider even the projects running right now would be we'd be on that. And maybe even a bit higher. Because you know, there's projects, that sometimes we do have some parts connected to the Smart Citizen project, and there's parts which are not connected to it, but yeah, the overall is approximately that.
+Just to get an idea. The contribution of projects such as 'Making Sense' was around 200,000. 'iScape' was closer to 400,000. So, if you put them all the public funding together, at the end, it's about 1 million. I mean, if I consider even the projects running right now would be we'd be on that. Because you know, we are part of big projects but only an small part contributes directly back to the Smart Citizen project development.
 {{< /expand >}}
 
 {{< card2 "Funding">}} 
-I never had the time to do a proper calculation. But I could average that the bedget is around 1 million euros.
+I never had the time to do a proper calculation. But I could average that the budget is around 1 million euros.
 {{< /card2 >}}
 
 ## The hardware
