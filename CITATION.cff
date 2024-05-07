@@ -56,6 +56,9 @@ authors:
   - given-names: Guillem 
     family-names: Camprodon
     orcid: 'https://orcid.org/0000-0002-3610-0009'
+  - given-names: Suhasa 
+    family-names: Kodandaramaiah
+    orcid: 'https://orcid.org/0000-0002-7767-2644'
 
 identifiers:
   - type: doi
