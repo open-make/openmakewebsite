@@ -44,7 +44,9 @@ Luc Jonveaux has been developing some ultrasound devices in open source in his s
 
 {{< card  "The un0rick in a nutshell">}}
 
-![FIXME](images/FIXME.jpg "WR Switch") 
+
+
+<img src="images/lit3rick.jpg" alt="The Lit3rick board." width="60%"/>
 
 *Photos of FIXME*
 
