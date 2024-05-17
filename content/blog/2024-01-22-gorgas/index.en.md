@@ -6,7 +6,7 @@ author:
 date: '2024-01-22'
 slug: interview-fixme
 categories: [interview]
-banner: img/banners/fixme
+banner: img/banners/gorgas.png
 tags:
   - technology
   - open hardware
