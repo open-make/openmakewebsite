@@ -6,7 +6,7 @@ author:
 date: '2024-01-16'
 slug: interview-craniobot
 categories: [interview]
-banner: img/banners/fixme
+banner: img/banners/craniobot-uni.png
 tags:
   - technology
   - open hardware
