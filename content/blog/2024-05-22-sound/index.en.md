@@ -3,8 +3,8 @@ title: 'Interview: Ultrasound device'
 author: 
   - Open make interview team
   - Luc Jonveaux
-date: '2024-02-20'
-slug: interview-fixme
+date: '2024-05-20'
+slug: interview-ultrasound
 categories: [interview]
 banner: img/banners/fixme
 tags:
