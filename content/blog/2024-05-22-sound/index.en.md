@@ -6,12 +6,13 @@ author:
 date: '2024-05-20'
 slug: interview-ultrasound
 categories: [interview]
-banner: img/banners/fixme
+banner: img/banners/ultrasoundmap.jpg
 tags:
   - technology
   - open hardware
   - personal story
 ---
+
 # Interview: Ultrasound device
 
 Luc Jonveaux has been developing some ultrasound devices in open source in his spare time for several years. His motivations have been to have fun and give back to the commons. Different devices were created in his small apartment in Paris, and they were used by quite a large community of enthusiasts.  
