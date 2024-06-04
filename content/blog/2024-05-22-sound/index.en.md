@@ -94,7 +94,10 @@ At this time, I started to experiment more on the hardware components. This was 
 That worked relatively well, and confirmed the interest from a couple of individuals, the core of the community. Along with this initial pitch, the design got more mature and more integrated, leading to the first product. 
 The un0rick board is interesting as an approach. I am not an electrical engineer, and knew very little about electronics design.The open source approach allowed me to get in contact with the right people to help with the toughest electronic parts, and we got to a design that is far from perfect but still in use today. 
 
-This went well until..  the pandemic in 2020 and the during supply shortage the project could not move forward, as I could not try new designs or build new boards. Therefore I stopped developing the product. Then we started a smaller version of the board - smaller, but also cheaper and has a bit more performance. Today, it's about making the most of new parts like the raspberry pico chips, opening exciting doors.
+The more I knew about the project, the more I was able to concentrate on my skills and vice versa.
+I improved my skill and by this the complexity of the project.
+
+This went well until the pandemic in 2020 and the  supply shortage. the project could not move forward, as I could not try new designs or build new boards. Therefore I stopped developing the product. Then, we started a smaller version of the board - smaller, and also cheaper, and it has a bit more performance. Today, we work mostly on new parts like the raspberry pico chips, opening exciting doors.
 
 What was done for Ultrasound can theorically be replicated in the MRI space. If we look purely at the technology, we are talking about signals in the megahertz range. What we're discussing right now is to what extent we could build a common tool, a basic Arduino, that could be used for both technologies, ultrasound or MRI. 
 
