@@ -190,6 +190,8 @@ It's pretty much organic and defined in the long term, so a slow pace fits our o
 
 It's pretty much organic and defined in the long term, so a slow pace fits our objectives.
 
+It's pretty much organic and defined in the long term, so a slow pace fits our objectives.
+
 {{< /expand >}}
 {{< card2 "Core team and community">}} 
 
