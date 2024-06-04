@@ -77,7 +77,7 @@ There are known users who built their own hardware through fabs or produced it t
 I started my career as a research engineer at Philips in medical imaging. We were working on simple, low-cost medical imaging device at the time.
 
 In 2014, Mehdi Benchoufi, Olivier de Fresnoye, Paul Bourrier and I started echOpen as an association, officializing the objective of developing an open source  ultrasound device.
-I continued on a parallel path in 2016: echOpen aiming for a medical device, when I wanted to focus on opening the technology itself, to give people access to an Arduino of ultrasound. 
+I continued on a parallel path in 2016: echOpen aiming for a medical device, when I wanted to focus on opening the technology itself, I wanted people to be able to play with the technology. 
 
 {{< /card2 >}}
 
