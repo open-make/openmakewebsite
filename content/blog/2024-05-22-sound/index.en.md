@@ -336,7 +336,7 @@ Most of the most complex, mature boards are in collaboration with a professional
 > How did you end up working on the project?
 
 {{< expand "Show answer">}}
-That is mostly due to the frustration of not contribution to open source. I do believe that giving back to the commons and being open are some of the ethics when you're into technology. It's about how can we, as individuals and organizations, safely contribute and give back to the commons.
+It strated with my frustration of not being able to contribute to the commons in the company I worked for. I do believe that giving back to the commons and being open are some of the ethics when you're into technology. It's about how we can, as individuals and organizations, safely contribute and give back to the commons.
 
 {{< /expand >}}
 > How many members have worked on the project and hardware?
