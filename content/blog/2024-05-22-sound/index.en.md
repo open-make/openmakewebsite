@@ -281,7 +281,7 @@ The initial objectives was to get something like an arduino of ultrasound in the
 
 The documentation itself became a priority, seen as a lab log, which was supported by a series of script to help classify and manage the information and data generated during experiments. 
 The data itself of the experiments is tagged with metadata that allows to find back what were the conditions of the experiment. The same applies to pictures, using for example the EXIF tags. I have been running the scripts since 2016, and they are still used in generating the documentation. It’s been real helpful not only for me, but also for example to onboard people: I can point them to a session where I tried tomography and  where we would find the gateware for the FPGA. They would find the corresponding scripts , and reuse them relatively easily. That became the primary output. 
-
+The community is a byproduct of the work on the hardware. I have no objectives when it comes to the community. We can say fun is the number one expected output.
 {{< /expand >}}
 {{< card2 "Hardware importance">}} 
 I think, the board and documentation have been the focused outputs. The publications and community are outcomes. 
