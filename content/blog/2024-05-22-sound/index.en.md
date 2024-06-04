@@ -188,6 +188,8 @@ Another challenge usually is that building hardware takes time. But in this case
 
 It's pretty much organic and defined in the long term, so a slow pace fits our objectives.
 
+It's pretty much organic and defined in the long term, so a slow pace fits our objectives.
+
 {{< /expand >}}
 {{< card2 "Core team and community">}} 
 
