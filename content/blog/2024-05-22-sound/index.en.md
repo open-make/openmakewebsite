@@ -312,7 +312,7 @@ Hardware files and documentation in general lives mostly in GitHub. The core pub
 > Why did you choose these platforms?
 
 {{< expand "Show answer">}}
-GitHub is an easy one - because that's an easy to use and universal documentation and version control platform. Zenodo, for the same reasons, in terms of documentation release. 
+I choose GitHub because that's easy and universal tool. It provides the version control system. I choose Zenodo because I wanted to have an independent platform to store notes a get a DOI for further referencing. 
 
 {{< /expand >}}
 > Were there any barriers in using these platforms?
