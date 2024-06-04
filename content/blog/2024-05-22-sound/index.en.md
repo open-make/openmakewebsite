@@ -229,7 +229,7 @@ The first was the Murgen board, which was a BeagleBoard add-on, similar to the '
 > How would you classify the product? Is it mainly a board, or are there other components, like mechanical or software, that you had to develop? 
 
 {{< expand "Show answer">}}
-The device is electronics at heart. I do not have the space or resources to go into more - say building the board physical transducers (or sensors) or the mechanical aspects.
+The device is electronics at heart. I do not have the space or resources to do more like building the board physical transducers (or sensors) or the mechanical aspects.
 
 {{< /expand >}}
 > I see that the board has FPGAs on it. Did you develop any gateware, or is that up to the end user?
