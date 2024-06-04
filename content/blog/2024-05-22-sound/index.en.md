@@ -136,7 +136,9 @@ It is mostly funded by me as an individual. The community helps keeping the cost
 
 
 
-Funding is a good question.  I have tried publishing articles about the open hardware, methodologies and sources I'm using, but I'm not affiliated with any lab, which makes classical publication less easy. Hopefully, this is something recognized by the open source imaging community, and I am sure there will be initiatives to tackle this challenge.
+Funding is a good question. I cannot get funding or institutional support, because one needs to be affiliated to an institution  to register on any research publication institute, so it's impossible for me to get that kind of support.
+
+  Similalry,  I have tried publishing articles about the open hardware, methodologies and sources I'm using, but I'm not affiliated with any lab, which makes classical publicationdifficult Hopefully, this is something recognized by the open source imaging community, and I am sure there will be initiatives to tackle this challenge.
 
 {{< /expand >}}
 > How much money have you put in yourself?
