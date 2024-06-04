@@ -154,7 +154,9 @@ When it comes to specific activities, for example for teams with specific needs,
 
 I guess an open source starts with documentating an idea. I just started with documenting what I was doing. When you progress on a side project, on some evenings, weekends, from time to time, .. you usually come back to the table with no memory of the details of what you were doing. It is definitely helpful to keep a lab log, for you first, but also to 'build in public'.
 
-The documentation brought the interests of some people and publications. I've done a couple of publications since, on, for example, the Journal of Open Hardware. That helped raise the profile of the project. There are communication channels for interested individuals to come in and discuss.
+The documentation brought the interests of some people and publications. I've done a couple of publications since, on, for example, the Journal of Open Hardware. That helped raise the profile of the project.
+
+ People usually come to the documentation, then to me by email and/or to the community open Slack channel (to allow people to talk to me and to a wider community). Some physical interactions occurred when a few current members came through Paris or London and we met to chat in meetings, like what we did in Grenoble in 2022.
 
 The main topic in terms of organisation would be community, and in particular that I don't want to  be a bottleneck. If I were to be hit by a bus tomorrow, I still want the community to organize itself. Moreover, there are always opportunities to meet with the wider open communities, for example through the ultrasound with echOpen, as well as the wider open imaging wider. The community is also lucky enough to have a couple of people who want to drive the topic forward. The activist circle would be five to ten people. We got an academic paper with a small core community group. 
 
