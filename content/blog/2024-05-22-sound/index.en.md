@@ -298,7 +298,7 @@ There were couple of publications on, for example, the Journal of Open Hardware,
 > What kind of information have you shared regarding the bill of materials, CAD files and assembly instructions?
 
 {{< expand "Show answer">}}
-Project is mostly electronics so you will find the usual gerbers, BOMs, and kicad or altium files. There are no mechanical elements, so we have no CAD files
+Project is mostly electronics so you will find the usual gerbers, BOMs, and kicad or altium files. There are no mechanical elements, so we have no CAD files. When I'm doing an experiment, I'm sharing the data of the experiment. It's hard to keep track of what I've done during the experiment.
 
 {{< /expand >}}
 > How did you publish the hardware besides in journals? Did you publish the hardware overall?
