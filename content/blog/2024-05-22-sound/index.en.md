@@ -323,7 +323,6 @@ I have no objectives unless having fun. It was successful in having fun. And fai
 {{< expand "Show answer">}}
 That's another good question! You can be successful if you know your objectives - and I have no objectives apart from having fun. It was successful for this, this and meeting a dedicated community. 
 
-Less successfull.. managing components supply chain - it is a skill we don't all have. 
 
 {{< /expand >}}
 
