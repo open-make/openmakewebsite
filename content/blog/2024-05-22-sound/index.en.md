@@ -271,7 +271,7 @@ Absolutely. And the great thing is that they also come back with more questions 
 {{< card2 "Academic outputs">}} 
 The community as a core team of maybe five to ten persons. We recently have published a community paper together. 
 
-There are also two other papers on the Journal of Open Hardware about the project, and I have published a couple of other less mature notes on Zenodo. 
+There are also two other papers on the Journal of Open Hardware about the project, and I have published a couple of other less mature notes on Zenodo: this was a way to get some results out without going through the trouble of publication and peer review. 
 {{< /card2 >}}
 
 > What were the envision envisaged outputs of the hardware development in terms of publications, the hardware itself and documents?
