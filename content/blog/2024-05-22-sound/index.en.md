@@ -316,7 +316,8 @@ I experimented with a platform called upverter, which is an online hardware edit
 > Is there anything you didn't publish? 
 
 {{< expand "Show answer">}}
-Apart from holiday pictures, I believe most topics are documented, even things that might be less relevant for users. When it comes to the hardware, everything is published.
+Apart from holiday pictures, I've published everything I've done. 
+I believe most topics are documented, even things that might be less relevant for users. When it comes to the hardware, everything is published.
 
 {{< /expand >}}
 
