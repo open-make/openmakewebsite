@@ -338,7 +338,9 @@ I have no objectives unless having fun. It was successful in having fun. And fai
 > What was successful about the project and what wasn't successful?
 
 {{< expand "Show answer">}}
-That's another good question! You can be successful if you know your objectives - and I have no objectives apart from having fun. It was successful for this, this and meeting a dedicated community. 
+That's another good question! You can be successful if you know your objectives - and I have no objectives apart from having fun. I was successful as I have fun. I had a lot of frustration due to the component shortages during the pandemic. If the supply chaine is broken, I can't do open source development anymore.
+
+Meeting a dedicated community was an unexpected positive experience.
 
 
 {{< /expand >}}
