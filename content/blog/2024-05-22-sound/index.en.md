@@ -132,7 +132,9 @@ Being an individual, without a "research home", makes things a bit more difficul
 > Is the project funded in some way?
 
 {{< expand "Show answer">}}
-It's funded by me as an individual, and as mentioned, costs shared when doing a new batch of boards. Remember, this is a side project, and it has  no official structure. 
+It is mostly funded by me as an individual. The community helps keeping the cost down when doing a batch.  As an individual maker, I have no structure in terms of business, this is a side project, and it has  no official structure. 
+
+
 
 Funding is a good question.  I have tried publishing articles about the open hardware, methodologies and sources I'm using, but I'm not affiliated with any lab, which makes classical publication less easy. Hopefully, this is something recognized by the open source imaging community, and I am sure there will be initiatives to tackle this challenge.
 
