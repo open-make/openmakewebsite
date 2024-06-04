@@ -114,7 +114,7 @@ There is no roadmap. Developments are more organic, the interesting experiments 
 {{< expand "Show answer">}}
 The core benefit is to provide an arduino of ultrasound. And for me, to have a blast and learn while contributing to the commons. 
 
-The side benefit is to generate something you don't keep under lock and key. I see the value in the commons, and egoistically also benefit to know that you made benefits others. Apart from this, the greatest benefit is that I like to believe my users are getting access to technology that they wouldn't have access to normally.  Users are academics who want to have a system to test ideas. I have also seen startups using that to develop proof of concepts, teachers to have a demo tool for their courses, institutional organization collaborating to build customized solution. 
+The side benefit is to generate something you don't keep under lock and key. I see the value in the commons, and egoistically I also benefit to know that what I made benefits others. Apart from this, the greatest benefit is that I like to believe my users are getting access to technology that they wouldn't have access to normally.  Users are academics who want to have a system to test ideas. I have also seen startups using that to develop proof of concepts, teachers to have a demo tool for their courses, institutional organization collaborating to build customized solution. 
 
 {{< /expand >}}
 
