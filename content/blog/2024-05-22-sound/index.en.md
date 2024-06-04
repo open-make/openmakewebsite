@@ -182,6 +182,8 @@ There is a minor bottleneck which has been the components shortage over the last
 
 Another challenge usually is that building hardware takes time. But in this case, it is a benefit. As a side project, if you have to wait two months for a board and you can't do anything, well, just freeze for two months, just doing some community management. And because it's a side project, there is no added stress.
 
+It's pretty much organic and defined in the long term, so a slow pace fits our objectives.
+
 {{< /expand >}}
 {{< card2 "Core team and community">}} 
 
