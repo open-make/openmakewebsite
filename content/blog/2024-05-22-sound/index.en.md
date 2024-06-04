@@ -152,7 +152,7 @@ When it comes to specific activities, for example for teams with specific needs,
 
 {{< expand "Show answer">}}
 
-I guess an open source starts with documentating an idea. I just started with documenting what I was doing. When you progress on a side project, on some evenings, weekends, from time to time, .. you usually come back to the table with no memory of the details of what you were doing. It is definitely helpful to keep a lab log, for you first, but also to 'build in public'.
+I guess an open source starts with documentating an idea. I just started with documenting what I was doing for my own purpose. When you progress on a side project, on some evenings, weekends, from time to time: you usually come back to the table with no memory of the details of what you were doing. It is definitely helpful to keep a lab log, for you first, but also to 'build in public'.
 
 The documentation brought the interests of some people and publications. I've done a couple of publications since, on, for example, the Journal of Open Hardware. That helped raise the profile of the project.
 
