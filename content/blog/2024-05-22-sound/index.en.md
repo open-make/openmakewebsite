@@ -350,7 +350,7 @@ It depends on your metrics.  I've done a bit of publication on Hackaday at the b
 {{< expand "Show answer">}}
 Most of them are ultrasound professionals, researchers, or start ups. Startups usually seek hardware, equipment and advisors. There are also teachers who use the devices for their courses.
 
-If you look at the map of the purchases, there is a higher density, for example, in east Asia, with a very strong medical imagery ecosystem as well. In the States or Europe, the orders come from mostly universities, a few startups and individuals. 
+If you look at the map of the purchases, there is a higher density, for example, in east Asia, with a very strong medical imagery ecosystem as well. In the USA or Europe, the orders come from mostly universities, a few startups and individuals. 
 
 
 {{< /expand >}}
