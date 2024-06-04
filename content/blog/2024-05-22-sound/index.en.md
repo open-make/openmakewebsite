@@ -85,7 +85,7 @@ I continued on a parallel path in 2016: echOpen aiming for a medical device, whe
 
 {{< expand "Show answer">}}
 The project is about providing an 'Arduino of ultrasound' to researchers, academics and makers, simply because nothing existed in the market. 
-I was a research engineer at Philips in medical imaging around 15 years ago. It was a great opportunity to work on low cost medical imaging devices, where we got to a proof of concept working with an OLPC. 
+I was a research engineer at Philips in medical imaging around 15 years ago. It was a great opportunity to work on low cost medical imaging devices, where we got to a proof of concept working with an OLPC ([One Laptop per Child initiative](https://en.wikipedia.org/wiki/OLPC_XO)). 
 A few years passed, and in 2014 I met with Mehdi Benchoufi and we had an initial discussions for what became echOpen afterwards. 
 
 Mehdi, Pierre, Olivier and I, started a project, which became the echOpen association. We wanted to post the technical project of having open source with ultrasound. I spent less time with the association in 2016 or 2017 because I wanted to focus on something that would be used by makers, hackers and layman while echOpen took a different approach, going into making a medical device. 
