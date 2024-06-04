@@ -378,7 +378,7 @@ Our communication channel is open  about what is happening at a given point: the
 > Can you say how the members or the contributors have benefited from their work on the project?
 
 {{< expand "Show answer">}}
-Users in general benefit because they have access to dedicated, simple hardware. Contributers are usually curious people. They are looking to learn and try things. Maybe that's a bias in selecting and engaging with the community. Most of the active contributors have this willingness to share back. A couple of professionals wanted to have tools and are stuck because they found a cool place to share. One of the categories of the contributors would be academics and researchers with an obligation to publish. With that respect, they've shared, for example, a master thesis or their research work. 
+Users in general benefit because they have access to dedicated, simple hardware. Contributers are usually curious people. They are looking to learn and try things, like me. Maybe that's a bias in selecting and engaging with the community. Most of the active contributors have this willingness to share back. A couple of professionals wanted to have tools and are staying because they found a cool place to share and communicate. One of the categories of the contributors would be academics and researchers with an obligation to publish. With that respect, they've shared, for example, a master thesis or their research work. 
 
 {{< /expand >}}
 
