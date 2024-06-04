@@ -252,7 +252,9 @@ The lit3rick is market ready. It's to some extent due to  the collaboration with
 {{< expand "Show answer">}}
 All the source files are shared and are openly accessible. Most of the electronic files are Altium or Kicad files, and we're trying to move more towards KiCad which is more open. 
 
-Some users did their own batches through fabs and produced it on their end. I know of people who have used the designs for their own purpose and they have reused parts completely and did some slight adjustments to the way before sending it for production. I also spotted forks of my designs for tangent purposes, namely tomography, which is a good way to check your designs are evolve independently! 
+Some users did their own batches through fabs and produced it on their end. I know of people who have used the designs for their own purpose and they have reused some parts completely, and did some slight adjustments to other parts before sending it for production. I also spotted forks of my designs for tangent purposes, namely tomography. 
+It was good to see the design was reused, even if these specific people fail to mention our project in their description.
+When people are cooking what you're often cooking, it's a good sign for the recipe.
 
 
 {{< /expand >}}
