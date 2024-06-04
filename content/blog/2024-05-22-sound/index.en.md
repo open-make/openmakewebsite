@@ -244,7 +244,7 @@ There are both VHDL and Verilog designs, but I must say the open-source toolchai
 > Where would you rate the maturity of the product in terms of prototype, demonstrator  or market ready?
 
 {{< expand "Show answer">}}
-The lit3rick is market ready. It's to some extent due to  the collaboration with professionals in the sector. The un0rick has been around for a while so that would make it too market ready.
+The lit3rick is market ready. It's to some extent due to  the collaboration with professionals in the sector who also tested the device. The un0rick has been around for a while so that would make it market ready, too.
 
 {{< /expand >}}
 > Has the hardware been built or produced by others independently?
