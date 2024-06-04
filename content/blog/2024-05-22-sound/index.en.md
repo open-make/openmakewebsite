@@ -203,7 +203,7 @@ As this is an informal community, there is virtually no governance nor governanc
 
 Even on collaborating with, for example, organisations. The process is that these organisations drive their requirement, and we discuss opportunities and past learnings. To some extent, they drive the decision of the joint project. I then bring back to the community what can be shared back.
 
-Coming back to the decisions, the project does not have a specific roadmap. It's just what is interesting to pursue at the moment. The perfect example is what we'd like to do with open MRI initiative: there is definitely a good intellectual challenge to learn from both modalities to build something new, hopefully better.
+Coming back to the decisions, the project does not have a specific roadmap. It's just what is interesting to pursue at the moment. The perfect example is what we'd like to do with open MRI initiative: there is definitely a good intellectual challenge there, and we will learn from both modalities and this will allow us to build something new, hopefully better.
 
 
 
