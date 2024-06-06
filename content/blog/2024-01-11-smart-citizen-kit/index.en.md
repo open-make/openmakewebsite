@@ -2,7 +2,7 @@
 title: 'Interview: Smart-citizen-kit'
 author: 
   - Open make interview team
-  - Gulliem Caprodon
+  - Guillem Camprodon
 date: '2024-01-16'
 slug: interview-citizenkit
 categories: [interview]
@@ -15,7 +15,7 @@ tags:
 
 # Interview: Smart citizen kit
 
-Gulliem Caprodon is the Executive Director of [Fab Lab Barcelona](https://fablabbcn.org/) at [IAAC](https://iaac.net/), he was mostly involved in the development of 
+Guillem Camprodon is the Executive Director of [Fab Lab Barcelona](https://fablabbcn.org/) at [IAAC](https://iaac.net/), he was mostly involved in the development of 
 the Smart Citizen Kit, which is the central concept around having a minimum set of tools to measure the environment, leading to the development of the smart citizen concept.
 
 *by the Open make team, . Copyright to the authors, distributed under a CC-BY 4.0 licence.*
@@ -30,7 +30,7 @@ the Smart Citizen Kit, which is the central concept around having a minimum set 
 
 *Banner image: Smart Citizenlogo, By smartcitizen.me, distributed under a CC-BY-SA 4.0*
 
->Interviewee: Gulliem Caprodon
+>Interviewee: Guillem Camprodon
 >
 >Interviewers: Robert Mies (TU Berlin) & Moritz Maxeiner (FU Berlin)
 >
