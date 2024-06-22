@@ -24,14 +24,14 @@ Hallo liebe Besucher*innen, auf diesen Website erklären wir, worum dieses Proje
 
 
 
-# BUA
+## BUA
 
 ![](images/bua_logo_quer_rgb-web-24.png)
 https://www.berlin-university-alliance.de
 
 <img src="images/logoleiste-gross-2023.png" alt="" width="600px"/>
 
-# Mobile LAb
+## Mobile LAb
 
 Heute präsentieren wir unseren Mobile Lab konzept. Mit dem werden wir in die Unis vor Ort sein und erklären, was mit "open source" für hardware gemeint ist. Als Beispiel haben wir laser cut bookmarks entwickelt. Diesen Blogpost zeigt unseren Lernprozess.
 
