@@ -13,12 +13,13 @@ tags:
 This post will be in German, an English summary will be added in the coming weeks.
 
 
-# Willkommen
+<img src="images/willkommen-gif-animiert.gif" alt="" width="400px"/>
 
 Hallo liebe Besucher*innen, auf diesen Website erklären wir was dieses Projekt ist und warum wir es treiben. Auf den [homepage](/..) können Sie sehen, dass 
 
 - wir sind von verschiedene Unis in Berlin
 - arbeiten seit 2019 über Offenes Hardware in akademia.
+
 
 Heute presentieren Wir unseren Mobile Lab konzept. Mit den werden wir in die Unis vor Ort sein und erklären was ist mit "open source" für hardware gemeint ist. Als Beispiel haben wir laser cut bookmarks entwickelt. Diesen Post zeigt unseren Lernprozess.
 
@@ -56,6 +57,8 @@ Wir haben die Machine selbst gebaut, den Manual ist offen : https://github.com/f
 <img src="images/DSC03617.JPG" alt="" width="400px"/>
 
 
+---
 
-[Lass uns ein Kommentar !](https://cryptpad.fr/form/#/2/form/view/TK1nV0MX0O82kMMn0WAKg9MYbCTxr40Rpq3Vojw71FU/)  :
+
+**[Lass uns ein Kommentar !](https://cryptpad.fr/form/#/2/form/view/TK1nV0MX0O82kMMn0WAKg9MYbCTxr40Rpq3Vojw71FU/)** 
 
