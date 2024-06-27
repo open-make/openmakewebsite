@@ -1,5 +1,5 @@
 ---
-title: BUA Mobile Lab at Lange Nacht der Wissenschaften: An Open-Source Hardware
+title: xxx
 author: Maitri
 date: '2024-06-26'
 slug: xxx
