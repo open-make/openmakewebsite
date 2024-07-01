@@ -10,16 +10,16 @@ tags:
 
 # BUA Mobile Lab at Long Night of Science 2024 : An Open-Source Hardware
 
-Hello, Dear Visitors, We want to share that we presented the BUA Mobile Lab at the Long Night of Science 2024 at Technische Universität Berlin. Long Night of Science is an annual event in Germany where universities and research institutions showcase scientific demonstrations, lectures, and interactive activities, making science accessible and engaging for all ages. This initiative of BUA Mobile Lab by the Berlin University Alliance (BUA) – a collaboration between Freie Universität Berlin, Humboldt-Universität zu Berlin, Technische Universität Berlin, and Charité – Universitätsmedizin Berlin – brought cutting-edge open-source hardware directly to the public, making science accessible and engaging for all.
+Hello, Dear Visitors, We want to share that we presented the BUA Mobile Lab at the Long Night of Science 2024 in Technische Universität Berlin. Long Night of Science is an annual event in Germany where universities and research institutions showcase scientific demonstrations, lectures, and interactive activities, making science accessible and engaging for all ages. This initiative of BUA Mobile Lab by the Berlin University Alliance (BUA) – a collaboration between Freie Universität Berlin, Humboldt-Universität zu Berlin, Technische Universität Berlin, and Charité – Universitätsmedizin Berlin – brought the open-source hardware directly to the public, making science accessible and engaging for all.
 
 For more information on Long Night of science visit: https://www.langenachtderwissenschaften.de/  
-
-
-For more information on BUA visit: https://www.berlin-university-alliance.de/
 
 # The Story of BUA Mobile Lab
 
 The BUA Mobile Lab began as a vision to bridge the gap between academic research and public engagement. Inspired by the collaborative spirit of the Berlin University Alliance, our goal is to utilise the machines that were recently developed, promote technology and support open-source hardware community
+
+
+For more information on Berlin University Alliance (BUA) visit: https://www.berlin-university-alliance.de/
 
 
 ![image](https://github.com/open-make/openmakewebsite/assets/161837980/0d132fd2-b197-4988-88cd-35eb38d1430b)
@@ -62,7 +62,6 @@ Throughout the event, we showcased several projects that illustrated the power a
 
 
 # Get Support to Publish Your Hardware
-
 
 In addition to providing hands-on access to advanced hardware, the BUA Mobile Lab offers comprehensive support for all creators looking to review and publish their hardware design projects. We will assist you in documenting your project, securing appropriate licenses, and support in technical drawings etc. Our platform will ensure that your innovations are shared with the community which can further help in foster collaboration.
 
