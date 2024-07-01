@@ -1,14 +1,14 @@
 ---
-title: Long Night of Science 2024
-author: Maitri
+title: 'BUA Mobile Lab at Long Night of Science 2024'
+author: 'Maitri'
 date: '2024-06-26'
 slug: xxx
-categories: []
+categories: '[![image](https://github.com/open-make/openmakewebsite/assets/161837980/13de2fe0-1aaf-4514-91fa-b2d7cd8fe2b9)]'
 tags:
   - BUA
 ---
 
-# BUA Mobile Lab at Long Night of Science 2024 : An Open-Source Hardware
+# BUA Mobile Lab: An Open-Source Hardware
 
 Hello, Dear Visitors, We want to share that we presented the BUA Mobile Lab at the Long Night of Science 2024 in Technische Universität Berlin. Long Night of Science is an annual event in Germany where universities and research institutions showcase scientific demonstrations, lectures, and interactive activities, making science accessible and engaging for all ages. This initiative of BUA Mobile Lab by the Berlin University Alliance (BUA) – a collaboration between Freie Universität Berlin, Humboldt-Universität zu Berlin, Technische Universität Berlin, and Charité – Universitätsmedizin Berlin – brought the open-source hardware directly to the public, making science accessible and engaging for all.
 
@@ -29,12 +29,8 @@ For more information on Berlin University Alliance (BUA) visit: https://www.berl
 
 At the Long Night of Science, Open-Source Hardware Machines of BUA Mobile Lab which were assembled by us were exhibited such as CNC milling machine from Mekanika was assembled at our Production Technology Center, Fabulaser Mini laser cutting machine from InMachines was assembled in their workshop and 3D Printer with both the operational and construction instructions freely available to the public. These machines, built on open-source principles, provided the idea behind the concept of open-source hardware and our vision of supporting students and researchers at BUA partner institutions in Berlin.
 
-![image](https://github.com/open-make/openmakewebsite/assets/161837980/9ad810bb-9e73-4bba-a7ea-d5dd7c28b0f5)    ![image](https://github.com/open-make/openmakewebsite/assets/161837980/9164e7c6-6ce6-4587-9e43-7ae30bd859fd)
-
-
-Fig 1: CNC Milling Machine                                                                                             Fig 2: 3D Printer 
-
-
+![image](https://github.com/open-make/openmakewebsite/assets/161837980/9ad810bb-9e73-4bba-a7ea-d5dd7c28b0f5)    ![image](https://github.com/open-make/openmakewebsite/assets/161837980/9164e7c6-6ce6-4587-9e43-7ae30bd859fd)                                                                                                             
+Fig 1: CNC Milling  Fig 2 : 3D Printer 
 # Highlights of the Event
 
 We assisted the attendees in explaining them about the machines and turning their hardware ideas into tangible prototypes. Visitors had the unique opportunity to view our open-source hardware machines, demonstrating a fully transparent tool chain from initial concept to final product.The laser cut personalized bookmarks gained attraction among the visitors.
