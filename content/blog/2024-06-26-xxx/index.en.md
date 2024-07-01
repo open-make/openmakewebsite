@@ -32,10 +32,12 @@ At the Long Night of Science, Open-Source Hardware Machines of BUA Mobile Lab wh
 ![image](https://github.com/open-make/openmakewebsite/assets/161837980/9ad810bb-9e73-4bba-a7ea-d5dd7c28b0f5)    ![image](https://github.com/open-make/openmakewebsite/assets/161837980/9164e7c6-6ce6-4587-9e43-7ae30bd859fd)
 
 
-Fig 1: CNC Milling Machine                                                                                       Fig2: 3D Printer 
+Fig 1: CNC Milling Machine                                                                                             Fig 2: 3D Printer 
+
+
 # Highlights of the Event
 
-We were excited to assist attendees in explaining them about the machines and turning their hardware ideas into tangible prototypes. Visitors had the unique opportunity to view our open-source hardware machines, demonstrating a fully transparent tool chain from initial concept to final product.The laser cut personalized bookmarks gained attraction among the visitors.
+We assisted the attendees in explaining them about the machines and turning their hardware ideas into tangible prototypes. Visitors had the unique opportunity to view our open-source hardware machines, demonstrating a fully transparent tool chain from initial concept to final product.The laser cut personalized bookmarks gained attraction among the visitors.
 
 ![image](https://github.com/open-make/openmakewebsite/assets/161837980/3582ba6c-3b7e-40be-98f9-8e89b703d46d)
 
