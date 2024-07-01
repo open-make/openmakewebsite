@@ -1,5 +1,5 @@
 ---
-title: Lange Nacht der Wissenschaften 2024
+title: Long Night of Science 2024
 author: Maitri
 date: '2024-06-26'
 slug: xxx
