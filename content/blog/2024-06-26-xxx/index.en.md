@@ -12,7 +12,9 @@ tags:
 
 Hello, Dear Visitors, We want to share that we presented the BUA Mobile Lab at the Long Night of Science 2024 at Technische Universität Berlin. Long Night of Science is an annual event in Germany where universities and research institutions showcase scientific demonstrations, lectures, and interactive activities, making science accessible and engaging for all ages. This initiative of BUA Mobile Lab by the Berlin University Alliance (BUA) – a collaboration between Freie Universität Berlin, Humboldt-Universität zu Berlin, Technische Universität Berlin, and Charité – Universitätsmedizin Berlin – brought cutting-edge open-source hardware directly to the public, making science accessible and engaging for all.
 
-For more information on Long Night of science visit: https://www.langenachtderwissenschaften.de/ 
+For more information on Long Night of science visit: https://www.langenachtderwissenschaften.de/  
+
+
 For more information on BUA visit: https://www.berlin-university-alliance.de/
 
 # The Story of BUA Mobile Lab
@@ -27,7 +29,10 @@ The BUA Mobile Lab began as a vision to bridge the gap between academic research
 
 At the Long Night of Science, Open-Source Hardware Machines of BUA Mobile Lab which were assembled by us were exhibited such as CNC milling machine from Mekanika was assembled at our Production Technology Center, Fabulaser Mini laser cutting machine from InMachines was assembled in their workshop and 3D Printer with both the operational and construction instructions freely available to the public. These machines, built on open-source principles, provided the idea behind the concept of open-source hardware and our vision of supporting students and researchers at BUA partner institutions in Berlin.
 
+![image](https://github.com/open-make/openmakewebsite/assets/161837980/9ad810bb-9e73-4bba-a7ea-d5dd7c28b0f5)    ![image](https://github.com/open-make/openmakewebsite/assets/161837980/9164e7c6-6ce6-4587-9e43-7ae30bd859fd)
 
+
+Fig 1: CNC Milling Machine                                                                                       Fig2: 3D Printer 
 # Highlights of the Event
 
 We were excited to assist attendees in explaining them about the machines and turning their hardware ideas into tangible prototypes. Visitors had the unique opportunity to view our open-source hardware machines, demonstrating a fully transparent tool chain from initial concept to final product.The laser cut personalized bookmarks gained attraction among the visitors.
