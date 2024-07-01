@@ -16,6 +16,8 @@ Hello, dear visitors.Long Night of Science is an annual event in Germany where u
 * The Story of BUA Mobile Lab
 
 The BUA Mobile Lab began as a vision to bridge the gap between academic research and public engagement. Inspired by the collaborative spirit of the Berlin University Alliance, our goal is to utilise the machines that were recently developed, promote technology and support open-source hardware community
+
+
 ![image](https://github.com/open-make/openmakewebsite/assets/161837980/0d132fd2-b197-4988-88cd-35eb38d1430b)
 
 
