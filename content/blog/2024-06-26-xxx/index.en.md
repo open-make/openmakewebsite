@@ -8,25 +8,23 @@ tags:
   - BUA
 ---
 
-BUA Mobile Lab at Lange Nacht der Wissenschaften: An Open-Source Hardware
+* BUA Mobile Lab at Lange Nacht der Wissenschaften: An Open-Source Hardware
 
-Hello, esteemed readers! We are thrilled to share that we presented the BUA Mobile Lab at the Lange Nacht der Wissenschaften 2024 at Technische Universität Berlin. This pioneering initiative by the Berlin University Alliance (BUA) – a collaboration between Freie Universität Berlin, Humboldt-Universität zu Berlin, Technische Universität Berlin, and Charité – Universitätsmedizin Berlin – brought cutting-edge open-source hardware directly to the public, making science accessible and engaging for all.
+Hello, dear visitors.Long Night of Science is an annual event in Germany where universities and research institutions showcase scientific demonstrations, lectures, and interactive activities, making science accessible and engaging for all ages. We want to share that we presented the BUA Mobile Lab at the LOng Night of Science 2024 at Technische Universität Berlin. This initiative by the Berlin University Alliance (BUA) – a collaboration between Freie Universität Berlin, Humboldt-Universität zu Berlin, Technische Universität Berlin, and Charité – Universitätsmedizin Berlin – brought cutting-edge open-source hardware directly to the public, making science accessible and engaging for all.
 
 
-The Story of BUA Mobile Lab
+* The Story of BUA Mobile Lab
 
 The BUA Mobile Lab began as a vision to bridge the gap between academic research and public engagement. Inspired by the collaborative spirit of the Berlin University Alliance, our goal is to utilise the machines that were recently developed, promote technology and support open-source hardware community
+![image](https://github.com/open-make/openmakewebsite/assets/161837980/0d132fd2-b197-4988-88cd-35eb38d1430b)
 
 
-Bringing Open-Source Hardware to Life
+* Bringing Open-Source Hardware to Life
 
-At the Lange Nacht der Wissenschaften , the Open-Source Hardware Machines of BUA Mobile Lab which were assembled by us were exhibited such as CNC milling machine from Mekanika was assembled at our Production Technology Center , Fabulaser Mini laser cutting machine from InMachines was assembled in their workshop and 3D Printer with both the operational and construction instructions freely available to the public. These machines, built on open-source principles, provided the idea behind the concept of open-source hardware and our vision of supporting students and researchers at BUA partner institutions in Berlin.
-
-
-![image](https://github.com/open-make/openmakewebsite/assets/161837980/fde80455-0099-44e2-bb24-e0cda4b93069)  ![image](https://github.com/open-make/openmakewebsite/assets/161837980/cc30e5fa-6b79-4cb0-ac6b-320c5255a609)  ![image](https://github.com/open-make/openmakewebsite/assets/161837980/b59a6388-c3ab-4925-8659-005d229feeab)
+At the Long Night of Science, Open-Source Hardware Machines of BUA Mobile Lab which were assembled by us were exhibited such as CNC milling machine from Mekanika was assembled at our Production Technology Center, Fabulaser Mini laser cutting machine from InMachines was assembled in their workshop and 3D Printer with both the operational and construction instructions freely available to the public. These machines, built on open-source principles, provided the idea behind the concept of open-source hardware and our vision of supporting students and researchers at BUA partner institutions in Berlin.
 
 
-Highlights of the Event
+* Highlights of the Event
 
 We were excited to assist attendees in explaining them about the machines and turning their hardware ideas into tangible prototypes. Visitors had the unique opportunity to view our open-source hardware machines, demonstrating a fully transparent tool chain from initial concept to final product.The laser cut personalized bookmarks gained attraction among the visitors.
 
