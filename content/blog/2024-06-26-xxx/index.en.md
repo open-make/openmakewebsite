@@ -3,7 +3,7 @@ title: 'BUA Mobile Lab at Long Night of Science 2024'
 author: 'Maitri'
 date: '2024-06-26'
 slug: xxx
-categories: '[![image](https://github.com/open-make/openmakewebsite/assets/161837980/13de2fe0-1aaf-4514-91fa-b2d7cd8fe2b9)]'
+categories: '![LNDW](https://github.com/open-make/openmakewebsite/assets/161837980/feebfc8c-5523-4004-909c-10d2c40b9836)'
 tags:
   - BUA
 ---
