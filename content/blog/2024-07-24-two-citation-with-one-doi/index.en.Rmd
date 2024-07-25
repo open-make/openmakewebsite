@@ -52,6 +52,8 @@ The relative success of the Journal of Open Source Software (2574 papers publish
 
 If the papers is then mostly used to give attribution, one might then emphasize this aspect in the paper itself.
 This would mean that these type of papers should be dedicated to provide information about author contributions, funding information, and citation of other projects that were important in the development of the object.
+This calls for a better definition of authorship and contribution roles (and make it computer readable) for data, software and hardware.
+Initiatives like the [Research Software Authorship and Contribution Task Force](https://www.researchsoft.org/tf-authorship-contribution/) are important steps towards better recognition of that work.
 
 # Am I off ?
 
