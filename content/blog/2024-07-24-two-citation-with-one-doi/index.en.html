@@ -1,0 +1,80 @@
+---
+title: Two citations with one doi ?
+author: Package Build
+date: '2024-07-24'
+slug: two-citation-with-one-doi
+categories: [FAIR4RH]
+tags: [ideas, OPEN-HARDWARE, technology]
+bibliography: references.bib
+banner: img/banners/2dois.png
+---
+
+
+
+<p>Here, Julien Colomb presents in a very short post the idea of having and attribution reference and a provenance reference for an hardware/software/dataset object.
+We present 2 objectives of citing data, one workaround for having it all, what is would mean for hardware paper and end with a question about the validity of this ideas.
+He is hoping that it may open a discussion on this topic.</p>
+<div id="the-two-objectives-of-citing-data" class="section level1">
+<h1>The two objectives of citing data</h1>
+<p>People have been publishing datasets for decades now, and there is ongoing research on the apparent trade off between providing persistent identifiers to the data and allowing data versions.
+During a workshop of data publisher professionals (“Forschungsdaten-Publikationen zwischen Dynamik und Persistenz” , 28.06.2024 in Berlin), there were discussions about dealing the granularity of the data in different projects, and its versioning (should modification of and addition to the dataset be treated differently, how to deal with aggregates of datasets,..).
+In the discussion, an important aspect of data citation was mentioned: There are two different purpose to cite data.
+In one hand, <strong>data is cited for transparency and reproducibility purposes</strong>.
+Authors cite the exact version of the data they used so their analysis can be reproduced and the context of their study can be apprehended.
+On the other hand, <strong>data is cited to give attribution</strong> to the team who provided the data.
+In this second case, authors want to give attribution and it would therefore be most efficient if different authors would cite the same object, even if the data changed a bit.
+Indeed, having one research output cited 50 times is valued much more than having 50 outputs cited once in the current academic metric system.</p>
+<p>This is reminiscent of the Citation File Format <span class="citation">(<a href="#ref-druskat">Druskat et al., n.d.</a>)</span> design used in software publication.
+While software is further developed and different versions will get different doi, the software authors are able to set one “preferred-citation” field such that the same element will be cited for different versions of the software.
+This will allow authors using the software to mention the doi of the software version they are using as well another element which would recognize the work of all contibutors of the software.
+This second element could be a scientific paper or a “Concept doi” on zenodo <span class="citation">European Organization For Nuclear Research and OpenAIRE (<a href="#ref-europeanorganizationfornuclearresearch">n.d.</a>)</span> that relates to all version and point to the latest release.
+Similarly, R packages sometimes have multiple elements to be cited.
+For instance, this website was created using Blogdown, which provides citation for the package <span class="citation">Xie, Dervieux, and Presmanes Hill (<a href="#ref-R-blogdown">2024</a>)</span>, and its guide <span class="citation">Xie, Hill, and Thomas (<a href="#ref-blogdown2017">2017</a>)</span>.</p>
+</div>
+<div id="working-around" class="section level1">
+<h1>Working around</h1>
+<p>While in principle one should then cite two objects for one dataset or software, this may be problematic when the number of references is limited, and it may bring confusion during the reading.
+To a human reader, the reference to the particular version is only useful in the text, not in the reference list (the situtation might be different when scaping paper metadata ?).</p>
+<blockquote>
+<p>citing this blog post as <span class="citation">Colomb et al. (<a href="#ref-colomb2024">2024</a>)</span>, v: unpublished version ??</p>
+</blockquote>
+<p>Another solution would be to treat a software like a book (concept software, with a whole list of contributors) with chapters (each version being similar to a chapter).
+For instance, reference to the 2022 blog post entries on this site could be (<span class="citation">Colomb et al. (<a href="#ref-colomb2024">2024</a>)</span>, v: 0.9 <a href="https://doi.org/10.5281/zenodo.10592333">10.5281/zenodo.10592333</a>), while more recent one would be (<span class="citation">Colomb et al. (<a href="#ref-colomb2024">2024</a>)</span>, v: 0.91 <a href="https://doi.org/10.5281/zenodo.12805477">10.5281/zenodo.12805477</a>), and this one would at the moment be (<span class="citation">Colomb et al. (<a href="#ref-colomb2024">2024</a>)</span>, v: unpublished version).
+This is what I call here attribution reference (analog to the book) and a provenance reference (analog to the chapter).</p>
+<p>This was created manually here, but one could think of a way to get that type of citation when entering the version specific doi in a reference manager ?
+Would there be a place in the datacite and crossref metadata schemas for this (something similar to the preferred citation field in the citation file format) ?</p>
+</div>
+<div id="what-about-datasoftwarehardware-papers" class="section level1">
+<h1>What about data/software/hardware papers ?</h1>
+<p>As stated above, the attribution reference could point to an academic paper.
+The relative success of the Journal of Open Source Software (2574 papers published to date) shows that the format is attractive to researchers, probably because it is a known format in the academic world.</p>
+<p>If the papers is then mostly used to give attribution, one might then emphasize this aspect in the paper itself.
+This would mean that these type of papers should be dedicated to provide information about author contributions, funding information, and citation of other projects that were important in the development of the object.
+This calls for a better definition of authorship and contribution roles (and make it computer readable) for data, software and hardware.
+Initiatives like the <a href="https://www.researchsoft.org/tf-authorship-contribution/">Research Software Authorship and Contribution Task Force</a> are important steps towards better recognition of that work.</p>
+</div>
+<div id="am-i-off" class="section level1">
+<h1>Am I off ?</h1>
+<p>I am looking forward to get feedback on this idea and will use this blog post as an entry point for such discussions.
+I am sure I am not the first one to think of this, and you may have some more experience to share.</p>
+<p>You can find ways to contact me on my orcid page (<a href="https://orcid.org/0000-0002-3127-5520" class="uri">https://orcid.org/0000-0002-3127-5520</a>), on mastodon at <a href="https://nerdculture.de/@jcolomb">@jcolomb@nerdculture.de</a></p>
+<hr />
+<p><code># References</code></p>
+<div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0">
+<div id="ref-colomb2024" class="csl-entry">
+Colomb, Julien, Robert Mies, Moritz Maxeiner, Fabio Reeh, Mik Schutte, Diana Americano Guerrero, Javier Serrano, et al. 2024. <em>Openmake-Blogpost and Interview</em>. Zenodo. <a href="https://doi.org/10.5281/ZENODO.10592333">https://doi.org/10.5281/ZENODO.10592333</a>.
+</div>
+<div id="ref-druskat" class="csl-entry">
+Druskat, Stephan, Jurriaan H. Spaaks, Neil Chue Hong, Robert Haines, James Baker, Spencer Bliven, Egon Willighagen, David Pérez-Suárez, and Alexander Konovalov. n.d. <span>“Citation File Format.”</span> <a href="https://doi.org/10.5281/ZENODO.5171937">https://doi.org/10.5281/ZENODO.5171937</a>.
+</div>
+<div id="ref-europeanorganizationfornuclearresearch" class="csl-entry">
+European Organization For Nuclear Research, and OpenAIRE. n.d. <span>“Zenodo: Research. Shared.”</span> <a href="https://doi.org/10.25495/7GXK-RD71">https://doi.org/10.25495/7GXK-RD71</a>.
+</div>
+<div id="ref-R-blogdown" class="csl-entry">
+Xie, Yihui, Christophe Dervieux, and Alison Presmanes Hill. 2024. <em>Blogdown: Create Blogs and Websites with r Markdown</em>. <a href="https://github.com/rstudio/blogdown">https://github.com/rstudio/blogdown</a>.
+</div>
+<div id="ref-blogdown2017" class="csl-entry">
+Xie, Yihui, Alison Presmanes Hill, and Amber Thomas. 2017. <em>Blogdown: Creating Websites with r Markdown</em>. Boca Raton, Florida: Chapman; Hall/CRC. <a href="https://bookdown.org/yihui/blogdown/">https://bookdown.org/yihui/blogdown/</a>.
+</div>
+</div>
+</div>
