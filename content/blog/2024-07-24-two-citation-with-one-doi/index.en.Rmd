@@ -16,7 +16,7 @@ He is hoping that it may open a discussion on this topic.
 # The two objectives of citing data
 
 People have been publishing datasets for decades now, and there is ongoing research on the apparent trade off between providing persistent identifiers to the data and allowing data versions.
-During a workshop of data publisher professionals (“Forschungsdaten-Publikationen zwischen Dynamik und Persistenz” , 28.06.2024 in Berlin), there were discussions about dealing the granularity of the data in different projects, and its versioning (should modification of and addition to the dataset be treated differently, how to deal with aggregates of datasets,..).
+During a workshop of data publisher professionals (“Forschungsdaten-Publikationen zwischen Dynamik und Persistenz” , 28.06.2024 in Berlin, @klump), there were discussions about dealing the granularity of the data in different projects, and its versioning (should modification of and addition to the dataset be treated differently, how to deal with aggregates of datasets,..).
 In the discussion, an important aspect of data citation was mentioned: There are two different purpose to cite data.
 In one hand, **data is cited for transparency and reproducibility purposes**.
 Authors cite the exact version of the data they used so their analysis can be reproduced and the context of their study can be apprehended.
