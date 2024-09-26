@@ -166,7 +166,9 @@ The documentation brought the interests of some people and publications. I've do
 
  People usually come to the documentation, then to me by email and/or to the community open Slack channel (to allow people to talk to me and to a wider community). Some physical interactions occurred when a few current members came through Paris or London and we met to chat in meetings, like what we did in Grenoble in 2022.
 
-The main topic in terms of organisation would be community, and in particular that I don't want to  be a bottleneck. If I were to be hit by a bus tomorrow, I still want the community to organize itself. Moreover, there are always opportunities to meet with the wider open communities, for example through the ultrasound with echOpen, as well as the wider open imaging wider. The community is also lucky enough to have a couple of people who want to drive the topic forward. The activist circle would be five to ten people. We got an academic paper with a small core community group. 
+I don't want to be a bottleneck in the community communication. If I were to be hit by a bus tomorrow, I still want the community to organize itself.  There are also opportunities to meet with the wider open communities, especially with echOpen, and the wider open imaging community.
+
+The community is pretty much organic. Today, on the Slack are around 240 participants, the community is bigger if you consider people who have an interest for school or an academic project who would be active for 6 months and then leace. The activist circle would be five people, the authors of the paper we published. 
 
 {{< /expand >}}
 {{< card2 "Major issues">}} 
