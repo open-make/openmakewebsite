@@ -58,7 +58,7 @@ menu:
 params:
   about_us: "<p>This website presents the open.make project: towards open and FAIR hardware. <br> Funded by the Federal Ministry of Education and Research (BMBF) and the state of Berlin under the Excellence Strategy of the Federal Government and the Länder / www.berlin-university-alliance.de <br> <a href='/index.xml'> <img src='img/rss.png' border='0'> </a> </p>"
   address: "Open.make <br> "
-  author: "openmake team"
+  author: "Open.Make team"
   carouselCustomers:
     auto_play: no
     items: 1
