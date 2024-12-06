@@ -10,9 +10,8 @@ tags:
   - ideas
   - personal story
   - team work
+banner: img/banners/grenoble.jpg  
 ---
-
-table of content
 
 # Grenoble: a different way of life ?
 
