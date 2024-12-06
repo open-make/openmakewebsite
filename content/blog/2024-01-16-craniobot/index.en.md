@@ -1,8 +1,6 @@
 ---
 title: 'Interview: craniobot'
-author: 
-  - Open make interview team
-  - Suhasa Kodandaramaiah
+authors: [Suhasa Kodandaramaiah, Open make interview team]
 date: '2024-01-16'
 slug: interview-craniobot
 categories: [interview]

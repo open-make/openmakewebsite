@@ -1,6 +1,6 @@
 ---
 title: 'LNDW2024: BUA mobile lab presentation'
-author: Julien Colomb
+authors: [Julien Colomb]
 date: '2024-06-21'
 slug: lndw2024-bua-mobile-lab-presentation
 categories: [inGerman]

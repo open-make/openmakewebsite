@@ -1,6 +1,6 @@
 ---
 title: Workshop at the open science conference
-author: Julien Colomb
+authors: [Julien Colomb]
 date: '2023-05-11'
 slug: workshop-at-the-open-science-conference
 banner: https://www.open-science-conference.eu/wp-content/uploads/2023/02/Slider-Open-Science_02.png

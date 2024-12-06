@@ -1,8 +1,6 @@
 ---
 title: 'Interview: VentMon'
-author: 
-  - Open make interview team
-  - Robert Read
+authors: [Robert Read, Open make interview team]
 date: '2023-09-28'
 slug: interview-ventMon
 categories: [interview]

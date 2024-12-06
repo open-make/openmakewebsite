@@ -1,8 +1,6 @@
 ---
 title: 'Interview: Guaudilabs, the Pocket-PCR'
-author: 
-  - Open make interview team
-  - Urs Gaudenz
+authors: [Urs Gaudenz, Open make interview team]
 date: '2024-01-18'
 slug: interview-gaudilabs
 categories: [interview]

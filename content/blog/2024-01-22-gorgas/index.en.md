@@ -1,8 +1,6 @@
 ---
 title: 'Interview: Gorgas Tracker'
-author: 
-  - Open make interview team
-  - Pierre Padilla Huamantinco
+authors: [Pierre Padilla Huamantinco,Open make interview team]
 date: '2024-01-22'
 slug: interview-fixme
 categories: [interview]

@@ -1,8 +1,6 @@
 ---
 title: "M19 Oxygen Concentrator"
-author: 
-  - Open make interview team
-  - Vaibhav Chhabra
+authors: [Vaibhav Chhabra, Open make interview team] 
 date: '2023-02-08'
 slug: interview-oxy-concentrator
 categories: [interview]

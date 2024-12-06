@@ -1,6 +1,6 @@
 ---
 title: Student assistant position available
-author: open.make team
+authors: [Open.Make team]
 date: '2021-10-25'
 slug: positions
 categories:

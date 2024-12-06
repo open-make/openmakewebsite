@@ -1,8 +1,6 @@
 ---
 title: 'Interview summary: audiomoth'
-author: 
-  - Open make interview team
-  - Alex Rogers
+authors: [Alex Rogers, Open make interview team]
 date: '2024-01-23'
 slug: interview-fixme
 categories: [interview]

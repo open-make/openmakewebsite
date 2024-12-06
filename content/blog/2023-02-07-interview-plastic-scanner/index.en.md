@@ -1,8 +1,6 @@
 ---
 title: "Interview: Plastic scanner"
-author: 
-  - Open make interview team
-  - Jerry de Vos
+authors: [Jerry de Vos, Open make interview team]
 date: '2023-04-19'
 slug: interview-plastic-scanner
 categories: [interview]

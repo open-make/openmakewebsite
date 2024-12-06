@@ -1,6 +1,6 @@
 ---
 title: "OpenMake II application: published and funded"
-author: Julien Colomb and Robert Mies
+authors: [Julien Colomb, Robert Mies]
 date: '2023-11-25'
 slug: openmake-ii-funded
 categories:

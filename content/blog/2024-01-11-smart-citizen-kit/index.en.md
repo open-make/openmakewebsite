@@ -1,8 +1,6 @@
 ---
 title: 'Interview: Smart-citizen-kit'
-author: 
-  - Open make interview team
-  - Guillem Camprodon
+authors: [Guillem Camprodon,Open make interview team]
 date: '2024-01-16'
 slug: interview-citizenkit
 categories: [interview]

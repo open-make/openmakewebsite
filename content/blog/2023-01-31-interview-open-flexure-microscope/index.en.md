@@ -1,8 +1,6 @@
 ---
 title: 'Interview: OpenFlexure microscope'
-author: 
-  - Open make interview team
-  - Julian Stirling
+authors: [Julian Stirling, Open make interview team] 
 date: '2023-01-01'
 slug: interview-openflexure
 categories: [interview]

@@ -1,6 +1,6 @@
 ---
 title: Work in progress - No1
-author: Julien Colomb
+authors: [Julien Colomb]
 date: '2022-05-23'
 slug: work-in-progress-no1
 categories:

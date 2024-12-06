@@ -1,9 +1,6 @@
 ---
 title: 'Interview: White rabbit'
-author: 
-  - Open make interview team
-  - Javier Serrano
-  - Amanda Diez Fernandez
+authors: [Javier Serrano, Amanda Diez Fernandez, Open make interview team]
 date: '2022-10-20'
 slug: interview-white-rabbit
 categories: [interview]

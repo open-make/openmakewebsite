@@ -1,6 +1,6 @@
 ---
 title: Open.Make kickoff meeting.
-author: Open.Make team
+authors: [Open.Make team]
 date: "2021-10-07"
 slug: kickoff
 banner: img/banners/start.jpg

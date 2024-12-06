@@ -1,8 +1,6 @@
 ---
 title: 'Interview: Farmbot'
-author: 
-  - Open make interview team
-  - Rory Aronson
+authors: [Rory Aronson, Open make interview team] 
 date: '2023-12-24'
 slug: interview-farmbot
 categories: [interview]

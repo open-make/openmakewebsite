@@ -1,6 +1,6 @@
 ---
 title: Three months in Delft, two open hardware projects
-author: Mik Schutte, edited by Julien Colomb
+authors: [Mik Schutte, Julien Colomb]
 date: '2023-07-28'
 slug: three-months-in-delft-two-open-hardware-projects
 categories:
