@@ -1,6 +1,6 @@
 ---
 title: 'BUA Mobile Lab at Long Night of Science 2024'
-author: 'Maitri'
+authors: [Maitri, Julien Colomb]
 date: '2024-06-26'
 slug: mobilelab1
 categories: [outreach]
