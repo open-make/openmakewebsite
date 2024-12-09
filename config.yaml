@@ -1,4 +1,4 @@
-baseurl: /
+baseurl: https://www.openmake.de/
 title: Towards open and FAIR hardware
 theme: hugo-universal-theme
 languageCode: en-us
