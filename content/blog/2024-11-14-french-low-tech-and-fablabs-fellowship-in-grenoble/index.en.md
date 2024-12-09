@@ -45,6 +45,8 @@ The obvious characteristics of these places were their emptiness.
 While G-Scop and ENSE3 are places dedicated for students and their use may depend on the teaching activities (which would explain why they were not used), 'la casemate' is an open fablab.
 This latter fablab has about 130 members and organize a lot of training workshops, so one could think we were only unlucky, but the student present told us that they did not see much activities in the fablab.
 
+![Flyier on the wall of the ENSE3 fablab with a linke to more information.](images/en3.jpeg)
+
 An interesting point is the close relation of fablabs and science communication: 'la casemate' is both a fablab and a museum organizing expositions.
 We found a similar connection with the low-tech lab (see below) that share a space with an association devoted to science communication.
 
@@ -63,6 +65,8 @@ The low-tech ideology is well described in the "age of low-tech" book writen in 
 Interestingly, the movement and its structure is studied by several students working at G-Scop and there is some common teaching activities (most people working for the Grenoble low-tech lab studied at the INP).
 Interestingly, the gender ratio in the low tech lab is pretty well balanced, even if the "makers" tasks in this space are taken mostly by the male members.
 
+![2 members of the low-tech lab who have just finished dismantling a bicycle.](images/lwotech1.jpeg)
+
 In brief, the low-tech philosophy wants to question needs (do we needs this or that object), and provide solutions where the technology can be understood and mastered by the users, and where there is a minimization of the effect on the ecology, especially in term of material used.
 The community is very "franco-française" and there is very few examples outside France.
 This is probably due to political, historical and cultural aspects that foster these kind of initiatives.
@@ -80,6 +84,8 @@ This was highly useful to:
 
 We also had very thorough discussion about open source hardware licenses, and the difficulties people have when they see their project taken by a large company that outsource production in China.
 (While I do not think having online tutorial would change anything to it, inventors are angry when this happens, and have then bad feelings about their openness attempts).
+
+![Julien Colomb pedalling on a pedal powered machine.](images/lwotech2.jpeg)
 
 # Back to Berlin
 
