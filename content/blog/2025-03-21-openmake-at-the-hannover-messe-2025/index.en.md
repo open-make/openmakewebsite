@@ -12,16 +12,18 @@ tags:
 editor_options: 
   markdown: 
     wrap: 72
+banner: https://www.hannovermesse.de/files/files/001/media/bilder/bildergalerien/bildergalerien-2024/diverse/fahnen-hm2024-13-0677_1_1_desktop_860_860.jpg
 ---
 
 Next week, starting 31.05.2025, we will be one week in Hannover for the
 Hannover Messe. The Messe is quite famous (the. "world leading
-industryshow") in the world of the manufacturing industry, being one the
-European larger gathering on the topic. [We will
+industryshow") in the world of the manufacturing industry. [We will
 represent](https://www.hannovermesse.de/exhibitor/tu-berlin-university-alliance/N1579275?editor=visitorView&exhibitor=77sbexz9&tdom-loc=xz532fiw&scene-node=qdlmca3k)
 both the OpenMake project (implementing open and fair hardware) and the
 [LAUDS Factories](https://lauds.eu) (local accessible urban digital
-sustainable factories). We will present [our mobile
+sustainable factories).
+
+We will present [our mobile
 lab](https://www.hannovermesse.de/product/bua-mobile-lab/459128/N1579275),
 including open source CNC mills developed by our lauds partner
 [Mekanika](https://www.hannovermesse.de/product/mekanika-open-source-cnc-machines/459127/N1579275),
