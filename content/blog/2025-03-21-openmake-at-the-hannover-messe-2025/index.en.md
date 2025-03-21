@@ -26,7 +26,7 @@ sustainable factories).
 ![We present 4 products at the Messe: the BUA mobile lab, OSH tools
 (documentation template and review system), urban manufacturing
 challenges (lauds factories), and the Mekanika open source CNC
-machine](images/Screenshot 2025-03-21 at 10.09.58.png)
+machine](images/screenshot_hannover.png)
 
 We will present [our mobile
 lab](https://www.hannovermesse.de/product/bua-mobile-lab/459128/N1579275),
