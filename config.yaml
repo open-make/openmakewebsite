@@ -61,7 +61,7 @@ params:
   author: "Open.Make team"
   carouselCustomers:
     auto_play: no
-    items: 1
+    items: 2
     pagination_speed: 1000
     slide_speed: 2000
   carouselHomepage:
@@ -78,6 +78,11 @@ params:
     enable: yes
     subtitle: ''
     title: Funding
+  clientsproto:
+    enable: yes
+    subtitle: ''
+    title: 'Prototyping spaces'  
+    
   contact_form_ajax: no
   copyright: Copyright (c) 2021, open.make team. All content is licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>
   date_format: January 2, 2006
