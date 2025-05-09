@@ -11,9 +11,9 @@ It aims at teaching and demonstrating the value of collaborative and inclusive w
 hardware development projects. 
 
 It was opened on the 28th of April 2025. Since then, 
-it is a place For all Berlin researchers to access manufacturing tools like a CNC mill,
-a laser cutter, and diverse woodwork tools,
-and **learn to make** under the mentoring of the Open.Make team.
+it is a place For all Berlin researchers to access
+manufacturing tools like a CNC milling machine, a laser cutter, 3D printers and various metal and woodworking tools
+, a place to **learn to make** under the mentoring of the Open.Make team.
 A special focus is given to the production and
 publication of hardware documentation.
 
