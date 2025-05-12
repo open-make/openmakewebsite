@@ -12,7 +12,10 @@ hardware development projects.
 
 It is equipped with a CNC milling machine, a laser cutter, and a 3D printer.
 
+<!---
 ![Student showing an laser-engraved and cut plastic piece.](../img/labs/mobile-lasercut.jpg) 
+--->
+
 ![CNC milling machine with a BUA mobile lab logo created with the laser cutter.](../img/labs/mobile-cnc.jpg)
 
 Provided a 7x3m room and electricity, it can be used to build hardware prototypes.
