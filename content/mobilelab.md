@@ -12,11 +12,10 @@ hardware development projects.
 
 It is equipped with a CNC milling machine, a laser cutter, and a 3D printer.
 
-<!---
-![Student showing an laser-engraved and cut plastic piece.](../img/labs/mobile-lasercut.jpg) 
---->
+![Trailer as set up at the hannover Messe in 2024, it fits a 7x3 meters space.](../img/labs/buamobilelab.jpg)
 
-![CNC milling machine with a BUA mobile lab logo created with the laser cutter.](../img/labs/mobile-cnc.jpg)
+![In the mobile lab interior, a student is showing a laser-engraved and cut plastic piece.](../img/labs/mobile-lasercut.jpg) 
+![In the mobile lab interior, a CNC milling machine with a BUA mobile lab logo created with the laser cutter.](../img/labs/mobile-cnc.jpg)
 
 Provided a 7x3m room and electricity, it can be used to build hardware prototypes.
 It can also be seen as an extension of the Making lab:
