@@ -18,3 +18,9 @@
 a {
   text-decoration: underline;
 }
+
+.figcaption{
+  text-decoration: dashed underline;
+  font-size: smaller;
+  margin-bottom: 18px
+}
