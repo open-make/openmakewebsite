@@ -1,15 +1,16 @@
 ---
-title: BUA mobile lab is on tour
-author: Package Build
+title: "BUA mobile lab is on tour"
+author: Julien Colomb
 date: '2025-05-26'
 slug: bua-mobile-lab-is-on-tour
 categories:
   - outreach
   - progress report
+banner: img/banners/Fub-logoXopenmake.png
 tags:
   - BUA
   - prototypinglabs
-banner: img/banners/Fub-logoXopenmake.png
+
 ---
 
 
