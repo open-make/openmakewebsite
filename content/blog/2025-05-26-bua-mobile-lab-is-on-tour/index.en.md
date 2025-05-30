@@ -1,8 +1,8 @@
 ---
-title: "BUA mobile lab is on tour"
+title: "BUA labs for open hardware"
 author: Julien Colomb
 date: '2025-05-26'
-slug: bua-mobile-lab-is-on-tour
+slug: bua-lab-for-OSH
 categories:
   - outreach
   - progress report
@@ -12,14 +12,25 @@ tags:
   - prototypinglabs
 ---
 
-# A message to Berlin researchers!
+Berlin researchers can now access a central lab and a mobile lab to design and produce research hardware.
+The BUA mobile lab is on tour, with a first stop at the FU Berlin.
+
+# Dear Berlin researchers,
 
 Have you ever heard of makerspaces, 3d printing, or open source research hardware?  
 You may wonder how these concepts are connected with open science and research reproducibility.
-Whether you are developing, building or using hardware in your research, or are just curious about makerspaces and digital production technologies, make sure you visit the BUA Mobile Lab, which will be staying at the **FU mensa II from 02/06 to 13/06/2025** [(OSmap)](https://www.openstreetmap.org/#map=19/52.451402/13.287545&layers=N)!
-The Open.Make team will answer your questions and collect your ideas every workday around lunch time and on request ([Contact us](/contact/) !).
+Whether you are developing, building or using hardware in your research, or are just curious about makerspaces and digital production technologies, make sure you visit the [Making Lab](/makinglab/) or the [BUA Mobile Lab](/mobilelab/) on tour !
+The Open.Make team will answer your questions and collect your ideas.
 
 ![Poster to attract students attention.](images/poster-traction.png)
+
+The Mobile lab is staying at the **FU mensa II from 02/06 to 13/06/2025**, the team will be there every workday around lunch time and on request ([Contact us](/contact/) !).
+
+<iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=13.283602595329286%2C52.45023283673689%2C13.29148828983307%2C52.45257035724731&amp;layer=mapnik" style="border: 1px solid black">
+
+</iframe>
+
+<br/><small><a href="https://www.openstreetmap.org/?#map=18/52.451402/13.287545&amp;layers=N">View Larger Map</a></small>
 
 ------------------------------------------------------------------------
 
