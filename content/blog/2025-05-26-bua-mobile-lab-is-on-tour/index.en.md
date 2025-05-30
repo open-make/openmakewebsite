@@ -16,7 +16,7 @@ tags:
 
 Have you ever heard of makerspaces, 3d printing, or open source research hardware?  
 You may wonder how these concepts are connected with open science and research reproducibility.
-Whether you are developing, building or using hardware in your research, or are just curious about makerspaces and digital production technologies, make sure you visit the BUA Mobile Lab, which will be staying at the **FU mensa II from 02/06 to 13/06/2025** !
+Whether you are developing, building or using hardware in your research, or are just curious about makerspaces and digital production technologies, make sure you visit the BUA Mobile Lab, which will be staying at the **FU mensa II from 02/06 to 13/06/2025** [(OSmap)](https://www.openstreetmap.org/#map=19/52.451402/13.287545&layers=N)!
 The Open.Make team will answer your questions and collect your ideas every workday around lunch time and on request ([Contact us](/contact/) !).
 
 ![Poster to attract students attention.](images/poster-traction.png)
