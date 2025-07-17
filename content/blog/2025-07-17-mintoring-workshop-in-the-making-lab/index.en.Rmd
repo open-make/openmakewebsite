@@ -5,6 +5,7 @@ date: "2025-07-17"
 slug: "mintoring-workshop-in-the-making-lab"
 categories:
   - progress report
+banner: img/banners/mintoring.png  
 tags:
 - BUA
 - prototypinglabs
