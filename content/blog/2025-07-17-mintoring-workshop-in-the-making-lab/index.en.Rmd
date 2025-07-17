@@ -13,7 +13,11 @@ tags:
 
 On July the 17th 2025, Julien ran a MINTORING workshop in the Making Lab.
 Young FLINTA students (14-16 years old) were invited in the Making Lab, inside the TU/UdK library as part of the [MINToring program](https://www.fu-berlin.de/sites/mintoring/index.html) of the FU Berlin.
-With the student and [Dr. Nelly Mouawad](https://www.fu-berlin.de/sites/mintoring/ueber-uns/team/Mouawad.html "Weitere Informationen") who is coordinating the program, we discussed what open source means (talking quite a lot about licenses), the difference between free (beers) and free (-dom), and how community can be organised (with the example of wikipedia).
+We met Dr Mouawad while being on the FU campus with the mobile lab.
+Since we are a BUA project, we could easily collaborate with this FU initiative.
+We were happy to learn that it was possible to use the Making Lab for a workshop: the alternative being to move the mobile Lab on the FU campus again, which would have been much more time consuming for us.
+
+During the workshop, with the student and [Dr. Nelly Mouawad](https://www.fu-berlin.de/sites/mintoring/ueber-uns/team/Mouawad.html "Weitere Informationen") who is coordinating the program, we discussed what open source means (talking quite a lot about licenses), the difference between free (beers) and free (-dom), and how community can be organised (with the example of wikipedia).
 The students were then introduced to the use of the CNC mill.
 
 ![Students using the CNC milling machine](images/1000011486.png)
@@ -37,10 +41,10 @@ rglwidget()
 
 ```
 
-We also use fusion CAM software to create a Gcode for the CNC milling machine.
+We also use fusion360 CAM software to create a Gcode for the CNC milling machine.
 Here, we used the engraving mill to cut/engrave the text, and a downward 3mm mill to bore the hole and make the contour.
-After a first text engraving at 0.5mm, we used 1mm engraving for the other objects.
-The results were pretty good:
+After a first text engraving at 0.5mm, we used 1mm engraving for the other objects, as the text was more visimle.
+The results were pretty good, although we could have used a wood of better quality:
 
 ![Four Key holders, 2 were 3D printed and two were CNC milled. In the latter objects, the equation was engraved, while the printed objects have the equation standing out.](images/1000011485.jpg)
 
