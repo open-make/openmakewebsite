@@ -18,6 +18,8 @@ Since we are a BUA project, we could easily collaborate with this FU initiative.
 We were happy to learn that it was possible to use the Making Lab for a workshop: the alternative being to move the mobile Lab on the FU campus again, which would have been much more time consuming for us.
 
 During the workshop, with the student and [Dr. Nelly Mouawad](https://www.fu-berlin.de/sites/mintoring/ueber-uns/team/Mouawad.html "Weitere Informationen") who is coordinating the program, we discussed what open source means (talking quite a lot about licenses), the difference between free (beers) and free (-dom), and how community can be organised (with the example of wikipedia).
+We also shortly talk about the maker culture, and our attempts at being more inclusive using a code of conduct.
+The rule "ask whether people need help before helping them" was received very positively.
 The students were then introduced to the use of the CNC mill.
 
 ![Students using the CNC milling machine](images/1000011486.png)
