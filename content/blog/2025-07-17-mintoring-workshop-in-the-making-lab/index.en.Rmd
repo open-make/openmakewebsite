@@ -1,7 +1,7 @@
 ---
-title: "MINToring workshop in the Making Lab"
-author: "Package Build"
-date: "2025-07-17"
+title: "Our first workshop in the Making Lab"
+author: "Julien Colomb"
+date: "2025-07-21"
 slug: "mintoring-workshop-in-the-making-lab"
 categories:
   - progress report
@@ -12,13 +12,13 @@ tags:
 - training
 ---
 
-On July the 17th 2025, Julien ran a MINTORING workshop in the Making Lab.
-Young FLINTA students (14-16 years old) were invited in the Making Lab, inside the TU/UdK library as part of the [MINToring program](https://www.fu-berlin.de/sites/mintoring/index.html) of the FU Berlin.
+On July the 17th 2025, Julien ran a MINToring workshop in the Making Lab.
+Young FLINTA students (15-17 years old) were invited in the Making Lab, inside the TU/UdK library as part of the [MINToring Program](https://www.fu-berlin.de/sites/mintoring/index.html) of the FU Berlin.
 We met Dr Mouawad while being on the FU campus with the mobile lab.
 Since we are a BUA project, we could easily collaborate with this FU initiative.
 We were happy to learn that it was possible to use the Making Lab for a workshop: the alternative being to move the mobile Lab on the FU campus again, which would have been much more time consuming for us.
 
-During the workshop, with the student and [Dr. Nelly Mouawad](https://www.fu-berlin.de/sites/mintoring/ueber-uns/team/Mouawad.html "Weitere Informationen") who is coordinating the program, we discussed what open source means (talking quite a lot about licenses), the difference between free (beers) and free (-dom), and how community can be organised (with the example of wikipedia).
+During the workshop, with the student and [Dr. Nelly Mouawad](https://www.fu-berlin.de/sites/mintoring/ueber-uns/team/Mouawad.html "Weitere Informationen") who is coordinating the [MINToring Program](https://www.fu-berlin.de/sites/mintoring/index.html), we discussed what open source means (talking quite a lot about licenses), the difference between free (beers) and free (-dom), and how community can be organised (with the example of wikipedia).
 We also shortly talk about the maker culture, and our attempts at being more inclusive using a code of conduct.
 The rule "ask whether people need help before helping them" was received very positively.
 The students were then introduced to the use of the CNC mill.
@@ -44,13 +44,13 @@ rglwidget()
 
 ```
 
-We also use fusion360 CAM software to create a Gcode for the CNC milling machine.
+We also use fusion360 CAM software to create a G-code for the CNC milling machine.
 Here, we used the engraving mill to cut/engrave the text, and a downward 3mm mill to bore the hole and make the contour.
-After a first text engraving at 0.5mm, we used 1mm engraving for the other objects, as the text was more visimle.
+After a first text engraving at 0.5mm, we used 1mm engraving for the other objects, as the text was more visible.
 The results were pretty good, although we could have used a wood of better quality:
 
 ![Four Key holders, 2 were 3D printed and two were CNC milled. In the latter objects, the equation was engraved, while the printed objects have the equation standing out.](images/1000011485.jpg)
 
 The day ended with students using the CNC milling machine all by themselves.
-At the end of the workshop, they were asking whether they could not make one extra key holder: "it only takes three minutes"...
-and we did another one.
+At the end of the workshop, they were asking whether they could not make one extra key holder: "it only takes three minutes" and ...
+we did another one.
