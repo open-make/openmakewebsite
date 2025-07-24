@@ -13,23 +13,23 @@ tags:
 ---
 
 On July the 17th 2025, Julien ran a MINToring workshop in the Making Lab.
-Young FLINTA students (15-17 years old) were invited in the Making Lab, inside the TU/UdK library as part of the [MINToring Program](https://www.fu-berlin.de/sites/mintoring/index.html) of the FU Berlin.
-We met Dr Mouawad while being on the FU campus with the mobile lab.
-Since we are a BUA project, we could easily collaborate with this FU initiative.
-We were happy to learn that it was possible to use the Making Lab for a workshop: the alternative being to move the mobile Lab on the FU campus again, which would have been much more time consuming for us.
+Young FLINTA students (15-17 years old) were invited in the [Making Lab](/makinglab/) (which is situated inside the TU/UdK library) as part of the [MINToring Program](https://www.fu-berlin.de/sites/mintoring/index.html) of the FU Berlin.
+We met Dr. Mouawad while being on the FU campus with the [Mobile lab](/mobilelab/).
+Since we are a [BUA](https://www.berlin-university-alliance.de) project, we could easily collaborate with this initiative from the FU Berlin.
+We were happy to learn that it was possible to use the Making Lab for a workshop: the alternative being to move the Mobile Lab on the FU campus again, which would have been much more time consuming for us.
 
 During the workshop, with the student and [Dr. Nelly Mouawad](https://www.fu-berlin.de/sites/mintoring/ueber-uns/team/Mouawad.html "Weitere Informationen") who is coordinating the [MINToring Program](https://www.fu-berlin.de/sites/mintoring/index.html), we discussed what open source means (talking quite a lot about licenses), the difference between free (beers) and free (-dom), and how community can be organised (with the example of wikipedia).
-We also shortly talk about the maker culture, and our attempts at being more inclusive using a code of conduct.
+We also shortly talk about the maker culture, and our attempts at being more inclusive using a [code of conduct](https://codeberg.org/jcolomb/Labs-codeOfConduct/).
 The rule "ask whether people need help before helping them" was received very positively.
-The students were then introduced to the use of the CNC mill.
+The students were then introduced to the use of the CNC milling machine.
 
-![Students using the CNC milling machine](images/1000011486.png)
+![Students using the CNC milling machine.](images/1000011486.png)
 
 In the afternoon, we decided to build some objects.
-The students discussed what to do and came to the idea to build key holders with the [Euler's identity](https://en.wikipedia.org/wiki/Euler%27s_identity) (Mathematical equation linking e, i and π).
-We designed it using Inkscape to write the equation.
-We then imported the svg file into fusion360 and designed the key holder part.
-We then exported a stl file for 3D printing.
+The students discussed what to do and came to the idea to build key holders starring the [Euler's identity](https://en.wikipedia.org/wiki/Euler%27s_identity) equation (Mathematical equation linking e, i and π).
+We designed it using the open source software [Inkscape](https://inkscape.org) to write the equation.
+We then imported the .svg file into fusion360 and designed the key holder part.
+We then exported a .stl file for 3D printing.
 
 ```{r, setup}
 
@@ -44,7 +44,7 @@ rglwidget()
 
 ```
 
-We also use fusion360 CAM software to create a G-code for the CNC milling machine.
+We also use fusion360 CAM software (Computer-aided manufacturing) to create a `G-code` for the CNC milling machine.
 Here, we used the engraving mill to cut/engrave the text, and a downward 3mm mill to bore the hole and make the contour.
 After a first text engraving at 0.5mm, we used 1mm engraving for the other objects, as the text was more visible.
 The results were pretty good, although we could have used a wood of better quality:
