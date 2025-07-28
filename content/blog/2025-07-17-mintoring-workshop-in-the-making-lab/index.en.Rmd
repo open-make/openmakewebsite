@@ -31,16 +31,14 @@ We designed it using the open source software [Inkscape](https://inkscape.org) t
 We then imported the .svg file into fusion360 and designed the key holder part.
 We then exported a .stl file for 3D printing.
 
-```{r, setup}
 
 
-```
-
-```{r, echo=FALSE}
+```{r, echo=FALSE, warning = FALSE, fig.cap = "STL version of the keyholder."}
 options(rgl.useNULL = TRUE) # Suppress the separate window.
-library(rgl)
+library(rgl, warn = FALSE)
+
 readSTL("images/mintoring.stl", plot=TRUE,  col = "blue")
-rglwidget()
+rglwidget(height= 150, altText ="STL version of the keyholder, rendered using the rgl package in this R 'chunk'.")
 
 ```
 
