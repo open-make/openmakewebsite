@@ -76,7 +76,6 @@ params:
     slide_speed: 2000
   clients:
     enable: yes
-    subtitle: ''
     title: Funding
   clientsproto:
     enable: yes
@@ -87,7 +86,7 @@ params:
   copyright: Copyright (c) 2021, open.make team. All content is licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>
   date_format: January 2, 2006
   default_sharing_image: img/visualabstract_buacall.png
-  defaultDescription: Open.make aims at fostering open and FAIR hardware production in academia, and build the foundation of a recognition system for academic makers.
+  defaultDescription: Open.Make aims at fostering open and FAIR hardware production in academia, and build the foundation of a recognition system for academic makers.
   defaultKeywords:
     - devows
     - hugo
