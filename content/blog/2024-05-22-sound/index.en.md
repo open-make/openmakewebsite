@@ -1,5 +1,5 @@
 ---
-title: 'Interview: Ultrasound device'
+title: 'Interview: Ultrasound pulse-echo device'
 author: 
   - Open make interview team
   - Luc Jonveaux
@@ -15,7 +15,7 @@ tags:
 
 # Interview: Ultrasound device
 
-Luc Jonveaux has been developing some ultrasound devices in open source in his spare time for several years. His motivations have been to have fun and give back to the commons. Different devices were created in his small apartment in Paris, and they were used by quite a large community of enthusiasts.  
+Luc Jonveaux has been developing open-source ultrasound devices in his spare time for several years. His motivations have been to have fun and give back to the commons. Different devices were created in his lab/flat in Paris, and they are used by quite a large community of enthusiasts.  
 
 
 *by the Open make team, Luc Jonveaux. Copyright to the authors, distributed under a CC-BY 4.0 licence.*
@@ -55,13 +55,14 @@ Luc Jonveaux has been developing some ultrasound devices in open source in his s
 - Core development team size: 1-5
 
 ### Hardware products
-un0rick has a modular concept where the different functional blocks of the hardware split into individual physical elements.
-The latest is the lit3rick board, which are smaller, approximately the size of a Pi Zero or Raspberry Pi’s.
+The un0rick has is a fpga-based pulse-echo device. Its smaller, lighter alternative is the lit3rick board, the size of a Pi Zero. 
+The pic0rick, a rp2040-based, modular device is under development. 
 
 ### Hardware maturity
-lit3rick is market ready
+The boards are shared on the market
+
 ### Rebuilds
-Some used the sources to do their own batches through fabs and produced it on their end.
+There are known users who built their own hardware through fabs or produced it themselve across the globe, maybe 20% of the devices in existence.
 
 {{< /card >}}
 
@@ -73,99 +74,84 @@ Some used the sources to do their own batches through fabs and produced it on th
 ## The project
 
 {{< card2 "Project start">}} 
-I was a research engineer at Philips in medical imaging. we were working as a company on a low cost medical imaging device and they decided not to proceed with the product.
+I started my career as a research engineer at Philips in medical imaging. We were working on simple, low-cost medical imaging device at the time.
 
-In 2014 Mehdi, another doctor, Olivier and I, started echOpen as an association to post the technical project of having open source with ultrasound.
-I left in 2016. echOpen was more going into medical device. I wanted to focus on opening the technology to let people play with the tech. 
+In 2014, Mehdi Benchoufi, Olivier de Fresnoye, Paul Bourrier and I started echOpen as an association, officializing the objective of developing an open source  ultrasound device.
+I continued on a parallel path in 2016: echOpen aiming for a medical device, when I wanted to focus on opening the technology itself, I wanted people to be able to play with the technology. 
 
 {{< /card2 >}}
 
-> How did the project open source ultrasound start?
+> How did the open source ultrasound project start?
 
 {{< expand "Show answer">}}
-The project, platform and names of the products are around providing an Arduino of ultrasound to researchers, academics and makers because nothing existed in the market. Long story short, I was a research engineer at Philips in medical imaging for more than 10 years. 
-2007 I went into research. One of the things that bugged me is that we were working as a company on a low cost medical imaging device and they decided not to proceed with the product. We had the proof of concept but not the product. In terms of marketing, why should you sell something 1000 times when you already sell something one and 1000 times. That was the  additional gain there. I have technical skills in ultrasounds and ultrasound measuring. In 2014 Mehdi Benchoufi and I had an initial discussions for what became echOpen afterwards. 
+The project is about providing an 'Arduino of ultrasound' to researchers, academics and makers, simply because nothing existed in the market. 
+I was a research engineer at Philips in medical imaging around 15 years ago. It was a great opportunity to work on low cost medical imaging devices, where we got to a proof of concept working with an OLPC ([One Laptop per Child initiative](https://en.wikipedia.org/wiki/OLPC_XO)). 
+A few years passed, and in 2014 I met with Mehdi Benchoufi and we had an initial discussions for what became echOpen afterwards. 
 
-Mehdi, another doctor, Olivier and I, started echOpen as an association to post the technical project of having open source with ultrasound. I left the administration of the association in 2016 or 2017 because I wanted to focus on something that would be used by makers, hackers and layman. echOpen was more going into medical device. It has been two different approaches. I wanted to focus on what I thought was the priority, which is to open the technology to let people play with the tech. 
-In 2016 and 2017, I started a couple hardware pieces, which we had pitched in Grenoble at the time. It was around a modular approach with the different functional blocks of an ultrasound system, fragmented in different modules that you could assemble to other working systems. 
-That went to some extent and confirmed the interest from a community. That evolved in terms of mentality towards a more integrated system and more proficient system. The un0rick board is interesting, I am not an electrical engineer, therefore I knew nothing about electronics design. The project reflects my technical knowledge, because in the beginning it had low complexity. The more I knew about the project, the more I was able to concentrate on my skills and vice versa. 
+Mehdi, Pierre, Olivier and I, started a project, which became the echOpen association. We wanted to post the technical project of having open source with ultrasound. I spent less time with the association in 2016 or 2017 because I wanted to focus on something that would be used by makers, hackers and layman while echOpen took a different approach, going into making a medical device. 
+At this time, I started to experiment more on the hardware components. This was initially a functional block approach, where each block captures a function, allowing one to swap modules and try different approaches.
 
-I improved my skill and by this the complexity of the project. The un0rick worked but with the pandemic in 2020 and the supply shortage I did’t have the chips and couldn't move forward. Therefore I stopped developing the product. 
-It was a pain in the backside.  What was mature enough was going to into the hands of users. Then I started developing a new series of board delay tricks which are smaller, cheaper and have a bit more performance. I appreciated that this is a preliminary step into next stages of the project which I discuss with the MRI people. 
+That worked relatively well, and confirmed the interest from a couple of individuals, the core of the community. Along with this initial pitch, the design got more mature and more integrated, leading to the first product. 
+The un0rick board is interesting as an approach. I am not an electrical engineer, and knew very little about electronics design.The open source approach allowed me to get in contact with the right people to help with the toughest electronic parts, and we got to a design that is far from perfect but still in use today. 
 
-I think what I've done for Ultrasound could be replicated in the MRI space. If we look purely at the technology, we are talking about signals in the megahertz range. What we're discussing right now is to what extent we could build a common tool, a  basic Arduino, that could be used with another board for both technologies, ultrasound or MRI. 
-But in the end, I have this hybrid approach to MRI and ultrasound. This is where I'm playing and that's where the lit3rik has been used as a test bench for exploring that.
+The more I knew about the project, the more I was able to concentrate on my skills and vice versa.
+I improved my skill and by this the complexity of the project.
+
+This went well until the pandemic in 2020 and the  supply shortage. the project could not move forward, as I could not try new designs or build new boards. Therefore I stopped developing the product. Then, we started a smaller version of the board - smaller, and also cheaper, and it has a bit more performance. Today, we work mostly on new parts like the raspberry pico chips, opening exciting doors.
+
+What was done for Ultrasound can theorically be replicated in the MRI space. If we look purely at the technology, we are talking about signals in the megahertz range. What we're discussing right now is to what extent we could build a common tool, a basic Arduino, that could be used for both technologies, ultrasound or MRI. 
 
 
 {{< /expand >}}
 
 {{< card2 "Project process">}} 
-I egoistically started with documenting what I was doing. 
-When you do that in evening and weekends or from time to time, you take a break and never know when you come back to experiment. You don't know where you’ve been. 
-It's quite helpful to have a documentation.
+The project process is quite organic. I simply started with documenting what I was doing, for my reference.  When you build stuff during evening and weekends, then take a break, you can't always remember where you were you come back to experiment. Documentation helps with this.
+Then, people have reached out with email, and we opened a Slack channel to allow people to talk to a wider community.
 
-People come to me by email and I have a open Slack channel to allow people to talk to me and to a wider community.
+A good consequence of working on free time, is that hardware takes time. I could put everything on hold for two months and just maintain communication in the community, and then pick up work again. 
 
-A good consequence of the bottleneck of time is that hardware takes time.
-I can put everything on hold for two months and just keep the communication in the community. Because it's a side project, that doesn't bother me.
-
-I don't have a roadmap. It's just what is fun at the moment.
+There is no roadmap. Developments are more organic, the interesting experiments usually get priority.
 {{< /card2 >}}
 
 > What was the core benefit of the project?
 
 {{< expand "Show answer">}}
-The core benefit is to be honest that I have a blast and  I learn. 
+The core benefit is to provide an arduino of ultrasound. And for me, to have a blast and learn while contributing to the commons. 
 
-The side benefit is to generate something you can share. I see value in providing something to others. It’s another egoistic benefit to know that you can make benefits to provide benefits to others. Apart from this, the greatest benefit is that I like to believe my users are getting access to technology that they wouldn't have access to normally.  My users are academics who want to have a system to test ideas. 
-I've seen startups using that to develop proof of concepts. I've seen teachers using that to add a demo tool for their courses. I've seen even institutional organization working with me on customizing it. It feels like I can contribute to the academic world to some extent. The benefit is to make it available and allowing people to  test the ideas for educational purposes.
-
+The side benefit is to generate something you don't keep under lock and key. I see the value in the commons, and egoistically I also benefit to know that what I made benefits others. Apart from this, the greatest benefit is that I like to believe my users are getting access to technology that they wouldn't have access to normally.  Users are academics who want to have a system to test ideas. I have also seen startups using that to develop proof of concepts, teachers to have a demo tool for their courses, institutional organization collaborating to build customized solution. 
 
 {{< /expand >}}
 
 {{< card2 "Funding">}} 
-I'm not making any money out of that. The community helps keeping the cost down when doing a batch. 
+Funding is mostly out of pocket. The community helps by sharing costs when producing a batch, which helps keep the cost down. 
 
-When it comes to get funding and institutional support or knowing an email address to be able to register on any research publication institute, it's impossible. 
+Being an individual, without a "research home", makes things a bit more difficult, for example to get funding, institutional support even simply to to have a 'official mail' when registering to events, or online services. 
 
-From my pocket I spent maybe between 5 and 10 000 € over the past five years.
 {{< /card2 >}}
 
 > Is the project funded in some way?
 
 {{< expand "Show answer">}}
-It's funded by me as an individual and  we have a discussion with, for example, JOGL. You may know Thomas Landrain of the one giant lab initiative.
+It is mostly funded by me as an individual. The community helps keeping the cost down when doing a batch.  As an individual maker, I have no structure in terms of business, this is a side project, and it has  no official structure. 
 
-As an individual maker, I have no structure in terms of business. When I'm doing batches of boards, I could have benefits of scale for launching sets.
-When I'm developing one board for myself, I make a bunch of choices that I make available to the community.  They can pay for that and by this it pays itself. 
 
-I'm not making any money out of that. The community helps keeping the cost down when doing a batch. 
-Funding is a good question.  I've tried publishing articles about the open hardware, methodologies and sources I'm using, but I'm not affiliated with any lab. 
-When it comes to get funding and institutional support or knowing an email address to be able to register on any research publication institute, it's impossible. 
-I'm on a position in my day work. I’m working, for example, on Horizon 2020 projects. I'd like to get involved as an individual from this hardware perspective. 
-I'd like to be involved in this project, but I can't because I'm not affiliated with an organization, which can point me a key to this space. 
-JOGL is just one chain. How could we get access to the space?  When it comes to funding and resourcing connection, we are missing that.
+
+Funding is a good question. I cannot get funding or institutional support, because one needs to be affiliated to an institution  to register on any research publication institute, so it's impossible for me to get that kind of support.
+
+  Similalry,  I have tried publishing articles about the open hardware, methodologies and sources I'm using, but I'm not affiliated with any lab, which makes classical publicationdifficult Hopefully, this is something recognized by the open source imaging community, and I am sure there will be initiatives to tackle this challenge.
 
 {{< /expand >}}
 > How much money have you put in yourself?
 
 {{< expand "Show answer">}}
-That's a good question. From my pocket I spent maybe between 5 and 10k over the past five years.
-
-In practice, I have a bit in order. When I was doing an order and trying to get money, pharmacists were interested in the board. The overall budget is a little bit larger, I would say. Maybe an order has the factor 10 or 15 because I'm doing 20 to 30 board batches.
+That's a good question. I spent maybe between 5 and 10k out of my pocket over the past few years, in getting batches out, but I'm not necessarily keeping track of the ad-hoc, smaller parts bought for tests and experiments. Part of the larger batches do help keeping the cost of prototypes acceptable.
 
 {{< /expand >}}
 
 {{< card2 "Work Coordination">}} 
-I don't want to  be a bottleneck in the community communication. 
-Most of the interactions are through slack.
+This project is a side project, and I don't want to  be a bottleneck in the community communication. Most of the interactions are through slack. A few physical interactions occur spontaneously. The base coordination itself It's pretty much organic and defined in the long term. 
 
-A bit of physical interactions occur because a few current members came through Paris or London and we meet to chat in meetings.
-
-It's pretty much organic and defined in the long term.
-
-The institutions I work with and I define the requirements. We have extensive periods of exchanges about  their needs. To some extent, they drive the decision of the joint project. 
-Later I provide more support and know what I'm taking back from that.
+When it comes to specific activities, for example for teams with specific needs, these teams take the lead for their tasks, and drive the development of their needs.
 
 
 {{< /card2 >}}
@@ -173,59 +159,55 @@ Later I provide more support and know what I'm taking back from that.
 > Could you describe the overall process?
 
 {{< expand "Show answer">}}
-Community-wise, an open source starts with documentation. I egoistically started with documenting what I was doing. 
-When you do that in evening and weekends or from time to time, you take a break and never know when you come back to experiment. You don't know where you’ve been. 
-It's quite helpful to have a documentation. The documentation brought the interests of some people and publications. I've done a couple of publications on, for example, the Journal of Open Hardware. That raised the profile of the project. People come to me by email and I have a open Slack channel to allow people to talk to me and to a wider community.
 
-I don't want to  be a bottleneck in the community communication.  If I were to be hit by a bus tomorrow, I still want the community to organize itself. Therefore I set up this place. The most of the interactions are through slack.  A bit of physical interactions occur because a few current members came through Paris or London and we meet to chat in meetings, like what we did in Grenoble. 
+I guess an open source starts with documentating an idea. I just started with documenting what I was doing for my own purpose. When you progress on a side project, on some evenings, weekends, from time to time: you usually come back to the table with no memory of the details of what you were doing. It is definitely helpful to keep a lab log, for you first, but also to 'build in public'.
 
-To have the opportunity to meet with the wider open community is interesting. I'm still in touch with echOpen as part of the open ultrasound wider community. 
-I want to bring people to the documentation first and then to Slack, if they have any question.
+The documentation brought the interests of some people and publications. I've done a couple of publications since, on, for example, the Journal of Open Hardware. That helped raise the profile of the project.
 
-It’s pretty much organic. Today,  on the Slack are around 240 participants. I won't teach anything, it's in your papers, I think we have 20 active members. 
-It’s more if you consider people who have an interest for school or an academic project that would be disconnected for six months and then disappear. 
-The activist circle would be five. The latest paper I published was with these guys. We have a community paper that has been published. 
+ People usually come to the documentation, then to me by email and/or to the community open Slack channel (to allow people to talk to me and to a wider community). Some physical interactions occurred when a few current members came through Paris or London and we met to chat in meetings, like what we did in Grenoble in 2022.
+
+I don't want to be a bottleneck in the community communication. If I were to be hit by a bus tomorrow, I still want the community to organize itself.  There are also opportunities to meet with the wider open communities, especially with echOpen, and the wider open imaging community.
+
+The community is pretty much organic. Today, on the Slack are around 240 participants, the community is bigger if you consider people who have an interest for school or an academic project who would be active for 6 months and then leace. The activist circle would be five people, the authors of the paper we published. 
 
 {{< /expand >}}
 {{< card2 "Major issues">}} 
-There is no real issue because un0rick is a side project. My life doesn’t depend on that.
-As a side project, I develop it when I want to and when I have the time to. 
+One could say there are no real issue because this is a side project. Nobody's life depend on it. As a side project, it progresses when people want to, and have the time to. 
 
-Components shortage over the last year  froze the development of what I'm doing.
+Still, issues like components shortage over the last year(s) significantly slow down the development of the project.
 
-I'm developing that at home on a 65 square meter flat in Paris. The smaller my bench is the better. That's why I focused on electronics.
+Another minor challenge is having no lab. For me, the lab is home, in Paris, and you can only squeeze that much development before things get cramped. But electronics and hardware can be developed on a simple, minimalistic bench.
 {{< /card2 >}}
 
 > What major issues have you come across during the project and how did you resolve them?
 
 {{< expand "Show answer">}}
-There is no real issue because un0rick is a side project. My life doesn’t depend on that. If someone makes me angry, I don't answer them.  I never had any issues after that. The major bottleneck is time. As a side project, I develop it when I want to and when I have the time to. 
-There is a minor bottleneck which has been the components shortage over the last year and it froze the development of what I'm doing.
-I'm not in a position to put new boards on the market. Giving something to the community from our perspective is impossible. 
-That's development of the community. Another advantage is hardware takes time. 
-A good consequence of the bottleneck of time is that hardware takes time. If you wait two months for a board and you can't do anything,  I put everything on hold for two months and just keep the communication in the community. Because it's a side project, that doesn't bother me.
-It's pretty much organic and defined in the long term.
+One could say there are no real issue because this is a side project. Nobody's life depend on it. If someone is rude, they get ignored. If there are no resources, development is put on hold.  The major bottleneck is time. As a side project, it progresses when people want to, and have the time to. 
+
+There is a minor bottleneck which has been the components shortage over the last years and it froze the project's development. No new boards could be shared. 
+
+Another challenge usually is that building hardware takes time. But in this case, it is a benefit. As a side project, if you have to wait two months for a board and you can't do anything, well, just freeze for two months, just doing some community management. And because it's a side project, there is no added stress.
+
+It's pretty much organic and defined in the long term, so a slow pace fits our objectives.
+
+It's pretty much organic and defined in the long term, so a slow pace fits our objectives.
+
+It's pretty much organic and defined in the long term, so a slow pace fits our objectives.
 
 {{< /expand >}}
 {{< card2 "Core team and community">}} 
-Today, on the Slack are around 240 participants.
-I think we have 20 active members.
 
-The agreement I have with institutions is that I advise them on the sector on something they do not know, and in exchange, they put technical and professional skills into the project, which is fed back to the project.
-
- Most of the active contributors have this willingness to share back. It's the mentality  of playing around.
+Our community is around 300 individuals when checking our Slack channel, with maybe a rotating 20 active members. There are also representatives from startups, researchers or teachers. Most of the active contributors have this willingness to share back to the community.
 {{< /card2 >}}
 > Do you have to make decisions in the project or how are they made?
 
 {{< expand "Show answer">}}
-We thought to make decisions as in a design.  I make decisions based on my requirements. Because I'm the primary user and make that primarily for me. 
-I'm collaborating with, for example, institutions. The process I follow to take the decisions is quite simple. The institutions I work with and I define the requirements. We have extensive periods of exchanges about  their needs. To some extent, they drive the decision of the joint project. 
-Later I provide more support and know what I'm taking back from that. It can be an interesting byproduct in terms of consultancy that these guys are not against showing what they've done in the open space. 
 
-I'm advising them to have the technical skills or skills to develop new things. They would develop new things and that would come back to the project. The agreement we have is that I advise them on the sector on something they do not know, and in exchange, they put technical and professional skills into the project, which is fed back to the project.
-The perfect example is the latest iteration of the lightning bolt as being co-designed by professionals from a Canadian institution. It was a bit messy before. They have come in, reviewed it and optimized stuff. 
-They use that for their project, but I've asked them to give back with that produced. 
-Coming back to the decisions, I don't have a roadmap. It's just what is fun at the moment. The perfect example is what we'd like to do with open MRI initiative. The challenge is to find common themes between MRI and ultrasound. There is an intellectual challenge there. That has driven the decision of pursuing something together. 
+As this is an informal community, there is virtually no governance nor governance processes. From a technical perspective, people making the decisions are people doing. They make decisions based on their requirements. 
+
+I sometimes collaborate with organisations. These organisations share their requirements, and we discuss past learning and opportunities to improve. They lead on the decision of the joint project, which, when possible, can be brought back to the community, if they develop new things that come back to the project. The agreement is that I advise them on the points they do not know, and in exchange, they put technical and professional skills into this joint effort. A good example is the latest iteration of lit3rick board. It has been co-designed by professionals from a Canadian institution. They have come in with specific needs, but also excellent electrical engineers, and together we optimized the previous iteration.
+
+Coming back to the decisions, the project does not have a specific roadmap. It's just what is interesting to pursue at the moment. The perfect example is what we'd like to do with open MRI initiative: there is definitely a good intellectual challenge there, and we will learn from both modalities and this will allow us to build something new, hopefully better.
 
 
 
@@ -234,61 +216,56 @@ Coming back to the decisions, I don't have a roadmap. It's just what is fun at t
 ## The hardware
 
 {{< card2 "Hardware components">}} 
-The firs version was around a modular approach with the different functional blocks of an ultrasound system, fragmented in different modules that you could assemble to other working systems. 
-That evolved in terms of mentality towards a more integrated system and more proficient system.
+The project hardware started as a series of bricks that could be assembled together to become effectively a pulse-echo device. It evolved towards a more integrated system and more efficient system.
 
-The project reflects my technical knowledge, because in the beginning it had low complexity. The more I knew about the project, the more I was able to concentrate on my skills and vice versa. 
+A lesson is that a project reflects the technical knowledge of its key developers. It started very simple, and the more we learnt, the more the hardware evolved and matured. The path started with off-the-shelf bricks, then we started integrating FPGAs as the technology opened, and now are exploring specific capabilities of the new raspberry pico chips.
 
-Then I started developing a new series of board delay tricks which are smaller, cheaper and have a bit more performance. I appreciated that this is a preliminary step into next stages of the project which I discuss with the openMRI people. 
-
-We are discussing to what extent we could build a  basic Arduino, that could be used with another board for both technologies, ultrasound or MRI.
 {{< /card2 >}}
 
 > What hardware products have you developed?
 
 {{< expand "Show answer">}}
-The first was the Murgen board, which was a Beaglebone add-on. It’s a plugin like the hats on the Raspberry. Then I developed the modular concept where the different functional blocks of the hardware split into individual physical elements. This was the  echomods project. The third iteration was the un0rick with the bigger blackboard. The latest is the lit3rick board, which are smaller, approximately the size of a  Pi Zero or Raspberry Pi’s.
-Those are the main hardware solutions that I've used. While prototyping the hardware, I've used different developer boards and kits to help me play and assess it before committing to a design.
+The first was the Murgen board, which was a BeagleBoard add-on, similar to the 'hats' on the Raspberry. We came back to a module-based concept where the different functional blocks of the hardware split into individual physical elements, named as 'echomods' project. The next iteration was to integrated lessons from the modules into the 'un0rick', an integrated, slightly overspecced design, and its 'lit3rick' counterpart, which are smaller, approximately the size of a Pi Zero. Today, i'm still working on the smaller raspberry pico chips. 
 
 {{< /expand >}}
 > How would you classify the product? Is it mainly a board, or are there other components, like mechanical or software, that you had to develop? 
 
 {{< expand "Show answer">}}
-It's electronics at heart. One of the constraints that I've had is to compare with what a company is doing. I'm developing that at home on a 65 square meter flat in Paris.  I can't afford to add a 3D printer there to the test bench. The smaller my bench is the better. That's why I focused on electronics.
+The device is electronics at heart. I do not have the space or resources to do more like building the board physical transducers (or sensors) or the mechanical aspects.
 
 {{< /expand >}}
 > I see that the board has FPGAs on it. Did you develop any gateware, or is that up to the end user?
 
-
 {{< expand "Show answer">}}
-The Gateware has been developed. I was wondering when you ask about the stuff, if I should mention that. FPGAs are a little bit more complex than the microcontrollers. They have been traditionally and historically a closed community and proprietary tools. Fantastic work was done by Claire Wolf and its team on developing an open source tool chain for a specific family of FPGA. This work was fundamental for my shift of going from the modules to  separating the functional blocks into physical elements on a single board. The single board was made possible by FPGAs. 
-The FPGAs were made accessible to me because of this tool chain. 
-Around this spot are different tools to keep the gateware, proprietary tools and some basic shell tools to synthesize. More recently, there has been something called a studio. It’s a visual tool where you can click and hide links between components and blocks.
- That helps the end user, not me, to find a custom gateware. But they can play around easily if they don’t know about Verilog or VHDL. 
-A very good example of that is my work with a non descriptive testing team. The hardware is used medically. You can send MDT, non descriptive testing. The guys didn't know anything about FPGAs, but with the visual interface,	 it was easier for them to go into that. They tweaked around a few variables and tweaked the firmware of the gateware to their specific needs. This path FPGAs were instrumental in the shift and the resolution  of the project and the product.
+The device has its own gateware. FPGAs (field-programmable gate array) have been historically under proprietary tools. Fantastic work was done by Claire Wolf and team on developing an open source tool chain for a specific family of FPGA. This work was fundamental for the integration of the modules design in a single board, to allow users do things but also make it user-friendly. This in turn helps the end user, not me, to get the gateware they need. A very good example of that is my work with a non destructive testing (NDT) team. The team did not know anything about FPGAs, but with the visual editor interface,	 it was easier for them to get their own gateware, by tweaking variables. 
+
+Fantastic work was done by Claire Wolf and team on developing an open source tool chain for a specific family of FPGAs, which are highly configurable integrated circuits.
+There are both [VHDL](https://en.wikipedia.org/wiki/VHDL) and Verilog (hardware language for FPGA) designs, but I must say the open-source toolchain has been a game-changer.
+
 
 {{< /expand >}}
 
 > Where would you rate the maturity of the product in terms of prototype, demonstrator  or market ready?
 
 {{< expand "Show answer">}}
-The lit3rick is market ready. It's to some extent due to  the collaboration with professionals in the sector. I know that they are using that in their solutions 
-and it has gone through their tests. I call it market ready. 
-From an Arduino perspective, I would have no shame in putting it to fab line, making a batch of that and ensuring that the quality would match what the users expect.
+The lit3rick is market ready. It's to some extent due to  the collaboration with professionals in the sector who also tested the device. The un0rick has been around for a while so that would make it market ready, too.
 
 {{< /expand >}}
 > Has the hardware been built or produced by others independently?
 
 {{< expand "Show answer">}}
-All of the sources are open. I believe we changed to say that I'm still using Altium, which is not 100% open or not open at all. At least the source is there and people can use it.
-Some used the sources to do their own batches through fabs and produced it on their end. I know of people who have used the designs for their own purpose and they have reused parts completely and did some slight adjustments to the way before  sending it for production. A very simple example from 2018 is the modular approach.  A team was working on tomography for non descriptive testing and used a copy of what had been developed by users, but didn’t mentioning it. I chased them to try and make them recognize that they had been not developing something from scratch. But at least it was good to see. When people are cooking what you're often cooking,  it's a good sign for the recipe. 
+All the source files are shared and are openly accessible. Most of the electronic files are Altium or Kicad files, and we're trying to move more towards KiCad which is more open. 
+
+Some users did their own batches through fabs and produced it on their end. I know of people who have used the designs for their own purpose and they have reused some parts completely, and did some slight adjustments to other parts before sending it for production. I also spotted forks of my designs for tangent purposes, namely tomography. 
+It was good to see the design was reused, even if these specific people fail to mention our project in their description.
+When people are cooking what you're often cooking, it's a good sign for the recipe.
 
 
 {{< /expand >}}
 > Did these people modify it as well?
 
 {{< expand "Show answer">}}
-If you imagine, for example, a boat, you have a design and you see the boat, which is two times your design with the same layout,  components and units. There has been some copying.
+Absolutely. And the great thing is that they also come back with more questions about your initial design and that helps cross-pollinate both projects!
 
 
 {{< /expand >}}
@@ -296,131 +273,126 @@ If you imagine, for example, a boat, you have a design and you see the boat, whi
 ## Research outputs
 
 {{< card2 "Academic outputs">}} 
-The activist circle would be five. The latest paper I published was with these guys. We have a community paper that has been published. 
+The community as a core team of maybe five to ten persons. We recently have published a community paper together. 
 
-I've got two papers on the journal of open hardware about Ultrasounds. I've published a couple of other notes on Zenodo for the CERN people to get some results out. 
+There are also two other papers on the Journal of Open Hardware about the project, and I have published a couple of other less mature notes on Zenodo: this was a way to get some results out without going through the trouble of publication and peer review. 
 {{< /card2 >}}
 
 > What were the envision envisaged outputs of the hardware development in terms of publications, the hardware itself and documents?
 
 {{< expand "Show answer">}}
-From a perspective, where I just wanted to get some stuff to play with, the first output was to get something like an arduino ultrasound, the board. That was really the first thing, but then I realized that the documentation was really needed to achieve that. 
+The initial objectives was to get something like an arduino of ultrasound that I could play with. And then I realized that the documentation was really needed to achieve that, especially if I wanted it to be in the public space. 
 
-The documentation itself became the top one priority. And an example of that is, I'm quite lazy. When I'm running some by myself and trying to document that I've made scripts, for example, to automatically classifies the pictures, screenshots, gas generated from the data of the experiment. 
-
-The data of the experiments is tagged with meta data that allows me to find back what were the conditions of the experiment. If I'm adding the signal, I need to know the target and parameters of the experiment. All of that is in pictures. I'm using the EXIF meta tags to tag the image. I run the scripts since 2016. I haven't touched the scripts a lot, but they are still used in generating the documentation. It’s been real helpful not only for me. When I'm onboarding people, I can point them to a session where I tried tomography and  where we would find the gateware for the FPGA. They would find the scripts that I have used. They can reuse my setup very easily. That became the primary output. The board is an enabler to get some information. 
-I think, the board and documentation have been the focused outputs. The community is a byproduct. I have no objectives when it comes to community. You can say fun is the number one expected output.
-
+The documentation itself became a priority, seen as a lab log. I created scripts scripts to help classify and manage the information and data (pictures, screenshots, gas) generated during experiments. 
+The data itself of the experiments is tagged with metadata that allows to find back what were the conditions of the experiment. The same applies to pictures, using for example the EXIF tags. I have been running the scripts since 2016, and they are still used in generating the documentation. It’s been real helpful not only for me, but also for example to onboard people: I can point them to a session where I tried tomography and  where we would find the gateware for the FPGA. They would find the corresponding scripts , and reuse them relatively easily. That became the primary output. 
+The community is a byproduct of the work on the hardware. I have no objectives when it comes to the community. We can say fun is the number one expected output.
 {{< /expand >}}
 {{< card2 "Hardware importance">}} 
-I think, the board and documentation have been the focused outputs. The community is a byproduct. I have no objectives when it comes to community. You can say fun is the number one expected output.
+I think, the board and documentation have been the focused outputs. The publications and community are outcomes. 
 {{< /card2 >}}
 > Did you publish your project findings in relation to the hardware somewhere?
 
 {{< expand "Show answer">}}
-There are a couple of papers that are not exceptional, to be honest, but at least the knowledge is out. I've got two papers on the journal of open hardware about Ultrasounds. I've published a couple of other notes on Zenodo for the CERN people to get some results out. 
-I added them to use publications in PDFs which are doubled as zips. If you don't read my article, you can renamed the PDF in zip. If you unzip it, you get access to the source files. It's an all in one piece of documentation.  For a publication, I archive the documentation on GitHub. You could call that a not formal academic publication.
+There are a couple of papers that are not exceptional, to be honest, but at least the knowledge is out. There are two papers in the Journal of Open Hardware, plus a couple notes on Zenodo. These note usually are PDF that double as zip files: you get access the source files by renaming and unzipping the PDF. The rest of materials, more day to day related, is archived on GitHub.
 
 {{< /expand >}}
 
 {{< card2 "Publication strategy">}} 
-I've done a couple of publications on, for example, the Journal of Open Hardware. That raised the profile of the project
-
-I publish in my GitHub the design files. The core publications are my online material, which would be in GitHub and Zenodo.
+There were couple of publications on, for example, the Journal of Open Hardware, which helped raise the profile of the project. The core content ar eonline material, which would be in GitHub and Zenodo, and the rest is published on GitHub.
 {{< /card2 >}}
 
 > What kind of information have you shared regarding the bill of materials, CAD files and assembly instructions?
 
 {{< expand "Show answer">}}
-There are no mechanical elements. We have no CAD files, documentation mission, pictures, decks, Python scripts or instructions.  When I'm doing an experiment, I'm sharing the data of the experiment. It's hard to  keep track of what I've done during the experiment. 
+Project is mostly electronics so you will find the usual gerbers, BOMs, and kicad or altium files. There are no mechanical elements, so we have no CAD files. When I'm doing an experiment, I'm sharing the data of the experiment. It's hard to keep track of what I've done during the experiment.
 
 {{< /expand >}}
 > How did you publish the hardware besides in journals? Did you publish the hardware overall?
  
 {{< expand "Show answer">}}
-I publish in my GitHub the design files. The core publications are my online material, which would be in GitHub and Zenodo.
-I had a prepaid bird, possibly on archiveX or archive. 
+Hardware files and documentation in general lives mostly in GitHub. The core publications are online material, which would be in GitHub and Zenodo. I think we used arXiv for preprints, too. 
 
 {{< /expand >}}
 > Why did you choose these platforms?
 
 {{< expand "Show answer">}}
-I choose GitHub because that's easy and universal. It provides integrally the version control system. I choose Zenodo because I wanted to have an independent platform to store notes with some DOI for further referencing. 
+I choose GitHub because that's easy and universal tool. It provides the version control system. I choose Zenodo because I wanted to have an independent platform to store notes a get a DOI for further referencing. 
 
 {{< /expand >}}
 > Were there any barriers in using these platforms?
 
 {{< expand "Show answer">}}
-The learning curve for GitHub is low if you're doing some software already . Zenodo is straightforward without  a barrier.
+The learning curve for GitHub is low if you're doing software already. Zenodo is also straightforward.
 
-I experimented with a platform called Vector, which is an online hardware editor. I had an issue with my computer that let the interface crash. The designs for the lit3rick and the un0rick are available there but not maintained. I'm not using these platforms anymore because it was not suiting and working with my computer.
+I experimented with a platform called upverter, which is an online hardware editor. Some designs are still available there but not maintained, as I'm trying to keep the constraint of using open, commonly used tools.
 
 {{< /expand >}}
 > Is there anything you didn't publish? 
 
 {{< expand "Show answer">}}
-Apart from my holiday pictures, I've published everything I've done. Apart from the hardware, I've experimented with Chinese Ultrasound Probes in USB. It’s not purely hardware but it's linked to. I wanted to get the benchmark from a proficient piece of equipment. The issue is these probes were the drivers. You never know what you install on your computer.  I retro-engineered the driver for these probes and made my own. I had the agreement of one of the Chinese fabs to do that. I haven't checked with the others. It's a grey area, I don’t see any problem in publishing some drivers. If I had a doubt that would be in that space. When it comes to the hardware, everything is published.
+Apart from holiday pictures, I've published everything I've done. 
+I believe most topics are documented, even things that might be less relevant for users. When it comes to the hardware, everything is published.
 
 {{< /expand >}}
 
 {{< card2 "Successes and failures">}} 
-I have no objectives unless having fun. It was successful in having fun.
-
-Component shortages frustrates me a lot.
+I have no objectives unless having fun. It was successful in having fun. And failure to adapt to components availability can cost a lot of resources.
 {{< /card2 >}}
 
 > What was successful about the project and what wasn't successful?
 
 {{< expand "Show answer">}}
-That's a good question. You can be successful if you know your objectives and I have no objectives unless having fun. It was successful in having fun. The pains I had were mostly around this last month about component shortages. It frustrates me a lot. We have no ways of tackling that. That's for me a big interrogation.  I'm doing open hardware because it’s fun. But if the supply chain is broken and I can't do that anymore, should I spend more time into developing open source hardware?  I know that the world is not collapsing. It's not an encouragement to proceed in open source.
+That's another good question! You can be successful if you know your objectives - and I have no objectives apart from having fun. I was successful as I have fun. I had a lot of frustration due to the component shortages during the pandemic. If the supply chaine is broken, I can't do open source development anymore.
+
+Meeting a dedicated community was an unexpected positive experience.
+
 
 {{< /expand >}}
 
 {{< card2 "Local production">}} 
-In 2020 and the supply shortage, I did’t have the chips and couldn't move forward
+Most of the most complex, mature boards are in collaboration with a professional fab. Because the community is global, we have a global preferred fab. Apart from ready-made devices, community members also produced their own devices, and devices variants, based on the shared documentation.
+
 {{< /card2 >}}
 ## Participants
 
 > How did you end up working on the project?
 
 {{< expand "Show answer">}}
-That was  a history of me being frustration from a big company and the big appetite in open source. I do believe that giving back to the commons and being open are some of the ethics when you're into technology. That drives me in my day to day work. It's about how can we, as an organization, safely  contribute and give back to the comments.
+It strated with my frustration of not being able to contribute to the commons in the company I worked for. I do believe that giving back to the commons and being open are some of the ethics when you're into technology. It's about how we can, as individuals and organizations, safely contribute and give back to the commons.
 
 {{< /expand >}}
 > How many members have worked on the project and hardware?
 
 {{< expand "Show answer">}}
-It depends on the metrics.  I've done a bit of publication on Hackaday at the time. I think there are a couple of followers of this project. I haven't looked at that.  The community's on slack are 240 participants, which is my only metric for the moment.
-I'm having a look at my projects on Hackaday. On the Murgan board, I have 2300 followers on Hackaday. I've got slightly less on the other projects.
-On Hackaday, you see 2000 and more, it could be a vanity metric.
+It depends on your metrics.  I've done a bit of publication on Hackaday at the beginning, where the project has close to 2800 followers. Our slack has around 300 users, which is my only metric for the moment. Say 2800 interested, 300 talking members, 10 to 20 doing actual development, and possibly 10 to 20 papers or theses using the hardware.
 
 {{< /expand >}}
 
 > Do you know anything about the occupations of the people that have worked on the project with you?
 
 {{< expand "Show answer">}}
-Most of them are Ultrasound professionals or start ups.  I've been approached by startups to supply the piece of hardware, equipment and advisory services. I'm involved on a number of advisory boards for different startups. Other people are teachers who use the devices for their courses. I want to help them with experiments for the classes.
+Most of them are ultrasound professionals, researchers, or start ups. Startups usually seek hardware, equipment and advisors. There are also teachers who use the devices for their courses.
 
-If you look at the map of the purchases, there is a higher amount, for example, in Korea. They have a very strong medical imagery ecosystem as well. In the States, the orders come from mostly universities, a couple of startups and friends. 
+If you look at the map of the purchases, there is a higher density, for example, in east Asia, with a very strong medical imagery ecosystem as well. In the USA or Europe, the orders come from mostly universities, a few startups and individuals. 
 
 
 {{< /expand >}}
 > Have all these different groups contributed to your project? How many people have contributed?
 
 {{< expand "Show answer">}}
-About 20 people have regularly contributed and 5 to 10 have rarely contributed.
+Maybe to 10 to 20 people have regularly contributed and 5 to 10 have rarely contributed.
 
 {{< /expand >}}
 > How did you find suitable project members to contribute? 
 
 {{< expand "Show answer">}}
-I'm not finding them, they are finding me. It's where I'm at. I'm actually not active in this project. I've just opened a room for discussion. People sometimes drop by and some stay or  people contribute. I don't have the energy nor the time to go outside and have a look for skills.
+I'm not finding them, they are finding me. I'm currently not really active, but maintain a room open for discussion. People drop by and some stay, and contribute if that aligns with their needs and aspirations. 
 
 {{< /expand >}}
 > How did you coordinate the work between the members?
 
 {{< expand "Show answer">}}
-Slack is transparent about what is happening at a given point. People have their own projects where they come in. They're talking about their different projects and what they're doing. It creates a discussion. It's not as if I'm coordinating a room where people can come and work together. I can coordinate by saying here is X and they are doing Y. When I’m advising the development of a fork of the product, there is a bit of coordination but it's mostly driven by the users.
+Our communication channel is open  about what is happening at a given point: the community members have their own projects and talk about them, and what they're doing. I can coordinate by saying here is X and they are doing Y. 
 
 
 
@@ -429,41 +401,30 @@ Slack is transparent about what is happening at a given point. People have their
 > Can you say how the members or the contributors have benefited from their work on the project?
 
 {{< expand "Show answer">}}
-The guys, who contributed, are curious people. They want to learn and find and are a bit similar to me. Maybe that's a bias in selecting and engaging with the community. Most of the active contributors have this willingness to share back. It's the mentality  of playing around. A couple of professionals wanted to have tools and are stuck because they found a cool place to talk. My users benefit because they use the hardware. One of the categories of the contributors would be academics and researchers with an obligation to publish. With that respect, they've shared, for example, a master thesis or their research work. 
-That helped the community. 
- I think the exchanges, they've had, were beneficial for them to build  their own thesis. One   example is the latest thesis I shared on the Slack. The guy was looking to get a platform to do ultrasound testing. He got that and the paper is titled like: Exploration of an Open Source Ultrasound Hardware. 
-It's an advertisement for my board saying, I've done, could be doing or explored that. 
-It's a win-win situation where I give information and get back information. 
-One of the project’s benefits  is the mature on enrichment of what we do.
+Users in general benefit because they have access to dedicated, simple hardware. Contributers are usually curious people. They are looking to learn and try things, like me. Maybe that's a bias in selecting and engaging with the community. Most of the active contributors have this willingness to share back. A couple of professionals wanted to have tools and are staying because they found a cool place to share and communicate. One of the categories of the contributors would be academics and researchers with an obligation to publish. With that respect, they've shared, for example, a master thesis or their research work. 
 
 {{< /expand >}}
 
 {{< card2 "Personal gain">}} 
-The core benefit is to be honest that I have a blast and  I learn.
+The main benefit is, to be honest, that I have a blast learning and connecting with a community of like-minded makers. 
 
-Having a nice challenge can be fun.
+Also, having a meaningfull challenge can be fun, asI see value in providing something to others.  The users are getting access to a technology that they wouldn't have access to normally.
 
-I see value in providing something to others. 
-My users are getting access to technology that they wouldn't have access to normally.
-The benefit is to make it available and allowing people to  test the ideas for educational purposes.
-
-To have the opportunity to meet with the wider open community is interesting. 
-
-I do believe that giving back to the commons and being open are some of the ethics when you're into technology.
+I do believe that giving back to the commons and being open are key values when you're into technology.
 {{< /card2 >}}
 
 > How did you benefit from the project?
 
 {{< expand "Show answer">}}
 
-I benefited by learning and talking to people with great ideas and having an intellectual challenge. The work is amazing.  It’s a bit different from my background. I'm a research engineer and add a physics or electronics challenge is refreshing. Having a nice challenge can be fun.
+I benefited by learning and talking to people with great ideas: people that came in are amazing. It's also about this intellectual challenge. I am not an electrical engineer, but a research engineer and having a physics or electronics challenge is refreshing. 
 
 {{< /expand >}}
 > Would you do it again if you if you think back?
 
 {{< expand "Show answer">}}
-Yes, definitely. Hardware takes time and you need to take time. That leaves time to reflect on what you do. I like this process because it give me a different perspective on software development. I would do it again. We're discussing the same adventure in a different space right now with the MRI guys.
-I'm curious and talking with the guys in Berlin or Aberdeen is the opening door to come and discuss about what they or I do. 
-I'd love to go to a university and have access to an MRI machine to play around with it. 
+Yes, definitely. Hardware takes time and you need to take time. That allows you to reflect on what you do. I also like this process because it give me a different perspective on software development. Definitely would do it again.
 
+We are discussing the same adventure in a different space right now with an opportunity in the open MRI space. Right now, talking with the community (mostly in Berlin) is opening a door to the next challenge. I'd definitely love to access to an MRI machine, better understand how it works, and work on the open-hardware magic! 
 
+{{< /expand >}}
