@@ -205,7 +205,7 @@ Our community is around 300 individuals when checking our Slack channel, with ma
 
 As this is an informal community, there is virtually no governance nor governance processes. From a technical perspective, people making the decisions are people doing. They make decisions based on their requirements. 
 
-Even on collaborating with, for example, organisations. The process is that these organisations drive their requirement, and we discuss opportunities and past learnings. To some extent, they drive the decision of the joint project. I then bring back to the community what can be shared back.
+I sometimes collaborate with organisations. These organisations share their requirements, and we discuss past learning and opportunities to improve. They lead on the decision of the joint project, which, when possible, can be brought back to the community, if they develop new things that come back to the project. The agreement is that I advise them on the points they do not know, and in exchange, they put technical and professional skills into this joint effort. A good example is the latest iteration of lit3rick board. It has been co-designed by professionals from a Canadian institution. They have come in with specific needs, but also excellent electrical engineers, and together we optimized the previous iteration.
 
 Coming back to the decisions, the project does not have a specific roadmap. It's just what is interesting to pursue at the moment. The perfect example is what we'd like to do with open MRI initiative: there is definitely a good intellectual challenge there, and we will learn from both modalities and this will allow us to build something new, hopefully better.
 
