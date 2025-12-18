@@ -28,7 +28,7 @@ Luc Jonveaux has been developing open-source ultrasound devices in his spare tim
 - [The research outputs](#research-outputs)
 - [The participants](#participants)
 
-*Banner image: fixme, By CERN, distributed under a CC-BY-SA 4.0*
+*Banner image: map of the world pointing users of the un0rick hardware.
 
 >Interviewee: Luc Jonveaux 
 >
