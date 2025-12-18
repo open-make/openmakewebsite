@@ -48,7 +48,7 @@ Luc Jonveaux has been developing open-source ultrasound devices in his spare tim
 
 <img src="images/lit3rick.jpg" alt="The Lit3rick board." width="60%"/>
 
-*Photos of FIXME*
+*Photos of the lit3rick board.*
 
 - Main website: http://un0rick.cc
 - Project start: 2018
