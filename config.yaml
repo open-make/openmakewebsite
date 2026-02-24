@@ -1,5 +1,5 @@
 baseurl: https://www.openmake.de/
-title: Towards open and FAIR hardware
+title: Implementing open and FAIR hardware
 theme: hugo-universal-theme
 languageCode: en-us
 defaultContentLanguage: en
@@ -56,7 +56,7 @@ menu:
       url: mailto:julien.colomb@fu-berlin.de
       weight: 4
 params:
-  about_us: "<p>This website presents the open.make project: towards open and FAIR hardware. <br> Funded by the Federal Ministry of Education and Research (BMBF) and the state of Berlin under the Excellence Strategy of the Federal Government and the Länder / www.berlin-university-alliance.de <br> <a href='/index.xml'> <img src='img/rss.png' border='0'> </a> </p>"
+  about_us: "<p>This website presents the open.make project: Implementing open and FAIR hardware. <br> Funded by the Federal Ministry of Research, Technology and space (BMBFR) and the state of Berlin under the Excellence Strategy of the Federal Government and the Länder / www.berlin-university-alliance.de <br> <a href='/index.xml'> <img src='img/rss.png' border='0'> </a> </p>"
   address: "Open.make <br> "
   author: "Open.Make team"
   carouselCustomers:
