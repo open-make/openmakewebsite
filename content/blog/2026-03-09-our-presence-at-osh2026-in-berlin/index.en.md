@@ -14,7 +14,8 @@ banner: img/banners/ohs26.jpg
 
 This year in Mai (23-24.05.2026), the OHS2026, The open source hardware summit,
 is organised in Berlin, in the main building of the TU Berlin. The Open.Make project 
-(and our partner project LAUDS Factories) will be presented quite extensively.
+(and our partner project LAUDS Factories) will be presented quite extensively,
+and a specific course at the TU Berlin will bring students in contact with OSH topics.
 
 
 
@@ -22,7 +23,7 @@ is organised in Berlin, in the main building of the TU Berlin. The Open.Make pro
 > LINKS:
 >
 > - OHS2026: https://2026.oshwa.org/
-> - TU course ["Transdisciplinary Networking Leveraging the Open Hardware Summit 2026"](https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/beschreibung/anzeigen.html?nummer=51189&version=2)
+> - TU course ["Transdisciplinary Networking Leveraging the Open Hardware Summit 2026"](https://isis.tu-berlin.de/enrol/index.php?id=47323)
 > - Satellite event "Business model for LAUDS Factories" on Friday
 
 
