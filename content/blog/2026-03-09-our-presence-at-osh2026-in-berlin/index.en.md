@@ -12,7 +12,7 @@ tags:
 banner: img/banners/ohs26.jpg
 ---
 
-This year in Mai (23-24.05.2026), theOpen Hardware Summit (OHS 2026), is organised in Berlin, in the main building of the TU Berlin.
+**This year in Mai (23-24.05.2026), theOpen Hardware Summit (OHS 2026), is organised in Berlin, in the main building of the TU Berlin.**
 The Open.Make project (and our partner project [LAUDS Factories](www.lauds.eu)) will be presented quite extensively, and a specific 3 ECTS course module at the TU Berlin will bring students in contact with open source hardware topics.
 
 > LINKS:
