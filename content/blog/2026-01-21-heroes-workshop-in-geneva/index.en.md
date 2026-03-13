@@ -13,10 +13,12 @@ tags:
 banner: img/banners/geneva.jpg  
 ---
 
-# A meeting about Open Science Hardware metaresearch
+# A focus on Open Science Hardware metaresearch
 
-The open science hardware foundation (OShF, an itenty created by the gathering for open science hardware -GOSH- community) had organised a workshop in Geneva with the goal to discuss and update the roadmap.
-That roadmap was created 10 years ago at the first GOSH meeting, which was also organised in Geneva.
+The open science hardware foundation (OShF, an entity created by the gathering for open science hardware -GOSH- community)
+had organised a workshop in Geneva with the goal to discuss and update the GOSH roadmap.
+It was called HEROES for "Hardware Ecosystem Requirements for Open and Emerging Science".
+A first roadmap was created 10 years ago at the first GOSH meeting, which was also organised in Geneva.
 This had been very intense and it confirmed that our local vision at Open.Make fits with the global vision of the community.
 In particular, the importance of involving knowledge transfer offices (also called technology transfer offices) in the devlopement of open science hardware was emphasized.
 In order to enable OSH prototypes to evolve into sustainable products, the manufacturing of the product should be included in early design and TTO office can play a major role in building sustainable models for the production of the OSH.
@@ -43,6 +45,14 @@ We questioned both the idea that the price of OSH was a important factor and the
 The background idea is that the values of open source hardware are incompatible with most marketing strategies.
 Should we look for business models which would benefit from open source strategies, instead of try to find business models for OSH projects ?
 
+## OSH as a risk mitigation 
+
+From discussion on standards and transfer, we often spoke about risks related to different activities.
+We also highlighted some risks linked to working with closed source products.
+For instance, what would happen if rasperi Pi would stop its production of cheap boards, or make it much more expensive: the design is not open source and lots of project would die.
+This vendor lock-in issue is well known in the software industry: becoming dependent on one specific provider, you become unable to use market rules and create monopolies.
+Open Source (both software and hardware) is a way to break these bubbles, as different manufacturers can provide you with the same product.
+
 ## Standards as communication tools
 
 Inside the standard-linked panels, we discussed a lot whether it was a good time to create new standards for OSH.
@@ -55,18 +65,29 @@ We wondered where other tools like "explainer documents" could do a better job.
 These documents should be concise and consistent and directed toward a specific target group.
 We discussed about using this strategy with knowledge transfer offices, also in relation with new patenting directive in the USA.
 
-### OSH as a risk mitigation 
+## The community
 
-From discussion on standards and transfer, we often spoke about risks related to different activities.
-We also highlighted some risks linked to working with closed source products.
-For instance, what would happen if rasperi Pi would stop its production of cheap boards, or make it much more expensive: the design is not open source and lots of project would die.
-This vendor lock-in issue is well known in the software industry: becoming dependent on one specific provider, you become unable to use market rules and create monopolies.
-Open Source (both software and hardware) is a way to break these bubbles, as different manufacturers can provide you with the same product.
+Of course the most interesting part of the workshop was to meet people.
+For instance, I met Kaitlin Thaney from the invest in open infrastructure
+project, and realised we had met in Berlin in 2017, as Mozilla
+did its open leadership program. I met Javier Serrano and Amanda Diez Fernandez who Robert interviewed 
+(see [the white rabbit post](/blog/2022/10/20/2022-10-06-interview-white-rabbit/)) at the start of the Open.Make project.
+I also met Pen-Yuan Hsing in real life. 
+Learning that his contract was ending, we rushed into writing an incoming fellowship, and Pen will join us in Mai/June
+and help us bring new test cases to the project (stay tuned for more information).
 
 ## Conclusions
 
 The workshop main take home message is the need of better support structure for the development of OSH in academia.
 Entities like OSPOs should be developed.
-They should help the community to link with existing institutional structures like transfer offices and libraries, have a clear communication strategy with good arguments targeted to specific actors, develop sustainable plans including the development of new business opportunities, and monitor the impact of this work.
+They should help the community to link with existing institutional structures
+like transfer offices and libraries, have a clear communication strategy with 
+good arguments targeted to specific actors, develop sustainable plans including 
+the development of new business opportunities, and monitor the impact of this work.
+I met community members who can help us building a network of such support structure,
+which will eventually make OSH ubiquitous in academia.
 
-I might have been biaised, but these conclusions resonated with our goal at Open.Make, and they consolidated our concept of a center of competence for OSH in Berlin, which will be described in a new blog post soon.
+I might have been biased, but these conclusions resonated with our goal at Open.Make.
+They consolidated our concept for a center of competence for OSH in Berlin.
+Stay tuned for a presentation of this concept as a blog post here, and live
+at the [OHS2026](/blog/2026/03/09/2026-03-09-our-presence-at-osh2026-in-berlin/).
