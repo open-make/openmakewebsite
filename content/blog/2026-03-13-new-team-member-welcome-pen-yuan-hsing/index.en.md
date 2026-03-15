@@ -10,6 +10,7 @@ tags:
   - job
   - OPEN-HARDWARE
   - team work
+banner: img/testimonials/PEN.jpg
 ---
 
 # Welcome in team
