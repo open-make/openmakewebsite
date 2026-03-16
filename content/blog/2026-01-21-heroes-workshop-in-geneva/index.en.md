@@ -13,7 +13,7 @@ tags:
 banner: img/banners/geneva.jpg  
 ---
 
-Colomb, Julien 13.03.2026 19:32 • 
+
 # A focus on Open Science Hardware Metaresearch
 
 The Open Science Hardware Foundation (OSHF, an entity created by the Gathering for Open Science Hardware -GOSH - community)
