@@ -55,7 +55,7 @@ which advocates for OSH in open science policies.
 
 In order to strengthen the OSH center of competence concept, Pen will have three important tasks:
 
-1. Strengthen link to libraries: Pen will be responsible to pilot a library carpentry course on OSH targeted to librarians. A first version of this course was developed by Julieta Arancio, 
+1. Strengthen link to libraries: Pen will be responsible to pilot a library carpentry course on OSH targeted to librarians. [A first version of this course](https://github.com/ucla-imls-open-sci/lc-open-hw/) was developed by Julieta Arancio, 
 who is an alumni of Open.Make. She was indeed also an incoming fellow in the project.
 
 2. Help testing the OSHCoC role in facilitating participatory research: Pen will help Julien to run two workshops
