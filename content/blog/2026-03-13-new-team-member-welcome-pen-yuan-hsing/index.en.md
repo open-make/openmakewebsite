@@ -26,7 +26,8 @@ his name will be very familiar to you.
 Pen worked with Robert in the OpenNext EU project,
 and met Julien in Geneva for the [heroes workshop](~/blog/2026/01/21/2026-01-21-heroes-workshop-in-geneva/).
 
-Dr. Pen-Yuan Hsing (ORCID: https://orcid.org/0000-0002-5394-879X)
+Dr. Pen-Yuan Hsing ([ORCID](https://orcid.org/0000-0002-5394-879X),
+Fediverse: [@nacly@floss.social](https://floss.social/@nacly),
 is a highly multidisciplinary researcher who worked on projects with diverse colleagues from ecologists,
 engineers, psychologists, to geographers.
 Through these experiences, he learned that academic researchers – regardless of subject area –
