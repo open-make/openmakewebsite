@@ -1,7 +1,7 @@
 ---
 title: 'New team member : welcome Pen-Yuan Hsing !'
 author: Package Build
-date: '2026-03-13'
+date: '2026-08-15'
 slug: new-team-member-welcome-pen-yuan-hsing
 categories:
   - progress report
@@ -16,7 +16,7 @@ banner: img/testimonials/PEN.jpg
 # Welcome in team
 
 Thanks to an incoming Fellowship provided by the BUA, we are pleased
-to announce that Pen-Yuan Hsing will join the Open.Make team for the last six
+to announce that Pen-Yuan Hsing has joined the Open.Make team for the last six
 months of the project.
 
 ## Pen background
@@ -24,7 +24,7 @@ months of the project.
 If you have been active in the open science communities (especially GOSH, the Turing way book, or TOPS),
 his name will be very familiar to you.
 Pen worked with Robert in the OpenNext EU project,
-and met Julien in Geneva for the [heroes workshop[(REF)].
+and met Julien in Geneva for the [heroes workshop](~/blog/2026/01/21/2026-01-21-heroes-workshop-in-geneva/).
 
 Dr. Pen-Yuan Hsing (ORCID: https://orcid.org/0000-0002-5394-879X)
 is a highly multidisciplinary researcher who worked on projects with diverse colleagues from ecologists,
