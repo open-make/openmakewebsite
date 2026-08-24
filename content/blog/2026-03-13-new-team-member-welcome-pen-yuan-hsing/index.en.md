@@ -24,7 +24,7 @@ months of the project.
 If you have been active in the open science communities (especially GOSH, the Turing way book, or TOPS),
 his name will be very familiar to you.
 Pen worked with Robert in the OpenNext EU project,
-and met Julien in Geneva for the [heroes workshop](~/blog/2026/01/21/2026-01-21-heroes-workshop-in-geneva/).
+and met Julien in Geneva for the [heroes workshop](/blog/2026/01/21/2026-01-21-heroes-workshop-in-geneva/).
 
 Dr. Pen-Yuan Hsing ([ORCID](https://orcid.org/0000-0002-5394-879X),
 Fediverse: [@nacly@floss.social](https://floss.social/@nacly),
@@ -41,7 +41,7 @@ His approach to tackling these challenges is to foster research institutions
 which encourage open science.
 To that end, he held an advisory role for the NASA Transform to Open Science (TOPS) mission;
 and worked with UNESCO on developing and implementing their Recommendation on Open Science
-such as leading on policy guidance for member states (https://doi.org/10.54677/LUMO4515).
+such as leading on policy guidance for member states [https://doi.org/10.54677/LUMO4515](https://doi.org/10.54677/LUMO4515).
 He was also experienced in developing open science training,
 such as editing a Guide to Reproducible code for scientists or receiving certification
 from the Creative Commons on open source licensing practices.
