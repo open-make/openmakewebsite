@@ -116,7 +116,7 @@ It was also important to not come to conclusive answer anyway in the process.
 For example, the team mission framed in day one was useful to come forward 
 in the other tasks, but it was reframed at least twice during the workshop.
 
-<img src="images/montage.png" alt="Montage of photos taken during the workshop" width="700px"/>
+<img src="images/montage.jpg" alt="Montage of photos taken during the workshop" width="700px"/>
 
 # Conclusion
 
