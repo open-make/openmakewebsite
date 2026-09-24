@@ -99,3 +99,8 @@ The crowd was surprisingly very open to business creation, and to the idea of sc
 production beyond single, artistic units.
     
 # re:publica 26
+
+In collaboration with GIG, we run different workshops during re:publica, the big annual media 
+conference organised in Berlin. We had thematic workshops on the LAUDS Factories concept and
+the concept of a center of competence for open source hardware.
+
