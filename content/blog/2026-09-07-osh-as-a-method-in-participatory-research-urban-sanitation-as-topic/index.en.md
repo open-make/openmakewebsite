@@ -59,7 +59,9 @@ Then the participants discussed several ideas (some of which emerged during
 the speed dating)
 and I took notes using three notepads, one for actors, one for what they want,
 and one for what they wanted. After a pretty long round of discussion, we then read some randomised 
-combination of these 3 elements.
+combination of these 3 elements, some combinations making more sense than others
+(men choose from several toilet design to deconstruct binary systems / 
+linguists spare water so that intimacy is respected).
 In the end, we discussed what mission we were giving us in a free round of discussion, and framed in the end
 a vision for the work. Then ended the first day, with the missiong "questioning the norms about toilet". Day one ended with a 
 small feedback round: everyone enjoyed the day, people wished for more speed dating and 
@@ -128,7 +130,13 @@ and are organising the next workshop to test that hypothesis.
 
 
 
+# Acknowledgements
 
+I would like to thank all the [looplab collective](https://looplab.codeberg.page/website/) for their interest and help,
+especially [Jul. Collas](www.julcollas.com) who designed the posters used.
+In addition, I would like to thank the Td-lab team who organised the original workshops
+that lead to the creation of the looplab collective,
+and [Nadin Gaasch](https://www.berlin-university-alliance.de/objective-2-fostering-knowledge-exchange/td-lab/kontakte/Nadin-Gaasch/index.html) for a very important feedback of the workshop program draft.
 
 
  
