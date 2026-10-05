@@ -136,7 +136,7 @@ I would like to thank all the [looplab collective](https://looplab.codeberg.page
 especially [Jul. Collas](www.julcollas.com) who designed the posters used.
 In addition, I would like to thank the Td-lab team who organised the original workshops
 that lead to the creation of the looplab collective,
-and [Nadin Gaasch](https://www.berlin-university-alliance.de/objective-2-fostering-knowledge-exchange/td-lab/kontakte/Nadin-Gaasch/index.html) for a very important feedback an the workshop program draft.
+and [Nadin Gaasch](https://www.berlin-university-alliance.de/objective-2-fostering-knowledge-exchange/td-lab/kontakte/Nadin-Gaasch/index.html) for a very important feedback of the workshop program draft.
 
 
  
