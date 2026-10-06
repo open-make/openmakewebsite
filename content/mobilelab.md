@@ -28,4 +28,7 @@ Mobile lab locations:
 - Gitex europe (Mai 2025)
 - FU location is summer 2025
 - Fab25 in Prag in July 2025
-- HU/Charité campus in autumn 2025
+- HU/Charité campus summer 2026
+- BUA grand challenge conference 2026
+- Open hardware summit 2026
+- ...
