@@ -102,5 +102,9 @@ production beyond single, artistic units.
 
 In collaboration with GIG, we run different workshops during re:publica, the big annual media 
 conference organised in Berlin. We had thematic workshops on the LAUDS Factories concept and
-the concept of a center of competence for open source hardware.
+the concept of a center of competence for open source hardware, each day with about 10 people
+in each workshop.
+
+This was a great occasion to collect data and connect to a different crowd, more international.
+
 
